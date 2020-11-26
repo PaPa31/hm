@@ -121,15 +121,15 @@ Traditional backups are still appropriate, and clones do not save git configurat
 
 However, if you want a “pure git” solution that clones everything in a directory of repos, something like this may be what you need:
 
-cd /src/backupgit
-ls -F . | grep / > /tmp/.gitmissing1
-ssh -n git.example.com ls -F /src/git/. | grep / > /tmp/.gitmissing2
-diff /tmp/.gitmissing1 /tmp/.gitmissing2 | egrep '^>' |
-  while read x f; do
-    git clone --bare --mirror ssh://git.example.com/src/git/$$f $$f
-  done
-rm -f /tmp/.gitmissing1 /tmp/.gitmissing2
-for f in */.; do (cd $$f; echo $$f; git fetch); done
+    cd /src/backupgit
+    ls -F . | grep / > /tmp/.gitmissing1
+    ssh -n git.example.com ls -F /src/git/. | grep / > /tmp/.gitmissing2
+    diff /tmp/.gitmissing1 /tmp/.gitmissing2 | egrep '^>' |
+    while read x f; do
+        git clone --bare --mirror ssh://git.example.com/src/git/$$f $$f
+    done
+    rm -f /tmp/.gitmissing1 /tmp/.gitmissing2
+    for f in */.; do (cd $$f; echo $$f; git fetch); done
 
 Don’t change published history
 ------------------------------
