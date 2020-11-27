@@ -3,6 +3,7 @@ I just ordered (26.11.2020) three items on Aliexpress:
 1. [M.2 NVMe SSD 512Gb](#m2-nvme-ssd-512gb---4380) - 4380₽
 2. [Heat Sink](#heat-sink-for-m2-nvme-ssd---162)  - 162₽  
 3. [HDMI->VGA adapter](#hdmi-vga-adapter-audio-power-plugs---380) - 380₽  
+
 Total: 4922₽ (€54; $64)
 
 Details & Ali links:
