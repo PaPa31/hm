@@ -2,6 +2,7 @@
 layout: default
 title: Black friday Orders
 parent: Lvovskaya-2020-2021
+grand_grand_parent: location
 description: "Photos and links of 3 things I bought on November 26, 2020 on Black Friday"
 permalink: docs/location/Lvovskaya-2020-2021/black-friday-orders
 ---
