@@ -1,5 +1,28 @@
+---
+layout: default
+title: Black Friday Orders
+parent: Lvovskaya-2020-2021
+description: "Photos and links of 3 things I bought on November 26, 2020 on Black Friday"
+permalink: docs/location/Lvovskaya-2020-2021/black-friday-orders
+---
+
 # Black Friday Orders
-I just ordered (26.11.2020) three items on Aliexpress:  
+{: .no_toc}
+
+I just ordered (26.11.2020) three items on Aliexpress: 
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
+
+ 
 1. [M.2 NVMe SSD 512Gb](#m2-nvme-ssd-512gb---4380) - 4380₽
 2. [Heat Sink](#heat-sink-for-m2-nvme-ssd---162)  - 162₽  
 3. [HDMI->VGA adapter](#hdmi-vga-adapter-audio-power-plugs---380) - 380₽  
