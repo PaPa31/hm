@@ -45,7 +45,9 @@ In addition, if you buy something for at least 5065₽ (for example, a 1Tb SSD f
 
 Apart from this you can also buy another 155₽ discount for 20 coins.
 
-And this are the prices that were three days ago (26.11.2020). Without further discounts.
+Sly seller!
+
+This are the prices that were three days ago (26.11.2020). And there are no additional discounts.
 
 ## Aliexpress Photos & Links
 {: .no_toc}
