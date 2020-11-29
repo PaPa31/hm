@@ -2,7 +2,7 @@
 layout: default
 title: Breadcrumbs Android Fail
 parent: just-the-docs
-permalink: /workplace/just-the-docs/breadcrumbs-androind-fail/
+permalink: /docs/workplace/just-the-docs/breadcrumbs-androind-fail/
 ---
 
 
