@@ -2,7 +2,6 @@
 layout: default
 title: Breadcrumbs Android Fail
 parent: just-the-docs
-has_children: true
 permalink: /workplace/just-the-docs/breadcrumbs-androind-fail/
 ---
 
