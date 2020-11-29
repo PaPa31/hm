@@ -4,7 +4,7 @@ title: When Starting Black Friday
 parent: Lvovskaya-2020-2021
 grand_parent: location
 description: "Photos and links of 3 things I bought on November 26, 2020 on Black Friday"
-permalink: /docs/location/Lvovskaya-2020-2021/black-friday-orders/
+permalink: /docs/location/Lvovskaya-2020-2021/when-starting-black-friday/
 ---
 
 # When Starting Black Friday
@@ -45,7 +45,7 @@ In addition, if you buy something for at least 5065₽ (for example, a 1Tb SSD f
 
 Apart from this you can also buy another 155₽ discount for 20 coins.
 
-And this are the prices that were two days ago (26.11.2020). Without further discounts.
+And this are the prices that were three days ago (26.11.2020). Without further discounts.
 
 ## Aliexpress Photos & Links
 {: .no_toc}
