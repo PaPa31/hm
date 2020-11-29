@@ -37,13 +37,13 @@ But today (29.11.2020) this SSD has become cheaper!
 
 * M.2 NVMe SSD 512Gb - 4184₽
 
- A discount of almost 200₽!
+ A discount of almost 200₽! (5%)
 
 [![hot-deal](hot-deal-black-friday-aliexpress.jpg)](hot-deal-black-friday-aliexpress.jpg)
 
-In addition, if you buy something for at least 5065₽ (for example, a 1Tb SSD for 7295₽), you get a 467₽ discount.
+In addition, if you buy something for at least 5065₽ (for example, a 1Tb SSD for 7295₽), you get a 467₽ discount. (6-9%)
 
-Apart from this you can also buy another 155₽ discount for 20 coins.
+Apart from this you can also buy another 155₽ discount for 20 coins. (3.5%)
 
 Sly seller!
 
