@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Just_the_Docs Breadcrumbs Android Fail
-parent: workplace
+title: Breadcrumbs Android Fail
+parent: just-the-docs
 has_children: true
 permalink: /workplace/just-the-docs/breadcrumbs-androind-fail/
-last_modified_date: true
 ---
 
 
