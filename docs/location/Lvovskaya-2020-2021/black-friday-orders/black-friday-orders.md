@@ -35,7 +35,7 @@ And the SSD seller reported that after two days discounts will end.
 
 But today (29.11.2020) this SSD has become cheaper!
 
-1. M.2 NVMe SSD 512Gb - 4184₽
+* M.2 NVMe SSD 512Gb - 4184₽
 
  A discount of almost 200₽!
 
@@ -50,7 +50,7 @@ And this are the prices that were two days ago (26.11.2020). Without further dis
 ## Aliexpress Photos & Links
 {: .no_toc}
 
-1. [. M.2 NVMe SSD 512Gb](https://aliexpress.ru/item/32847169083.html?cv=815660&af=205380&utm_campaign=205380&aff_platform=link-c-tool&utm_medium=cpa&sk=mr6wR6CC&aff_trace_key=8fdfbd25346e41a1999b627179d14b1e-1606479893486-02170-mr6wR6CC&dp=25ba1848a13d9061635b53c8f8eedc4b&terminal_id=b5d4c8214650400883a6bb062ce6397f&utm_source=admitad&utm_content=815660) - 4380₽
+1. [M.2 NVMe SSD 512Gb](https://aliexpress.ru/item/32847169083.html?cv=815660&af=205380&utm_campaign=205380&aff_platform=link-c-tool&utm_medium=cpa&sk=mr6wR6CC&aff_trace_key=8fdfbd25346e41a1999b627179d14b1e-1606479893486-02170-mr6wR6CC&dp=25ba1848a13d9061635b53c8f8eedc4b&terminal_id=b5d4c8214650400883a6bb062ce6397f&utm_source=admitad&utm_content=815660) - 4380₽
 ----
 [![M.2-NVMe-SSD](KingSpec-M2-NVMe-ssd-PCIe.jpg)](KingSpec-M2-NVMe-ssd-PCIe.jpg)
 
