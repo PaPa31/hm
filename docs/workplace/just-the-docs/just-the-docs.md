@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Just_the_Docs
+title: just-the-docs
 parent: workplace
 has_children: true
 has_toc: false
