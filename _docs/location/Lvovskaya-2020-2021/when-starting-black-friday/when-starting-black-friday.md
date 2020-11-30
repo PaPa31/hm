@@ -4,7 +4,7 @@ title: When Starting Black Friday
 parent: Lvovskaya-2020-2021
 grand_parent: location
 description: "Photos and links of 3 things I bought on November 26, 2020 on Black Friday"
-permalink: /docs/location/Lvovskaya-2020-2021/when-starting-black-friday/
+permalink: /location/Lvovskaya-2020-2021/when-starting-black-friday/
 ---
 
 # When Starting Black Friday
