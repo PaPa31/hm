@@ -1,7 +1,7 @@
 module.exports = {
   title: 'hm',
   tagline: 'Human@Machine',
-  url: 'https://papa31.github.io/hm',
+  url: 'https://papa31.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
