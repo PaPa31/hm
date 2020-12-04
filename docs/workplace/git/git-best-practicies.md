@@ -1,33 +1,10 @@
-Commit Often, Perfect Later, Publish Once—Git Best Practices  
-
-[Commit Often, Perfect Later, Publish Once: Git Best Practices](http://sethrobertson.github.com/GitBestPractices/)
-==================================================================================================================
+---
+id: git-best-practicies
+title: 'Commit Often, Perfect Later, Publish Once: Git Best Practices'
+sidebar_label: Git Best Practicies
+---
 
 Best Practices vary from environment to environment, and there is no One True Answer, but still, this represents a consensus from #git and in some cases helps you frame the discussion for the generation of your very own best practices.
-
-Table of Contents
------------------
-
-*   [Do read about git](#do-read-about-git)
-*   [Do commit early and often](#do-commit-early-and-often)
-*   [Don’t panic](#dont-panic)
-*   [Do backups](#do-backups)
-*   [Don’t change published history](#dont-change-published-history)
-*   [Do choose a workflow](#do-choose-a-workflow)
-*   [Do divide work into repositories](#do-divide-work-into-repositories)
-*   [Do make useful commit messages](#do-make-useful-commit-messages)
-*   [On Sausage Making](#on-sausage-making)
-*   [Do keep up to date](#do-keep-up-to-date)
-*   [Do periodic maintenance](#do-periodic-maintenance)
-*   [Do enforce Standards](#do-enforce-standards)
-*   [Do use useful tools](#do-use-useful-tools)
-*   [Do integrate with external tools](#do-integrate-with-external-tools)
-*   [Miscellaneous “Do”s](#miscellaneous-dos)
-*   [Miscellaneous “Don’t”s](#miscellaneous-donts)
-*   [Disclaimer](#disclaimer)
-*   [Copyright](#copyright)
-*   [Thanks](#thanks)
-*   [Comments](#comments)
 
 Do read about git
 -----------------
@@ -46,7 +23,7 @@ Do commit early and often
 
 Git only takes full responsibility for your data when you commit. If you fail to commit and then do something poorly thought out, you can run into trouble. Additionally, having periodic checkpoints means that you can understand how you broke something.
 
-People resist this out of some sense that this is ugly, limits `git-bisect`ion functionality, is confusing to observers, and might lead to accusations of stupidity. Well, I’m here to tell you that resisting this is ignorant. _Commit Early And Often_. If, after you are done, you want to pretend to the outside world that your work sprung complete from your mind into the repository in utter perfection with each concept fully thought out and divided into individual concept-commits, well git supports that: see [Sausage Making](#sausage) below. However, don’t let tomorrow’s beauty stop you from performing continuous commits today.
+People resist this out of some sense that this is ugly, limits `git-bisect`ion functionality, is confusing to observers, and might lead to accusations of stupidity. Well, I’m here to tell you that resisting this is ignorant. _Commit Early And Often_. If, after you are done, you want to pretend to the outside world that your work sprung complete from your mind into the repository in utter perfection with each concept fully thought out and divided into individual concept-commits, well git supports that: see [Sausage Making](#on-sausage-making) below. However, don’t let tomorrow’s beauty stop you from performing continuous commits today.
 
 Personally, I commit early and often and then let the sausage making be seen by all except in the most formal of circumstances (public projects with large numbers of users, developers, or high developer turnover). For a less formal usage, [like say this document](https://github.com/SethRobertson/GitBestPractices/commits/gh-pages) I let people see what really happened.
 
@@ -57,7 +34,7 @@ As long as you have committed your work (or in many cases even added it with `gi
 
 See [on undoing, fixing, or removing commits in git](http://sethrobertson.github.com/GitFixUm/) if you want to fix a particular problematic commit or commits, as opposed to attempting to locate lost data.
 
-When attempting to find your lost commits, first make _sure_ you will not lose any current work. You should commit or stash your current work before performing any recovery efforts that might destroy your current work and perhaps take backups of it (see [Backups](#backups) below). After finding the commits you can `reset`, `rebase`, `cherry-pick`, `merge`, or otherwise do what is necessary to get the commit history and work tree you desire.
+When attempting to find your lost commits, first make _sure_ you will not lose any current work. You should commit or stash your current work before performing any recovery efforts that might destroy your current work and perhaps take backups of it (see [Backups](#do-backups) below). After finding the commits you can `reset`, `rebase`, `cherry-pick`, `merge`, or otherwise do what is necessary to get the commit history and work tree you desire.
 
 There are three places where “lost” changes can be hiding. They might be in the reflog (`git log -g`), they might be in lost&found (`git fsck --unreachable`), or they might have been stashed (`git stash list`).
 
@@ -165,7 +142,7 @@ See the following references for more information on branch workflows.
 *   [Gitworkflows man page](http://jk.gs/gitworkflows.html)
 *   [A Git Workflow for Agile Teams](http://reinh.com/blog/2009/03/02/a-git-workflow-for-agile-teams.html)
 *   [What git branching models actually work](http://stackoverflow.com/questions/2621610/what-git-branching-models-actually-work)
-*   [Our New Git Branching Model](http://blogs.remobjects.com/blogs/mh/2011/08/25/p2940)
+*   [Our New Git Branching Model](https://web.archive.org/web/20150405004638/http://blogs.remobjects.com/blogs/mh/2011/08/25/p2940)
 *   [Branch-per-Feature](http://dymitruk.com/blog/2012/02/05/branch-per-feature/)
 *   [Who Needs Process](http://widgetsandshit.com/teddziuba/2011/12/process.html)
 
@@ -188,7 +165,7 @@ Answering the following questions helps you choose a distributed workflow:
 
 See the following references for more information on distributed workflows.
 
-*   [Pro Git distributed models](http://progit.org/book/ch5-1.html)
+*   [Pro Git distributed models](https://web.archive.org/web/20160314124550/http://git-scm.com/book/ch5-1.html)
 *   [Gitworkflows man page](http://jk.gs/gitworkflows.html)
 
 Cathedrals (traditional corporate development models) often want to have (or to pretend to have) the one true centralized repository. Bazaars (linux, and the Github-promoted workflow) often want to have many repositories with some method to notify a higher authority that you have work to integrate (pull requests).
@@ -262,12 +239,12 @@ The normal git rule of using the first line to provide a short (50-72 character)
 
 Also see [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) for even more good ideas.
 
-While this relates to the later topic of [integration with external tools](#integration), including bug/issue/request tracking numbers in your commit messages provides a great deal of associated information to people trying to understand what is going on. You should also enforce your standards on commit messages, when possible, through hooks. See [Enforcing standards](#enforce) below.
+While this relates to the later topic of [integration with external tools](#do-integrate-with-external-tools), including bug/issue/request tracking numbers in your commit messages provides a great deal of associated information to people trying to understand what is going on. You should also enforce your standards on commit messages, when possible, through hooks. See [Enforcing standards](#do-enforce-standards) below.
 
 On Sausage Making
 -----------------
 
-Some people like to hide the sausage making [¹](#sausage_metaphor), or in other words pretend to the outside world that their commits sprung full-formed in utter perfection into their git repository. Certain large public projects demand this, others demand smushing all work into one large commit, and still others do not care.
+Some people like to hide the sausage making [¹](#footnotes), or in other words pretend to the outside world that their commits sprung full-formed in utter perfection into their git repository. Certain large public projects demand this, others demand smushing all work into one large commit, and still others do not care.
 
 A good reason to hide the sausage making is if you feel you may be cherry-picking commits a lot (though this too is often a sign of bad workflow). Having one or a small number of commits to pick is much easier than having to find one commit here, one there, and half of this other one. The latter approach makes your problem much much harder and typically will lead to merge conflicts when the donor branch is finally merged in.
 
@@ -277,13 +254,16 @@ The downside to _hiding the sausage_ making is the added time it takes to perfec
 
 If you think about it, movies are made this way. Scenes are shot out of temporal order, multiple times, and different bits are picked from this camera and that camera. Without examining the analogy too closely, this is similar to how different git commits might be viewed. Once you have everything in the “can” (repository) you go back and in post-production, you edit and splice everything together to form individual cuts and scenes, sometimes perhaps even doing some digital editing of the resulting product.
 
-`git rebase -i`, `git add -p`, and `git reset -p` can fix commits up in post-production by splitting different concepts, merging fixes to older commits, etc. See [Post-Production Editing using Git](http://sethrobertson.github.com/GitPostProduction/) also [TopGit](http://repo.or.cz/w/topgit.git) and [StGit](http://www.procode.org/stgit/).
+`git rebase -i`, `git add -p`, and `git reset -p` can fix commits up in post-production by splitting different concepts, merging fixes to older commits, etc. See [Post-Production Editing using Git](http://sethrobertson.github.com/GitPostProduction/) also [TopGit](http://repo.or.cz/w/topgit.git) and [StGit](https://stacked-git.github.io/).
 
 Be sure you do all of this work _before_ doing any non-squashed merges (not rebases: merges) and _before_ pushing. Your work becomes much more complex and/or impossible afterwards.
 
-¹ The process of developing software, similar to the process of making sausage, is a messy messy business[²](#never_discover_how_sausages_are_made); all sorts of stuff happens in the process of developing software. Bugs are inserted into the code, uncovered, patched over. The end result may be a tasty program, but anyone looking at the process of how it was created (through inspection of the commits) may end up with a sour taste in their mouth. If you hide the sausage making, you can create a beautiful looking history where each step looks as delicious as the end-product. [Back to footnote reference.](#sausage)
 
-² If you do not understand why someone would want to hide the sausage making, and you enjoy eating sausage, never, ever, watch sausages being made, read [“The Jungle”](http://en.wikipedia.org/wiki/The_Jungle), or otherwise try to expose yourself to any part of the sausage making process. You will lead a much tastier (and perhaps shorter) life in your blissful ignorance.
+#### Footnotes:
+
+[¹](#) The process of developing software, similar to the process of making sausage, is a messy messy business [²](#footnotes) all sorts of stuff happens in the process of developing software. Bugs are inserted into the code, uncovered, patched over. The end result may be a tasty program, but anyone looking at the process of how it was created (through inspection of the commits) may end up with a sour taste in their mouth. If you hide the sausage making, you can create a beautiful looking history where each step looks as delicious as the end-product. <a href="#on-sausage-making">Back to footnote reference</a>
+
+[²](#) If you do not understand why someone would want to hide the sausage making, and you enjoy eating sausage, never, ever, watch sausages being made, read [“The Jungle”](http://en.wikipedia.org/wiki/The_Jungle), or otherwise try to expose yourself to any part of the sausage making process. You will lead a much tastier (and perhaps shorter) life in your blissful ignorance.
 
 Do keep up to date
 ------------------
@@ -296,15 +276,15 @@ This section has some overlap with workflow. Exactly how and when you update you
     
     A specific circumstance in which you should avoid using `git pull --rebase` is if you merged since your last push. You might want to `git fetch; git rebase -p @{u}` (and check to make sure the merge was recreated properly) or do a normal merge in that circumstance.
     
-    Another specific circumstance is if you are pulling from a non-authoritative repository which is not fully up to date with respect to your authoritative upstream. A rebase in this circumstance could cause the published history to be rewritten, [which would be bad](#pubonce).
+    Another specific circumstance is if you are pulling from a non-authoritative repository which is not fully up to date with respect to your authoritative upstream. A rebase in this circumstance could cause the published history to be rewritten, [which would be bad](#dont-change-published-history).
     
     Some people argue against this because the non-final commits may lose whatever testing those non-final commits might have had since the deltas would be applied to a new base. This in turn might make git-bisect’s job harder since some commits might refer to broken trees, but really this is only relevant to people who want to hide the sausage making. Of course to _really_ hide the sausage making you should still rebase and then test each intermediate commit to ensure it compiles and passes your regression tests (you do have regression tests, don’t you?) so that a future bisector will have some strong hope that the commit will be usable. After all, that future bisector might be you.
     
     Other people argue against this (especially in highly decentralized environments) because doing a merge explicitly records who performed the merge, which provides someone to blame for inadequate testing if two histories were not combined properly (as opposed to the hidden history with implicit blame of rebase).
     
-    Still others argue that you are unable to automatically discover when someone else has [rewritten public history](#pubonce) if you use `git pull --rebase` normally, so someone might have hidden something malicious in an older (presumably already reviewed) commit. If this is of concern, you can still use rebase, but you would have to `git fetch` first and look for “forced update” in that output or in the reflog for the remote branches.
+    Still others argue that you are unable to automatically discover when someone else has [rewritten public history](#dont-change-published-history) if you use `git pull --rebase` normally, so someone might have hidden something malicious in an older (presumably already reviewed) commit. If this is of concern, you can still use rebase, but you would have to `git fetch` first and look for “forced update” in that output or in the reflog for the remote branches.
     
-    You can make this the default with the “branch.<name>.rebase” configuration option (and more practically, by the “branch.autosetuprebase” configuration option). See [man git-config](http://jk.gs/git-config.html).
+    You can make this the default with the `branch.<name>.rebase` configuration option (and more practically, by the “branch.autosetuprebase” configuration option). See [man git-config](http://jk.gs/git-config.html).
     
 *   Rebasing (when possible)
     
@@ -348,7 +328,7 @@ Traditionally, and in some people’s views ideally, you would enforce the check
 
 Enforcing standards in a update hook on the server allows you to reject commits that don’t follow the standards. You can also chide the user for not using the standard client-side hook to begin with (if you recommend that approach).
 
-See [Puppet Version Control](http://projects.puppetlabs.com/projects/1/wiki/Puppet_Version_Control) for an example for a “Git Update Hook” and “Git Pre-Commit Hook” that enforces certain standards. Note that the update hook is examining files individually instead of providing whole-repository testing. Whether individual files can be tested in isolation for your standards or whether you need the whole repository (for instance, any language where one file can reference or include another might need whole repository checks) is of course a personal choice. The referenced examples are useful for ideas, anyway.
+See [Puppet Version Control](https://web.archive.org/web/20171023223424/https://puppet.com/blog/git-workflow-and-puppet-environments) for an example for a “Git Update Hook” and “Git Pre-Commit Hook” and [“Git Commit hook”](https://puppet.com/blog/how-to-use-git-commit-hooks-puppet-enterprise/) that enforces certain standards. Note that the update hook is examining files individually instead of providing whole-repository testing. Whether individual files can be tested in isolation for your standards or whether you need the whole repository (for instance, any language where one file can reference or include another might need whole repository checks) is of course a personal choice. The referenced examples are useful for ideas, anyway.
 
 Do use useful tools
 -------------------
@@ -375,7 +355,7 @@ Increasing communication and decreasing friction and roadblocks to your develope
 
 *   Web views
     
-    This is pretty standard stuff, but still a best practice. Setting up a tool like [gitweb](http://jk.gs/gitweb.html) (or [cgit](http://hjemli.net/git/cgit/) or whatever) to allow URL reference to commits (among other visualization interfaces it provides) gives people a great way to refer to commits in email and conversations. If someone can click on a link vs having to fire up git and pull down the latest changes and start up some visualization tool they are much more likely to help you.
+    This is pretty standard stuff, but still a best practice. Setting up a tool like [gitweb](http://jk.gs/gitweb.html) (or [cgit](https://web.archive.org/web/20130914063137/http://hjemli.net/git/cgit/) or whatever) to allow URL reference to commits (among other visualization interfaces it provides) gives people a great way to refer to commits in email and conversations. If someone can click on a link vs having to fire up git and pull down the latest changes and start up some visualization tool they are much more likely to help you.
     
 *   Bug tracking
     
@@ -391,7 +371,7 @@ Increasing communication and decreasing friction and roadblocks to your develope
     
     Having an IRC server with some standard channels to discuss issues and problems provides a great benefit both tactically and strategically (it helps teach both the questioner and the answerer). Adding a robot in those chat room to provide assistance adds significant value. When someone talks about Bug 1234, the bot can provide a hyperlink to that ticket. When someone pushes some commits or adds a bug, it could announce those facts. All sorts of things are possible (RFC lookups, MAC vendor lookups, Eliza psychoanalysis, etc) but there is a fine line between usefulness and overwhelming noise.
     
-    If you use github, github provides an “IRC” “Service Hook” that lets you get git announcements for free. Said robot will not provide any additional value added services you might want. [CIA](http://cia.vc) is another packaged commit announcement system and of course many IRC robot frameworks can be found with simple web searches.
+    If you use github, github provides an “IRC” “Service Hook” that lets you get git announcements for free. Said robot will not provide any additional value added services you might want. [CIA](https://web.archive.org/web/20110827172758/http://cia.vc/) is another packaged commit announcement system and of course many IRC robot frameworks can be found with simple web searches.
     
 *   Wikis
     
@@ -473,7 +453,7 @@ _DO NOT_
 
 *   commit anything that can be regenerated from other things that were committed.
     
-    Things that can be regenerated include binaries, object files, jars, `.class`, flex/yacc generated code, etc. Really the only place there is room for disagreement about this is if something might take hours to regenerate (rendered images, e.g., but see [Dividing work into repositories](#divide) for more best practices about this) or autoconf generated files (so people can configure and compile without autotools installed).
+    Things that can be regenerated include binaries, object files, jars, `.class`, flex/yacc generated code, etc. Really the only place there is room for disagreement about this is if something might take hours to regenerate (rendered images, e.g., but see [Dividing work into repositories](#do-divide-work-into-repositories) for more best practices about this) or autoconf generated files (so people can configure and compile without autotools installed).
     
 *   commit configuration files
     
@@ -498,7 +478,7 @@ _DO NOT_
     done 
     ```
     
-    Consider using [Git annex](http://git-annex.branchable.com/) or [Git media](https://github.com/schacon/git-media) if you plan on having large binary files and your workflow allows.
+    Consider using [Git annex](http://git-annex.branchable.com/) or [Git media](https://github.com/alebedev/git-media) if you plan on having large binary files and your workflow allows.
     
 *   create very large repositories (when possible)
     
@@ -540,19 +520,19 @@ _DO NOT_
     
 *   use git as a generic filesystem backup tool
     
-    Git was not written as a dedicated backup tool, and such tools do exist. Yes people have done it successfully, but usually with lots of scripts or modifications around it. One successful example of integration/modifications is [bup](http://github.com/apenwarr/bup).
+    Git was not written as a dedicated backup tool, and such tools do exist. Yes people have done it successfully, but usually with lots of scripts or modifications around it. One successful example of integration/modifications is [bup](https://github.com/bup/bup).
     
 *   rewrite public history
     
-    See [section about this topic](#pubonce). It bears repeating, though.
+    See [section about this topic](#dont-change-published-history). It bears repeating, though.
     
 *   change where a tag points
     
-    This is another way to [rewrite public history](#pubonce).
+    This is another way to [rewrite public history](#dont-change-published-history).
     
 *   use `git-filter-branch`
     
-    Still another way to [rewrite public history](#pubonce).
+    Still another way to [rewrite public history](#dont-change-published-history).
     
     However, if you are going to use git-filter-branch, make sure you end your command with ` –tag-name-filter cat – –all` unless you are really really sure you know what you are doing.
     
@@ -603,4 +583,4 @@ Comments and improvements welcome.
 
 [Use the github issue tracker](https://github.com/SethRobertson/GitBestPractices/issues) or discuss with SethRobertson (and others) on [#git](irc://irc.freenode.net/git)
 
-[Other technical projects](..)
+[Other technical projects](http://sethrobertson.github.io/)
