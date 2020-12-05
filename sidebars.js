@@ -15,7 +15,9 @@ module.exports = {
     ],
     Location: [
       {
-        'Lvovskaya-2020-2021': [
+        type: 'category',
+        label: 'Lvovskaya-2020-2021',
+        items : [
           'location/Lvovskaya-2020-2021/black-friday-orders/when-starting-black-friday',
         ]
       }
