@@ -25,5 +25,10 @@ module.exports = {
         ]
       }
     ],
+    'Shells': [
+      'shells/automatic-directory-tree',
+      'shells/local-k3s-cluster-multipass',
+      'shells/windows-terminal-tips-and-tricks'
+    ]
   },
 };
