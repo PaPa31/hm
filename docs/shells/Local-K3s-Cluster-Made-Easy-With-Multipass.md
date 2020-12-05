@@ -1,5 +1,8 @@
-Local K3s Cluster Made Easy With Multipass | by Luc Juggery | Better Programming | Medium
-
+---
+id: local-k3s-cluster-multipass
+title: 'Local K3s Cluster Made Easy With Multipass | by Luc Juggery | Better Programming | Medium'
+sidebar_label: Local K3s Cluster with Multipass
+---
 
 
 ![](https://miro.medium.com/max/540/1*S6X0W_XVeBUPe2Mz0hrufA.png)
@@ -12,61 +15,58 @@ Local K3s Cluster Made Easy With Multipass | by Luc Juggery | Better Programming
 *   [About](https://medium.com/better-programming/about?source=post_page-----108bf6ce577c--------------------------------)
 *   [Job Board](https://betterprogrammingjobs.com/?source=post_page-----108bf6ce577c--------------------------------)
 
-Responses (4)
--------------
-
+## Responses (4)
 
 ![](https://miro.medium.com/fit/c/32/32/0*wSHcTT-NiuL0SGyZ.jpg)
 
-
-#### Yohannes Russom
+### Yohannes Russom
 
 #### 11 months ago
 
 2
 
-Thank you ,
-
-I am facing an issue with kubectl command not found` and i guess its becuase the k3s deployment didnt get succeded.
+>Thank you ,
+>
+>I am facing an issue with kubectl command not found` and i guess its becuase the k3s deployment didnt get succeded.
 
 
 
 ![](https://miro.medium.com/fit/c/32/32/1*6-djqgzD-2VB55XoLS1aPQ.jpeg)
 
 
-#### Zulhilmi Zainudin
+### Zulhilmi Zainudin
 
 #### 6 months ago
 
 
 
-Hi. I’m curious, why you put “h” in square brackets for this command? `ps aux | grep -i “\[h\]yperkit”`
+>Hi. I’m curious, why you put “h” in square brackets for this command? `ps aux | grep -i “\[h\]yperkit”`
 
 
 ![](https://miro.medium.com/fit/c/32/32/1*c-b8gJs3_LKy5KK6ycClKg.jpeg)
 
-#### Scott Lett
+### Scott Lett
 
 #### 7 months ago
 
-Nice work!
-
-On my Ubuntu box, the the sed command doesn’t work unless I add “-e” before the substitution expression.
+>Nice work!
+>
+>On my Ubuntu box, the the sed command doesn’t work unless I add “-e” before the substitution expression.
 
 ![](https://miro.medium.com/fit/c/32/32/0*PM3LJW22rfqZZq8N)
 
-#### Praveen Shastrula
+### Praveen Shastrula
 
 #### 3 months ago
 
-Very simple and completely automated. Thank you! (I followed a different article first, but it had some missing instruction and crashed my nodes!, but yours works!)
+>Very simple and completely automated. Thank you! (I followed a different article first, but it had some missing instruction and crashed my nodes!, but yours works!)
 
 
 #### You have **2** free member-only stories left this month.
 
 
-Local K3s Cluster Made Easy With Multipass
-==========================================
+# Local K3s Cluster Made Easy With Multipass
+
 
 ![](https://miro.medium.com/fit/c/96/96/2*H7yIqOfLMIrBrEEUgUZ1DA.jpeg)
 
@@ -84,8 +84,7 @@ Depending upon your OS, Multipass uses Hyper-V, HyperKit, KVM, or VirtualBox nat
 
 In this short article, we’ll set up a K3s Kubernetes cluster on virtual machines created with Multipass.
 
-Getting Multipass
-=================
+## Getting Multipass
 
 Just head up to [Multipass](https://multipass.run/), and download the binary for your platform. Once installed, you can get the list of the available commands. We’ll only use a couple of them in this article.
 
@@ -119,8 +118,7 @@ service that manages Ubuntu instances.Options:
   version   Show version details
 ```
 
-**Creation of the VMs**
-=======================
+## **Creation of the VMs**
 
 First, we create three VMs, keeping the default configuration of one CPU and 1GB RAM.
 
@@ -152,8 +150,7 @@ luc@saturn:~$ ps aux | grep -i "\[h\]yperkit"
 
 Among those processes, the first one is the Docker daemon already running on my machine. The next three are the VMs created above.
 
-Initialize K3s on node1
-=======================
+## Initialize K3s on node1
 
 First, we run a command on `node1` (using the _exec_ subcommand of Multipass) to install K3s as defined in the [documentation](https://k3s.io).
 
@@ -178,8 +175,7 @@ $ TOKEN=$(multipass exec node1 sudo cat /var/lib/rancher/k3s/server/node-token)
 $ IP=$(multipass info node1 | grep IPv4 | awk '{print $2}')
 ```
 
-Join node2 and node3 to the Cluster
-===================================
+## Join node2 and node3 to the Cluster
 
 From the local machine, we run the following commands to add `node2` and `node3` to the cluster.
 
@@ -194,8 +190,7 @@ bash -c "curl -sfL https://get.k3s.io | K3S_URL=\"https://$IP:6443\" K3S_TOKEN=\
 
 As we can see, those commands use the TOKEN and IP address we defined above.
 
-Get the Cluster Configuration
-=============================
+## Get the Cluster Configuration
 
 Running the following command, we can list all the nodes of the cluster:
 
@@ -239,7 +234,6 @@ Note: all the steps defined in this post can be run from the following gist:
 
 [https://gist.github.com/lucj/5a0e2286b40130d02388a264e6924ed4](https://gist.github.com/lucj/5a0e2286b40130d02388a264e6924ed4)
 
-Summary
--------
+## Summary
 
 Multipass is a very useful tool. Its integration with low-level hypervisors makes it a good choice to deploy multiple VMs locally and to play with many distributed solutions such as the great K3s Kubernetes distribution.
