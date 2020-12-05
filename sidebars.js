@@ -21,6 +21,15 @@ module.exports = {
           'location/Lvovskaya-2020-2021/black-friday-orders/when-starting-black-friday',
         ]
       }
-    ]
+    ],
+    'Site-Generators': [
+      {
+        type: 'category',
+        label: 'Just-the-Docs',
+        items: [
+          'site-generators/just-the-docs/breadcrumbs/breadcrumbs-android-fail'
+        ]
+      }
+    ],
   },
 };
