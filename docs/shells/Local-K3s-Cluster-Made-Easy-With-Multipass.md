@@ -1,6 +1,6 @@
 ---
 id: local-k3s-cluster-multipass
-title: 'Local K3s Cluster Made Easy With Multipass | by Luc Juggery | Better Programming | Medium'
+title: Local K3s Cluster Made Easy With Multipass
 sidebar_label: Local K3s Cluster with Multipass
 ---
 
@@ -8,73 +8,13 @@ sidebar_label: Local K3s Cluster with Multipass
 ![](https://miro.medium.com/max/540/1*S6X0W_XVeBUPe2Mz0hrufA.png)
 
 
-
-*   [Archive](https://medium.com/better-programming/archive?source=post_page-----108bf6ce577c--------------------------------)
-*   [Write For Us](/better-programming/write-for-us-5c4bcba59397?source=post_page-----108bf6ce577c--------------------------------)
-*   [Style Guide](/better-programming/better-programming-styleguide-suggestions-eada98e35150?source=post_page-----108bf6ce577c--------------------------------)
-*   [About](https://medium.com/better-programming/about?source=post_page-----108bf6ce577c--------------------------------)
-*   [Job Board](https://betterprogrammingjobs.com/?source=post_page-----108bf6ce577c--------------------------------)
-
-## Responses (4)
-
-![](https://miro.medium.com/fit/c/32/32/0*wSHcTT-NiuL0SGyZ.jpg)
-
-### Yohannes Russom
-
-#### 11 months ago
-
-2
-
->Thank you ,
->
->I am facing an issue with kubectl command not found` and i guess its becuase the k3s deployment didnt get succeded.
-
-
-
-![](https://miro.medium.com/fit/c/32/32/1*6-djqgzD-2VB55XoLS1aPQ.jpeg)
-
-
-### Zulhilmi Zainudin
-
-#### 6 months ago
-
-
-
->Hi. I’m curious, why you put “h” in square brackets for this command? `ps aux | grep -i “\[h\]yperkit”`
-
-
-![](https://miro.medium.com/fit/c/32/32/1*c-b8gJs3_LKy5KK6ycClKg.jpeg)
-
-### Scott Lett
-
-#### 7 months ago
-
->Nice work!
->
->On my Ubuntu box, the the sed command doesn’t work unless I add “-e” before the substitution expression.
-
-![](https://miro.medium.com/fit/c/32/32/0*PM3LJW22rfqZZq8N)
-
-### Praveen Shastrula
-
-#### 3 months ago
-
->Very simple and completely automated. Thank you! (I followed a different article first, but it had some missing instruction and crashed my nodes!, but yours works!)
-
-
-#### You have **2** free member-only stories left this month.
-
-
-# Local K3s Cluster Made Easy With Multipass
-
-
 ![](https://miro.medium.com/fit/c/96/96/2*H7yIqOfLMIrBrEEUgUZ1DA.jpeg)
 
 
-[Luc Juggery](https://medium.com/@lucjuggery?source=post_page-----108bf6ce577c--------------------------------)
+[Luc Juggery](https://medium.com/@lucjuggery)
 
 
-[Nov 8, 2019](/better-programming/local-k3s-cluster-made-easy-with-multipass-108bf6ce577c?source=post_page-----108bf6ce577c--------------------------------) · 4 min read
+[Nov 8, 2019](https://medium.com/better-programming/local-k3s-cluster-made-easy-with-multipass-108bf6ce577c) · 4 min read
 
 ![](https://miro.medium.com/max/2264/1*-Alr4CVTx_zV3o9uuHimsA.png)
 
@@ -237,3 +177,56 @@ Note: all the steps defined in this post can be run from the following gist:
 ## Summary
 
 Multipass is a very useful tool. Its integration with low-level hypervisors makes it a good choice to deploy multiple VMs locally and to play with many distributed solutions such as the great K3s Kubernetes distribution.
+
+
+
+
+
+## Responses (4)
+
+![](https://miro.medium.com/fit/c/32/32/0*wSHcTT-NiuL0SGyZ.jpg)
+
+### Yohannes Russom
+
+#### 11 months ago
+
+2
+
+>Thank you ,
+>
+>I am facing an issue with kubectl command not found` and i guess its becuase the k3s deployment didnt get succeded.
+
+
+
+![](https://miro.medium.com/fit/c/32/32/1*6-djqgzD-2VB55XoLS1aPQ.jpeg)
+
+
+### Zulhilmi Zainudin
+
+#### 6 months ago
+
+
+
+>Hi. I’m curious, why you put “h” in square brackets for this command? `ps aux | grep -i “\[h\]yperkit”`
+
+
+![](https://miro.medium.com/fit/c/32/32/1*c-b8gJs3_LKy5KK6ycClKg.jpeg)
+
+### Scott Lett
+
+#### 7 months ago
+
+>Nice work!
+>
+>On my Ubuntu box, the the sed command doesn’t work unless I add “-e” before the substitution expression.
+
+![](https://miro.medium.com/fit/c/32/32/0*PM3LJW22rfqZZq8N)
+
+### Praveen Shastrula
+
+#### 3 months ago
+
+>Very simple and completely automated. Thank you! (I followed a different article first, but it had some missing instruction and crashed my nodes!, but yours works!)
+
+
+#### You have **2** free member-only stories left this month.
