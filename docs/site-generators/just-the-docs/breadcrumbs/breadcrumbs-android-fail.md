@@ -1,16 +1,11 @@
 ---
-layout: default
-title: Breadcrumbs Android Fail
-parent: just-the-docs
-grand_parent: workplace
-permalink: /workplace/just-the-docs/breadcrumbs-android-fail/
+id: breadcrumbs-android-fail
+title: 'Breadcrumbs Android Fail: Just_the_Docs'
+sidebar_label: Breadcrumbs Android Fail
 ---
 
 
-
-# Just_the_Docs Breadcrumbs Android Fail
-
-[Just-theDocs Home page](https://pmarsceill.github.io/just-the-docs/)
+[Just-the-Docs Home page](https://pmarsceill.github.io/just-the-docs/)
 
 Fail:
 
