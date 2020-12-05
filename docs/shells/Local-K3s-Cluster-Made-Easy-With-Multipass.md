@@ -5,10 +5,7 @@ sidebar_label: Local K3s Cluster with Multipass
 ---
 
 
-![](https://miro.medium.com/max/540/1*S6X0W_XVeBUPe2Mz0hrufA.png)
-
-
-![](https://miro.medium.com/fit/c/96/96/2*H7yIqOfLMIrBrEEUgUZ1DA.jpeg)
+[![](https://miro.medium.com/max/540/1*S6X0W_XVeBUPe2Mz0hrufA.png)](https://medium.com/better-programming/)
 
 
 [Luc Juggery](https://medium.com/@lucjuggery)
