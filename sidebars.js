@@ -56,8 +56,9 @@ module.exports = {
       label: 'Site-Generators',
       items: [
         {
-          'Just-the-Docs': [
-            'site-generators/just-the-docs/breadcrumbs/breadcrumbs-android-fail'
+          'Jekyll': [
+            'site-generators/jekyll/use-any-theme-with-github-pages',
+            'site-generators/jekyll/just-the-docs/breadcrumbs-android-fail'
           ]
         },
         {
