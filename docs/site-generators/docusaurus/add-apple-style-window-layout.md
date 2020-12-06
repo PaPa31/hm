@@ -1,0 +1,89 @@
+---
+id: add-apple-style-window-layout
+title: Add Apple Style Window Layout in Docusaurus markdown page
+sidebar_label: Apple Style Window
+---
+
+## Download BrowserWindow component
+
+First, you need two extra files: 
+- [index.js](https://raw.githubusercontent.com/facebook/docusaurus/master/website/src/components/BrowserWindow/index.js)
+- [styles.module.css](https://raw.githubusercontent.com/facebook/docusaurus/master/website/src/components/BrowserWindow/styles.module.css)
+
+from Docusaurus github. 
+
+Copy/past these files in the appropriate folder of your repo:
+
+```bash
+<root-your-repo>/src/components/BrowserWindow
+```
+
+## Create .mdx file
+
+Then you need to create `file.mdx` and put the following in it:
+
+```yml
+This will render in the browser as follows:
+
+import BrowserWindow from '@site/src/components/BrowserWindow';
+
+<BrowserWindow url="http://localhost:3000">
+
+<h2>Hello from Docusaurus</h2>
+
+Are you ready to create the documentation site for your open source project?
+
+<h3>Headers</h3>
+
+will show up on the table of contents on the upper right
+
+So that your users will know what this page is all about without scrolling down or even without reading too much.
+
+<h3>Only h2 and h3 will be in the toc</h3>
+
+The headers are well-spaced so that the hierarchy is clear.
+
+- lists will help you
+- present the key points
+- that you want your users to remember
+  - and you may nest them
+    - multiple times
+
+</BrowserWindow>
+```
+
+## Run dev server
+
+After rerun your development server:
+
+```bash
+npm run start
+```
+
+and by pressing F5 key once (clear your browser cache) this will render in the browser as follows:
+
+import BrowserWindow from '@site/src/components/BrowserWindow';
+
+<BrowserWindow url="http://localhost:3000">
+
+<h2>Hello from Docusaurus</h2>
+
+Are you ready to create the documentation site for your open source project?
+
+<h3>Headers</h3>
+
+will show up on the table of contents on the upper right
+
+So that your users will know what this page is all about without scrolling down or even without reading too much.
+
+<h3>Only h2 and h3 will be in the toc</h3>
+
+The headers are well-spaced so that the hierarchy is clear.
+
+- lists will help you
+- present the key points
+- that you want your users to remember
+  - and you may nest them
+    - multiple times
+
+</BrowserWindow>

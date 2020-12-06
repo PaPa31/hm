@@ -59,6 +59,11 @@ module.exports = {
           'Just-the-Docs': [
             'site-generators/just-the-docs/breadcrumbs/breadcrumbs-android-fail'
           ]
+        },
+        {
+          'Docusaurus': [
+            'site-generators/docusaurus/add-apple-style-window-layout'
+          ]
         }
       ],
     },
