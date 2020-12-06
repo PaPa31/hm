@@ -41,7 +41,7 @@ module.exports = {
             },
             {
               label: 'Site-Generators',
-              to: 'docs/site-generators/jekyll/just-the-docs/breadcrumbs-android-fail'
+              to: 'docs/site-generators/docusaurus/add-apple-style-window-layout'
             }
           ],
         },

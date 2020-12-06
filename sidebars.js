@@ -51,22 +51,17 @@ module.exports = {
     }
   ],
   generka: [
+    'site-generators/site-generators-index',
     {
-      type: 'category',
-      label: 'Site-Generators',
-      items: [
-        {
-          'Jekyll': [
-            'site-generators/jekyll/use-any-theme-with-github-pages',
-            'site-generators/jekyll/just-the-docs/breadcrumbs-android-fail'
-          ]
-        },
-        {
-          'Docusaurus': [
-            'site-generators/docusaurus/add-apple-style-window-layout'
-          ]
-        }
-      ],
+      'Docusaurus': [
+        'site-generators/docusaurus/add-apple-style-window-layout'
+      ]
     },
-  ]
+    {
+      'Jekyll': [
+        'site-generators/jekyll/use-any-theme-with-github-pages',
+        'site-generators/jekyll/just-the-docs/breadcrumbs-android-fail'
+      ]
+    }
+  ],
 };
