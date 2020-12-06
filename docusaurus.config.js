@@ -17,10 +17,33 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
+        },
+        {
+          label: 'Notes',
+          position: 'left', // or 'right'
+          items: [
+            {
+              label: 'Workplace',
+              to: 'docs/workplace/git/git-workflow'
+
+            },
+            {
+              label: 'Location',
+              to: 'docs/location/Lvovskaya-2020-2021/black-friday-orders/when-starting-black-friday'
+            },
+            {
+              label: 'Shells',
+              to: 'docs/shells/local-k3s-cluster-multipass'
+            },
+            {
+              label: 'Site-Generators',
+              to: 'docs/site-generators/just-the-docs/breadcrumbs/breadcrumbs-android-fail'
+            }
+          ],
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
