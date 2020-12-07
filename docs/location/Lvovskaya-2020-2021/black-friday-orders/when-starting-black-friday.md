@@ -16,7 +16,9 @@ The starting point!
 
 0 (0%)
 
+:::note 
 The SSD seller reported that after two days discounts will end.
+:::
 
 ## November 29, 2020 (Sunday)
 
@@ -30,9 +32,12 @@ A discount of almost 200₽!
 
 [![hot-deal](hot-deal-black-friday-aliexpress.jpg)](hot-deal-black-friday-aliexpress.jpg)
 
-In addition, if you buy something for at least 5065₽ (for example, a 1Tb SSD for 7295₽), you get a 467₽ discount. (6-9%)
+
+:::info Extra discounts
+If you buy something for at least 5065₽ (for example, a 1Tb SSD for 7295₽), you get a 467₽ discount. (6-9%)
 
 Apart from this you can also buy another 155₽ discount for 20 coins. (3.5%)
+:::
 
 ## December 03, 2020 (Thursday)
 
@@ -61,6 +66,47 @@ The seller posted a banner:
 Two other items:
 
 -7₽
+
+## December 08, 2020 (Tuesday 2:00 AM)
+
+Discount again today.
+
+Maximum discount?
+
+* M.2 NVMe SSD 512Gb - 4178₽ (>1000 pieces available)
+
+-202₽ (4.6%)
+
+My two other goods
+
+-9₽
+
+All three seller have this banner: 
+
+![get new year ready banner aliexpress](get-new-year-ready-banner-aliexpress.jpg)
+
+
+## December 08, 2020 (Tuesday 2:00 PM)
+
+Another discount.
+
+* M.2 NVMe SSD 512Gb - 4146₽ (75 pieces available)
+
+-234₽ (5.3%)
+
+Another SSD:
+* M.2 NVMe SSD 128Tb - 1639₽ (164 pieces available)
+* M.2 NVMe SSD 256Tb - 2403₽ (132 pieces available)
+* M.2 NVMe SSD 1Tb - 7230₽ (121 pieces available)
+-65₽
+
+My other two goods:
+
+-12₽
+
+:::info Extra discounts
+If you buy something for at least 11328₽, you get a 604₽ discount.
+:::
 
 ---
 
