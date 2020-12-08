@@ -2,7 +2,7 @@
   "name": "notes",
   "version": "0.0.0",
   "private": true,
-  "homepage":"/hm", 
+  "homepage": "/hm",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -15,6 +15,7 @@
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.69",
     "@docusaurus/preset-classic": "2.0.0-alpha.69",
+    "@docusaurus/remark-plugin-npm2yarn": "^2.0.0-alpha.69",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "react": "^16.8.4",

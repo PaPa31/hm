@@ -112,12 +112,17 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/papa31/hm/edit/main/',
+            remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
             'https://github.com/papa31/hm/edit/main/',
+            remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
+        },
+        pages: {
+          remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

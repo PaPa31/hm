@@ -68,9 +68,10 @@ The headers are well-spaced so that the hierarchy is clear.
 
 After rerun your development server:
 
-```bash
+```bash npm2yarn
 npm run start
 ```
+
 
 and by pressing F5 key once (clear your browser cache) this will render in the browser as follows:
 
