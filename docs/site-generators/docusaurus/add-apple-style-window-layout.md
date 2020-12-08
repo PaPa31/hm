@@ -4,6 +4,13 @@ title: Add Apple Style Window Layout in Docusaurus markdown page
 sidebar_label: Apple Style Window
 ---
 
+import BrowserWindow from '@site/src/components/BrowserWindow';
+
+<BrowserWindow url="http://localhost:3000">
+<h2>IF YOU THINK THIS IS AN IMAGE, YOU ARE WRONG!</h2>
+This is markup!
+</BrowserWindow>
+
 ## Download BrowserWindow component
 
 First, you need two extra files: 
@@ -19,6 +26,10 @@ Copy/past these files in the appropriate folder of your repo:
 ```
 
 ## Create .mdx file
+
+:::tip MDX
+Docusaurus has built-in support for MDX, which allows you to write JSX within your Markdown files and render them as React components.
+:::
 
 Then you need to create `file.mdx` and put the following in it:
 
@@ -61,8 +72,6 @@ npm run start
 ```
 
 and by pressing F5 key once (clear your browser cache) this will render in the browser as follows:
-
-import BrowserWindow from '@site/src/components/BrowserWindow';
 
 <BrowserWindow url="http://localhost:3000">
 
