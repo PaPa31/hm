@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+
 const features = [
   {
     title: 'Easy to Use',
@@ -76,8 +77,14 @@ function Home() {
             </Link>
           </div>
         </div>
+
       </header>
       <main>
+        <div className={clsx(styles.announcement, styles.announcementDark)}>
+          <div className={styles.announcementInner}>
+            <Link>Computer Soul</Link> @ <Link>Human Kernel</Link>
+          </div>
+        </div>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
