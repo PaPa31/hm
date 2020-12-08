@@ -54,7 +54,7 @@ module.exports = {
     'site-generators/site-generators-index',
     {
       'Docusaurus': [
-        'site-generators/docusaurus/add-apple-style-window-layout'
+        'site-generators/docusaurus/add-apple-style-window'
       ]
     },
     {

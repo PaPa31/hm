@@ -41,7 +41,7 @@ module.exports = {
             },
             {
               label: 'Site-Generators',
-              to: 'docs/site-generators/docusaurus/add-apple-style-window-layout'
+              to: 'docs/site-generators/docusaurus/add-apple-style-window'
             }
           ],
         },

@@ -1,6 +1,6 @@
 ---
-id: add-apple-style-window-layout
-title: Add Apple Style Window Layout in Docusaurus markdown page
+id: add-apple-style-window
+title: Add Apple Style Window in Docusaurus
 sidebar_label: Apple Style Window
 ---
 
@@ -11,6 +11,9 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 This is markup!
 </BrowserWindow>
 
+<br/>
+
+If you want this on your page, you need to do the following:
 ## Download BrowserWindow component
 
 First, you need two extra files: 
@@ -33,9 +36,7 @@ Docusaurus has built-in support for MDX, which allows you to write JSX within yo
 
 Then you need to create `file.mdx` and put the following in it:
 
-```yml
-This will render in the browser as follows:
-
+```yml  {1} title="file.mdx"
 import BrowserWindow from '@site/src/components/BrowserWindow';
 
 <BrowserWindow url="http://localhost:3000">
