@@ -9,6 +9,7 @@ module.exports = {
   organizationName: 'papa31', // Usually your GitHub org/user name.
   projectName: 'hm', // Usually your repo name.
   themeConfig: {
+    hideableSidebar: true,
     navbar: {
       title: 'hm',
       logo: {
