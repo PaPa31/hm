@@ -108,6 +108,29 @@ My other two goods:
 If you buy something for at least 11328₽, you get a 604₽ discount.
 :::
 
+## December 9, 2020 (Wednesday)
+
+* M.2 NVMe SSD 512Gb - 4149₽ (33 pieces available)
+
+-231₽ (5.2%)
+
+Another SSD:
+* M.2 NVMe SSD 128Tb - 1640₽ (115 pieces available)
+* M.2 NVMe SSD 256Tb - 2404₽ (62 pieces available)
+* M.2 NVMe SSD 1Tb - 7235₽ (103 pieces available)
+
+:::info Seller coupon
+Save up to 604₽ on orders over 11 335₽ (5%) <br />
+Save up to 1511₽ on orders over 75 495₽ (2%) <br />
+Valid: Dec 8 - Feb 1
+:::
+
+:::info Instant discount
+Buy 10 get 1% off<br />
+Buy 15 get 2% off
+:::
+
+
 ---
 
 And this are the prices that were at the time of purchase (26.11.2020). And there are no additional discounts.
