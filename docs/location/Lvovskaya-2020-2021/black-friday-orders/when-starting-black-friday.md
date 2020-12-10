@@ -16,6 +16,9 @@ The starting point!
 
 0 (0%)
 
+
+
+
 :::note 
 The SSD seller reported that after two days discounts will end.
 :::
@@ -112,12 +115,12 @@ If you buy something for at least 11328₽, you get a 604₽ discount.
 
 * M.2 NVMe SSD 512Gb - 4149₽ (33 pieces available)
 
--231₽ (5.2%)
++3₽
 
 Another SSD:
-* M.2 NVMe SSD 128Tb - 1640₽ (115 pieces available)
-* M.2 NVMe SSD 256Tb - 2404₽ (62 pieces available)
-* M.2 NVMe SSD 1Tb - 7235₽ (103 pieces available)
+* M.2 NVMe SSD 128Tb - 1640₽ (115 pieces available) +1₽
+* M.2 NVMe SSD 256Tb - 2404₽ (62 pieces available) +1₽
+* M.2 NVMe SSD 1Tb - 7235₽ (103 pieces available) +5₽
 
 :::info Seller coupon
 Save up to 604₽ on orders over 11 335₽ (5%) <br />
@@ -130,12 +133,32 @@ Buy 10 get 1% off<br />
 Buy 15 get 2% off
 :::
 
+## December 10, 2020 (Thursday)
+
+* M.2 NVMe S2Gb - 4169₽ (241 pieces available)
+
++20₽
+
+Another SSD:
+* M.2 NVMe SSD 128Tb - 1648₽ (286 pieces available) +8₽
+* M.2 NVMe SSD 256Tb - 2415₽ (264 pieces available) +11₽
+* M.2 NVMe SSD 1Tb - 7269₽ (227 pieces available) +34₽
 
 ---
 
-And this are the prices that were at the time of purchase (26.11.2020). And there are no additional discounts.
+## Dollar course
+
+:::danger Dollar fell by 2 rubles (26.11-8.12)
+![dollar to ruble November 26, 2020 ](dollar-to-ruble-26-11-2020.jpg) ![dollar to ruble December 8, 2020 ](dollar-to-ruble-8-12-2020.jpg)
+:::
+
+---
+
+
 
 ## Aliexpress Photos & Links
+
+And this are the prices that were at the time of purchase (26.11.2020). And there are no additional discounts.
 
 1. [M.2 NVMe SSD 512Gb](https://aliexpress.ru/item/32847169083.html?cv=815660&af=205380&utm_campaign=205380&aff_platform=link-c-tool&utm_medium=cpa&sk=mr6wR6CC&aff_trace_key=8fdfbd25346e41a1999b627179d14b1e-1606479893486-02170-mr6wR6CC&dp=25ba1848a13d9061635b53c8f8eedc4b&terminal_id=b5d4c8214650400883a6bb062ce6397f&utm_source=admitad&utm_content=815660) - 4380₽
 ----
