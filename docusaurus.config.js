@@ -10,6 +10,7 @@ module.exports = {
   projectName: 'hm', // Usually your repo name.
   themeConfig: {
     hideableSidebar: true,
+    sidebarCollapsible: true,
     navbar: {
       title: 'hm',
       logo: {
@@ -30,7 +31,6 @@ module.exports = {
             {
               label: 'Workplace',
               to: 'docs/workplace/git/git-workflow'
-
             },
             {
               label: 'Location',
@@ -109,7 +109,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebars.auto.js'),
           // Please change this to your repo.
           editUrl:
             'https://github.com/papa31/hm/edit/main/',
@@ -130,5 +130,8 @@ module.exports = {
         },
       },
     ],
+  ],
+  plugins: [
+    'docusaurus-plugin-auto-sidebars'
   ],
 };
