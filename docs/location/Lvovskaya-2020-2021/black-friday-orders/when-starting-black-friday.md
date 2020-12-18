@@ -144,12 +144,25 @@ Another SSD:
 * M.2 NVMe SSD 256Tb - 2415₽ (264 pieces available) +11₽
 * M.2 NVMe SSD 1Tb - 7269₽ (227 pieces available) +34₽
 
+## December 17, 2020
+
+* M.2 NVMe S2Gb - 4281₽ (934 pieces available)
+
++135₽
+
+:::info Store Promo code
+Promo code: MEBGEDOSOBIY (-75₽)
+75₽ off per 2 270₽
+:::
+
+
 ---
+
 
 ## Dollar course
 
-:::danger Dollar fell by 2 rubles (26.11-8.12)
-![dollar to ruble November 26, 2020 ](dollar-to-ruble-26-11-2020.jpg) ![dollar to ruble December 8, 2020 ](dollar-to-ruble-8-12-2020.jpg)
+:::danger Dollar fell by 2 rubles (26.11-17.12)
+![dollar to ruble November 26, 2020 ](dollar-to-ruble-26-11-2020.jpg) ![dollar to ruble December 8, 2020 ](dollar-to-ruble-17-12-2020.jpg)
 :::
 
 ---
