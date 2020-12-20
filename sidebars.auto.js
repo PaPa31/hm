@@ -3,25 +3,35 @@ module.exports = {
   docs: [
     {
         "type": "category",
-        "label": "new-disk",
+        "label": "shells",
         "items": [
-            "new-disk/computer-test",
-            "new-disk/git-bash-node-ssh",
-            "new-disk/how-copy-big-files",
-            "new-disk/new-windows-setup",
-            "new-disk/partitioning-new-disk",
-            "new-disk/powerline-in-powershell",
-            "new-disk/yandex-disk-how-download"
+            "shells/automatic-directory-tree",
+            {
+                "type": "category",
+                "label": "commands",
+                "items": [
+                    {
+                        "type": "category",
+                        "label": "sed",
+                        "items": [
+                            "shells/commands/sed/git-best-initial",
+                            "shells/commands/sed/sed-my-experience"
+                        ]
+                    }
+                ]
+            },
+            "shells/windows-terminal-tips-and-tricks"
         ]
     },
-    "doc1",
     {
         "type": "category",
-        "label": "videos",
+        "label": "disks",
         "items": [
-            "videos/videos"
+            "disks/yandex-disk-usage-cloud-storage"
         ]
     },
+    "doc2",
+    "doc3",
     {
         "type": "category",
         "label": "location",
@@ -41,15 +51,21 @@ module.exports = {
             }
         ]
     },
+    "mdx",
     {
         "type": "category",
-        "label": "thoughts",
+        "label": "new-disk",
         "items": [
-            "thoughts/papa-constant",
-            "thoughts/smert-navernoe-samoe-nadezhnoe",
-            "thoughts/u-menya-vnutri-vse-zasoprotivlyalos"
+            "new-disk/computer-test",
+            "new-disk/git-bash-node-ssh",
+            "new-disk/how-copy-big-files",
+            "new-disk/new-windows-setup",
+            "new-disk/partitioning-new-disk",
+            "new-disk/powerline-in-powershell",
+            "new-disk/yandex-disk-how-download"
         ]
     },
+    "doc1",
     {
         "type": "category",
         "label": "site-generators",
@@ -86,16 +102,41 @@ module.exports = {
     },
     {
         "type": "category",
-        "label": "shells",
+        "label": "thoughts",
         "items": [
-            "shells/local-k3s-cluster-multipass",
-            "shells/automatic-directory-tree",
-            "shells/windows-terminal-tips-and-tricks"
+            "thoughts/papa-constant",
+            "thoughts/smert-navernoe-samoe-nadezhnoe",
+            "thoughts/u-menya-vnutri-vse-zasoprotivlyalos"
         ]
     },
-    "doc2",
-    "doc3",
-    "mdx",
+    {
+        "type": "category",
+        "label": "videos",
+        "items": [
+            "videos/videos"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "virtual-machines",
+        "items": [
+            {
+                "type": "category",
+                "label": "multipass",
+                "items": [
+                    "virtual-machines/multipass/local-k3s-cluster-multipass",
+                    "virtual-machines/multipass/working-with-multipass-instances"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "category",
+        "label": "vs-code",
+        "items": [
+            "vs-code/fira-code"
+        ]
+    },
     {
         "type": "category",
         "label": "workplace",
@@ -106,7 +147,8 @@ module.exports = {
                 "items": [
                     "workplace/git/conventional-commits",
                     "workplace/git/git-best-practicies",
-                    "workplace/git/git-workflow"
+                    "workplace/git/git-workflow",
+                    "workplace/git/resolving-git-line-ending-issues-in-wsl"
                 ]
             }
         ]
