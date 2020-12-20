@@ -3,51 +3,97 @@ id: new-windows-setup
 title: New Windows Setup
 ---
 
-## Folders
+### 4 Folders
 
-`super` - 6 starter apps installers (**OneDrive**)
+```bash
+F:\OneDrive\super   # starter apps
+```
 
-`middle` - rest of others apps (**1th Yandex.disk**)
+```bash
+F:\Yandex.Disk-visi\middle   # additional apps
+```
 
-`down` - working files (**GoogleDrive**)
+```bash
+F:\Yandex.Disk-parsh\hm   # doc files
+```
 
+```bash
+F:\GoogleDrive\down   # working files 
+```
 
-## Microsoft Edge
+### Directory Tree
+```bash
+F:\ # root directory of second partition
+│
+├── OneDrive
+│   └── super
+│
+├── Yandex.Disk-visi
+│   └── middle
+│
+├── Yandex.Disk-parsh
+│   └── hm
+│
+├── GoogleDrive
+│   └── down
+│
+├── ...
+```
+## starter apps
 
-Added link in collection `Super`:  
-1. [Download Google Chrome](https://www.google.com/chrome/)
+---
 
+### 1. [Google Chrome](https://www.google.com/chrome/) 
+`Default install --> C:\Program Files\Google`
 
-## Google Chrome 
+Open your Microsoft Edge browser (Windows installs it by default). Look the link in the collection `Super` of browser. 
 
-following links are located in the bookmark folder `Super` Google Chrome:
-
-2. [***Yandex.Disk***](https://disk.yandex.com/download#pc "direct download link") <sup>10Gb free</sup>  
-Needs to select the folder location: `F:\Yandex.disk-visi` in the settings. 
-
-:::info Folder Location
-You can change it at any time after installation.
+:::note
+When you installed **Google Chrome**, the following links are located in the `Super` bookmark folder of your Google Chrome.
 :::
 
-3. [***GoogleDrive***](https://www.google.com/drive/download/ "direct download link") <sup>15Gb free</sup>  
-During installation you need to set your GoogleDrive folder location to `F:\GoogleDrive`
+### 2. [Yandex.Disk](https://disk.yandex.com/download#pc "direct download link") <sup>10Gb free</sup>
 
-:::info Folder Location
-After installation you can't change the folder location. To do this you must uninstall and reinstal GoogleDrive.
+:::tip Linking Yandex Accounts
+You can connect/reconnect Yandex.Disk to any Yandex account. Firstly, you need to be logged in, and secondly, configure the location of your local folder. 
+
+Later you can logout and login to another Yandex account.
 :::
 
-4. [***OneDrive***](https://www.microsoft.com/en-us/microsoft-365/onedrive/download "direct download link") <sup>5Gb free</sup>
 
-:::info Folder Location
-To set the correct folder location on OneDrive you need to go into Settings and select `unlink this PC`.
+```bash title="Linking to two Yandex accounts"
+1. Force install --> F:\Yandex.disk-visi    # with 10Gb size
+2. Force install --> F:\Yandex.disk-parsh   # with 30Gb size
+```
+
+:::info Yandex.Disk Folder Location
+You can change `Folder location` in Yandex.Disk at any time after installation. Which is very convenient! To do that, open Yandex.Disk Settings and click **Change folder location...**
 :::
 
-:::tip Remember
-After the initial default installation of one of the cloude services, you will get a folder with the default location set to `C:\User\user-name`. 
+### 3. [GoogleDrive](https://www.google.com/drive/download/ "direct download link") <sup>15Gb free</sup>  
+`Force install --> F:\GoogleDrive`
 
-And if after that you change the location of this folder, you'll have to manually delete the default folders with all the contents.  
+:::caution Google Drive Folder Location
+After installation you can't change the folder location. To do this you must uninstall and reinstall GoogleDrive.
 :::
 
+### 4. [OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/download "direct download link") <sup>5Gb free</sup>
+
+`Force install --> F:\OneDrive`
+
+:::info One Drive Folder Location
+If you need to fix the folder location on OneDrive, you need to open the OneDrive Settings and select `unlink this PC`.
+:::
+---
+## Avoid Duplication
+
+:::note Remember
+After the initial **default installation** of one of the cloude services, you will get a folder with the **default location** set to `C:\User\user-name`. 
+
+And if you later change the location of this folder, you'll have to **manually delete** the default folders with all the contents to avoid duplication.  
+:::
+
+## Permission Issue During Removing
 
 If you are facing with permissions issue when  deleting the default OneDrive folder, follow these steps. Run `cmd.exe` as admin and run in cmd terminal these commands :
 
@@ -60,26 +106,42 @@ explorer.exe
 To avoid data loss, do not forcefully empty the remote cloud storage trash when you change the location of your local storages.
 :::
 
-5. [***VS Code***](https://code.visualstudio.com/download "direct download link")  
-choose `System Installer`, installation to `F:\Program Files\VS Code` 
+## starter apps (continued)
+---
+### 5. [VS Code](https://code.visualstudio.com/download "direct download link")  
+~~choose `System Installer`, installation to `F:\Program Files\VS Code`~~
+
+[Download VS Code for Windows](https://code.visualstudio.com/)
+
+To sync VS Code I chose PaPa31(GitHub) account
     
 
-6. [***Git-Bash***](https://git-scm.com/download/win "direct download link")  
-choose `Portable`, to `F:\Portable\Git` 
+### 6. [Git-Bash](https://git-scm.com/download/win "direct download link")  
+~~choose `Portable`, to `F:\Portable\Git`~~ 
 
-Even if you choose the non-portable version it will not atomatically put a Git-Bash entry in `settings.json` of Windows Terminal.
+:::tip See 
+[Install Git-Bash, node and ssh setup](git-bash-node-ssh)
+:::
 
-## Two Fonts
+:::note
+If you choose the ***non-portable*** version it will not atomatically put a Git-Bash entry in `settings.json` of Windows Terminal. Manual configuration required.
+:::
 
-7. [***Cascadia Code Font***](https://github.com/tonsky/FiraCode/releases "release page")  
-Mainly for PowerShell terminal (git)
+### 7. [Cascadia Code Font](https://github.com/tonsky/FiraCode/releases "release page")  
+With Powerline glyphs. Mainly for PowerShell terminal (git).
 
-8. [***Fira Code Font***](https://github.com/microsoft/cascadia-code/releases "release page")  
+:::tip 
+See [Installing Fonts](#installing-fonts) below.
+:::
+
+
+### 8. [Fira Code Font](https://github.com/microsoft/cascadia-code/releases "release page")  
 Mainly for VS Code
+
 
 ### Installing Fonts
 
-Both fonts installing similar:
+Both above fonts installing similar:
 
 1. Download zip
 2. Unzip
@@ -88,6 +150,15 @@ Both fonts installing similar:
 5. Right-click
 6. Select Install
 
+---
+
+[additional apps](additional-apps) #todo
+
+## Optional Configuration
+
+:::tip
+This section is my experience.
+:::
 
 ## bats, sys & regs
 
@@ -110,7 +181,7 @@ TODO: Install Yandex.Disk, dowloads all Yandex.Disk-visi files. Make another fol
 
 After copying the F: disk the Descktop Icons is shown. 
 
-But after copying 
+But after copying from another disk (cloning) the Descktop Icons disappear.
 
 ## Red Dead Redemption 2
 
