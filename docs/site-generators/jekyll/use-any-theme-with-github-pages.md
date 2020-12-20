@@ -13,11 +13,11 @@ I remembered that I can just fork any GitHub project to run it remotely! Fork an
 >
 >`remote_theme: owner/name`
 
-for example: _**just-the-doc theme**_
+for example: _**just-the-docs theme**_
 
-_config.yml:
-
-    remote_theme: pmarsceill/just-the-docs
+```yaml title="_config.yml"
+remote_theme: pmarsceill/just-the-docs
+```
 
 One single line!!!
 
@@ -25,7 +25,7 @@ Very simple!
 
 ## About Just_the_Docs theme
 
-[Just-theDocs Home page](https://pmarsceill.github.io/just-the-docs/)
+[Just-the-Docs Home page](https://pmarsceill.github.io/just-the-docs/)
 
 Simple Jekyll theme. Can start remotely.
 
