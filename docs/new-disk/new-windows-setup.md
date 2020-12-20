@@ -152,7 +152,7 @@ Both above fonts installing similar:
 
 ---
 
-[additional apps](additional-apps) #todo
+[additional apps](#additional-apps) #todo
 
 ## Optional Configuration
 

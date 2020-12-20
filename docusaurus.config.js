@@ -38,7 +38,7 @@ module.exports = {
             },
             {
               label: 'Shells',
-              to: 'docs/shells/local-k3s-cluster-multipass'
+              to: 'docs/shells/automatic-directory-tree'
             },
             {
               label: 'Site-Generators',

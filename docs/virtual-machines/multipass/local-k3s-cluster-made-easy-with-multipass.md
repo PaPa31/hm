@@ -5,7 +5,7 @@ sidebar_label: Local K3s Cluster with Multipass
 ---
 
 
-[![](https://miro.medium.com/max/540/1*S6X0W_XVeBUPe2Mz0hrufA.png)](https://medium.com/better-programming/)
+[![](1_S6X0W_XVeBUPe2Mz0hrufA.png)](https://medium.com/better-programming/)
 
 
 [Luc Juggery](https://medium.com/@lucjuggery)
@@ -181,8 +181,6 @@ Multipass is a very useful tool. Its integration with low-level hypervisors make
 
 ## Responses (4)
 
-![](https://miro.medium.com/fit/c/32/32/0*wSHcTT-NiuL0SGyZ.jpg)
-
 ### Yohannes Russom
 
 #### 11 months ago
@@ -194,20 +192,13 @@ Multipass is a very useful tool. Its integration with low-level hypervisors make
 >I am facing an issue with kubectl command not found` and i guess its becuase the k3s deployment didnt get succeded.
 
 
-
-![](https://miro.medium.com/fit/c/32/32/1*6-djqgzD-2VB55XoLS1aPQ.jpeg)
-
-
 ### Zulhilmi Zainudin
 
 #### 6 months ago
 
 
-
 >Hi. I’m curious, why you put “h” in square brackets for this command? `ps aux | grep -i “\[h\]yperkit”`
 
-
-![](https://miro.medium.com/fit/c/32/32/1*c-b8gJs3_LKy5KK6ycClKg.jpeg)
 
 ### Scott Lett
 
@@ -217,7 +208,6 @@ Multipass is a very useful tool. Its integration with low-level hypervisors make
 >
 >On my Ubuntu box, the the sed command doesn’t work unless I add “-e” before the substitution expression.
 
-![](https://miro.medium.com/fit/c/32/32/0*PM3LJW22rfqZZq8N)
 
 ### Praveen Shastrula
 
