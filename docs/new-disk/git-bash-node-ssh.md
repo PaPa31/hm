@@ -5,26 +5,40 @@ title: Git Bash with Node & SSH
 
 ## Git-Bash
 
-Download `Git for Windows` Portable:
+Download `Git for Windows` ~~Portable~~:
 
 https://git-scm.com/download/win
 
-## node
+## Nodejs
 
-Download npm with node:
+Download `npm with node`:
 
 https://nodejs.org/en/download/releases/
 
-Create a config file `/etc/node_env.conf` and add to it:
+:::note
+As of today (20\12\2020), I initially install **nodejs** version `10.23.0` due to compatibility issues.
+:::
 
-```vi title="F:\Portable\git\etc\node_env.conf"
+:::caution 
+Last time I installed the non-portable version. See [**Non-portable nodejs**](#non-portable-nodejs) section.
+:::
+
+### Portable nodejs
+
+:::tip 
+Download `.zip` file and unzip it (for example, **node-v10.23.0-win-x64.zip**) to `F:\Portable` folder.
+:::
+
+Create a config file `/etc/node_env.conf` (WIndows location `F:\Portable\git\etc\node_env.conf`) and add to it:
+
+```vim title="\etc\node_env.conf"
 # Include node PATH
 PATH=$PATH:/f/Portable/node-v10.23.0
 ```
 
 Add the following to `/etc/profile` (Windows location `F:\Portable\git\etc\profile`) just before exporting the PATH:
 
-```bash
+```bash title="/etc/profile"
 source "/etc/node_env.conf"
 ```
 
@@ -32,15 +46,21 @@ Restart shell.
 
 Test:
 
-```bash
+```bash title="Git-Bash"
 node --version
 ```
+v10.23.0
 
+### Non-Portable nodejs
+
+:::tip MSI installer
+You needs to download `.msi` file (for example, **node-v10.23.0-x64.msi**) and run it with default settings. No other setting are required (you may need to restart your terminal or VS Code).
+:::
 ## SSH
 
 Generate new ssh keys:
 
-```bash
+```bash title="Git-Bash"
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
