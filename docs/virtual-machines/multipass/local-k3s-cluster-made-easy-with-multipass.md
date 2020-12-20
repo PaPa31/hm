@@ -11,9 +11,9 @@ sidebar_label: Local K3s Cluster with Multipass
 [Luc Juggery](https://medium.com/@lucjuggery)
 
 
-[Nov 8, 2019](https://medium.com/better-programming/local-k3s-cluster-made-easy-with-multipass-108bf6ce577c) · 4 min read
+Nov 8, 2019 · 4 min read · [source](https://medium.com/better-programming/local-k3s-cluster-made-easy-with-multipass-108bf6ce577c) 
 
-![](https://miro.medium.com/max/2264/1*-Alr4CVTx_zV3o9uuHimsA.png)
+[![](1_-Alr4CVTx_zV3o9uuHimsA.png)](1_-Alr4CVTx_zV3o9uuHimsA.png)
 
 A couple of weeks ago, I stumble upon [Multipass](https://multipass.run), a tool that allows you to spin up Ubuntu VMs in a matter of seconds on a Mac, Linux, or Windows workstation.
 
