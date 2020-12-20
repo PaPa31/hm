@@ -13,7 +13,8 @@ Computer perfomance test utilities (in `super` folder)
 
 ![test winaero](computer-test-12-12-2020.png)
 
-### VBS Script
+## Crystal Disk Mark 3.0.4
 
-![test winaero](computer-test-script-2020-12-12.png)
+512Gb NVMe disk (1th partition 60Gb)
 
+![Crystal Disk Mark test 513Gb NVMe disk](crystal-disk-mark-2020-12-20.jpg)
