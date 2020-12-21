@@ -67,4 +67,4 @@ However, there are still some styles that Prettier cannot pick up.
 | **test** | Добавление тестов |  
 
 
-* We write the description in an inmperative mood like git itself
+* We write the description in an imperative mood like git itself
