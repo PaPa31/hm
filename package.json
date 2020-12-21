@@ -8,7 +8,7 @@
     "start": "cross-env BASE_URL='/hm/' docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "cross-env BASE_URL='/hm/' GIT_USER=papa31 USE_SSH=true docusaurus deploy",
+    "deploy": "cross-env BASE_URL='/hm/' GIT_USER=git USE_SSH=true docusaurus deploy",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear"
   },
