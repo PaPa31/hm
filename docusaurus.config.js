@@ -1,8 +1,10 @@
+const baseUrl = process.env.BASE_URL || '/';
+
 module.exports = {
   title: 'hm',
   tagline: 'Human@Machine',
   url: 'https://papa31.github.io',
-  baseUrl: '/hm/',
+  baseUrl,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

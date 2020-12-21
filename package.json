@@ -5,10 +5,10 @@
   "homepage": "/hm",
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "cross-env BASE_URL='/hm/' docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "deploy": "cross-env BASE_URL='/hm/' GIT_USER=papa31 USE_SSH=true docusaurus deploy",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear"
   },
@@ -33,5 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
