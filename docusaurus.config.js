@@ -112,7 +112,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.auto.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/papa31/hm/edit/main/',
+            'https://github.com/papa31/hm/edit/documentation/',
             remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
         },
         blog: {
