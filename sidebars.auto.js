@@ -61,7 +61,7 @@ module.exports = {
             "new-disk/how-copy-big-files",
             "new-disk/new-windows-setup",
             "new-disk/partitioning-new-disk",
-            "new-disk/powerline-in-powershell",
+            "new-disk/windows-terminal",
             "new-disk/yandex-disk-how-download"
         ]
     },
@@ -104,9 +104,12 @@ module.exports = {
         "type": "category",
         "label": "thoughts",
         "items": [
+            "thoughts/fucking-american-bastards",
             "thoughts/papa-constant",
             "thoughts/smert-navernoe-samoe-nadezhnoe",
-            "thoughts/u-menya-vnutri-vse-zasoprotivlyalos"
+            "thoughts/u-menya-vnutri-vse-zasoprotivlyalos",
+            "thoughts/u-sytogo-vsegda-golodnyi-vinovat",
+            "thoughts/vot-ka4us-ya-v-sankah"
         ]
     },
     {
@@ -124,6 +127,8 @@ module.exports = {
                 "type": "category",
                 "label": "multipass",
                 "items": [
+                    "virtual-machines/multipass/install-setup-multipass",
+                    "virtual-machines/multipass/lets-run-linux",
                     "virtual-machines/multipass/local-k3s-cluster-multipass",
                     "virtual-machines/multipass/working-with-multipass-instances"
                 ]
