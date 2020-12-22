@@ -3,7 +3,7 @@ id: npm-to-yarn
 title: npm2yarn
 ---
 
-If you want this Tabs behavier:
+If you want this `Tabs` behavier:
 
 ```bash npm2yarn
 npm install @docusaurus/remark-plugin-npm2yarn
@@ -15,11 +15,17 @@ without annoying coding, you need to install npm2yarn plugin. It transforms npm 
 It only works when used with Docusaurus themes that have the Tabs and TabItems components.
 :::
 
+## Install
+
+Run this command to install the plugin:
+
 ```bash npm2yarn
 npm install @docusaurus/remark-plugin-npm2yarn
 ```
 
-And add following three lines to your `docusaurus.config.js`:
+## Setup
+
+Add the following three lines to `docusaurus.config.js` file:
 
 
 ```js {8,12,16} title="docusaurus.config.js"
@@ -48,7 +54,21 @@ module.exports = {
 };
 ```
 
-Then you need clear cache:
+## Usage
+
+Copy this code:
+
+    ```bash npm2yarn
+    npm install @docusaurus/remark-plugin-npm2yarn
+    ```
+
+and past it in your markdown document to see plugin in action.
+
+:::note Cache
+If your code doesn't work, you may need to clear the cache.
+:::
+
+## Clear Cache
 
 ```bash npm2yarn
 npm run clear
@@ -61,4 +81,5 @@ npm run start
 ```
 
 to check if the plugin is working.
+
 
