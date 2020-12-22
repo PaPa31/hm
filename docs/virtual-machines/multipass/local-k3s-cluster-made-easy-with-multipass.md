@@ -55,7 +55,7 @@ service that manages Ubuntu instances.Options:
   version   Show version details
 ```
 
-## **Creation of the VMs**
+## Creation of the VMs
 
 First, we create three VMs, keeping the default configuration of one CPU and 1GB RAM.
 
