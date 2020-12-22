@@ -1,19 +1,56 @@
 ---
-id: powerline-in-powershell
-title: Powerline in PowerShell
+title: Windows Terminal
 ---
-
+source: https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup
 
 Powerline uses glyphs in order to style the prompt. If your font does not include Powerline glyphs, you may see several Unicode replacement characters '▯' throughout your prompt. Though [Cascadia Mono](https://docs.microsoft.com/en-us/windows/terminal/cascadia-code) does not include Powerline glyphs, you can install Cascadia Code PL or Cascadia Mono PL, which have the Powerline glyphs included. These fonts can be installed from the [Cascadia Code GitHub releases page](https://github.com/microsoft/cascadia-code/releases).
 
+
+## Installation
+
+You can install Windows Terminal from the [Microsoft Store](https://aka.ms/terminal).
+
+If you don't have access to the Microsoft Store, the builds are published on the [GitHub releases page](https://github.com/microsoft/terminal/releases). If you install from GitHub, the terminal will not automatically update with new versions.
+
+:::danger Error
+```
+Microsoft.PowerShell_profile.ps1 cannot be loaded because running 
+scripts is disabled on this system.
+```
+:::
+
+To resolve issue, start Windows PowerShell with the "Run as administrator" option and run: 
+
+```powershell title="PowerShell"
+Set-ExecutionPolicy RemoteSigned  
+```
+ 
+
+You can check powershell execution policy: 
+```powershell  title="PowerShell"
+get-executionpolicy 
+```
+If you see above error, do this:
+
+```powershell 
+
+```
+
+## Powerline in PowerShell
 ### PowerShell prerequisites
 
 If you don't already have it, [install Git for Windows](https://git-scm.com/downloads).
 
-Using PowerShell, install Posh-Git and Oh-My-Posh:
+Using PowerShell, install Posh-Git:
 
 ```sh title="PowerShell"
 Install-Module posh-git -Scope CurrentUser
+```
+
+and Oh-My-Posh:
+
+
+```sh title="PowerShell"
 Install-Module oh-my-posh -Scope CurrentUser
 ```
 
