@@ -1,3 +1,7 @@
+---
+title: Working with Multipass Instances
+---
+
 source: https://discourse.ubuntu.com/t/working-with-multipass-instances/8422
 
 This page is a quick primer on how to use Multipass.
@@ -144,3 +148,8 @@ And more…
 ---------
 
 See our [Command-line reference](https://discourse.ubuntu.com/t/multipass-documentation-outline/8294#command-line-reference) for a complete listing of the available commands and their options.
+
+
+## Additional Resources
+
+- [Local K3s Cluster Made Easy With Multipass](local-k3s-cluster-multipass)
