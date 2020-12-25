@@ -155,6 +155,11 @@ Promo code: MEBGEDOSOBIY (-75₽)
 75₽ off per 2 270₽
 :::
 
+## December 24, 2020
+
+* M.2 NVMe S2Gb - 4254₽ (697 pieces available)
+
++ 108₽ 
 
 ---
 
