@@ -3,35 +3,35 @@ module.exports = {
   docs: [
     {
         "type": "category",
-        "label": "shells",
+        "label": "new-disk",
         "items": [
-            "shells/automatic-directory-tree",
-            {
-                "type": "category",
-                "label": "commands",
-                "items": [
-                    {
-                        "type": "category",
-                        "label": "sed",
-                        "items": [
-                            "shells/commands/sed/git-best-initial",
-                            "shells/commands/sed/sed-my-experience"
-                        ]
-                    }
-                ]
-            },
-            "shells/windows-terminal-tips-and-tricks"
+            "new-disk/computer-test",
+            "new-disk/git-bash-node-ssh",
+            "new-disk/how-copy-big-files",
+            "new-disk/new-windows-setup",
+            "new-disk/partitioning-new-disk",
+            "new-disk/windows-terminal",
+            "new-disk/yandex-disk-how-download"
         ]
     },
     {
         "type": "category",
-        "label": "disks",
+        "label": "computer",
         "items": [
-            "disks/yandex-disk-usage-cloud-storage"
+            "computer/new-computer-build"
         ]
     },
+    "doc1",
     "doc2",
     "doc3",
+    {
+        "type": "category",
+        "label": "games",
+        "items": [
+            "games/Cyberpunk 2077",
+            "games/Read Dead Redemption 2"
+        ]
+    },
     {
         "type": "category",
         "label": "location",
@@ -54,18 +54,33 @@ module.exports = {
     "mdx",
     {
         "type": "category",
-        "label": "new-disk",
+        "label": "disks",
         "items": [
-            "new-disk/computer-test",
-            "new-disk/git-bash-node-ssh",
-            "new-disk/how-copy-big-files",
-            "new-disk/new-windows-setup",
-            "new-disk/partitioning-new-disk",
-            "new-disk/windows-terminal",
-            "new-disk/yandex-disk-how-download"
+            "disks/yandex-disk-usage-cloud-storage"
         ]
     },
-    "doc1",
+    {
+        "type": "category",
+        "label": "shells",
+        "items": [
+            "shells/automatic-directory-tree",
+            {
+                "type": "category",
+                "label": "commands",
+                "items": [
+                    {
+                        "type": "category",
+                        "label": "sed",
+                        "items": [
+                            "shells/commands/sed/git-best-initial",
+                            "shells/commands/sed/sed-my-experience"
+                        ]
+                    }
+                ]
+            },
+            "shells/windows-terminal-tips-and-tricks"
+        ]
+    },
     {
         "type": "category",
         "label": "site-generators",
@@ -102,6 +117,21 @@ module.exports = {
     },
     {
         "type": "category",
+        "label": "stories",
+        "items": [
+            {
+                "type": "category",
+                "label": "new-ostap-bender",
+                "items": [
+                    "stories/new-ostap-bender/2020-12-23-ostapa-zaneslo",
+                    "stories/new-ostap-bender/Locations and Persons",
+                    "stories/new-ostap-bender/Американский отказной – Газета Коммерсантъ № 235 (6956) от 22.12.2020"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "category",
         "label": "thoughts",
         "items": [
             "thoughts/fucking-american-bastards",
@@ -127,8 +157,8 @@ module.exports = {
                 "type": "category",
                 "label": "multipass",
                 "items": [
-                    "virtual-machines/multipass/install-setup-multipass",
                     "virtual-machines/multipass/lets-run-linux",
+                    "virtual-machines/multipass/install-setup-multipass",
                     "virtual-machines/multipass/local-k3s-cluster-multipass",
                     "virtual-machines/multipass/working-with-multipass-instances"
                 ]
