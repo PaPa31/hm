@@ -125,7 +125,7 @@ module.exports = {
                 "items": [
                     "stories/new-ostap-bender/2020-12-23-ostapa-zaneslo",
                     "stories/new-ostap-bender/Locations and Persons",
-                    "stories/new-ostap-bender/Американский отказной – Газета Коммерсантъ № 235 (6956) от 22.12.2020"
+                    "stories/new-ostap-bender/americansky-otkaznoi-kommersant-22-12-2020"
                 ]
             }
         ]
