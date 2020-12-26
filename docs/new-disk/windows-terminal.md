@@ -89,7 +89,7 @@ Once your settings.json file opens, find the Windows PowerShell profile and add:
 
 Your Windows PowerShell profile settings.json file should now look like this:
 
-```json title="JSON"
+```json title="settings.json"
 {
     // Make changes here to the powershell.exe profile.
     "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -100,3 +100,35 @@ Your Windows PowerShell profile settings.json file should now look like this:
 },
 ```
 
+## After installing Git & Multipass
+
+Add this in `settings.json`:
+
+```json title="settings.json"
+{ 
+    "background" : "#350425", 
+    "commandline" : "multipass shell", 
+    "cursorShape" : "filledBox", 
+    "fontFace" : "Ubuntu Mono", 
+    "guid" : "{aaaa9e6d-1e09-4be6-b76c-82b4ba1885fb}", 
+    "historySize" : 50000, 
+    "icon" : "C:/Program Files/Multipass/bin/multipass_wt.ico", 
+    "name" : "Multipass" 
+},
+{ 
+    "background" : "#1a0a3f", 
+    "commandline" : "C:/Program Files/Git/bin/bash.exe", 
+    "cursorShape" : "filledBox", 
+    "fontFace" : "Cascadia Code PL", 
+    "guid" : "{00000000-0000-0000-0000-000000000001}", 
+    "historySize" : 50000, 
+    "icon" : "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico", 
+    "name" : "Git-Bash" 
+},
+```
+
+To see `default.json` you must hold Alt key and click Settings in Windows Terminal menu. 
+
+:::caution
+But I can't change `default.json` from Windows 10 due to permission issue.
+:::
