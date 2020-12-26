@@ -185,7 +185,7 @@ But after copying from another disk (cloning) the Descktop Icons disappear.
 
 ## Games
 
-[Read Dead Redemption 2](../games/Read%20Dead%20Redemption%202)
+[Read Dead Redemption 2](../games/rdr2-reinstall-win)
 ## VS Code
 
 VS Code started well (exept font), but I've got this:

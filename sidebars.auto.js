@@ -29,7 +29,7 @@ module.exports = {
         "label": "games",
         "items": [
             "games/Cyberpunk 2077",
-            "games/Read Dead Redemption 2"
+            "games/rdr2-reinstall-win"
         ]
     },
     {
