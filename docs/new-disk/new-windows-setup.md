@@ -3,43 +3,30 @@ id: new-windows-setup
 title: New Windows Setup
 ---
 
-### 4 Folders
+## Make Partitions on the Disk
 
-```bash
-F:\OneDrive\super   # starter apps
-```
-
-```bash
-F:\Yandex.Disk-visi\middle   # additional apps
-```
-
-```bash
-F:\Yandex.Disk-parsh\hm   # doc files
-```
-
-```bash
-F:\GoogleDrive\down   # working files 
-```
+see: [partitioning-new-disk](partitioning-new-disk)
+## Make 4 Folders
 
 ### Directory Tree
 ```bash
 F:\ # root directory of second partition
 │
 ├── OneDrive
-│   └── super
+│   └── super           # starter apps
 │
 ├── Yandex.Disk-visi
-│   └── middle
+│   └── middle          # additional apps
 │
 ├── Yandex.Disk-parsh
-│   └── hm
+│   └── hm              # doc files
 │
 ├── GoogleDrive
-│   └── down
+│   └── down            # working files 
 │
 ├── ...
 ```
-## starter apps
+## Install Clouds
 
 ---
 
@@ -106,7 +93,7 @@ explorer.exe
 To avoid data loss, do not forcefully empty the remote cloud storage trash when you change the location of your local storages.
 :::
 
-## starter apps (continued)
+## Install Git-linked apps
 ---
 ### 5. [VS Code](https://code.visualstudio.com/download "direct download link")  
 ~~choose `System Installer`, installation to `F:\Program Files\VS Code`~~
@@ -127,15 +114,12 @@ To sync VS Code I chose PaPa31(GitHub) account
 If you choose the ***non-portable*** version it will not atomatically put a Git-Bash entry in `settings.json` of Windows Terminal. Manual configuration required.
 :::
 
-### 7. [Cascadia Code Font](https://github.com/tonsky/FiraCode/releases "release page")  
+## Install Fonts
+
+### 7. [Cascadia Code](https://github.com/tonsky/FiraCode/releases "release page")  
 With Powerline glyphs. Mainly for PowerShell terminal (git).
 
-:::tip 
-See [Installing Fonts](#installing-fonts) below.
-:::
-
-
-### 8. [Fira Code Font](https://github.com/microsoft/cascadia-code/releases "release page")  
+### 8. [Fira Code](https://github.com/microsoft/cascadia-code/releases "release page")  
 Mainly for VS Code
 
 
