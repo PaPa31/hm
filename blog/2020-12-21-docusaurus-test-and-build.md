@@ -7,7 +7,7 @@ author_image_url: https://graph.facebook.com/611217057/picture/?height=200&width
 tags: [docusaurus, settings]
 description: Setup all 3 ways Docusaurus start
 image: https://i.imgur.com/mErPwqL.png
-draft: true
+draft: false
 ---
 
 To test your Docusaurus pages in a browser, you need to do [this setup](#) and run: `npm run start`.
