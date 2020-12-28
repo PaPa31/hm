@@ -5,6 +5,7 @@ module.exports = {
         "type": "category",
         "label": "new-disk",
         "items": [
+            "new-disk/additional-apps",
             "new-disk/computer-test",
             "new-disk/git-bash-node-ssh",
             "new-disk/how-copy-big-files",
@@ -136,6 +137,7 @@ module.exports = {
         "items": [
             "thoughts/fucking-american-bastards",
             "thoughts/papa-constant",
+            "thoughts/prometheus-lenin-torvalds",
             "thoughts/smert-navernoe-samoe-nadezhnoe",
             "thoughts/u-menya-vnutri-vse-zasoprotivlyalos",
             "thoughts/u-sytogo-vsegda-golodnyi-vinovat",
