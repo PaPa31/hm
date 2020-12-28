@@ -4,7 +4,7 @@ title: Partitioning a New Disk
 ---
 
 If you bought new disk you need to partition it and install OS in one of these partitions.
-I have 512Gb NVMe disk
+I have 512Gb NVMe disk.
 
 
 ## Linux 
@@ -53,7 +53,7 @@ active
 list volume
 exit
 ```
-and reenter to windows insatll proccess. Your partition be signed as a system type.
+and enter to the windows install process again. Your partition be signed as a system type.
 
 ### Edit Partition in cmd
 
