@@ -20,7 +20,7 @@ As of today (20\12\2020), I initially install **nodejs** version `10.23.0` due t
 :::
 
 :::caution 
-Last time I installed the non-portable version. See [**Non-portable nodejs**](#non-portable-nodejs) section.
+Last time I installed the non-portable version. See [**Non-portable nodejs**](#non-portable-nodejs) section. Main reason: When and if you install a new Windows, you lose all the old `environment variables`. And you need to reinstall all the `git-linked` apps.
 :::
 
 ### Portable nodejs
