@@ -33,7 +33,7 @@ A discount of almost 200₽!
 
 -196₽ (4.5%)
 
-[![hot-deal](hot-deal-black-friday-aliexpress.jpg)](hot-deal-black-friday-aliexpress.jpg)
+![hot-deal](hot-deal-black-friday-aliexpress.jpg)
 
 
 :::info Extra discounts
@@ -123,19 +123,19 @@ Another SSD:
 * M.2 NVMe SSD 1Tb - 7235₽ (103 pieces available) +5₽
 
 :::info Seller coupon
-Save up to 604₽ on orders over 11 335₽ (5%) <br />
-Save up to 1511₽ on orders over 75 495₽ (2%) <br />
+Save up to 604₽ on orders over 11 335₽ (5%)  
+Save up to 1511₽ on orders over 75 495₽ (2%)  
 Valid: Dec 8 - Feb 1
 :::
 
 :::info Instant discount
-Buy 10 get 1% off<br />
+Buy 10 get 1% off  
 Buy 15 get 2% off
 :::
 
 ## December 10, 2020 (Thursday)
 
-* M.2 NVMe S2Gb - 4169₽ (241 pieces available)
+* M.2 NVMe 512Gb - 4169₽ (241 pieces available)
 
 +20₽
 
@@ -146,7 +146,7 @@ Another SSD:
 
 ## December 17, 2020
 
-* M.2 NVMe S2Gb - 4281₽ (934 pieces available)
+* M.2 NVMe 512Gb - 4281₽ (934 pieces available)
 
 +135₽
 
@@ -157,17 +157,34 @@ Promo code: MEBGEDOSOBIY (-75₽)
 
 ## December 24, 2020
 
-* M.2 NVMe S2Gb - 4254₽ (697 pieces available)
+* M.2 NVMe 512Gb - 4254₽ (697 pieces available)
 
-+ 108₽ 
++108₽ 
+
+
+## December 29, 2020
+
+![right new year Aliexpress banner](right-new-year-banner.png)
+
+* M.2 NVMe 512Gb - 4189₽ (36 pieces available)
+
++43₽
+
+:::info Seller coupon
+Save up to 455₽ on orders over 4 932₽ (9%)  
+Save up to 758₽ on orders over 37 939₽ (2%)  
+Valid: Dec 25 - Jan 5
+:::
+
+
 
 ---
 
 
-## Dollar course
+## Dollar-Ruble exchange rate
 
 :::danger Dollar fell by 2 rubles (26.11-17.12)
-![dollar to ruble November 26, 2020 ](dollar-to-ruble-26-11-2020.jpg) ![dollar to ruble December 8, 2020 ](dollar-to-ruble-17-12-2020.jpg)
+![dollar to ruble November 26, 2020 ](dollar-to-ruble-26-11-2020.jpg) ![dollar to ruble December 28, 2020 ](dollar-to-ruble-28-12-2020.png)
 :::
 
 ---
