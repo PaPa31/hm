@@ -19,6 +19,33 @@ module.exports = {
         "type": "category",
         "label": "computer",
         "items": [
+            {
+                "type": "category",
+                "label": "components",
+                "items": [
+                    "computer/components/adapters",
+                    "computer/components/audio-speakers",
+                    "computer/components/cables",
+                    "computer/components/components",
+                    "computer/components/cooler",
+                    "computer/components/coolers",
+                    "computer/components/cpu",
+                    "computer/components/disk",
+                    "computer/components/display",
+                    "computer/components/headphones",
+                    "computer/components/housing",
+                    "computer/components/keyboard",
+                    "computer/components/memory",
+                    "computer/components/microphone",
+                    "computer/components/motherboard",
+                    "computer/components/mouse",
+                    "computer/components/power-supply",
+                    "computer/components/thermal-grease",
+                    "computer/components/videocard",
+                    "computer/components/webcam",
+                    "computer/components/wi-fi"
+                ]
+            },
             "computer/new-computer-build"
         ]
     },
