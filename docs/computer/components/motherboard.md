@@ -1,3 +1,8 @@
-| # | Motherboard  
--|-
-1 | 6000
+## LGA2011-3
+
+
+| # | name | 01/01 | 04/01 | 06/01 
+-|-|-|-|-
+1 | X99-v201 2-channel [1](https://aliexpress.ru/item/4000868280446.html?af=135875_1&utm_campaign=135875_1&aff_platform=portals-tool&utm_medium=cpa&afref=https%3A%2F%2Fwww.youtube.com&cn=46qm3iu58pvt5rvlrn5kklzdvy84fw0y&dp=v5_46qm3iu58pvt5rvlrn5kklzdvy84fw0y&cv=38517779&product_id=4000868280446&sk=_d7Wwn2s&aff_trace_key=600269bad5d945369df957c0b539ad58-1609236509957-09785-_d7Wwn2s&terminal_id=e8b38080e7fc4bdb979c7f012f1f8489&utm_source=epn&utm_content=38517779&sku_id=10000015611113157 "RE Store") | 5149 | | 5246
+2 | X99-RS9 red MACHINIST [2](https://aliexpress.ru/item/4000750170401.html?spm=a2g0o.detail.0.0.67ba1be49J6xLn&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.197732.0&scm_id=1007.12908.197732.0&scm-url=1007.12908.197732.0&pvid=b9c11ce8-07dc-4aa7-8753-0f8b9a564eb4&_t=gps-id:pcDetailCartBuyAlsoBuy,scm-url:1007.12908.197732.0,pvid:b9c11ce8-07dc-4aa7-8753-0f8b9a564eb4,tpp_buckets:21387%230%23183380%230&sku_id=12000015918457420 "MACHINIST Store") | 5310 | | 5332
+3 | X99-K9 white MACHINIST [2](https://aliexpress.ru/item/4000383007258.html?af=135875_1&utm_campaign=135875_1&aff_platform=api&utm_medium=cpa&afref=https%3A%2F%2Fwww.youtube.com&cn=43qm3ix1emktjlktfb0iqt26d6xo6uhy&dp=v5_43qm3ix1emktjlktfb0iqt26d6xo6uhy&cv=38517779&product_id=4000383007258&sk=_Bf6DEHGL&aff_trace_key=3ea7854380fd41b3b8fdb6ff03595a5f-1609236614039-08224-_Bf6DEHGL&terminal_id=e8b38080e7fc4bdb979c7f012f1f8489&utm_source=epn&utm_content=38517779 "MACHINIST Store") [3](https://aliexpress.ru/item/4000842821384.html?af=135875_1&utm_campaign=135875_1&aff_platform=api&utm_medium=cpa&afref=https%3A%2F%2Fwww.youtube.com&cn=43qm3ix2cjsn1201q71ie4mtrj0amzkp&dp=v5_43qm3ix2cjsn1201q71ie4mtrj0amzkp&cv=38517779&product_id=4000842821384&sk=_dYL7vrV&aff_trace_key=8c247802ecd548d9a21504b981d16773-1609236614678-00535-_dYL7vrV&terminal_id=e8b38080e7fc4bdb979c7f012f1f8489&utm_source=epn&utm_content=38517779&sku_id=10000009106945910 "Good Luck 7 Store") | 6061  | | 6085
