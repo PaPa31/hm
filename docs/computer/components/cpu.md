@@ -8,4 +8,4 @@
 
 [Camparison](https://www.chaynikam.info/cpu_comparison.html?Xeon_E5-2678_v3&Xeon_E5-2620_v3&Xeon_E5-2689&Xeon_E5-2689_v4conf2=`0`````2689`159`)
 
-[TechnoPlanet rating of Intel Xeon 2600-series CPUs](Rating_CPU_LGA2011-3.xlsx)
+[TechnoPlanet rating of Intel Xeon 2600 V3 series CPUs](https://vk.com/doc37616421_571053682?hash=182c373b4548013b20)
