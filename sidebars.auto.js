@@ -46,7 +46,8 @@ module.exports = {
                     "computer/components/wi-fi"
                 ]
             },
-            "computer/new-computer-build"
+            "computer/new-computer-build",
+            "computer/videos"
         ]
     },
     "doc1",

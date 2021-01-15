@@ -4,6 +4,8 @@ title: When Starting Black Friday
 description: "Photos and links of 3 things I bought on November 26, 2020 on Black Friday"
 ---
 
+[cashback Umoney](https://yoomoney.ru/promo/offer/4164-aliexpress?viewId=35ed027c-5ff6-c4e4-ce58-2dbb000f0000)
+
 I found a holiday calendar with impact of the holidays on buyers.
 
 ![seasonality-google-adsense](seasonality-google-adsense.jpg)
@@ -176,7 +178,13 @@ Save up to 758₽ on orders over 37 939₽ (2%)
 Valid: Dec 25 - Jan 5
 :::
 
+## January 07, 2021
 
+* M.2 NVMe 512Gb - 4198₽ (1323 pieces available)
+
+:::info Seller coupon
+Get 76,05 руб. off on orders over 1 521,02 руб.
+:::
 
 ---
 

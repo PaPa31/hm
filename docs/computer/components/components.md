@@ -35,3 +35,12 @@
 
 - [thermal-grease](thermal-grease)
 
+## Cashback
+
+ [YooMoney](https://yoomoney.ru/promo/offer/4164-aliexpress?viewId=35ed027c-5ff6-c4e4-ce58-2dbb000f0000)
+
+ [GdePosylka](#)
+
+## Someone else's Experience 
+
+[Его удачные и неудачные покупки из Китая](https://pc-01.tech/ali2020/)
