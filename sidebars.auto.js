@@ -63,6 +63,13 @@ module.exports = {
     },
     {
         "type": "category",
+        "label": "goods",
+        "items": [
+            "goods/goods"
+        ]
+    },
+    {
+        "type": "category",
         "label": "location",
         "items": [
             {

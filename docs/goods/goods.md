@@ -1,0 +1,5 @@
+### Soldering Iron
+
+| # | name | photo | store | 16/01
+-|-|-|-|-|-|-|-|-
+1 | CXG E60W Digital LCD Adjustable | [![](CXG-E60W-E90W-E110W-Digital-LCD-Adjustable-NC-thermostat-Electric-soldering-iron-handle-Welding-repair-10_640x640.jpg)](CXG-E60W-E90W-E110W-Digital-LCD-Adjustable-NC-thermostat-Electric-soldering-iron-handle-Welding-repair-10_640x640.jpg)|[1](https://www.aliexpress.com/item/4000040337238.html?cv=815660&af=327745&utm_campaign=327745&aff_platform=link-c-tool&utm_medium=cpa&afref=https%3A%2F%2Faway.vk.com%2F&sk=mr6wR6CC&aff_trace_key=e8571299dac742c4817d3dbb39a3047d-1610709018821-08521-mr6wR6CC&dp=2486f63829caf21c01d331264e0d47b2&terminal_id=e8b38080e7fc4bdb979c7f012f1f8489&utm_source=admitad&utm_content=815660&sku_id=10000000090036652 "HK POVOS Electronic Technology Co Ltd") | 21.67(1593)-1633
