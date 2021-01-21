@@ -40,6 +40,7 @@ module.exports = {
                     "computer/components/motherboard",
                     "computer/components/mouse",
                     "computer/components/power-supply",
+                    "computer/components/sets",
                     "computer/components/thermal-grease",
                     "computer/components/videocard",
                     "computer/components/webcam",

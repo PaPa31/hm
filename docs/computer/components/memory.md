@@ -9,3 +9,12 @@ DDR4
 |1 | 1340    |         |         | 2174    | 2250    |`3755`    | 3452     | 3995     | 4894     |          | 7549
 |2 | 1356    | 1432    | 3793    | 2115    | 2267    | 4324     | 3489     | 4096     | 4931     |  7275    | 7578     |  9559
 |3 | 1280    | 1356    | 1432    | 2039    | 2115    | 2191     | 3481     |  3557    | 3663     |  7047    | 7275     |  7578    | 2267    | 3784
+
+### RAM
+
+| # | name | Store | 01/01 | 18/01
+-|-|-|-|-
+0 | 8Gb 1866GHz DDR3 ECC-REG | [1](https://aliexpress.ru/item/32858884585.html "AliExpress - Yao Yue Store") [5](https://www.aliexpress.com/item/32831327978.html "AliExpress - adkg816 Store") | - | $25 |
+1 | 8Gb 2666GHz DDR4 ECC-REG | [1](https://aliexpress.ru/item/33009776003.html "AliExpress - Yao Yue Store") | - | |
+2 | 8Gb 2666GHz DDR4 Desktop | [2](https://www.aliexpress.com/item/1005001627188360.html "AliExpress - RASALAS - RA Store") [3](https://www.aliexpress.com/item/32963414963.html "AliExpress - TANBASSH - TANBASSH Official Store") [4](https://aliexpress.ru/item/4000796954250.html "AliExpress - Kingston - YONGXINSHENG YongXinSheng Store") | - | $30
+3 | 8Gb 2666GHz DDR4 Desktop | [6](https://www.aliexpress.com/item/4000595417045.html "AliExpress - CPU Store") | - | $31 |
