@@ -1,7 +1,20 @@
 
 module.exports = {
   docs: [
-    "mdx",
+    {
+        "type": "category",
+        "label": "new-disk",
+        "items": [
+            "new-disk/additional-apps",
+            "new-disk/computer-test",
+            "new-disk/git-bash-node-ssh",
+            "new-disk/how-copy-big-files",
+            "new-disk/new-windows-setup",
+            "new-disk/partitioning-new-disk",
+            "new-disk/windows-terminal",
+            "new-disk/yandex-disk-how-download"
+        ]
+    },
     {
         "type": "category",
         "label": "computer",
@@ -83,6 +96,7 @@ module.exports = {
             }
         ]
     },
+    "mdx",
     {
         "type": "category",
         "label": "disks",
@@ -92,16 +106,9 @@ module.exports = {
     },
     {
         "type": "category",
-        "label": "new-disk",
+        "label": "pdf",
         "items": [
-            "new-disk/additional-apps",
-            "new-disk/computer-test",
-            "new-disk/git-bash-node-ssh",
-            "new-disk/how-copy-big-files",
-            "new-disk/new-windows-setup",
-            "new-disk/partitioning-new-disk",
-            "new-disk/windows-terminal",
-            "new-disk/yandex-disk-how-download"
+            "pdf/pdf"
         ]
     },
     {
