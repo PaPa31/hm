@@ -1,20 +1,7 @@
 
 module.exports = {
   docs: [
-    {
-        "type": "category",
-        "label": "new-disk",
-        "items": [
-            "new-disk/additional-apps",
-            "new-disk/computer-test",
-            "new-disk/git-bash-node-ssh",
-            "new-disk/how-copy-big-files",
-            "new-disk/new-windows-setup",
-            "new-disk/partitioning-new-disk",
-            "new-disk/windows-terminal",
-            "new-disk/yandex-disk-how-download"
-        ]
-    },
+    "mdx",
     {
         "type": "category",
         "label": "computer",
@@ -56,6 +43,13 @@ module.exports = {
     "doc3",
     {
         "type": "category",
+        "label": "entrance",
+        "items": [
+            "entrance/docusaurus"
+        ]
+    },
+    {
+        "type": "category",
         "label": "games",
         "items": [
             "games/Cyberpunk 2077",
@@ -66,6 +60,7 @@ module.exports = {
         "type": "category",
         "label": "goods",
         "items": [
+            "goods/arduino",
             "goods/goods"
         ]
     },
@@ -88,12 +83,25 @@ module.exports = {
             }
         ]
     },
-    "mdx",
     {
         "type": "category",
         "label": "disks",
         "items": [
             "disks/yandex-disk-usage-cloud-storage"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "new-disk",
+        "items": [
+            "new-disk/additional-apps",
+            "new-disk/computer-test",
+            "new-disk/git-bash-node-ssh",
+            "new-disk/how-copy-big-files",
+            "new-disk/new-windows-setup",
+            "new-disk/partitioning-new-disk",
+            "new-disk/windows-terminal",
+            "new-disk/yandex-disk-how-download"
         ]
     },
     {
