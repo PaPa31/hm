@@ -91,7 +91,8 @@ module.exports = {
                         "items": [
                             "location/Lvovskaya-2020-2021/black-friday-orders/when-starting-black-friday"
                         ]
-                    }
+                    },
+                    "location/Lvovskaya-2020-2021/rostelekom"
                 ]
             }
         ]
