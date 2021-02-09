@@ -28,4 +28,3 @@ This number (100..00<sub>2</sub> = -2<sup>N-1</sup>) is the *most negative*  of 
 - [Twos Complement Overflow](twos-complement-overflow)
 - [Range Number Systems](range-number-systems)
 - [Sign Extension](sign-extension)
-- [overflow](20210206130240)
