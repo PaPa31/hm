@@ -9,7 +9,7 @@ Binary numbers are very simple. In ancient Egypt and China, people coded some ki
 - 0 - no light
 - 1 - there is light
 
-|![God's binary](gods-binary.svg)|
+|[![God's binary](gods-binary.svg)](gods-binary.svg)|
 |-|
 
 ## Binary/Boolean Logic
