@@ -1,20 +1,7 @@
 
 module.exports = {
   docs: [
-    {
-        "type": "category",
-        "label": "new-disk",
-        "items": [
-            "new-disk/additional-apps",
-            "new-disk/computer-test",
-            "new-disk/git-bash-node-ssh",
-            "new-disk/how-copy-big-files",
-            "new-disk/new-windows-setup",
-            "new-disk/partitioning-new-disk",
-            "new-disk/windows-terminal",
-            "new-disk/yandex-disk-how-download"
-        ]
-    },
+    "mdx",
     {
         "type": "category",
         "label": "computer",
@@ -49,6 +36,37 @@ module.exports = {
             },
             "computer/new-computer-build",
             "computer/videos"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "digital-design",
+        "items": [
+            {
+                "type": "category",
+                "label": "binary-numbers",
+                "items": [
+                    "digital-design/binary-numbers/binary-numbers",
+                    "digital-design/binary-numbers/crash-due-to-overflow",
+                    "digital-design/binary-numbers/ones-complement",
+                    "digital-design/binary-numbers/range-number-systems",
+                    "digital-design/binary-numbers/sign-extension",
+                    "digital-design/binary-numbers/sign-with-magnitude",
+                    "digital-design/binary-numbers/three-ideas-signed-binary-numbers",
+                    "digital-design/binary-numbers/twos-complement-overflow",
+                    "digital-design/binary-numbers/twos-complement",
+                    "digital-design/binary-numbers/weird-number"
+                ]
+            },
+            "digital-design/exercises",
+            "digital-design/nand"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "disks",
+        "items": [
+            "disks/yandex-disk-usage-cloud-storage"
         ]
     },
     "doc1",
@@ -97,12 +115,25 @@ module.exports = {
             }
         ]
     },
-    "mdx",
     {
         "type": "category",
-        "label": "disks",
+        "label": "data",
         "items": [
-            "disks/yandex-disk-usage-cloud-storage"
+            "data/googles-protocol-buffers"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "new-disk",
+        "items": [
+            "new-disk/additional-apps",
+            "new-disk/computer-test",
+            "new-disk/git-bash-node-ssh",
+            "new-disk/how-copy-big-files",
+            "new-disk/new-windows-setup",
+            "new-disk/partitioning-new-disk",
+            "new-disk/windows-terminal",
+            "new-disk/yandex-disk-how-download"
         ]
     },
     {
@@ -110,6 +141,23 @@ module.exports = {
         "label": "pdf",
         "items": [
             "pdf/pdf"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "rhyme",
+        "items": [
+            "rhyme/all-rhymes",
+            {
+                "type": "category",
+                "label": "sound",
+                "items": [
+                    "rhyme/sound/all-sounds",
+                    "rhyme/sound/ded-moroz-i-santa-claus",
+                    "rhyme/sound/hash"
+                ]
+            },
+            "rhyme/wolfs"
         ]
     },
     {
@@ -188,12 +236,17 @@ module.exports = {
         "label": "thoughts",
         "items": [
             "thoughts/fucking-american-bastards",
+            "thoughts/kipling",
+            "thoughts/knowledge-fences",
+            "thoughts/magic-wand",
+            "thoughts/more-reliable-than-death",
             "thoughts/papa-constant",
             "thoughts/prometheus-lenin-torvalds",
-            "thoughts/smert-navernoe-samoe-nadezhnoe",
             "thoughts/u-menya-vnutri-vse-zasoprotivlyalos",
             "thoughts/u-sytogo-vsegda-golodnyi-vinovat",
-            "thoughts/vot-ka4us-ya-v-sankah"
+            "thoughts/vot-ka4us-ya-v-sankah",
+            "thoughts/ya-ocherstvel",
+            "thoughts/zachem-zhe-razmhozheniye"
         ]
     },
     {
@@ -223,7 +276,8 @@ module.exports = {
         "type": "category",
         "label": "vs-code",
         "items": [
-            "vs-code/fira-code"
+            "vs-code/fira-code",
+            "vs-code/keyboard-shortcuts"
         ]
     },
     {
@@ -238,6 +292,23 @@ module.exports = {
                     "workplace/git/git-best-practicies",
                     "workplace/git/git-workflow",
                     "workplace/git/resolving-git-line-ending-issues-in-wsl"
+                ]
+            },
+            "workplace/installed-programs",
+            {
+                "type": "category",
+                "label": "office",
+                "items": [
+                    "workplace/office/office-install"
+                ]
+            },
+            {
+                "type": "category",
+                "label": "onenote-to-markdown",
+                "items": [
+                    "workplace/onenote-to-markdown/chocolatey-install",
+                    "workplace/onenote-to-markdown/onenote-to-markdown",
+                    "workplace/onenote-to-markdown/pandoc-install"
                 ]
             }
         ]
