@@ -10,6 +10,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'papa31', // Usually your GitHub org/user name.
   projectName: 'hm', // Usually your repo name.
+  themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     hideableSidebar: true,
     sidebarCollapsible: true,
