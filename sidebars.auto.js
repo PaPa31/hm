@@ -58,7 +58,22 @@ module.exports = {
                     "digital-design/binary-numbers/weird-number"
                 ]
             },
-            "digital-design/exercises",
+            {
+                "type": "category",
+                "label": "exercises",
+                "items": [
+                    "digital-design/exercises/exercises-101-130",
+                    "digital-design/exercises/exercises-131-160",
+                    "digital-design/exercises/exercises-160-190"
+                ]
+            },
+            {
+                "type": "category",
+                "label": "logic-gates",
+                "items": [
+                    "digital-design/logic-gates/logic-gates"
+                ]
+            },
             "digital-design/nand"
         ]
     },
@@ -193,6 +208,7 @@ module.exports = {
                 "items": [
                     "site-generators/docusaurus/add-apple-style-window",
                     "site-generators/docusaurus/plugin-auto-sidebars",
+                    "site-generators/docusaurus/live-codeblock-theme",
                     "site-generators/docusaurus/npm-to-yarn",
                     "site-generators/docusaurus/typedoc-plugin"
                 ]
