@@ -356,7 +356,7 @@ or with two's complement numbers:
 (b) 1101 + 1011 = (-8+4+1) + (-8+2+1) = -3 + -5 = -8 (no overflow)
 
 :::info Two's Complement Overflow
-When adding numbers in the two's complement form overflow is discarding. See [two's complement overflow](binary-numbers/twos-complement-overflow)
+When adding numbers in the two's complement form overflow is discarding. See [two's complement overflow](../binary-numbers/twos-complement-overflow)
 :::
 
 ```
