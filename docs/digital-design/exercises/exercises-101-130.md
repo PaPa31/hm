@@ -3,7 +3,7 @@ id: exercises-101-130
 title: Exercises 1.1-1.30
 ---
 
-View all answers: [Harris Solutions](../pdf/harris-solutions.pdf)
+View all answers: [Harris Solutions](../../pdf/harris-solutions.pdf)
 
 And my Solutions below. Solutions marked with ![alt text][logo] symbol I must explore!
 
