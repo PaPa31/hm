@@ -4,7 +4,7 @@ title: Three Ideas of Signed Binary Numbers
 ---
 Big trilemma!
 
-In early years of digital computing, the computer industry faced a challenge - how to implement signed binary numbers. Competing ideas emerged both at the hardware and mathematical level. Scientists have split into three camps. The first camp implemented the idea of [ones' complement](ones-complement), the second - the idea of [two's complement](twos-complement) (this idea is the main one today), the third - the idea of [sign-with-magnitude](sign-with-magnitude).
+In early years of digital computing, the computer industry faced a challenge - how to implement signed binary numbers. Competing ideas emerged both at the hardware and mathematical levels. Scientists have split into three camps. The first camp implemented the idea of [ones' complement](ones-complement), the second - the idea of [two's complement](twos-complement) (this idea is the main one today), the third - the idea of [sign-with-magnitude](sign-with-magnitude).
 
 ## Comparison Number Systems
 
