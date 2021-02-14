@@ -9,11 +9,22 @@ And my Solutions below. Solutions marked with ![alt text][logo] symbol I must ex
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
 
+
+```jsx live
+function MyPlayground(props) {
+  return (
+    <div>
+      <ButtonExample onClick={() => alert('hey!')}>Click me</ButtonExample>
+    </div>
+  );
+}
+```
+
 ## Exercise 1.1 Three level of abstraction
 
  a) Biological abstraction at the cell level: ![alt text][logo]
 
-- g̶e̶n̶e̶s̶
+- ~~genes~~
 - D̶N̶K̶ m̶o̶l̶e̶c̶u̶l̶e̶s̶
 - c̶e̶l̶l̶ n̶u̶c̶l̶e̶u̶s̶  
 
@@ -173,6 +184,35 @@ Harrises: -(2<sup>31</sup>-1) = -2 147 483 647
 
 My:
 
+
+```js live
+class Counter extends React.Component {
+  constructor() {
+    super()
+    this.state = { count: 0 }
+  }
+
+  componentDidMount() {
+    this.interval = setInterval(() => {
+      this.setState(state => ({ count: state.count + 1 }))
+    }, 1000)
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval)
+  }
+
+  render() {
+    return (
+      <center>
+        <h3>
+          {this.state.count}
+        </h3>
+      </center>
+    )
+  }
+}
+```
 a) 1010<sub>2</sub> = 1x2<sup>3</sup> + 0x2<sup>2</sup> + 1x2<sup>1</sup> + 0x2<sup>0</sup> = 8 + 0 + 2 + 0 = 10<sub>10</sub>
 
 b) 110110<sub>2</sub> = 1x2<sup>5</sup> + 1x2<sup>4</sup> + 0x2<sup>3</sup> + 1x2<sup>2</sup> + 1x2<sup>1</sup> + 0x2<sup>0</sup> = 32 + 16 + 0 + 4 + 2 + 0 = 54<sub>10</sub>
@@ -180,6 +220,7 @@ b) 110110<sub>2</sub> = 1x2<sup>5</sup> + 1x2<sup>4</sup> + 0x2<sup>3</sup> + 1x
 c) 11110000<sub>2</sub> = 1x2<sup>7</sup> + 1x2<sup>6</sup> + 1x2<sup>5</sup> + 1x2<sup>4</sup> + 0x2<sup>3</sup> + 0x2<sup>2</sup> + 0x2<sup>1</sup> + 0x2<sup>0</sup> = 128 + 64 + 32 + 16 + 0 + 0 + 0 + 0= 240<sub>10</sub>
 
 d) 000100010100111<sub>2</sub> = 0 + 0 + 0 + 1x2<sup>11</sup> + 0x2<sup>10</sup> + 0x2<sup>9</sup> + 0x2<sup>8</sup> + 1x2<sup>7</sup> + 0x2<sup>6</sup> + 1x2<sup>5</sup> 0x2<sup>4</sup> + 0x2<sup>3</sup> + 1x2<sup>2</sup> + 1x2<sup>1</sup> + 1x2<sup>0</sup> = 2048 + 128 + 32 + 4 + 2 + 1 = 2215<sub>10</sub>
+
 
 Harrises:
 
