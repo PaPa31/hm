@@ -22,21 +22,35 @@ And my Solutions below. Solutions marked with ![alt text][logo] symbol I must ex
  a) Biological abstraction at the cell level:  
  
  <textarea>
- 12
- 4
+ Your answer: 
  </textarea>
 
-- ~~genes~~
-- ~~DNK molecules~~
-- ~~cell nucleus~~  
+My:
+```
+- genes
+- DNK molecules
+- cell nucleus
+``` 
 
- b) Abstractions of chemistry about material:
+Harrises: 
 
-- atom nucleus: electrons, protons, neutrons
-- atom
+Biologists study cells at many levels. The cells are built from organelles such as the mitochondria, ribosomes, and chloroplasts. Organelles are built of macromolecules such as proteins, lipids, nucleic acids, and carbohydrates. These biochemical macromolecules are built simpler molecules such as carbon chains and amino acids. When studying at one of these levels of abstraction, biologists are usually interested in the levels above and below: what the structures at that level are used to build, and how the structures themselves are built.
+
+b) Abstractions of chemistry about material:
+
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+```
+- atom: electrons, protons, neutrons
 - molecules
 - crystal cell
+```
+Harrises: 
 
+The fundamental building blocks of chemistry are electrons, protons, and neutrons (physicists are interested in how the protons and neutrons are built). These blocks combine to form atoms. Atoms combine to form molecules. For example, when chemists study molecules, they can abstract away the lower levels of detail so that they can describe the general properties of a molecule such as benzene without having to calculate the motion of the individual electrons in the molecule.
 ## Exercise 1.2 Using Hierarchy, Modularity, Regularity
 
 a) By automobile designers: Hierarchy - Split auto by an modules. Иерархия - всё разбито на системы. Системы на подсистемы. Модульность - выбор вариантов в магазине автозапчастей. Регулярность - расходники. От шин до незамерзайки с "елочкой" для запаха.
