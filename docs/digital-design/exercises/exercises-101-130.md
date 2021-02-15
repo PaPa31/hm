@@ -137,18 +137,6 @@ I was wrong! 5.65 bits - is the amount of information. This is one problem! How 
 
 a) You can read the hour each 15 minutes. How many bits you can convey?
 
- <textarea>
- Your answer: 
- </textarea>
-
-My: 
-
-60min/15min=4 12hours*4=48 log<sub>2</sub>40=5.58+1=6.68 bits 
-
-Harrises: 
-
-5.58 bits
-
 b) If include am and pm, how many bits added?
 
  <textarea>
@@ -157,11 +145,15 @@ b) If include am and pm, how many bits added?
 
 My: 
 
-~~2 bits~~
+a) 60min/15min=4 12hours*4=48 log<sub>2</sub>40=5.58+1=6.68 bits
+
+b) ~~2 bits~~
 
 Harrises: 
 
-1 bit
+a) 5.58 bits
+
+b) 1 bit
 
 :::tip Bit
 Two discrete values - are 1 bit. See [Bit](../binary-numbers/bit) 
@@ -171,18 +163,6 @@ Two discrete values - are 1 bit. See [Bit](../binary-numbers/bit)
 
 a) How many bits they conveyed with one digit?
 
- <textarea>
- Your answer: 
- </textarea>
-
-My: 
-
-log<sub>2</sub>60+1 = ~7
-
-Harrises:
-
-~6
-
 b) 4000<sub>10</sub> in sexagesimal?
 
  <textarea>
@@ -191,11 +171,15 @@ b) 4000<sub>10</sub> in sexagesimal?
 
 My: 
 
-16$, $=40
+a) log<sub>2</sub>60+1 = ~7
 
-Harrises: 
+b) 16$, $=40
 
-1 6 40<sub>60</sub>
+Harrises:
+
+a) ~6
+
+b) 1 6 40<sub>60</sub>
 
 ## Exercise 1.7 How many different numbers can be represent with 16 bits?
 
@@ -203,11 +187,7 @@ Harrises:
  Your answer: 
  </textarea>
 
-My: 
-
-2<sup>16</sup> =  65536
-
-Harrises: 
+Solution: 
 
 2<sup>16</sup> =  65536
 
@@ -229,31 +209,7 @@ Harrises:
 
 a) unsigned numbers?
 
- <textarea>
- Your answer: 
- </textarea>
-
-My: 
-
-2<sup>16</sup>-1 = 65535  
-
-Harrises: 
-
-2<sup>16</sup>-1 = 65535
-
 b) two's complement numbers?
-
- <textarea>
- Your answer: 
- </textarea>
-
-My: 
-
-2<sup>15</sup>-1 = 32767  
-
-Harrises: 
-
-2<sup>15</sup>-1 = 32767
 
 c) sign/magnitude numbers?
 
@@ -261,43 +217,19 @@ c) sign/magnitude numbers?
  Your answer: 
  </textarea>
 
-My: 
+Solution: 
 
-2<sup>15</sup>-1 = 32767  
+a) 2<sup>16</sup>-1 = 65535
 
-Harrises: 
+b) 2<sup>15</sup>-1 = 32767
 
-2<sup>15</sup>-1 = 32767
+c) 2<sup>15</sup>-1 = 32767
 
 ## Exercise 1.10 What is the largest 32-bit binary number that can be represented with
 
 a) unsigned numbers?
 
- <textarea>
- Your answer: 
- </textarea>
-
-My: 
-
-2<sup>32</sup>-1 = 4 294 967 295  
-
-Harrises: 
-
-2<sup>32</sup>-1 = 4 294 967 295
-
 b) two's complement numbers?
-
- <textarea>
- Your answer: 
- </textarea>
-
-My: 
-
-2<sup>31</sup>-1 = 2 147 483 647
-
-Harrises: 
-
-2<sup>31</sup>-1 = 2 147 483 647
 
 c) sign/magnitude numbers?
 
@@ -305,43 +237,19 @@ c) sign/magnitude numbers?
  Your answer: 
  </textarea>
 
-My: 
+Solution: 
 
-2<sup>31</sup>-1 = 2 147 483 647  
+a) 2<sup>32</sup>-1 = 4 294 967 295
 
-Harrises: 
+b) 2<sup>31</sup>-1 = 2 147 483 647
 
-2<sup>31</sup>-1 = 2 147 483 647
+c) 2<sup>31</sup>-1 = 2 147 483 647
 
 ## Exercise 1.11 What is the smallest (most negative) 16-bit binary number that can be represented with
 
 a) unsigned numbers?
 
- <textarea>
- Your answer: 
- </textarea>
-
-My: 
-
-0
-
-Harrises: 
-
-0
-
 b) two's complement numbers?
-
- <textarea>
- Your answer: 
- </textarea>
-
-My: 
-
--2<sup>15</sup> = -32768  
-
-Harrises: 
-
--2<sup>15</sup> = -32768
 
 c) sign/magnitude numbers?
 
@@ -349,66 +257,46 @@ c) sign/magnitude numbers?
  Your answer: 
  </textarea>
 
-My: 
+Solution: 
 
--(2<sup>15</sup>-1) = -32767
+a) 0
 
-Harrises: 
+b) -2<sup>15</sup> = -32768
 
--(2<sup>15</sup>-1) = -32767
+c) -(2<sup>15</sup>-1) = -32767
 
 ## Exercise 1.12 What is the smallest (most negative) 32-bit binary number that can represented with
 
-a) unsigned numbers?
-
- <textarea>
- Your answer: 
- </textarea>
-
-My: 
-
-0
-
-Harrises: 
-
-0
+a) unsigned numbers? 
 
 b) two's complement numbers?
-
- <textarea>
- Your answer: 
- </textarea>
-
-My: 
-
--2<sup>31</sup> = -2 147 483 648
-
-Harrises: 
-
--2<sup>31</sup> = -2 147 483 648
 
 c) sign/magnitude numbers?
 
  <textarea>
- Your answer: 
+ Your answer:
  </textarea>
 
-My: 
+Solution: 
 
--(2<sup>31</sup>-1) = -2 147 483 647
+a) 0
 
-Harrises: 
+b) -2<sup>31</sup> = -2 147 483 648
 
--(2<sup>31</sup>-1) = -2 147 483 647
+c) -(2<sup>31</sup>-1) = -2 147 483 647
 
 ## Exercise 1.13 Convert unsigned numbers to decimal. Show your work
 
+(a) 1010<sub>2</sub>
+
+(b) 110110<sub>2</sub>
+
+(c) 11110000<sub>2</sub>
+
+(d) 000100010100111<sub>2</sub>
+
  <textarea>
  Your answer:
-(a) 1010 =
-(b) 110110 =
-(c) 11110000 =
-(d) 000100010100111 =
  </textarea>
 
 My:
@@ -424,7 +312,13 @@ d) 000100010100111<sub>2</sub> = 0 + 0 + 0 + 1x2<sup>11</sup> + 0x2<sup>10</sup>
 
 Harrises:
 
-a) 10; b) 54; c) 240; d) ~~6311~~
+a) 10 
+
+b) 54 
+
+c) 240
+
+d) ~~6311~~
 
 ## Exercise 1.14 Convert the following unsigned binary numbers to decimal. Show your work
 
