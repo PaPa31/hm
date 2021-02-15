@@ -25,14 +25,14 @@ And my Solutions below. Solutions marked with ![alt text][logo] symbol I must ex
  Your answer: 
  </textarea>
 
-My:
+My answer:
 ```
 - genes
 - DNK molecules
 - cell nucleus
 ``` 
 
-Harrises: 
+Harrises answer: 
 
 Biologists study cells at many levels. The cells are built from organelles such as the mitochondria, ribosomes, and chloroplasts. Organelles are built of macromolecules such as proteins, lipids, nucleic acids, and carbohydrates. These biochemical macromolecules are built simpler molecules such as carbon chains and amino acids. When studying at one of these levels of abstraction, biologists are usually interested in the levels above and below: what the structures at that level are used to build, and how the structures themselves are built.
 
@@ -53,17 +53,45 @@ Harrises:
 The fundamental building blocks of chemistry are electrons, protons, and neutrons (physicists are interested in how the protons and neutrons are built). These blocks combine to form atoms. Atoms combine to form molecules. For example, when chemists study molecules, they can abstract away the lower levels of detail so that they can describe the general properties of a molecule such as benzene without having to calculate the motion of the individual electrons in the molecule.
 ## Exercise 1.2 Using Hierarchy, Modularity, Regularity
 
-a) By automobile designers: Hierarchy - Split auto by an modules. Иерархия - всё разбито на системы. Системы на подсистемы. Модульность - выбор вариантов в магазине автозапчастей. Регулярность - расходники. От шин до незамерзайки с "елочкой" для запаха.
+a) By automobile designers
 
-b) By businessman in daily deals: An hierarchy of report. Employee -> division manager -> general manager -> vice president -> president. Accountants add data of all departments and report to investors. Investors are compared to other companies.  ~~Бизнес делится на оперативную деятельность, разработку на будущее.~~
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My:
+
+Hierarchy - Split auto by an modules. Иерархия - всё разбито на системы. Системы на подсистемы. Модульность - выбор вариантов в магазине автозапчастей. Регулярность - расходники. От шин до незамерзайки с "елочкой" для запаха.
+
+Harrises:
+
+Automobile designers use hierarchy to construct a car from major assemblies such as the engine, body, and suspension. The assemblies are constructed from subassemblies; for example, the engine contains cylinders, fuel injectors, the ignition system, and the drive shaft. Modularity allows components to be swapped without redesigning the rest of the car; for example, the seats can be cloth, leather, or leather with a built in heater depending on the model of the vehicle, so long as they all mount to the body in the same place. Regularity involves the use of interchangeable parts and the sharing of parts between different vehicles; a 65R14 tire can be used on many different cars.
+
+b) By businessman in daily deals
+
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My:
+
+An hierarchy of report. Employee -> division manager -> general manager -> vice president -> president. Accountants add data of all departments and report to investors. Investors are compared to other companies.  Бизнес делится на оперативную деятельность, разработку на будущее.
+
+Harrises:
+
+Businesses use hierarchy in their organization chart. An employee reports to a manager, who reports to a general manager who reports to a vice president who reports to the president. Modularity includes well-defined interfaces between divisions. The salesperson who spills a coke in his laptop calls a single number for technical support and does not need to know the detailed organization of the information systems department. Regularity includes the use of standard procedures. Accountants follow a well-defined set of rules to calculate profit and loss so that the finances of each division can be combined to determine the finances of the company and so that the finances of the company can be reported to investors who can make a straightforward comparison with other companies.
 
 ## Exercise 1.3 Ben Bitdiddle is building a house. Save him money and time with three y's principals
+
+ <textarea>
+ Your answer: 
+ </textarea>
 
 My:
 
 - Hierarchy: foundation -> walls with windows and doors -> roof. A frame house is building from modules. Hire seasonal workers. Buy modules in one go. Bring. Assemble.  
 
-Harris' answer.
+Harrises:
 
 Hierarchy:
 
@@ -86,9 +114,17 @@ And he could save by buying some items (like windows) in bulk.
 
 ## Exercise 1.4 Voltage: in 0-5V range. Measure accuracy: ±50mV. How many bits it convey?
 
-My: ~~100~~
+ <textarea>
+ Your answer: 
+ </textarea>
 
-Harrises: ±50mV is 100mV intervals. 50 intervals. log<sub>2</sub>50=5.65 bits
+My: 
+
+~~100~~
+
+Harrises: 
+
+±50mV is 100mV intervals. 50 intervals. log<sub>2</sub>50=5.65 bits
 
 :::warning
 I think Harrises were wrong. 50<sub>10</sub> > 6 bit. This is because log function does not included the 0 power of 2. If I count that log<sub>2</sub>1=0. Is that 0 bits? Not. This is 0 power. And this is 1 bit of information. Hence, the answer is log<sub>2</sub>N+1
@@ -101,14 +137,31 @@ I was wrong! 5.65 bits - is the amount of information. This is one problem! How 
 
 a) You can read the hour each 15 minutes. How many bits you can convey?
 
-My: 60min/15min=4 12hours*4=48 log<sub>2</sub>40=5.58+1=6.68  
-Harrises: 5.58 bits
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+60min/15min=4 12hours*4=48 log<sub>2</sub>40=5.58+1=6.68 bits 
+
+Harrises: 
+
+5.58 bits
 
 b) If include am and pm, how many bits added?
 
-My: ~~2 bits~~
+ <textarea>
+ Your answer: 
+ </textarea>
 
-Harrises: 1 bit
+My: 
+
+~~2 bits~~
+
+Harrises: 
+
+1 bit
 
 :::tip Bit
 Two discrete values - are 1 bit. See [Bit](../binary-numbers/bit) 
@@ -118,128 +171,248 @@ Two discrete values - are 1 bit. See [Bit](../binary-numbers/bit)
 
 a) How many bits they conveyed with one digit?
 
-My: log<sub>2</sub>60+1 = ~7
+ <textarea>
+ Your answer: 
+ </textarea>
 
-Harrises:~6
+My: 
+
+log<sub>2</sub>60+1 = ~7
+
+Harrises:
+
+~6
 
 b) 4000<sub>10</sub> in sexagesimal?
 
-My: 16$, $=40
+ <textarea>
+ Your answer: 
+ </textarea>
 
-Harrises: 1 6 40<sub>60</sub>
+My: 
+
+16$, $=40
+
+Harrises: 
+
+1 6 40<sub>60</sub>
 
 ## Exercise 1.7 How many different numbers can be represent with 16 bits?
 
-My: 2<sup>16</sup> =  65536  
-Harrises: 2<sup>16</sup> =  65536
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+2<sup>16</sup> =  65536
+
+Harrises: 
+
+2<sup>16</sup> =  65536
 
 ## Exercise 1.8 What is the largest unsigned 32-bit binary number?
 
-My: ~~22<sup>32</sup> =  4 294 967 296~~
+ <textarea>
+ Your answer: 
+ </textarea>
 
-Harrises: 22<sup>32</sup>-1 =  4 294 967 295
+My: 
+
+~~22<sup>32</sup> =  4 294 967 296~~
+
+Harrises: 
+
+22<sup>32</sup>-1 =  4 294 967 295
 
 ## Exercise 1.9 What is the largest 16-bit binary number that can be represented with
 
 a) unsigned numbers?
 
-My: 2<sup>16</sup>-1 = 65535  
-Harrises: 2<sup>16</sup>-1 = 65535
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+2<sup>16</sup>-1 = 65535  
+
+Harrises: 
+
+2<sup>16</sup>-1 = 65535
 
 b) two's complement numbers?
 
-My: 2<sup>15</sup>-1 = 32767  
-Harrises: 2<sup>15</sup>-1 = 32767
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+2<sup>15</sup>-1 = 32767  
+
+Harrises: 
+
+2<sup>15</sup>-1 = 32767
 
 c) sign/magnitude numbers?
 
-My: 2<sup>15</sup>-1 = 32767  
-Harrises: 2<sup>15</sup>-1 = 32767
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+2<sup>15</sup>-1 = 32767  
+
+Harrises: 
+
+2<sup>15</sup>-1 = 32767
 
 ## Exercise 1.10 What is the largest 32-bit binary number that can be represented with
 
 a) unsigned numbers?
 
-My: 2<sup>32</sup>-1 = 4 294 967 295  
-Harrises: 2<sup>32</sup>-1 = 4 294 967 295
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+2<sup>32</sup>-1 = 4 294 967 295  
+
+Harrises: 
+
+2<sup>32</sup>-1 = 4 294 967 295
 
 b) two's complement numbers?
 
-My: 2<sup>31</sup>-1 = 2 147 483 647
-Harrises: 2<sup>31</sup>-1 = 2 147 483 647
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+2<sup>31</sup>-1 = 2 147 483 647
+
+Harrises: 
+
+2<sup>31</sup>-1 = 2 147 483 647
 
 c) sign/magnitude numbers?
 
-My: 2<sup>31</sup>-1 = 2 147 483 647  
-Harrises: 2<sup>31</sup>-1 = 2 147 483 647
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+2<sup>31</sup>-1 = 2 147 483 647  
+
+Harrises: 
+
+2<sup>31</sup>-1 = 2 147 483 647
 
 ## Exercise 1.11 What is the smallest (most negative) 16-bit binary number that can be represented with
 
 a) unsigned numbers?
 
-My: 0  
-Harrises: 0
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+0
+
+Harrises: 
+
+0
 
 b) two's complement numbers?
 
-My: -2<sup>15</sup> = -32768  
-Harrises: -2<sup>15</sup> = -32768
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+-2<sup>15</sup> = -32768  
+
+Harrises: 
+
+-2<sup>15</sup> = -32768
 
 c) sign/magnitude numbers?
 
-My: -(2<sup>15</sup>-1) = -32767
-Harrises: -(2<sup>15</sup>-1) = -32767
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+-(2<sup>15</sup>-1) = -32767
+
+Harrises: 
+
+-(2<sup>15</sup>-1) = -32767
 
 ## Exercise 1.12 What is the smallest (most negative) 32-bit binary number that can represented with
 
 a) unsigned numbers?
 
-My: 0  
-Harrises: 0
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+0
+
+Harrises: 
+
+0
 
 b) two's complement numbers?
 
-My: -2<sup>31</sup> = -2 147 483 648  
-Harrises: -2<sup>31</sup> = -2 147 483 648
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+-2<sup>31</sup> = -2 147 483 648
+
+Harrises: 
+
+-2<sup>31</sup> = -2 147 483 648
 
 c) sign/magnitude numbers?
 
-My: -(2<sup>31</sup>-1) = -2 147 483 647  
-Harrises: -(2<sup>31</sup>-1) = -2 147 483 647
+ <textarea>
+ Your answer: 
+ </textarea>
+
+My: 
+
+-(2<sup>31</sup>-1) = -2 147 483 647
+
+Harrises: 
+
+-(2<sup>31</sup>-1) = -2 147 483 647
 
 ## Exercise 1.13 Convert unsigned numbers to decimal. Show your work
 
+ <textarea>
+ Your answer:
+(a) 1010 =
+(b) 110110 =
+(c) 11110000 =
+(d) 000100010100111 =
+ </textarea>
+
 My:
 
-
-```js live
-class Counter extends React.Component {
-  constructor() {
-    super()
-    this.state = { count: 0 }
-  }
-
-  componentDidMount() {
-    this.interval = setInterval(() => {
-      this.setState(state => ({ count: state.count + 1 }))
-    }, 1000)
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.interval)
-  }
-
-  render() {
-    return (
-      <center>
-        <h3>
-          {this.state.count}
-        </h3>
-      </center>
-    )
-  }
-}
-```
 a) 1010<sub>2</sub> = 1x2<sup>3</sup> + 0x2<sup>2</sup> + 1x2<sup>1</sup> + 0x2<sup>0</sup> = 8 + 0 + 2 + 0 = 10<sub>10</sub>
 
 b) 110110<sub>2</sub> = 1x2<sup>5</sup> + 1x2<sup>4</sup> + 0x2<sup>3</sup> + 1x2<sup>2</sup> + 1x2<sup>1</sup> + 0x2<sup>0</sup> = 32 + 16 + 0 + 4 + 2 + 0 = 54<sub>10</sub>
@@ -254,6 +427,10 @@ Harrises:
 a) 10; b) 54; c) 240; d) ~~6311~~
 
 ## Exercise 1.14 Convert the following unsigned binary numbers to decimal. Show your work
+
+ <textarea>
+ Your answer: 
+ </textarea>
 
 My:
 
