@@ -47,6 +47,7 @@ module.exports = {
                 "label": "binary-numbers",
                 "items": [
                     "digital-design/binary-numbers/binary-numbers",
+                    "digital-design/binary-numbers/bit",
                     "digital-design/binary-numbers/crash-due-to-overflow",
                     "digital-design/binary-numbers/ones-complement",
                     "digital-design/binary-numbers/range-number-systems",
@@ -92,6 +93,13 @@ module.exports = {
         "label": "entrance",
         "items": [
             "entrance/docusaurus"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "finance",
+        "items": [
+            "finance/money-transfers"
         ]
     },
     {
@@ -293,7 +301,8 @@ module.exports = {
         "label": "vs-code",
         "items": [
             "vs-code/fira-code",
-            "vs-code/keyboard-shortcuts"
+            "vs-code/keyboard-shortcuts",
+            "vs-code/snippet-plus-shortcut"
         ]
     },
     {
@@ -311,6 +320,13 @@ module.exports = {
                 ]
             },
             "workplace/installed-programs",
+            {
+                "type": "category",
+                "label": "linux",
+                "items": [
+                    "workplace/linux/draw-in-linux-kde-plasma"
+                ]
+            },
             {
                 "type": "category",
                 "label": "office",
