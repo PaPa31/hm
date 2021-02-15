@@ -10,23 +10,25 @@ And my Solutions below. Solutions marked with ![alt text][logo] symbol I must ex
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
 
 
-```jsx live
-function MyPlayground(props) {
-  return (
-    <div>
-      <ButtonExample onClick={() => alert('hey!')}>Click me</ButtonExample>
-    </div>
-  );
-}
-```
+
+
+<!-- <style>
+#foo {color: red}
+</style> -->
+
 
 ## Exercise 1.1 Three level of abstraction
 
- a) Biological abstraction at the cell level: ![alt text][logo]
+ a) Biological abstraction at the cell level:  
+ 
+ <textarea>
+ 12
+ 4
+ </textarea>
 
 - ~~genes~~
-- D̶N̶K̶ m̶o̶l̶e̶c̶u̶l̶e̶s̶
-- c̶e̶l̶l̶ n̶u̶c̶l̶e̶u̶s̶  
+- ~~DNK molecules~~
+- ~~cell nucleus~~  
 
  b) Abstractions of chemistry about material:
 
@@ -39,7 +41,7 @@ function MyPlayground(props) {
 
 a) By automobile designers: Hierarchy - Split auto by an modules. Иерархия - всё разбито на системы. Системы на подсистемы. Модульность - выбор вариантов в магазине автозапчастей. Регулярность - расходники. От шин до незамерзайки с "елочкой" для запаха.
 
-b) By businessman in daily deals: An hierarchy of report. Employee -> division manager -> general manager -> vice president -> president. Accountants add data of all departments and report to investors. Investors are compared to other companies.  Б̶и̶з̶н̶е̶с̶ д̶е̶л̶и̶т̶с̶я̶ н̶а̶ о̶п̶е̶р̶а̶т̶и̶в̶н̶у̶ю̶ д̶е̶я̶т̶е̶л̶ь̶н̶о̶с̶т̶ь̶,̶ р̶а̶з̶р̶а̶б̶о̶т̶к̶у̶ н̶а̶ б̶у̶д̶у̶щ̶е̶е̶.̶
+b) By businessman in daily deals: An hierarchy of report. Employee -> division manager -> general manager -> vice president -> president. Accountants add data of all departments and report to investors. Investors are compared to other companies.  ~~Бизнес делится на оперативную деятельность, разработку на будущее.~~
 
 ## Exercise 1.3 Ben Bitdiddle is building a house. Save him money and time with three y's principals
 
@@ -70,14 +72,17 @@ And he could save by buying some items (like windows) in bulk.
 
 ## Exercise 1.4 Voltage: in 0-5V range. Measure accuracy: ±50mV. How many bits it convey?
 
-My: 1̶0̶0̶
+My: ~~100~~
 
-Harris: ±50mV is 100mV intervals. 50 intervals. log<sub>2</sub>50=5.65 bits
+Harrises: ±50mV is 100mV intervals. 50 intervals. log<sub>2</sub>50=5.65 bits
 
-:::info
+:::warning
 I think Harrises were wrong. 50<sub>10</sub> > 6 bit. This is because log function does not included the 0 power of 2. If I count that log<sub>2</sub>1=0. Is that 0 bits? Not. This is 0 power. And this is 1 bit of information. Hence, the answer is log<sub>2</sub>N+1
 :::
 
+:::caution
+I was wrong! 5.65 bits - is the amount of information. This is one problem! How many bits of a binary number does it take to include this value, this is another matter!
+:::
 ## Exercise 1.5 Old clock without a minute hand
 
 a) You can read the hour each 15 minutes. How many bits you can convey?
@@ -87,19 +92,26 @@ Harrises: 5.58 bits
 
 b) If include am and pm, how many bits added?
 
-My: 2̶ b̶i̶t̶s̶  
+My: ~~2 bits~~
+
 Harrises: 1 bit
+
+:::tip Bit
+Two discrete values - are 1 bit. See [Bit](../binary-numbers/bit) 
+:::
 
 ## Exercise 1.6 4000 years ago Babylonian developed sexagesimal numbers (base 60)
 
 a) How many bits they conveyed with one digit?
 
-My: log<sub>2</sub>60+1=~7  
+My: log<sub>2</sub>60+1 = ~7
+
 Harrises:~6
 
 b) 4000<sub>10</sub> in sexagesimal?
 
-My: 16$, $=40  
+My: 16$, $=40
+
 Harrises: 1 6 40<sub>60</sub>
 
 ## Exercise 1.7 How many different numbers can be represent with 16 bits?
@@ -109,7 +121,8 @@ Harrises: 2<sup>16</sup> =  65536
 
 ## Exercise 1.8 What is the largest unsigned 32-bit binary number?
 
-My: 2̶2̶<̶s̶u̶p̶>̶3̶2̶<̶/̶s̶u̶p̶>̶ =̶  4̶ 2̶9̶4̶ 9̶6̶7̶ 2̶9̶6̶  
+My: ~~22<sup>32</sup> =  4 294 967 296~~
+
 Harrises: 22<sup>32</sup>-1 =  4 294 967 295
 
 ## Exercise 1.9 What is the largest 16-bit binary number that can be represented with
@@ -224,7 +237,7 @@ d) 000100010100111<sub>2</sub> = 0 + 0 + 0 + 1x2<sup>11</sup> + 0x2<sup>10</sup>
 
 Harrises:
 
-a) 10; b) 54; c) 240; d) 6̶3̶1̶1̶
+a) 10; b) 54; c) 240; d) ~~6311~~
 
 ## Exercise 1.14 Convert the following unsigned binary numbers to decimal. Show your work
 
@@ -232,7 +245,7 @@ My:
 
 a) 1110<sub>2</sub> = 1x2<sup>3</sup> + 1x2<sup>2</sup> + 1x2<sup>1</sup> + 0x2<sup>0</sup> = 8 + 4 + 2 + 0 = 14<sub>10</sub>
 
-b) 100100<sub>2</sub> = 1x2<sup>5</sup> + 0x2<sup>4</sup> + 0x2<sup>3</sup> + 1x2<sup>2</sup> + 0x2<sup>1</sup> + 0x2<sup>0</sup> = 32 + 0 + 0 + 4 + 0 + 0 = 3̶8̶<sub>10</sub>
+b) 100100<sub>2</sub> = 1x2<sup>5</sup> + 0x2<sup>4</sup> + 0x2<sup>3</sup> + 1x2<sup>2</sup> + 0x2<sup>1</sup> + 0x2<sup>0</sup> = 32 + 0 + 0 + 4 + 0 + 0 = ~~38<sub>10</sub>~~
 
 c) 11010111<sub>2</sub> =1x2<sup>7</sup> + 1x2<sup>6</sup> + 0x2<sup>5</sup> + 1x2<sup>4</sup> + 0x2<sup>3</sup> + 1x2<sup>2</sup> + 1x2<sup>1</sup> + 1x2<sup>0</sup> = 128 + 64 + 0 + 16 + 0 + 4 + 2 + 1 = 215<sub>10</sub>
 
@@ -256,7 +269,11 @@ d) 000100010100111<sub>2</sub> = 08A7<sub>16</sub>
 
 Harrises:
 
-a) A; b) 36; c) F0; d) 1̶8̶A̶7̶ (Harrises were wrong again. In this number: 000100010100111 in 1.14-d exercise. Need to be: 0001100010100111)
+a) A; b) 36; c) F0; d) 18A7 
+
+:::warning
+Harrises were wrong again. In this number: 000100010100111 in 1.14-d exercise. Need to be: 0001100010100111
+:::
 
 ## Exercise 1.16 Repeat exercise 1.14, but convert to hexadecimal
 
@@ -345,8 +362,7 @@ Harrises:
 
 My:
 
-(a) 1010<sub>2</sub> = -6<sub>10</sub> s
-
+(a) 1010<sub>2</sub> = -6<sub>10</sub>
 
 ```
 1010
@@ -423,15 +439,15 @@ Harrises:
 
 (a) -2 (-8+4+2 = -2 or magnitude = 0001+1 = 0010: thus, -2); (b) -29 (-32 + 2 + 1 = -29 or magnitude = 011100+1 = 011101: thus, -29); (c) 78; (d) -75
 
-:::info
+:::tip
 This is another way to convert two's complement binary numbers to decimal numbers
 :::
 
 ```
-1110
+1110 <- binary digits
 ====
 
-8421
+8421 <- position value
 ```
 
 ## Exercise 1.23 Repeat exercise 1.21, assuming the binary numbers are in sigh/magnitude form rather than two's complement representation
