@@ -12,3 +12,4 @@ description: What keyboard shortcuts do I use with VS Code
 3 | Change ~~`Shift+Alt+/`~~ to `Ctrl+Shift+/` | Press `Ctrl+Shift+P `> type Emmet: Wrap with Abbreviation > press `gear` icon | Wrap with `some` HTML-tags | type log2 > select 2 > `Ctrl+Shift+/` > type sub + Enter > log<sub>2</sub>
 4 | `Ctrl+E Up` | [Snippet + Shortcut](snippet-plus-shortcut.md) | Wrap with `<sup>` tags | 23 -> 2<sup>3</sup>
 5 | `Ctrl+E Down` | see above | Wrap with `<sub>` tags | log2 -> log<sub>2</sub>
+6 | `Ctrl+E t` | see above | Wrap with `<textarea>` and some text | `<textarea>Your answer:</textarea>`
