@@ -131,7 +131,7 @@ I think Harrises were wrong. 50<sub>10</sub> > 6 bit. This is because log functi
 :::
 
 :::caution
-I was wrong! 5.65 bits - is the amount of information. This is one problem! How many bits of a binary number does it take to include this value, this is another matter!
+I was wrong! 5.65 bits - is the amount of information. This is one problem! And how many bits of a binary number does it take to include this value, this is another matter!
 :::
 ## Exercise 1.5 Old clock without a minute hand
 
@@ -296,7 +296,10 @@ c) -(2<sup>31</sup>-1) = -2 147 483 647
 (d) 000100010100111<sub>2</sub>
 
  <textarea>
- Your answer:
+ Your answer:(a) 1010= 
+(b) 110110= 
+(c) 11110000= 
+(d) 000100010100111=
  </textarea>
 
 My:
