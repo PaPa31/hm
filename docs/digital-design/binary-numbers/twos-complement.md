@@ -31,7 +31,7 @@ $$
 $$ -->
 
 
-A<sub>2</sub> = 1100  
+A<sub>2</sub> = 1101  
 A<sub>10</sub> = -1x2<sup>3</sup>+1x2<sup>2</sup>+0x2<sup>3</sup>+1x2<sup>3</sup> = -8+4+0+1 = -3
 
 ## Addition
