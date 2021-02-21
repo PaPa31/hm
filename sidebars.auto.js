@@ -63,9 +63,10 @@ module.exports = {
                 "type": "category",
                 "label": "exercises",
                 "items": [
+                    "digital-design/exercises/all-exercises",
                     "digital-design/exercises/exercises-101-130",
                     "digital-design/exercises/exercises-131-160",
-                    "digital-design/exercises/exercises-160-190"
+                    "digital-design/exercises/exercises-161-190"
                 ]
             },
             {
@@ -147,6 +148,13 @@ module.exports = {
     },
     {
         "type": "category",
+        "label": "music",
+        "items": [
+            "music/music"
+        ]
+    },
+    {
+        "type": "category",
         "label": "new-disk",
         "items": [
             "new-disk/additional-apps",
@@ -171,13 +179,15 @@ module.exports = {
         "label": "rhyme",
         "items": [
             "rhyme/all-rhymes",
+            "rhyme/protopriest",
             {
                 "type": "category",
                 "label": "sound",
                 "items": [
                     "rhyme/sound/all-sounds",
                     "rhyme/sound/ded-moroz-i-santa-claus",
-                    "rhyme/sound/hash"
+                    "rhyme/sound/hash",
+                    "rhyme/sound/headless-horseman"
                 ]
             },
             "rhyme/wolfs"
@@ -188,6 +198,13 @@ module.exports = {
         "label": "shells",
         "items": [
             "shells/automatic-directory-tree",
+            {
+                "type": "category",
+                "label": "bash",
+                "items": [
+                    "shells/bash/regex-in-bash"
+                ]
+            },
             {
                 "type": "category",
                 "label": "commands",
@@ -262,8 +279,10 @@ module.exports = {
             "thoughts/fucking-american-bastards",
             "thoughts/kipling",
             "thoughts/knowledge-fences",
+            "thoughts/letter-to-brian-may",
             "thoughts/magic-wand",
             "thoughts/more-reliable-than-death",
+            "thoughts/no-time-for-party",
             "thoughts/papa-constant",
             "thoughts/prometheus-lenin-torvalds",
             "thoughts/u-menya-vnutri-vse-zasoprotivlyalos",
@@ -302,7 +321,9 @@ module.exports = {
         "items": [
             "vs-code/fira-code",
             "vs-code/keyboard-shortcuts",
-            "vs-code/snippet-plus-shortcut"
+            "vs-code/regex-in-vs-code",
+            "vs-code/snippet-plus-shortcut",
+            "vs-code/spell-checking"
         ]
     },
     {
