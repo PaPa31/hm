@@ -1,5 +1,5 @@
 ---
-id: protopriest.md
+id: protopriest
 title: Протоиерей
 date: 2021-02-19 10:30:15
 description: About futility of efforts
