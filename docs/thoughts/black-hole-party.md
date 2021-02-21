@@ -1,5 +1,5 @@
 ---
-id: no-time-for-party
+id: black-hole-party
 title: Во власти Черной дыры
 date: 2021-02-19 10:16:55
 description: About the sensation of the current time
