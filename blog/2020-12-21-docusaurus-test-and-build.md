@@ -49,7 +49,7 @@ But there are pitfalls - `unstable BaseUrl`. In local build - ... In remote buil
 
 ## Unstable BaseUrl
 
-This is common issue for **node world** projects: for local build you need to use the one data, for remote build the other data. 
+This is common issue for **node world** projects: for local build you need to use the one data, for remote build the other data.
 
 ### production/development issue
 
@@ -97,6 +97,7 @@ Three lines:
 
   ...
 ```
+
 Two lines:
 
 ```js title="docusaurus.config.js" {1,7}
@@ -111,11 +112,30 @@ module.exports = {
 
   ...
 ```
+
+:::warning
+
+If you get the error:
+
+```
+'cross-env' is not recognized
+```
+
+You can run this two commands in your `bash` (Linux) or `Git Bash` (Windows):
+
+```sh
+rm -rf node_modules package-lock.json
+npm i
+```
+
+Or you can try [install cross-env globally](https://stackoverflow.com/questions/45034581/laravel-5-4-cross-env-is-not-recognized-as-an-internal-or-external-command)
+:::
+
 But how do I add an environment variable remotely?
 
 ### Set Remote `env`
 
-You need use workflow file. 
+You need use workflow file.
 Edit one line:
 
 ```yml title="/.github/workflows/documentation.yml" {7}
@@ -149,6 +169,7 @@ If error:
 'cross-env' is not recognized as an internal or external command,
 operable program or batch file.
 ```
+
 Run this:
 
 ```bash
