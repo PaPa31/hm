@@ -325,7 +325,7 @@ Solution:
 
 <textarea>
 Your answer:
-
+768kbit/sec =
 </textarea>
 
 Solution:
@@ -336,18 +336,18 @@ Solution:
 
 <textarea>
 Your answer:
-
+5Gbits/sec =
 </textarea>
 
 Solution:
 
-(5 × 10<sup>9</sup> bits/second)(60 seconds/minute)(1 byte/8 bits) = 3.75 × 10<sup>10</sup> bytes
+(5×10<sup>9</sup> bits/second)(60 seconds/minute)(1 byte/8 bits) = 3.75×10<sup>10</sup> bytes
 
 ## Exercise 1.47 Hard disk manufacturers use the term "megabyte" to mean 10<sup>6</sup> bytes and "gigabyte" to mean 10<sup>9</sup> bytes. How many real GBs of music you can store on a 50GB hard disk?
 
 <textarea>
 Your answer:
-
+50GB =
 </textarea>
 
 Solution:
@@ -355,9 +355,9 @@ Solution:
 50x10<sup>9</sup>/2<sup>30</sup>=50 000 000 000 / 1 073 741 824 = 46.566 GBytes
 
 :::tip
-2<sup>10</sup> = 1024 ≈ 10<sup>3</sup>bytes (1 KBytes)
+2<sup>10</sup> = 1024 ≈ 10<sup>3</sup> bytes (1 KBytes)
 
-2<sup>20</sup> = 1 048 578 ≈ 10<sup>6</sup>bytes (1 MBytes)
+2<sup>20</sup> = 1 048 578 ≈ 10<sup>6</sup> bytes (1 MBytes)
 
 2<sup>30</sup> = 1 073 741 824 ≈ 10<sup>9</sup> bytes (1 GBytes)
 :::
@@ -366,6 +366,7 @@ Solution:
 
 <textarea>
 Your answer:
+2^31=
 
 </textarea>
 
@@ -379,6 +380,7 @@ So 2<sup>31</sup> ≈ 2 000 000 000
 
 <textarea>
 Your answer:
+2^8x2^9=
 
 </textarea>
 
@@ -448,7 +450,7 @@ b) ~~11110~~ (overflow)
   1101
 + 1011
   ====
-1 1110  <- overflow
+1 1000  <- overflow
 ```
 
 :::caution Unsigned Numbers
