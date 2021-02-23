@@ -5,7 +5,7 @@ date: 2021-02-22 14:20:04
 description: My VS Code snippets without keyboard shortcuts
 ---
 
-Some snippets (with shortcuts) are located on the [keyboard shortcuts](keyboard-shortcuts) page.
+Some snippets (with shortcuts) are located on the [keyboard shortcuts](../user-keyboard-shortcuts) page.
 
 :::tip
 Prefix only Snippets are snippets that are not used as often, but automate hard-coding work. Since they are not used often, they do not need keyboard shortcuts, a keyword is enough.
