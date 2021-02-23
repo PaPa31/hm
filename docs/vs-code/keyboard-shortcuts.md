@@ -1,6 +1,6 @@
 ---
-id: keyboard-shortcuts
-title: VS Code Keyboard Shortcuts 
+id: user-keyboard-shortcuts
+title: User Keyboard Shortcuts 
 date: 2021-02-15 15:02:28
 description: What keyboard shortcuts do I use with VS Code 
 ---
@@ -13,7 +13,7 @@ Internal settings do not support this option.
 
 I copied `keybindings.json` when I being in Linux to Windows disk:
 
-```sh title="keybindings.json"
+```shell title="keybindings.json"
 cp ~/.config/Code/User/keybindings.json '/mnt/sdc1/Users/parsh/Application Data/Code/User/'
 ```
 
