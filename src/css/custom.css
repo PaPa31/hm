@@ -40,3 +40,21 @@ textarea{
   outline: 1px solid rgba(0,0,0,.2); 	
   box-shadow: 0 0 5px 3px rgba(0,0,0,.1) 
 }
+
+a.external {
+  display: inline-block;
+}
+
+a.external:before {
+  background: transparent url(/static/img/external.e091ac5d.svg) 0 0 no-repeat;
+  background-size: 16px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-right: 3px;
+  width: 16px;
+}
+
+.right {
+  text-align: right;
+}
