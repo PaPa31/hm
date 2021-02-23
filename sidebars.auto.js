@@ -336,19 +336,19 @@ module.exports = {
         "label": "vs-code",
         "items": [
             "vs-code/fira-code",
-            "vs-code/user-keyboard-shortcuts",
             "vs-code/regex-in-vs-code",
             {
                 "type": "category",
-                "label": "snnipets",
+                "label": "snippets",
                 "items": [
-                    "vs-code/snnipets/anchor-from-clipboard",
-                    "vs-code/snnipets/auto-front-matter",
-                    "vs-code/snnipets/prefix-only-snippets",
-                    "vs-code/snnipets/snippet-plus-shortcut"
+                    "vs-code/snippets/anchor-from-clipboard",
+                    "vs-code/snippets/auto-front-matter",
+                    "vs-code/snippets/prefix-only-snippets",
+                    "vs-code/snippets/snippet-plus-shortcut"
                 ]
             },
-            "vs-code/spell-checking"
+            "vs-code/spell-checking",
+            "vs-code/user-keyboard-shortcuts"
         ]
     },
     {
