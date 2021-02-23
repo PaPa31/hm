@@ -1,7 +1,13 @@
 
 module.exports = {
   docs: [
-    "mdx",
+    {
+        "type": "category",
+        "label": "music",
+        "items": [
+            "music/music"
+        ]
+    },
     {
         "type": "category",
         "label": "computer",
@@ -139,18 +145,12 @@ module.exports = {
             }
         ]
     },
+    "mdx",
     {
         "type": "category",
         "label": "data",
         "items": [
             "data/googles-protocol-buffers"
-        ]
-    },
-    {
-        "type": "category",
-        "label": "music",
-        "items": [
-            "music/music"
         ]
     },
     {
@@ -172,6 +172,17 @@ module.exports = {
         "label": "pdf",
         "items": [
             "pdf/pdf"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "react",
+        "items": [
+            "react/component",
+            "react/element",
+            "react/render-element",
+            "react/updating-element",
+            "react/updating-necessary"
         ]
     },
     {
@@ -276,15 +287,20 @@ module.exports = {
         "type": "category",
         "label": "thoughts",
         "items": [
+            "thoughts/black-hole-party",
             "thoughts/fucking-american-bastards",
+            "thoughts/heidegger",
             "thoughts/kipling",
             "thoughts/knowledge-fences",
             "thoughts/letter-to-brian-may",
             "thoughts/magic-wand",
             "thoughts/more-reliable-than-death",
-            "thoughts/no-time-for-party",
+            "thoughts/one-virus-more",
+            "thoughts/orenburg-is-the capital-of",
             "thoughts/papa-constant",
             "thoughts/prometheus-lenin-torvalds",
+            "thoughts/train-history",
+            "thoughts/tuesday",
             "thoughts/u-menya-vnutri-vse-zasoprotivlyalos",
             "thoughts/u-sytogo-vsegda-golodnyi-vinovat",
             "thoughts/vot-ka4us-ya-v-sankah",
@@ -320,9 +336,18 @@ module.exports = {
         "label": "vs-code",
         "items": [
             "vs-code/fira-code",
-            "vs-code/keyboard-shortcuts",
+            "vs-code/user-keyboard-shortcuts",
             "vs-code/regex-in-vs-code",
-            "vs-code/snippet-plus-shortcut",
+            {
+                "type": "category",
+                "label": "snnipets",
+                "items": [
+                    "vs-code/snnipets/anchor-from-clipboard",
+                    "vs-code/snnipets/auto-front-matter",
+                    "vs-code/snnipets/prefix-only-snippets",
+                    "vs-code/snnipets/snippet-plus-shortcut"
+                ]
+            },
             "vs-code/spell-checking"
         ]
     },
