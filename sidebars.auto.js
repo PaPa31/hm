@@ -3,9 +3,22 @@ module.exports = {
   docs: [
     {
         "type": "category",
-        "label": "music",
+        "label": "love",
         "items": [
-            "music/music"
+            "love/love-project"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "api",
+        "items": [
+            {
+                "type": "category",
+                "label": "python3",
+                "items": [
+                    "api/python3/venv-isolate-dependencies"
+                ]
+            }
         ]
     },
     {
@@ -42,6 +55,27 @@ module.exports = {
             },
             "computer/new-computer-build",
             "computer/videos"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "creative",
+        "items": [
+            {
+                "type": "category",
+                "label": "premiere-pro",
+                "items": [
+                    "creative/premiere-pro/2021",
+                    "creative/premiere-pro/premiere-pro"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "category",
+        "label": "data",
+        "items": [
+            "data/googles-protocol-buffers"
         ]
     },
     {
@@ -114,7 +148,14 @@ module.exports = {
         "label": "games",
         "items": [
             "games/Cyberpunk 2077",
-            "games/rdr2-reinstall-win"
+            {
+                "type": "category",
+                "label": "RDR2",
+                "items": [
+                    "games/RDR2/rdr2-reinstall-win",
+                    "games/RDR2/read-dead-redemption-2"
+                ]
+            }
         ]
     },
     {
@@ -133,6 +174,7 @@ module.exports = {
                 "type": "category",
                 "label": "Lvovskaya-2020-2021",
                 "items": [
+                    "location/Lvovskaya-2020-2021/8-marсh-order",
                     {
                         "type": "category",
                         "label": "black-friday-orders",
@@ -145,12 +187,20 @@ module.exports = {
             }
         ]
     },
+    {
+        "type": "category",
+        "label": "capture",
+        "items": [
+            "capture/capturing-video",
+            "capture/recommended-resolution"
+        ]
+    },
     "mdx",
     {
         "type": "category",
-        "label": "data",
+        "label": "music",
         "items": [
-            "data/googles-protocol-buffers"
+            "music/music"
         ]
     },
     {
@@ -292,6 +342,7 @@ module.exports = {
             "thoughts/heidegger",
             "thoughts/kipling",
             "thoughts/knowledge-fences",
+            "thoughts/lazy-beast",
             "thoughts/letter-to-brian-may",
             "thoughts/magic-wand",
             "thoughts/more-reliable-than-death",
@@ -336,7 +387,14 @@ module.exports = {
         "label": "vs-code",
         "items": [
             "vs-code/fira-code",
-            "vs-code/regex-in-vs-code",
+            {
+                "type": "category",
+                "label": "regex",
+                "items": [
+                    "vs-code/regex/regex-examples",
+                    "vs-code/regex/regex-in-vs-code"
+                ]
+            },
             {
                 "type": "category",
                 "label": "snippets",
@@ -348,7 +406,8 @@ module.exports = {
                 ]
             },
             "vs-code/spell-checking",
-            "vs-code/user-keyboard-shortcuts"
+            "vs-code/user-keyboard-shortcuts",
+            "vs-code/windows-permission-denied"
         ]
     },
     {
@@ -387,6 +446,13 @@ module.exports = {
                     "workplace/onenote-to-markdown/chocolatey-install",
                     "workplace/onenote-to-markdown/onenote-to-markdown",
                     "workplace/onenote-to-markdown/pandoc-install"
+                ]
+            },
+            {
+                "type": "category",
+                "label": "windows",
+                "items": [
+                    "workplace/windows/mv-permission-denied"
                 ]
             }
         ]
