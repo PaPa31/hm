@@ -7,7 +7,7 @@ description: What flavor of Regex does Visual Studio Code use?
 
 I was faced with the need of massively change `(a)` to `a)`, `(b)` to `b)` and so on. After I changed `(a)` to `a)` using Fined/Replace, instead of continuing the tedious manual replacement letter by letter, I remembered about `regular expressions`.
 
-I had some experience with [regular expressions in bash](../shells/bash/regex-in-bash) and I was able to make the required expression pretty soon.
+I had some experience with [regular expressions in bash](../../shells/bash/regex-in-bash) and I was able to make the required expression pretty soon.
 
 There are some differences in how ***regex***(regular expressions) work in VS Code though.
 
