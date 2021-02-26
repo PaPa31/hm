@@ -798,6 +798,22 @@ d) 8F + AD = 13С (overflow)
 
 ## Exercise 1.59 Perform the following additions of unsigned hexadecimal numbers. Indicate whether or not the sum overflows an 8-bit (two hex digit) result
 
+(a) 22<sub>16</sub> + 8<sub>16</sub>
+
+(b) 73<sub>16</sub> + 2C<sub>16</sub>
+
+(c) 7F<sub>16</sub> + 7F<sub>16</sub>
+
+(d) C2<sub>16</sub> + A4<sub>16</sub>
+
+<textarea>
+Your answer:
+(a) 22 + 8 =
+(b) 73 + 2C =
+(c) 7F + 7F =
+(d) C2 + A4 =
+</textarea>
+
 Solution:
 
 a) 22 + 8 = 0x2A
@@ -860,9 +876,9 @@ a) 9 - 7 = 01001 - 00111 = 00010
 
 ```
    01001 9
--  00111 7
++  11001 -7
    =====
-   00010
+ 1 00010 <- carry discarded 
 ```
 
 b) 12 -15 = 01100 - 01111 = 11101
