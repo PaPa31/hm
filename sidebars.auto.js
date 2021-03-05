@@ -3,9 +3,23 @@ module.exports = {
   docs: [
     {
         "type": "category",
-        "label": "love",
+        "label": "location",
         "items": [
-            "love/love-project"
+            {
+                "type": "category",
+                "label": "Lvovskaya-2020-2021",
+                "items": [
+                    "location/Lvovskaya-2020-2021/8-marсh-order",
+                    {
+                        "type": "category",
+                        "label": "black-friday-orders",
+                        "items": [
+                            "location/Lvovskaya-2020-2021/black-friday-orders/when-starting-black-friday"
+                        ]
+                    },
+                    "location/Lvovskaya-2020-2021/rostelekom"
+                ]
+            }
         ]
     },
     {
@@ -14,8 +28,16 @@ module.exports = {
         "items": [
             {
                 "type": "category",
+                "label": "love-project",
+                "items": [
+                    "api/love-project/love-project"
+                ]
+            },
+            {
+                "type": "category",
                 "label": "python3",
                 "items": [
+                    "api/python3/python",
                     "api/python3/venv-isolate-dependencies"
                 ]
             }
@@ -59,13 +81,27 @@ module.exports = {
     },
     {
         "type": "category",
+        "label": "courses",
+        "items": [
+            "courses/all-courses",
+            {
+                "type": "category",
+                "label": "react-complete-giude",
+                "items": [
+                    "courses/react-complete-giude/getting-started",
+                    "courses/react-complete-giude/react-complete-guide"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "category",
         "label": "creative",
         "items": [
             {
                 "type": "category",
                 "label": "premiere-pro",
                 "items": [
-                    "creative/premiere-pro/2021",
                     "creative/premiere-pro/premiere-pro"
                 ]
             }
@@ -82,11 +118,13 @@ module.exports = {
         "type": "category",
         "label": "digital-design",
         "items": [
+            "digital-design/computer-abstraction-levels",
             {
                 "type": "category",
                 "label": "binary-numbers",
                 "items": [
                     "digital-design/binary-numbers/binary-numbers",
+                    "digital-design/binary-numbers/binary-trick",
                     "digital-design/binary-numbers/bit",
                     "digital-design/binary-numbers/crash-due-to-overflow",
                     "digital-design/binary-numbers/ones-complement",
@@ -168,27 +206,6 @@ module.exports = {
     },
     {
         "type": "category",
-        "label": "location",
-        "items": [
-            {
-                "type": "category",
-                "label": "Lvovskaya-2020-2021",
-                "items": [
-                    "location/Lvovskaya-2020-2021/8-marсh-order",
-                    {
-                        "type": "category",
-                        "label": "black-friday-orders",
-                        "items": [
-                            "location/Lvovskaya-2020-2021/black-friday-orders/when-starting-black-friday"
-                        ]
-                    },
-                    "location/Lvovskaya-2020-2021/rostelekom"
-                ]
-            }
-        ]
-    },
-    {
-        "type": "category",
         "label": "capture",
         "items": [
             "capture/capturing-video",
@@ -228,6 +245,7 @@ module.exports = {
         "type": "category",
         "label": "react",
         "items": [
+            "react/classes",
             "react/component",
             "react/element",
             "react/render-element",
@@ -338,12 +356,15 @@ module.exports = {
         "label": "thoughts",
         "items": [
             "thoughts/black-hole-party",
+            "thoughts/dyadya-vova",
             "thoughts/fucking-american-bastards",
+            "thoughts/heart-in-ural",
             "thoughts/heidegger",
             "thoughts/kipling",
             "thoughts/knowledge-fences",
             "thoughts/lazy-beast",
             "thoughts/letter-to-brian-may",
+            "thoughts/lev-nikolaevich-tolstoy",
             "thoughts/magic-wand",
             "thoughts/more-reliable-than-death",
             "thoughts/one-virus-more",
@@ -352,11 +373,21 @@ module.exports = {
             "thoughts/prometheus-lenin-torvalds",
             "thoughts/train-history",
             "thoughts/tuesday",
+            "thoughts/tupik",
             "thoughts/u-menya-vnutri-vse-zasoprotivlyalos",
             "thoughts/u-sytogo-vsegda-golodnyi-vinovat",
+            "thoughts/uncle-vova",
             "thoughts/vot-ka4us-ya-v-sankah",
             "thoughts/ya-ocherstvel",
+            "thoughts/ya-vinovat",
             "thoughts/zachem-zhe-razmhozheniye"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "verbs",
+        "items": [
+            "verbs/is-it-idiom"
         ]
     },
     {
@@ -419,6 +450,7 @@ module.exports = {
                 "label": "git",
                 "items": [
                     "workplace/git/conventional-commits",
+                    "workplace/git/download-one-folder",
                     "workplace/git/git-best-practicies",
                     "workplace/git/git-workflow",
                     "workplace/git/resolving-git-line-ending-issues-in-wsl"
