@@ -11,7 +11,13 @@ Elements are the smallest building blocks of React apps.
 const name = <h1>Hello, World!</h1>
 ```
 
-You take a DOM quantum, assign a variable to it, and work with that variable. This variable is a React Element.
+This variable `name` carries html, css and javascript. Three in one. Looks like html. But no.
+
+```jsx
+const name = <h1 className={textAlign: center}> Hello  {}
+```
+
+You take a DOM quantum (pseudo, because jsx converts to html), assign a variable to it, and work with that variable. This variable is a React Element.
 
 - [Render an Element into the DOM](render-element)
 - Elements constitute a [component](component).

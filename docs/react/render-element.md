@@ -20,6 +20,6 @@ ReactDOM.render(element, document.getElementById('root'));
 
 [Try it CodePen](https://codepen.io/papa31/pen/GRNMJoO)
 
-Parent node and React Elements is form the React DOM.
+The parent node with embedded React Elements forms the React DOM.
 
 [Updating the Rendered Element](updating-element)
