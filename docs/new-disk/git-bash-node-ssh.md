@@ -7,29 +7,29 @@ title: Git Bash with Node & SSH
 
 Download `Git for Windows` ~~Portable~~:
 
-https://git-scm.com/download/win
+<https://git-scm.com/download/win>
 
 ## Nodejs
 
 Download `npm with node`:
 
-https://nodejs.org/en/download/releases/
+<https://nodejs.org/en/download/releases/>
 
 :::note
 As of today (20\12\2020), I initially install **nodejs** version `10.23.0` due to compatibility issues.
 :::
 
-:::caution 
+:::caution
 Last time I installed the non-portable version. See [**Non-portable nodejs**](#non-portable-nodejs) section. Main reason: When and if you install a new Windows, you lose all the old `environment variables`. And you need to reinstall all the `git-linked` apps.
 :::
 
 ### Portable nodejs
 
-:::tip 
+:::tip
 Download `.zip` file and unzip it (for example, **node-v10.23.0-win-x64.zip**) to `F:\Portable` folder.
 :::
 
-Create a config file `/etc/node_env.conf` (WIndows location `F:\Portable\git\etc\node_env.conf`) and add to it:
+Create a config file `/etc/node_env.conf` (Windows location `F:\Portable\git\etc\node_env.conf`) and add to it:
 
 ```vim title="\etc\node_env.conf"
 # Include node PATH
@@ -49,6 +49,7 @@ Test:
 ```bash title="Git-Bash"
 node --version
 ```
+
 v10.23.0
 
 ### Non-Portable nodejs
@@ -56,6 +57,7 @@ v10.23.0
 :::tip MSI installer
 You needs to download `.msi` file (for example, **node-v10.23.0-x64.msi**) and run it with default settings. No other setting are required (you may need to restart your terminal or VS Code).
 :::
+
 ## SSH
 
 Generate new ssh keys:
