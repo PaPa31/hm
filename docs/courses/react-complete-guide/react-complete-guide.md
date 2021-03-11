@@ -9,4 +9,4 @@ description: React - The Complete Guide (incl. Hooks, React Router, Redux)
 
 ## 2. Next Generation JavaScript
 
-## [3. Base Features & Syntax](3/1-intro)
+## [3. Base Features & Syntax](3/intro)

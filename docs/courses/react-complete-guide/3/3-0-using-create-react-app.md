@@ -22,7 +22,7 @@ If you run something like this:
 npx create-react-app react-complete-guide --scripts-version 1.1.5
 ```
 
-You'll get more simplified folder structure, but `--scripts-version 1.1.5` may result in a error `Something is already running on port 3000` when you run `npm start`. Especially on Windows [nvm](../../node/nvm). See solution below.
+You'll get more simplified folder structure, but `--scripts-version 1.1.5` may result in a error `Something is already running on port 3000` when you run `npm start`. Especially on Windows [nvm](../../../node/nvm-windows). See solution below.
 :::
 
 ### Solution `port 3000` error
