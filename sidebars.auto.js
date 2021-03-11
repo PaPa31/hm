@@ -86,10 +86,36 @@ module.exports = {
             "courses/all-courses",
             {
                 "type": "category",
-                "label": "react-complete-giude",
+                "label": "react-complete-guide",
                 "items": [
-                    "courses/react-complete-giude/getting-started",
-                    "courses/react-complete-giude/react-complete-guide"
+                    {
+                        "type": "category",
+                        "label": "2",
+                        "items": [
+                            "courses/react-complete-guide/2/1-next-gen-javascript-summary"
+                        ]
+                    },
+                    {
+                        "type": "category",
+                        "label": "3",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "pdf",
+                                "items": []
+                            },
+                            "courses/react-complete-guide/3/intro",
+                            "courses/react-complete-guide/3/using-create-react-app",
+                            "courses/react-complete-guide/3/react-script-error",
+                            "courses/react-complete-guide/3/ide-setup",
+                            "courses/react-complete-guide/3/components-jsx-cheat-sheet",
+                            "courses/react-complete-guide/3/props-and-state",
+                            "courses/react-complete-guide/3/listenable-events",
+                            "courses/react-complete-guide/3/function-components-naming",
+                            "courses/react-complete-guide/3/useful-resources"
+                        ]
+                    },
+                    "courses/react-complete-guide/react-complete-guide"
                 ]
             }
         ]
@@ -206,6 +232,25 @@ module.exports = {
     },
     {
         "type": "category",
+        "label": "javascript",
+        "items": [
+            "javascript/birth",
+            "javascript/functions",
+            {
+                "type": "category",
+                "label": "next-generation",
+                "items": [
+                    "javascript/next-generation/arrow-functions",
+                    "javascript/next-generation/classes",
+                    "javascript/next-generation/var-let-const"
+                ]
+            },
+            "javascript/next-generation",
+            "javascript/objects"
+        ]
+    },
+    {
+        "type": "category",
         "label": "capture",
         "items": [
             "capture/capturing-video",
@@ -236,6 +281,13 @@ module.exports = {
     },
     {
         "type": "category",
+        "label": "node",
+        "items": [
+            "node/nvm-windows"
+        ]
+    },
+    {
+        "type": "category",
         "label": "pdf",
         "items": [
             "pdf/pdf"
@@ -245,7 +297,6 @@ module.exports = {
         "type": "category",
         "label": "react",
         "items": [
-            "react/classes",
             "react/component",
             "react/element",
             "react/render-element",
@@ -266,7 +317,8 @@ module.exports = {
                     "rhyme/sound/all-sounds",
                     "rhyme/sound/ded-moroz-i-santa-claus",
                     "rhyme/sound/hash",
-                    "rhyme/sound/headless-horseman"
+                    "rhyme/sound/headless-horseman",
+                    "rhyme/sound/one-virus-more"
                 ]
             },
             "rhyme/wolfs"
@@ -296,6 +348,13 @@ module.exports = {
                             "shells/commands/sed/sed-my-experience"
                         ]
                     }
+                ]
+            },
+            {
+                "type": "category",
+                "label": "powershell",
+                "items": [
+                    "shells/powershell/rm"
                 ]
             },
             "shells/windows-terminal-tips-and-tricks"
@@ -367,7 +426,6 @@ module.exports = {
             "thoughts/lev-nikolaevich-tolstoy",
             "thoughts/magic-wand",
             "thoughts/more-reliable-than-death",
-            "thoughts/one-virus-more",
             "thoughts/orenburg-is-the capital-of",
             "thoughts/papa-constant",
             "thoughts/prometheus-lenin-torvalds",
@@ -461,7 +519,8 @@ module.exports = {
                 "type": "category",
                 "label": "linux",
                 "items": [
-                    "workplace/linux/draw-in-linux-kde-plasma"
+                    "workplace/linux/draw-in-linux-kde-plasma",
+                    "workplace/linux/read-only-file-system-error"
                 ]
             },
             {
