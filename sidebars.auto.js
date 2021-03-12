@@ -349,7 +349,6 @@ module.exports = {
                         "type": "category",
                         "label": "sed",
                         "items": [
-                            "shells/commands/sed/git-best-initial",
                             "shells/commands/sed/sed-my-experience"
                         ]
                     }
