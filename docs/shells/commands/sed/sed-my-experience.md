@@ -6,7 +6,7 @@ from this [repo](https://github.com/SethRobertson/GitBestPractices).
 
 I downloaded it from the repo's `gh-pages` [branch](https://raw.githubusercontent.com/SethRobertson/GitBestPractices/gh-pages/index.md) and saved as `git-best-initial.md`
 
-After grabbing via Web Clipper, this file needed to be edited. The **Table of Content** links in this file do not work correctly, and some code blocks look ugly.
+After grabbing via Web Clipper (Chrome browser plugin), this file needed to be edited. The **Table of Content** links in this file do not work correctly, and some code blocks look ugly.
 
 ## Edit with `sed` & Regular Expressions
 
