@@ -2,7 +2,7 @@
 id: binary-trick
 title: Binary Trick
 date: 2021-03-04 22:31:22
-description: 
+description:
 ---
 
 ## binary guess number trick
