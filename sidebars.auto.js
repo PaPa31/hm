@@ -70,43 +70,68 @@ module.exports = {
         "type": "category",
         "label": "courses",
         "items": [
-            "courses/all-courses",
+            "courses/0-all-courses",
             {
                 "type": "category",
                 "label": "react-complete-guide",
                 "items": [
+                    "courses/react-complete-guide/0-table-of-contents",
                     {
                         "type": "category",
-                        "label": "2",
+                        "label": "2-next-gen-javascript",
                         "items": [
-                            "courses/react-complete-guide/2/1-next-gen-javascript-summary"
+                            "courses/react-complete-guide/2-next-gen-javascript/next-gen-javascript-summary"
                         ]
                     },
                     {
                         "type": "category",
-                        "label": "3",
+                        "label": "3-base-feature-syntax",
                         "items": [
+                            "courses/react-complete-guide/3-base-feature-syntax/0-contents",
                             {
                                 "type": "category",
                                 "label": "pdf",
                                 "items": []
                             },
-                            "courses/react-complete-guide/3/intro",
-                            "courses/react-complete-guide/3/using-create-react-app",
-                            "courses/react-complete-guide/3/react-script-error",
-                            "courses/react-complete-guide/3/ide-setup",
-                            "courses/react-complete-guide/3/initial-deploy",
-                            "courses/react-complete-guide/3/my-thoughts-about-jsx",
-                            "courses/react-complete-guide/3/jsx",
-                            "courses/react-complete-guide/3/jsx-restrictions",
-                            "courses/react-complete-guide/3/components-jsx-cheat-sheet",
-                            "courses/react-complete-guide/3/props-and-state",
-                            "courses/react-complete-guide/3/listenable-events",
-                            "courses/react-complete-guide/3/function-components-naming",
-                            "courses/react-complete-guide/3/useful-resources"
+                            "courses/react-complete-guide/3-base-feature-syntax/3-0-using-create-react-app",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-1-react-script-error",
+                            "courses/react-complete-guide/3-base-feature-syntax/4-1-ide-setup",
+                            "courses/react-complete-guide/3-base-feature-syntax/4-2-initial-deploy",
+                            "courses/react-complete-guide/3-base-feature-syntax/6-0-jsx",
+                            "courses/react-complete-guide/3-base-feature-syntax/6-1-my-thoughts-about-jsx",
+                            "courses/react-complete-guide/3-base-feature-syntax/7-jsx-restrictions",
+                            "courses/react-complete-guide/3-base-feature-syntax/9-components-jsx-cheat-sheet",
+                            "courses/react-complete-guide/3-base-feature-syntax/12-working-with-props",
+                            "courses/react-complete-guide/3-base-feature-syntax/13-children-prop",
+                            "courses/react-complete-guide/3-base-feature-syntax/15-props-and-state",
+                            "courses/react-complete-guide/3-base-feature-syntax/16-handling-events-with-methods",
+                            "courses/react-complete-guide/3-base-feature-syntax/17-listenable-events",
+                            "courses/react-complete-guide/3-base-feature-syntax/18-manipulating-state",
+                            "courses/react-complete-guide/3-base-feature-syntax/19-function-components-naming",
+                            "courses/react-complete-guide/3-base-feature-syntax/20-usestate-hook",
+                            "courses/react-complete-guide/3-base-feature-syntax/22-passing-methods-between-components",
+                            "courses/react-complete-guide/3-base-feature-syntax/23-adding-two-way-binding",
+                            "courses/react-complete-guide/3-base-feature-syntax/24-adding-styling-with-stylesheets",
+                            "courses/react-complete-guide/3-base-feature-syntax/25-working-with-inline-styles",
+                            "courses/react-complete-guide/3-base-feature-syntax/26-assignment-problem",
+                            "courses/react-complete-guide/3-base-feature-syntax/28-useful-resources"
                         ]
                     },
-                    "courses/react-complete-guide/react-complete-guide"
+                    {
+                        "type": "category",
+                        "label": "4-lists-and-conditionals",
+                        "items": [
+                            "courses/react-complete-guide/4-lists-and-conditionals/0-contents",
+                            {
+                                "type": "category",
+                                "label": "pdf",
+                                "items": []
+                            },
+                            "courses/react-complete-guide/4-lists-and-conditionals/2-rendering-content-conditionally",
+                            "courses/react-complete-guide/4-lists-and-conditionals/5-outputting-lists",
+                            "courses/react-complete-guide/4-lists-and-conditionals/13-useful-resources"
+                        ]
+                    }
                 ]
             }
         ]
@@ -420,6 +445,7 @@ module.exports = {
         "items": [
             "thoughts/black-hole-party",
             "thoughts/dyadya-vova",
+            "thoughts/face-the-truth",
             "thoughts/fucking-american-bastards",
             "thoughts/heart-in-ural",
             "thoughts/heidegger",
@@ -430,6 +456,7 @@ module.exports = {
             "thoughts/lev-nikolaevich-tolstoy",
             "thoughts/magic-wand",
             "thoughts/more-reliable-than-death",
+            "thoughts/new-knowledge",
             "thoughts/orenburg-is-the capital-of",
             "thoughts/papa-constant",
             "thoughts/prometheus-lenin-torvalds",
@@ -482,6 +509,13 @@ module.exports = {
             "vs-code/fira-code",
             {
                 "type": "category",
+                "label": "macros",
+                "items": [
+                    "vs-code/macros/refactor-front-matter"
+                ]
+            },
+            {
+                "type": "category",
                 "label": "regex",
                 "items": [
                     "vs-code/regex/regex-examples",
@@ -492,9 +526,9 @@ module.exports = {
                 "type": "category",
                 "label": "snippets",
                 "items": [
+                    "vs-code/snippets/all-snippets",
                     "vs-code/snippets/anchor-from-clipboard",
                     "vs-code/snippets/auto-front-matter",
-                    "vs-code/snippets/prefix-only-snippets",
                     "vs-code/snippets/snippet-plus-shortcut"
                 ]
             },
@@ -512,6 +546,7 @@ module.exports = {
                 "label": "git",
                 "items": [
                     "workplace/git/conventional-commits",
+                    "workplace/git/delete-closed-pull-request",
                     "workplace/git/download-one-folder",
                     "workplace/git/git-best-practicies",
                     "workplace/git/git-workflow",
@@ -525,6 +560,7 @@ module.exports = {
                 "label": "linux",
                 "items": [
                     "workplace/linux/draw-in-linux-kde-plasma",
+                    "workplace/linux/kde-klipper-regex",
                     "workplace/linux/read-only-file-system-error"
                 ]
             },
