@@ -14,7 +14,7 @@ To use a Snippet, you type the first (or any other) letters of the required `sni
 |   |Snippet Prefix|Usage|Description|Result|
 | - | ------------ | --- | --------- | ---- |
 | 1 | Anchor-from-Clipboard | Copy link > activate snippet | Make anchor from clipboard with regex | <a href='https://reactjs.org/docs/rendering-elements.html#updating-the-rendered-element' class='external'>reactjs.org</a> |
-| 2 | Tabs-from-Clipboard | type `JSX React`  > cut this text > activate snippet |  Make JSX `<Tabs/>` and `<TabItem/>` from two words | see [here](../../courses/react-complete-guide/3/jsx) or [here](../../courses/react-complete-guide/3/working-with-props) |
+| 2 | Tabs-from-Clipboard | type `JSX React`  > cut this text > activate snippet |  Make JSX `<Tabs/>` and `<TabItem/>` from two words | see [here](../../courses/react-complete-guide/3-base-feature-syntax/6-0-jsx) or [React Complete Guide: 3.12 Working with Props](../../courses/react-complete-guide/3-base-feature-syntax/12-working-with-props) |
 
 ## Activate Snippet
 
