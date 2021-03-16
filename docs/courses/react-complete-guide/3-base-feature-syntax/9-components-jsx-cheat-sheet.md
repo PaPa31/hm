@@ -1,12 +1,12 @@
 ---
-id: components-jsx-cheat-sheet
-title: Components JSX Cheat Sheet
+id: 9-components-jsx-cheat-sheet
+title: 9 Components JSX Cheat Sheet
 date: 2021-03-07 18:04:46
 ---
 
 Components are the `core building block of React apps`. Actually, React really is just a library for creating components in its core.
 
-[Components Learning Card PDF](pdf/components-learning-card.pdf)
+[Components Learning Card PDF](pdf/9-components-learning-card.pdf)
 
 A typical React app therefore could be depicted as a `component tree` - having one root component ("App") and then an potentially infinite amount of nested child components.
 

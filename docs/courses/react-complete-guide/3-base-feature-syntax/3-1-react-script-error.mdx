@@ -1,8 +1,7 @@
 ---
-id: react-script-error
-title: -> React Script Error
+id: 3-1-react-script-error
+title: 3.1 React Script Error
 date: 2021-03-03 23:15:44
-description: 
 ---
 
 
@@ -53,3 +52,15 @@ rm node_modules package-lock.json -r -fo
 
 </TabItem>
 </Tabs>
+
+And then:
+
+```sh
+npm i
+```
+
+:::warning
+And you might run into a hidden error: spaces and other unnecessary characters in the file path name. 
+:::
+
+I mannually replaced all `spaces` and `(`,`)` characters (and possibly others) with dashes in the filenames and parent folders, and the problem went away!

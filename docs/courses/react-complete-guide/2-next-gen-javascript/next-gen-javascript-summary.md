@@ -1,6 +1,6 @@
 ---
-id: 1-next-gen-javascript-summary
-title: 2.1 Next Gen Javascript Summary
+id: next-gen-javascript-summary
+title: Next Gen Javascript Summary
 date: 2021-03-07 18:03:39
 ---
 

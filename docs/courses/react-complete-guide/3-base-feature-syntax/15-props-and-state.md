@@ -1,6 +1,6 @@
 ---
-id: props-and-state
-title: Props And State
+id: 15-props-and-state
+title: 15 Props And State
 date: 2021-03-07 18:06:13
 ---
 
@@ -71,4 +71,4 @@ Here, the `NewPost` component contains `state`. Only class-based components can 
 
 Whenever `state` changes (taught over the next lectures), the component will re-render and reflect the new state. The difference to `props` is, that this happens within one and the same component - you don't receive new data (`props`) from outside!
 
-[State Learning Card PDF](pdf/state-learning-card.pdf)
+[State Learning Card PDF](pdf/15-state-learning-card.pdf)

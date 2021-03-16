@@ -1,6 +1,6 @@
 ---
-id: function-components-naming
-title: Function Components Naming
+id: 19-function-components-naming
+title: 19 Function Components Naming
 date: 2021-03-07 23:17:22
 ---
 

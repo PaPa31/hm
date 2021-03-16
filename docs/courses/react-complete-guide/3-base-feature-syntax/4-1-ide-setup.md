@@ -1,11 +1,10 @@
 ---
-id: ide-setup
-title: IDE Setup
+id: 4-1-ide-setup
+title: 4.1 IDE Setup
 date: 2021-03-11 11:21:52
-description:
 ---
 
-First of all, read Max's [IDE Setup PDF](pdf/ide-setup.pdf) instruction.
+First of all, read Max's [IDE Setup PDF](pdf/4-1-ide-setup.pdf) instruction.
 
 Editors Syntax Highlighting <a href='https://babeljs.io/docs/en/editors/' class='external'>babeljs.io</a> with plugins
 

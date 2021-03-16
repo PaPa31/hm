@@ -1,7 +1,7 @@
 ---
-id: jsx-restrictions
-title: JSX Restrictions
-date: 2021-03-12 00:47:38
+id: 6-1-my-thoughts-about-jsx
+title: 6.1 My Thoughts About Jsx
+date: 2021-03-12 11:49:24
 ---
 
 JSX is design to be as HTML-like as possible. But there are differences. First of all, JSX is not HTML. At all!

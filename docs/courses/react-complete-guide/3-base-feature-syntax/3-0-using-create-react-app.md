@@ -1,8 +1,8 @@
 ---
-id: using-create-react-app
-title: Using create-react-app
+id: 3-0-using-create-react-app
+title: 3.0 Using Create React App
 date: 2021-03-09 15:56:53
-description: Create React apps with no build configuration.
+description: Create React apps with no build configuration
 ---
 
 React toolchains <a href='https://reactjs.org/docs/create-a-new-react-app.html#create-react-app' class='external'>reactjs.org</a>

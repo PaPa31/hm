@@ -1,6 +1,6 @@
 ---
-id: initial-deploy
-title: Initial Deploy
+id: 4-2-initial-deploy
+title: 4.2 Initial Deploy
 date: 2021-03-11 19:13:14
 description: Initial deployment to GitHub pages
 ---
