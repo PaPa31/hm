@@ -13,18 +13,47 @@ To use a Snippet, you type the first (or any other) letters of the required `sni
 
 |   |Snippet Prefix|Usage|Description|Result|
 | - | ------------ | --- | --------- | ---- |
-| 1 | Anchor-from-Clipboard | Copy link > activate snippet | Make anchor from clipboard with regex | <a href='https://reactjs.org/docs/rendering-elements.html#updating-the-rendered-element' class='external'>reactjs.org</a> |
-| 2 | Tabs-from-Clipboard | type `JSX React`  > cut this text > activate snippet |  Make JSX `<Tabs/>` and `<TabItem/>` from two words | see [here](../../courses/react-complete-guide/3-base-feature-syntax/6-0-jsx) or [React Complete Guide: 3.12 Working with Props](../../courses/react-complete-guide/3-base-feature-syntax/12-working-with-props) |
+| 1 | Anchor-from-Clipboard | Copy link > activate snippet | Anchor to a link from the clipboard | <a href='https://habr.com/ru/post/440946/' class='external'>habr.com</a>|
+| 2 | Anchor-from-Clipboard2 |  | see 1 + add highlighted text between `<a>` tags | <a href='https://habr.com/ru/post/440946/' class='external'>quiz</a> |
+| 3 | Anchor-from-Clipboard3 |  | see 1 -> `<a>`link: highlighted text`</a>`  | <a href='https://habr.com/ru/post/440946/' class='external'>habr.com: quiz</a> |
+| 3 | Anchor-from-Clipboard4 |  | see 1 -> `<a>`highlighted text (link)`</a>`  | <a href='https://habr.com/ru/post/440946/' class='external'>quiz (habr.com)</a> |
+| 4 | Tabs-from-Clipboard | type `JSX React`  > cut this text > activate snippet |  Make JSX `<Tabs/>` and `<TabItem/>` from two words | see [here](../../courses/react-complete-guide/3-base-feature-syntax/6-0-jsx) or [React Complete Guide: 3.12 Working with Props](../../courses/react-complete-guide/3-base-feature-syntax/12-working-with-props) |
+5 | import React | | Print first import line | `import React from 'react'` |
+6 | full React component | Automatically names a React component with a file name | Print the entire blank of a React component | see [below](#full-react-component )
 
-## Activate Snippet
+## Snippets Results
+
+### `full React component`
+
+Snippet with three tabstops using the filename
+
+```jsx
+import React from 'react'
+
+const userOutput = () => {return ()}
+
+export default userOutput
+```
+
+- Automatically names a React component with a file name
+- Print the entire blank of a React component
+- 3 tabs stops:
+  - 1: if you want rename a component
+  - 2: if you want remove the `return` keyword
+  - 3: if you want add JSX code
+
+## Working with Snippets
+
+### Using a Snippet
 
 For example, to activate `Anchor-from-Clipboard` snippet, you type `arc`, press Ctrl + Space and choose `Anchor-from-Clipboard` from context menu (for this snippet to work correctly, you first need to copy the embed link).
 arc
 
-## How to Make a Snippet
+### How to Make a Snippet
 
 [Anchor from Clipboard](anchor-from-clipboard)
 
 ## Source
 
 - [Snippet plus Shortcut](snippet-plus-shortcut)
+- <a href='https://code.visualstudio.com/docs/editor/userdefinedsnippets#_creating-your-own-snippets' class='external'>Snippets in VS Code</a>
