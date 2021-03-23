@@ -1,6 +1,6 @@
 ---
-id: refactor-front-matter
-title: Refactor Front Matter
+id: auto-frontmatter
+title: Auto Frontmatter
 date: 2021-03-16 09:55:20
 ---
 
@@ -8,11 +8,13 @@ date: 2021-03-16 09:55:20
 - Copy/past at the end of the `settings.json` file:
 
 ```json title="settings.json"
-  "multiCommand.commands": [
-
+"multiCommand.commands": [
   {
-    "command": "multiCommand.refactorFrontmatter",
+    "command": "multiCommand.autoFrontmatter",
+    "label": "Markdown",
+    "description": "Auto Frontmatter",
     "sequence": [
+      "cursorTop",
       {
         "command": "editor.action.insertSnippet",
         "args": {
@@ -28,29 +30,28 @@ date: 2021-03-16 09:55:20
       {
         "command": "editor.action.insertSnippet",
         "args": {
-          "snippet": "title: ${TM_FILENAME_BASE/([^-]+)(-*)/${1:/capitalize}${2:+ }/g}",
+          "snippet": "title: ${TM_FILENAME_BASE/([^-]+)(-*)/${1:/capitalize}${2:+ }/g}"
         }
       },
-        "cursorLineStartSelect",
+      "cursorLineStartSelect",
       {
         "command": "editor.action.insertSnippet",
         "args": {
-          "snippet": "${TM_SELECTED_TEXT/(\\d+)\\s(?=\\d)/$1./g}\n",
-        }
-      },
-      {
-        "command": "editor.action.insertSnippet",
-        "args": {
-          "snippet": "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND\n",
+          "snippet": "${TM_SELECTED_TEXT/(\\d+)\\s(?=\\d)/$1./g}\n"
         }
       },
       {
         "command": "editor.action.insertSnippet",
         "args": {
-          "snippet": "---\n\n",
+          "snippet": "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND\n"
         }
-      }  
-
+      },
+      {
+        "command": "editor.action.insertSnippet",
+        "args": {
+          "snippet": "---\n\n"
+        }
+      }
     ]
   }
 ],
@@ -62,7 +63,7 @@ date: 2021-03-16 09:55:20
 {
   "key": "alt+g c",    // whatever keybinding you like
   "command": "extension.multiCommand.execute",
-  "args": { "command": "multiCommand.refactorFrontmatter" },
+  "args": { "command": "multiCommand.autoFrontmatter" },
 },
 ```
 
@@ -79,8 +80,8 @@ Now you can type `Alt+G c` and you'll automatically get a front matter with 3 fi
 
 ```md
 ---
-id: refactor-front-matter
-title: Refactor Front Matter
+id: auto-front-matter
+title: auto Front Matter
 date: 2021-03-16 11:26:47
 ---
 ```
