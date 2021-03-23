@@ -4,7 +4,7 @@ title: 4.1 IDE Setup
 date: 2021-03-11 11:21:52
 ---
 
-First of all, read Max's [IDE Setup PDF](pdf/4-1-ide-setup.pdf) instruction.
+Whichever toolchain you choose, you need to customize it. This process is broken down into a build process, code formatting, linting, testing, and type checking.
 
 Editors Syntax Highlighting <a href='https://babeljs.io/docs/en/editors/' class='external'>babeljs.io</a> with plugins
 

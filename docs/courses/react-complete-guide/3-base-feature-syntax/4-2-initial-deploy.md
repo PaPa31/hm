@@ -34,16 +34,10 @@ Create React App uses the `homepage` field to determine the root URL in the buil
 
 Now, whenever you run `npm run build`, you will see a cheat sheet with instructions on how to deploy to GitHub Pages.
 
-To publish it at [https://myusername.github.io/my-app](https://myusername.github.io/my-app), run:
+To publish it at `https://myusername.github.io/my-app`, run:
 
-```sh
+```bash npm2yarn
 npm install --save gh-pages
-```
-
-Alternatively you may use `yarn`:
-
-```sh
-yarn add gh-pages
 ```
 
 Add the following scripts in your `package.json`:
@@ -61,7 +55,7 @@ The `predeploy` script will run automatically before `deploy` is run.
 If you are deploying to a GitHub user page instead of a project page you'll need to make two additional modifications:
 
 1. First, change your repository's source branch to be any branch other than **master**.
-1. Additionally, tweak your `package.json` scripts to push deployments to **master**:
+2. Additionally, tweak your `package.json` scripts to push deployments to **master**:
 
 ```diff
   "scripts": {

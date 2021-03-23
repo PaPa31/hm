@@ -7,8 +7,11 @@ description:
 
 1. Intro
 2. [The Build Workflow (PDF)](pdf/2-build-workflow.pdf)
-3. [Using create-react-app](3-0-using-create-react-app)
-   1. [React Script Error](3-1-react-script-error)
+3. [Create new react app](3-0-create-new-react-app)
+   1. [Pure React](3-1-0-pure-react)
+      1. [React with JSX](3-1-1-react-with-jsx)
+   2. [Using create-react-app](3-2-0-using-create-react-app)
+      1. [React Script Error](3-2-1-react-script-error)
 4. Folder Structure
    1. [IDE setup](4-1-ide-setup)
    2. [Initial Deploy](4-2-initial-deploy)
@@ -34,6 +37,6 @@ description:
 23. [Two Way Binding](23-adding-two-way-binding)
 24. [Adding Styling with Stylesheets](24-adding-styling-with-stylesheets)
 25. [Working with Inline Styles](25-working-with-inline-styles)
-26. [Practice: Assignment Problem](26-assignment-problem)
-27. (Optional) Assignment Solution
+26. [Practice: Test](26-assignment-problem)
+27. [Practice: Test Solution](test/0-test-solution)
 28. [Useful Resources & Links](28-useful-resources)
