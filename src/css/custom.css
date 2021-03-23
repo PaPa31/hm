@@ -42,7 +42,9 @@ textarea{
 }
 
 a.external {
-  display: inline-block;
+  /* display: inline-block; */
+  color: #366fd8;
+  /* line-break: anywhere; */
 }
 
 a.external:before {
