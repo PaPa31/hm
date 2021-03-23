@@ -93,8 +93,28 @@ module.exports = {
                                 "label": "pdf",
                                 "items": []
                             },
-                            "courses/react-complete-guide/3-base-feature-syntax/3-0-using-create-react-app",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-1-react-script-error",
+                            {
+                                "type": "category",
+                                "label": "test",
+                                "items": [
+                                    "courses/react-complete-guide/3-base-feature-syntax/test/0-test-solution",
+                                    "courses/react-complete-guide/3-base-feature-syntax/test/1-create-components",
+                                    "courses/react-complete-guide/3-base-feature-syntax/test/2-create-elements",
+                                    "courses/react-complete-guide/3-base-feature-syntax/test/3-create-nested-components",
+                                    "courses/react-complete-guide/3-base-feature-syntax/test/4-passing-data-through-props",
+                                    "courses/react-complete-guide/3-base-feature-syntax/test/5-add-state-to-class",
+                                    "courses/react-complete-guide/3-base-feature-syntax/test/6-add-event-handler-method",
+                                    "courses/react-complete-guide/3-base-feature-syntax/test/7-pass-method-reference",
+                                    "courses/react-complete-guide/3-base-feature-syntax/test/8-making-interactive-component",
+                                    "courses/react-complete-guide/3-base-feature-syntax/test/9-add-two-way-binding",
+                                    "courses/react-complete-guide/3-base-feature-syntax/test/10-add-styling"
+                                ]
+                            },
+                            "courses/react-complete-guide/3-base-feature-syntax/3-0-create-new-react-app",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-1-0-pure-react",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-1-1-react-with-jsx",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-2-0-using-create-react-app",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-2-1-react-script-error",
                             "courses/react-complete-guide/3-base-feature-syntax/4-1-ide-setup",
                             "courses/react-complete-guide/3-base-feature-syntax/4-2-initial-deploy",
                             "courses/react-complete-guide/3-base-feature-syntax/6-0-jsx",
@@ -281,7 +301,8 @@ module.exports = {
                             "location/Lvovskaya-2020-2021/black-friday-orders/when-starting-black-friday"
                         ]
                     },
-                    "location/Lvovskaya-2020-2021/rostelekom"
+                    "location/Lvovskaya-2020-2021/rostelekom",
+                    "location/Lvovskaya-2020-2021/support-polyglot-by-getting-t-short"
                 ]
             }
         ]
@@ -312,6 +333,20 @@ module.exports = {
         "type": "category",
         "label": "node",
         "items": [
+            {
+                "type": "category",
+                "label": "bundlers",
+                "items": [
+                    "node/bundlers/0-bundlers-review"
+                ]
+            },
+            {
+                "type": "category",
+                "label": "npm",
+                "items": [
+                    "node/npm/do-i-commit-package-lock-json"
+                ]
+            },
             "node/nvm-windows",
             "node/nvm"
         ]
@@ -443,23 +478,30 @@ module.exports = {
         "type": "category",
         "label": "thoughts",
         "items": [
+            "thoughts/birth-of-myths",
             "thoughts/black-hole-party",
+            "thoughts/debugging",
             "thoughts/dyadya-vova",
             "thoughts/face-the-truth",
             "thoughts/fucking-american-bastards",
             "thoughts/heart-in-ural",
             "thoughts/heidegger",
+            "thoughts/i-afraid-big-many",
             "thoughts/kipling",
             "thoughts/knowledge-fences",
             "thoughts/lazy-beast",
             "thoughts/letter-to-brian-may",
             "thoughts/lev-nikolaevich-tolstoy",
             "thoughts/magic-wand",
+            "thoughts/mashas-post",
             "thoughts/more-reliable-than-death",
+            "thoughts/new-kind-exercise",
             "thoughts/new-knowledge",
             "thoughts/orenburg-is-the capital-of",
             "thoughts/papa-constant",
+            "thoughts/prisoners-prayer",
             "thoughts/prometheus-lenin-torvalds",
+            "thoughts/tomorrows-apple",
             "thoughts/train-history",
             "thoughts/tuesday",
             "thoughts/tupik",
@@ -511,9 +553,10 @@ module.exports = {
                 "type": "category",
                 "label": "macros",
                 "items": [
-                    "vs-code/macros/refactor-front-matter"
+                    "vs-code/macros/auto-frontmatter"
                 ]
             },
+            "vs-code/mdx-equals-md",
             {
                 "type": "category",
                 "label": "regex",
@@ -587,6 +630,13 @@ module.exports = {
                     "workplace/windows/mv-permission-denied"
                 ]
             }
+        ]
+    },
+    {
+        "type": "category",
+        "label": "writing-system",
+        "items": [
+            "writing-system/cuneiform"
         ]
     }
 ]
