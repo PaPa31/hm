@@ -4,56 +4,89 @@ title: nvm Windows
 date: 2021-03-09 00:44:57
 ---
 
-Manage multiple installations of node.js on a Windows computer.
+Manage multiple installations of `node.js` on a Windows computer.
 
-Read more: <a href='https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows' class='external'>github.com</a>
+Source: <a href='https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows' class='external'>github.com: Node Version Manager (nvm) for Windows</a>
 
 ## nvm-windows Installation
 
 :::caution
-Before installing `nvm`, you need to uninstall the independent `node` versions that were installed via [nodejs](../new-disk/git-bash-node-ssh).
+It is always recommended to remove any existing installations of `Node.js` or `npm` from your operating system before installing a version manager as the different types of installation can lead to strange and confusing conflicts. This includes deleting any existing nodejs installation directories (e.g., `C:\Program Files\nodejs`) that might remain. `nvm`'s generated symlink will not overwrite an existing (even empty) installation directory. For help with removing previous installations, see <a href='https://stackoverflow.com/questions/20711240/how-to-completely-remove-node-js-from-windows' class='external'>stackoverflow.com: How to completely remove node.js from Windows</a>.
 :::
 
-Download the latest installer <a href='https://github.com/coreybutler/nvm/releases' class='external'>github.com</a> (for example, `nvm-setup.zip`), unzip, run `nvm-setup.exe` file with default settings.
+1. Download from <a href='https://github.com/coreybutler/nvm/releases' class='external'>github.com: nvm (Windows) releases</a> one of the latest installers (for example, `nvm-setup.zip`), unzip it and run `nvm-setup.exe` file with default settings.
 
-Restart the shell. Check:
+2. Open `PowerShell` and check the `npm` version:
 
-```shell
-npm --version
-6.14.11
-```
+   ```shell
+   npm --version
+   6.14.11
+   ```
 
-## node Installation
+3. Install the current release of `node.js` (for testing the newest feature improvements, but more likely to have issues than the LTS version):
 
-Then install node (for example, node 10):
+   ```shell
+   nvm install latest
+   ```
 
-:::note
-I initially install nodejs version 10.x due to compatibility issues.
-:::
+4. And install the latest stable LTS release of `node.js` (recommended) by first looking up what the current LTS version number is with:
 
-```shell
-nvm install 10.24.0
-```
+   ```shell
+   nvm list available
+   ```
 
-:::tip
-You can see the required version number in <a href='https://nodejs.org/en/download/releases/' class='external'>nodejs.org</a>
-:::
+   :::tip
+   Also you can see all available `node` versions at <a href='https://nodejs.org/en/download/releases/' class='external'>nodejs.org</a>
+   :::
 
-Then you need activate required node version:
+   then installing the LTS version number with:
 
-```shell
-nvm use 10.24.0
-Now using node v10.24.0 (64-bit)
-```
+   ```shell
+   nvm install <version>
+   ```
 
-After that you can check the versions of `node` and `npm`:
+   replacing `<version>` with the number, ie: `nvm install 12.14.0`.
 
-```shell
-node --version
-v10.24.0
+5. List what versions of `node` are installed:
 
-npm --version
-6.14.11
-```
+   ```shell
+   nvm ls
+   ```
 
-Try using `npm` with `npm start`.
+   now you should see the two versions that you just installed listed.
+
+   :::note
+   At the moment (2020-03-20), I have installed node.js version `10.x` due to compatibility issues and version `12.x` due to Docusaurus requirement.
+   :::
+
+6. After installing the `node.js` version numbers you need, select the version that you would like to use by entering:
+
+   ```shell
+   nvm use <version>
+   ```
+
+   replacing `<version>` with the number, ie: `nvm use 12.9.0`.
+
+7. To change the version of `node.js` you would like to use for a project, create a new project directory:
+
+   ```shell
+   mkdir NodeTest   # Create the directory
+   
+   cd NodeTest      # and enter the directory
+
+   nvm use <version>    # then enter node version
+   ```
+
+   replacing `<version>` with the version number you'd like to use (ie: `v10.16.3`).
+
+8. Verify which version of `npm` is installed with:
+
+   ```shell
+   npm --version
+   ```
+
+   this version number will automatically change to whichever `npm` version is associated with your current version of `node.js`.
+
+## Upgrading nvm-windows
+
+To upgrade `nvm-windows`, run the new installer. It will safely overwrite the files it needs to update without touching your `node.js` installations. Make sure you use the same installation and `symlink folder`. If you originally installed to the default locations, you just need to click `next` on each window until it finishes.
