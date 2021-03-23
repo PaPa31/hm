@@ -29,5 +29,5 @@ cp ~/.config/Code/User/keybindings.json '/mnt/sdc1/Users/parsh/Application Data/
 6 | `Ctrl+E t` | see above | Wrap with `<textarea>` and some text | `<textarea>Your answer:</textarea>`
 7 | `Ctrl+G c` |  | add markdown admonition | `::: :::`
 8 | `Ctrl+G t` |  | add markdown code block | ``````
-9 | `Alt+G c`  | [Macros: Refactor Frontmatter](macros/refactor-front-matter) | add markdown frontmatter | `--- ... ---`
+9 | `Alt+G c`  | [Macros: Auto Frontmatter](macros/auto-frontmatter) | add markdown frontmatter | `--- ... ---`
 10 | `Alt+G a` | make external link with 2 vars | 1st var -> copy some link; 2nd var highlight some text | <a href='https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode' class='external'>Prettier</a>
