@@ -8,5 +8,10 @@
         "latex",
         "plaintext",
         "javascript"
-    ]
+    ],
+
+"languageTool.language": [
+        "en",
+        "ru"
+    ],
 }
