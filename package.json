@@ -13,12 +13,13 @@
     "clear": "docusaurus clear"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.71",
-    "@docusaurus/preset-classic": "2.0.0-alpha.71",
-    "@docusaurus/remark-plugin-npm2yarn": "^2.0.0-alpha.71",
-    "@docusaurus/theme-live-codeblock": "^2.0.0-alpha.71",
+    "@docusaurus/core": "^2.0.0-alpha.72",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.72",
+    "@docusaurus/remark-plugin-npm2yarn": "^2.0.0-alpha.72",
+    "@docusaurus/theme-live-codeblock": "^2.0.0-alpha.72",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
+    "docusaurus-lunr-search": "^2.1.10",
     "docusaurus-plugin-auto-sidebars": "^1.0.7",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"

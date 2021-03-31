@@ -135,6 +135,9 @@ module.exports = {
     ],
   ],
   plugins: [
-    'docusaurus-plugin-auto-sidebars'
-  ],
+    'docusaurus-plugin-auto-sidebars',
+    [require.resolve('docusaurus-lunr-search'), {
+      languages: ['en', 'ru'] // language codes
+    }] ],
+
 };
