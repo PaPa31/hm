@@ -13,6 +13,7 @@ npm install --save @docusaurus/theme-live-codeblock
 
 :::danger
 Code above will cause error when `npm run start`:
+
 ```
 Bad docusaurus-theme-live-codeblock version 2.0.0-alpha.70.
 All official @docusaurus/* packages should have the exact same version as @docusaurus/core (2.0.0-alpha.69).
@@ -21,13 +22,17 @@ Maybe you want to check, or regenerate your yarn.lock or package-lock.json file?
 ```
 
 then, first uninstall previous:
+
 ```
 npm uninstall @docusaurus/theme-live-codeblock
 ```
+
 then install this:
+
 ```
 npm install --save @docusaurus/theme-live-codeblock@next
 ```
+
 From: [https://github.com/facebook/docusaurus/issues/3466](https://github.com/facebook/docusaurus/issues/3466)
 
 :::
@@ -111,9 +116,11 @@ npm run swizzle @docusaurus/theme-live-codeblock ReactLiveScope
 :::danger
 
 If code above doesn't work, try this:
+
 ```
 npm run swizzle @docusaurus/theme-live-codeblock ReactLiveScope -- --danger
 ```
+
 >As a workaround you can just copy the folder `node_modules/@docusaurus/theme-live-codeblock/src/theme/CodeBlock` and put it in `website/src/theme/CodeBlock`, that's basically what the command does. - *Slorber, Main of Docusaurus*
 
 From: [https://github.com/facebook/docusaurus/issues/3466](https://github.com/facebook/docusaurus/issues/3466)
@@ -148,6 +155,7 @@ const ReactLiveScope = {
 
 export default ReactLiveScope;
 ```
+
 Or (as in Docusaurus [page](https://v2.docusaurus.io/docs/markdown-features#interactive-code-editor)) the content is split into two files. First file:
 
 ```jsx title="src/theme/ReactLiveScope/index.js"
@@ -170,6 +178,7 @@ const ReactLiveScope = {
 
 export default ReactLiveScope;
 ```
+
 and second file:
 
 ```jsx title="src/theme/ReactLiveScope/components.js"
@@ -202,5 +211,10 @@ function MyPlayground(props) {
 }
 ```
 
+## Examples
+
+See first page: [https://reactjs.org/](https://reactjs.org/)
+
+## Source
 
 From: [Interactive code editor (Docusaurus)](https://v2.docusaurus.io/docs/markdown-features#interactive-code-editor)

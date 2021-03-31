@@ -87,69 +87,74 @@ module.exports = {
                         "type": "category",
                         "label": "3-base-feature-syntax",
                         "items": [
-                            "courses/react-complete-guide/3-base-feature-syntax/0-contents",
+                            {
+                                "type": "category",
+                                "label": "Practice",
+                                "items": [
+                                    "courses/react-complete-guide/3-base-feature-syntax/Practice/3-0-practice",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Practice/3-1-create-components",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Practice/3-10-add-styling",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Practice/3-2-create-elements",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Practice/3-3-create-nested-components",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Practice/3-4-passing-data-through-props",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Practice/3-5-add-state-to-class",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Practice/3-6-add-event-handler-method",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Practice/3-7-pass-method-reference",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Practice/3-8-making-interactive-component",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Practice/3-9-add-two-way-binding"
+                                ]
+                            },
                             {
                                 "type": "category",
                                 "label": "pdf",
                                 "items": []
                             },
-                            {
-                                "type": "category",
-                                "label": "test",
-                                "items": [
-                                    "courses/react-complete-guide/3-base-feature-syntax/test/0-test-solution",
-                                    "courses/react-complete-guide/3-base-feature-syntax/test/1-create-components",
-                                    "courses/react-complete-guide/3-base-feature-syntax/test/2-create-elements",
-                                    "courses/react-complete-guide/3-base-feature-syntax/test/3-create-nested-components",
-                                    "courses/react-complete-guide/3-base-feature-syntax/test/4-passing-data-through-props",
-                                    "courses/react-complete-guide/3-base-feature-syntax/test/5-add-state-to-class",
-                                    "courses/react-complete-guide/3-base-feature-syntax/test/6-add-event-handler-method",
-                                    "courses/react-complete-guide/3-base-feature-syntax/test/7-pass-method-reference",
-                                    "courses/react-complete-guide/3-base-feature-syntax/test/8-making-interactive-component",
-                                    "courses/react-complete-guide/3-base-feature-syntax/test/9-add-two-way-binding",
-                                    "courses/react-complete-guide/3-base-feature-syntax/test/10-add-styling"
-                                ]
-                            },
-                            "courses/react-complete-guide/3-base-feature-syntax/3-0-create-new-react-app",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-1-0-pure-react",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-1-1-react-with-jsx",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-2-0-using-create-react-app",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-2-1-react-script-error",
-                            "courses/react-complete-guide/3-base-feature-syntax/4-1-ide-setup",
-                            "courses/react-complete-guide/3-base-feature-syntax/4-2-initial-deploy",
-                            "courses/react-complete-guide/3-base-feature-syntax/6-0-jsx",
-                            "courses/react-complete-guide/3-base-feature-syntax/6-1-my-thoughts-about-jsx",
-                            "courses/react-complete-guide/3-base-feature-syntax/7-jsx-restrictions",
-                            "courses/react-complete-guide/3-base-feature-syntax/9-components-jsx-cheat-sheet",
-                            "courses/react-complete-guide/3-base-feature-syntax/12-working-with-props",
-                            "courses/react-complete-guide/3-base-feature-syntax/13-children-prop",
-                            "courses/react-complete-guide/3-base-feature-syntax/15-props-and-state",
-                            "courses/react-complete-guide/3-base-feature-syntax/16-handling-events-with-methods",
-                            "courses/react-complete-guide/3-base-feature-syntax/17-listenable-events",
-                            "courses/react-complete-guide/3-base-feature-syntax/18-manipulating-state",
-                            "courses/react-complete-guide/3-base-feature-syntax/19-function-components-naming",
-                            "courses/react-complete-guide/3-base-feature-syntax/20-usestate-hook",
-                            "courses/react-complete-guide/3-base-feature-syntax/22-passing-methods-between-components",
-                            "courses/react-complete-guide/3-base-feature-syntax/23-adding-two-way-binding",
-                            "courses/react-complete-guide/3-base-feature-syntax/24-adding-styling-with-stylesheets",
-                            "courses/react-complete-guide/3-base-feature-syntax/25-working-with-inline-styles",
-                            "courses/react-complete-guide/3-base-feature-syntax/26-assignment-problem",
-                            "courses/react-complete-guide/3-base-feature-syntax/28-useful-resources"
+                            "courses/react-complete-guide/3-base-feature-syntax/3-0-contents",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-12-working-with-props",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-13-children-prop",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-15-props-and-state",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-16-handling-events-with-methods",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-17-listenable-events",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-18-manipulating-state",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-19-function-components-naming",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-20-usestate-hook",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-22-passing-methods-between-components",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-23-adding-two-way-binding",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-24-adding-styling-with-stylesheets",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-25-working-with-inline-styles",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-26-practice-task",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-28-useful-resources",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-3-0-create-new-react-app",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-3-1-0-pure-react",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-3-1-1-react-with-jsx",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-3-2-0-using-create-react-app",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-3-2-1-react-script-error",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-4-1-ide-setup",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-4-2-initial-deploy",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-6-0-jsx",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-6-1-my-thoughts-about-jsx",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-7-jsx-restrictions",
+                            "courses/react-complete-guide/3-base-feature-syntax/3-9-components-jsx-cheat-sheet"
                         ]
                     },
                     {
                         "type": "category",
                         "label": "4-lists-and-conditionals",
                         "items": [
-                            "courses/react-complete-guide/4-lists-and-conditionals/0-contents",
                             {
                                 "type": "category",
                                 "label": "pdf",
                                 "items": []
                             },
-                            "courses/react-complete-guide/4-lists-and-conditionals/2-rendering-content-conditionally",
-                            "courses/react-complete-guide/4-lists-and-conditionals/5-outputting-lists",
-                            "courses/react-complete-guide/4-lists-and-conditionals/13-useful-resources"
+                            "courses/react-complete-guide/4-lists-and-conditionals/4-0-contents",
+                            "courses/react-complete-guide/4-lists-and-conditionals/4-13-useful-resources",
+                            "courses/react-complete-guide/4-lists-and-conditionals/4-2-rendering-content-conditionally",
+                            "courses/react-complete-guide/4-lists-and-conditionals/4-3-handling-javascript-way",
+                            "courses/react-complete-guide/4-lists-and-conditionals/4-5-outputting-lists",
+                            "courses/react-complete-guide/4-lists-and-conditionals/4-6-lists-and-state",
+                            "courses/react-complete-guide/4-lists-and-conditionals/4-7-updating-state-immutably",
+                            "courses/react-complete-guide/4-lists-and-conditionals/4-8-lists-and-keys",
+                            "courses/react-complete-guide/4-lists-and-conditionals/4-9-flexible-lists"
                         ]
                     }
                 ]
@@ -436,6 +441,7 @@ module.exports = {
                     "site-generators/docusaurus/add-apple-style-window",
                     "site-generators/docusaurus/plugin-auto-sidebars",
                     "site-generators/docusaurus/live-codeblock-theme",
+                    "site-generators/docusaurus/lunr-search-plugin",
                     "site-generators/docusaurus/npm-to-yarn",
                     "site-generators/docusaurus/typedoc-plugin"
                 ]
@@ -457,6 +463,13 @@ module.exports = {
                 ]
             },
             "site-generators/site-generators-with-simple-folder-structure"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "sites",
+        "items": [
+            "sites/all-sites"
         ]
     },
     {
@@ -492,9 +505,11 @@ module.exports = {
             "thoughts/lazy-beast",
             "thoughts/letter-to-brian-may",
             "thoughts/lev-nikolaevich-tolstoy",
+            "thoughts/linter-check",
             "thoughts/magic-wand",
             "thoughts/mashas-post",
             "thoughts/more-reliable-than-death",
+            "thoughts/my-link-chain",
             "thoughts/new-kind-exercise",
             "thoughts/new-knowledge",
             "thoughts/orenburg-is-the capital-of",
@@ -509,6 +524,7 @@ module.exports = {
             "thoughts/u-sytogo-vsegda-golodnyi-vinovat",
             "thoughts/uncle-vova",
             "thoughts/vot-ka4us-ya-v-sankah",
+            "thoughts/while-asphalt-fresh",
             "thoughts/ya-ocherstvel",
             "thoughts/ya-vinovat",
             "thoughts/zachem-zhe-razmhozheniye"
@@ -534,6 +550,14 @@ module.exports = {
         "items": [
             {
                 "type": "category",
+                "label": "docker",
+                "items": [
+                    "virtual-machines/docker/install-docker-software",
+                    "virtual-machines/docker/linter-in-docker"
+                ]
+            },
+            {
+                "type": "category",
                 "label": "multipass",
                 "items": [
                     "virtual-machines/multipass/install-setup-multipass",
@@ -548,12 +572,22 @@ module.exports = {
         "type": "category",
         "label": "vs-code",
         "items": [
+            {
+                "type": "category",
+                "label": "extension-api",
+                "items": [
+                    "vs-code/extension-api/all-self-built-extensions",
+                    "vs-code/extension-api/extension-generator"
+                ]
+            },
             "vs-code/fira-code",
             {
                 "type": "category",
                 "label": "macros",
                 "items": [
-                    "vs-code/macros/auto-frontmatter"
+                    "vs-code/macros/0-auto-frontmatter",
+                    "vs-code/macros/1-auto-frontmatter",
+                    "vs-code/macros/auto-anchor"
                 ]
             },
             "vs-code/mdx-equals-md",

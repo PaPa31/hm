@@ -1,8 +1,8 @@
 ---
 id: user-keyboard-shortcuts
-title: User Keyboard Shortcuts 
+title: User Keyboard Shortcuts
 date: 2021-02-15 15:02:28
-description: What keyboard shortcuts do I use with VS Code 
+description: What keyboard shortcuts do I use with VS Code
 ---
 
 ## Sync Keyboard Shortcuts
@@ -29,5 +29,6 @@ cp ~/.config/Code/User/keybindings.json '/mnt/sdc1/Users/parsh/Application Data/
 6 | `Ctrl+E t` | see above | Wrap with `<textarea>` and some text | `<textarea>Your answer:</textarea>`
 7 | `Ctrl+G c` |  | add markdown admonition | `::: :::`
 8 | `Ctrl+G t` |  | add markdown code block | ``````
-9 | `Alt+G c`  | [Macros: Auto Frontmatter](macros/auto-frontmatter) | add markdown frontmatter | `--- ... ---`
-10 | `Alt+G a` | make external link with 2 vars | 1st var -> copy some link; 2nd var highlight some text | <a href='https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode' class='external'>Prettier</a>
+9 | `Alt+G c`  | [Macros: Auto Frontmatter](macros/0-auto-frontmatter) | add markdown frontmatter | `--- ... ---`
+10 | `Ctrl+G a` | make external link with 2 vars | 1st var -> copy some link; 2nd var highlight some text | <a href='https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode' class='external'>Prettier</a>
+11 | `Alt+G a` | make external link using copied link | Caution: place cursor at start of line | <a href='https://code.visualstudio.com/api/get-started/your-first-extension' class='external'>code.visualstudio.com: Your First Extension</a>
