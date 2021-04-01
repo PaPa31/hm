@@ -1,6 +1,6 @@
 ---
-id: 4-0-contents
-title: 4.0 Contents
+id: 4-0-lesson
+title: 4.0 Lesson
 date: 2021-03-15 01:14:59
 ---
 
@@ -14,6 +14,6 @@ date: 2021-03-15 01:14:59
 8. [Lists & Keys](4-8-lists-and-keys)
 9. [Flexible Lists](4-9-flexible-lists)
 10. Wrap Up
-11. (Optional) Assignment Problem
-12. (Optional) Assignment Solution
+11. Practice:
+12. [Practice: Solution](../Practice/4.0-practice)
 13. [Useful Resources](4-13-useful-resources)

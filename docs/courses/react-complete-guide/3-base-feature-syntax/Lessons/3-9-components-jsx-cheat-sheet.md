@@ -6,7 +6,7 @@ date: 2021-03-07 18:04:46
 
 Components are the `core building block of React apps`. Actually, React really is just a library for creating components in its core.
 
-[Components Learning Card PDF](pdf/3-9-components-learning-card.pdf)
+[Components Learning Card PDF](../pdf/3-9-components-learning-card.pdf)
 
 A typical React app therefore could be depicted as a `component tree` - having one root component ("App") and then an potentially infinite amount of nested child components.
 

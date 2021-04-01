@@ -1,11 +1,11 @@
 ---
-id: 3-0-contents
-title: 3.0 Contents
+id: 3-0-lesson
+title: 3.0 Lesson
 date: 2021-03-09 20:46:08
 ---
 
 1. Intro
-2. [The Build Workflow (PDF)](pdf/3-2-build-workflow.pdf)
+2. [The Build Workflow (PDF)](../pdf/3-2-build-workflow.pdf)
 3. [Create new react app](3-3-0-create-new-react-app)
    1. [Pure React](3-3-1-0-pure-react)
       1. [React with JSX](3-3-1-1-react-with-jsx)
@@ -37,5 +37,5 @@ date: 2021-03-09 20:46:08
 24. [Adding Styling with Stylesheets](3-24-adding-styling-with-stylesheets)
 25. [Working with Inline Styles](3-25-working-with-inline-styles)
 26. [Practice:](3-26-practice-task)
-27. [Practice: Solution](Practice/3-0-practice)
+27. [Practice: Solution](../Practice/3-0-practice)
 28. [Useful Resources & Links](3-28-useful-resources)

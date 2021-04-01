@@ -89,6 +89,38 @@ module.exports = {
                         "items": [
                             {
                                 "type": "category",
+                                "label": "Lessons",
+                                "items": [
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-0-lesson",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-12-working-with-props",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-13-children-prop",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-15-props-and-state",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-16-handling-events-with-methods",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-17-listenable-events",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-18-manipulating-state",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-19-function-components-naming",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-20-usestate-hook",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-22-passing-methods-between-components",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-23-adding-two-way-binding",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-24-adding-styling-with-stylesheets",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-25-working-with-inline-styles",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-26-practice-task",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-28-useful-resources",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-3-0-create-new-react-app",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-3-1-0-pure-react",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-3-1-1-react-with-jsx",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-3-2-0-using-create-react-app",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-3-2-1-react-script-error",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-4-1-ide-setup",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-4-2-initial-deploy",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-6-0-jsx",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-6-1-my-thoughts-about-jsx",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-7-jsx-restrictions",
+                                    "courses/react-complete-guide/3-base-feature-syntax/Lessons/3-9-components-jsx-cheat-sheet"
+                                ]
+                            },
+                            {
+                                "type": "category",
                                 "label": "Practice",
                                 "items": [
                                     "courses/react-complete-guide/3-base-feature-syntax/Practice/3-0-practice",
@@ -108,33 +140,7 @@ module.exports = {
                                 "type": "category",
                                 "label": "pdf",
                                 "items": []
-                            },
-                            "courses/react-complete-guide/3-base-feature-syntax/3-0-contents",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-12-working-with-props",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-13-children-prop",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-15-props-and-state",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-16-handling-events-with-methods",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-17-listenable-events",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-18-manipulating-state",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-19-function-components-naming",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-20-usestate-hook",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-22-passing-methods-between-components",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-23-adding-two-way-binding",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-24-adding-styling-with-stylesheets",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-25-working-with-inline-styles",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-26-practice-task",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-28-useful-resources",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-3-0-create-new-react-app",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-3-1-0-pure-react",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-3-1-1-react-with-jsx",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-3-2-0-using-create-react-app",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-3-2-1-react-script-error",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-4-1-ide-setup",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-4-2-initial-deploy",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-6-0-jsx",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-6-1-my-thoughts-about-jsx",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-7-jsx-restrictions",
-                            "courses/react-complete-guide/3-base-feature-syntax/3-9-components-jsx-cheat-sheet"
+                            }
                         ]
                     },
                     {
@@ -143,18 +149,31 @@ module.exports = {
                         "items": [
                             {
                                 "type": "category",
+                                "label": "Lessons",
+                                "items": [
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-0-lesson",
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-13-useful-resources",
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-2-rendering-content-conditionally",
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-3-handling-javascript-way",
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-5-outputting-lists",
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-6-lists-and-state",
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-7-updating-state-immutably",
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-8-lists-and-keys",
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-9-flexible-lists"
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Practice",
+                                "items": [
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Practice/4.0-practice"
+                                ]
+                            },
+                            {
+                                "type": "category",
                                 "label": "pdf",
                                 "items": []
-                            },
-                            "courses/react-complete-guide/4-lists-and-conditionals/4-0-contents",
-                            "courses/react-complete-guide/4-lists-and-conditionals/4-13-useful-resources",
-                            "courses/react-complete-guide/4-lists-and-conditionals/4-2-rendering-content-conditionally",
-                            "courses/react-complete-guide/4-lists-and-conditionals/4-3-handling-javascript-way",
-                            "courses/react-complete-guide/4-lists-and-conditionals/4-5-outputting-lists",
-                            "courses/react-complete-guide/4-lists-and-conditionals/4-6-lists-and-state",
-                            "courses/react-complete-guide/4-lists-and-conditionals/4-7-updating-state-immutably",
-                            "courses/react-complete-guide/4-lists-and-conditionals/4-8-lists-and-keys",
-                            "courses/react-complete-guide/4-lists-and-conditionals/4-9-flexible-lists"
+                            }
                         ]
                     }
                 ]
@@ -369,6 +388,7 @@ module.exports = {
         "items": [
             "react/component",
             "react/element",
+            "react/listenable-events",
             "react/render-element",
             "react/updating-element",
             "react/updating-necessary"

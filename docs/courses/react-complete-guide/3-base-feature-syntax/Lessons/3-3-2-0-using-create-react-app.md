@@ -18,7 +18,7 @@ npm start
 
 ## Script Versions
 
-`Script versions` is the package that installed by default. It includes: build workflow, development server, next generation javascript feature support and more.
+`Script versions` is the package that installed by default. It includes: build workflow, development server, next generation JavaScript feature support and more.
 
 At the moment (2020-03-21) the default script version is `4.0.3`.
 
@@ -29,7 +29,7 @@ npx create-react-app my-app --scripts-version 1.1.5
 ```
 
 :::warning
-Using legacy `scripts version` can lead to confusing conflicts. If you try run multiple servers on the same port (like me with Docusaurus and others Facebook products running on port 3000), it will raise the warning  `Something is already running on port 3000` and after you press `yes` to select a different port, you might get an freeze ... Especially on [nvm (Windows)](../../../node/nvm-windows). If so, you need to install a more recent version of `scripts version`. See separate install below.
+Using legacy `scripts version` can lead to confusing conflicts. If you try run multiple servers on the same port (like me with Docusaurus and others Facebook products running on port 3000), it will raise the warning  `Something is already running on port 3000` and after you press `yes` to select a different port, you might get an freeze ... Especially on [nvm (Windows)](../../../../node/nvm-windows). If so, you need to install a more recent version of `scripts version`. See separate install below.
 :::
 
 ### Separate Install `scripts version`
@@ -46,5 +46,5 @@ There are multiple ways to install `Node.js`. I recommend using a version manage
 
 Install `nvm` to switch Node versions between different projects:
 
-- [nvm (macOS/Linux)](../../../node/nvm)
-- [nvm-windows](../../../node/nvm-windows)
+- [nvm (macOS/Linux)](../../../../node/nvm)
+- [nvm-windows](../../../../node/nvm-windows)

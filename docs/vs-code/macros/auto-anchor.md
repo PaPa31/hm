@@ -22,7 +22,7 @@ First, paste the highlighted code below into your `settings.json` :
         {
           "command": "editor.action.insertSnippet",
           "args": {
-            "snippet": "${CLIPBOARD/.*\\/([\\w\\-#_]+)\\/?$/$1/}"
+            "snippet": "${CLIPBOARD/.*[\\/#]([\\w\\-_]+)\\/?$/$1/}"
           }
         },
         "cursorLineStartSelect",

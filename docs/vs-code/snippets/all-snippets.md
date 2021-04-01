@@ -17,7 +17,7 @@ To use a Snippet, you type the first (or any other) letters of the required `sni
 | 2 | Anchor-from-Clipboard2 |  | see 1 + add highlighted text between `<a>` tags | <a href='https://habr.com/ru/post/440946/' class='external'>quiz</a> |
 | 3 | Anchor-from-Clipboard3 |  | see 1 -> `<a>`link: highlighted text`</a>`  | <a href='https://habr.com/ru/post/440946/' class='external'>habr.com: quiz</a> |
 | 3 | Anchor-from-Clipboard4 |  | see 1 -> `<a>`highlighted text (link)`</a>`  | <a href='https://habr.com/ru/post/440946/' class='external'>quiz (habr.com)</a> |
-| 4 | Tabs-from-Clipboard | type `JSX React`  > cut this text > activate snippet |  Make JSX `<Tabs/>` and `<TabItem/>` from two words | see [here](../../courses/react-complete-guide/3-base-feature-syntax/3-6-0-jsx) or [React Complete Guide: 3.12 Working with Props](../../courses/react-complete-guide/3-base-feature-syntax/3-12-working-with-props) |
+| 4 | Tabs-from-Clipboard | type `JSX React`  > cut this text > activate snippet |  Make JSX `<Tabs/>` and `<TabItem/>` from two words | see [here](../../courses/react-complete-guide/3-base-feature-syntax/Lessons/3-6-0-jsx) or [React Complete Guide: 3.12 Working with Props](../../courses/react-complete-guide/3-base-feature-syntax/Lessons/3-12-working-with-props) |
 5 | import React | | Print first import line | `import React from 'react'` |
 6 | full React component | Automatically names a React component with a file name | Print the entire blank of a React component | see [Full React Component](#full-react-component ) below
 7 | Comment block | Insert depending on language comment block | | see [Comment Block](#comment-block) below
@@ -39,9 +39,9 @@ export default userOutput
 - Automatically names a React component with a file name
 - Print the entire blank of a React component
 - 3 tabs stops:
-  - 1: if you want rename a component
-  - 2: if you want remove the `return` keyword
-  - 3: if you want add JSX code
+  - 1: if you want to rename a component
+  - 2: if you want to remove the `return` keyword
+  - 3: if you want to add JSX code
 
 ### Comment block
 
@@ -59,7 +59,6 @@ Source: <a href='https://stackoverflow.com/questions/57340128/vs-code-variables-
 ### Using a Snippet
 
 For example, to activate `Anchor-from-Clipboard` snippet, you type `arc`, press Ctrl + Space and choose `Anchor-from-Clipboard` from context menu (for this snippet to work correctly, you first need to copy the embed link).
-arc
 
 ### How to Make a Snippet
 

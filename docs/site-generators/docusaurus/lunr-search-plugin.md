@@ -12,9 +12,11 @@ Since the plugin is in development, see the development page:
 
 <a href='https://github.com/lelouch77/docusaurus-lunr-search' class='external'>GitHub.com: Docusaurus Lunr Search</a>
 
-## Workaround `'forEach' of undefined`
+Below are some errors and how to fix them.
 
-> I don't try to search, i only moving or hovering with the mouse over the field throws the error. - <a href='https://github.com/lelouch77/docusaurus-lunr-search/issues/33' class='external'>github.com: #33</a>
+## `'forEach' of undefined`
+
+> I don't try to search, I was only moving or hovering with the mouse over the field throws the error. — <a href='https://github.com/lelouch77/docusaurus-lunr-search/issues/33' class='external'>GitHub.com: #33</a>
 
 ```console title="Browser's Console"
 Uncaught (in promise) TypeError: Cannot read property 'forEach' of undefined            lunr.js?2f21:575 
@@ -37,11 +39,11 @@ Since empty array & object are causing problems, insert the highlighted code bel
     ...
 ```
 
-## Workaround `e.handleSearchBarToggle is not a function`
+## `e.handleSearchBarToggle is not a function`
 
-<a href='https://github.com/lelouch77/docusaurus-lunr-search/issues/42' class='external'>github.com: #42</a>
+<a href='https://github.com/lelouch77/docusaurus-lunr-search/issues/42' class='external'>GitHub.com: #42</a>
 
-> Console error each time I click the searchbar
+> Console error each time I click the search bar
 
 ```console title="Browser's Console"
 TypeError: e.handleSearchBarToggle is not a function
@@ -50,12 +52,12 @@ TypeError: e.handleSearchBarToggle is not a function
 > I simply modified `src/theme/SearchBar/index.js` at line 69 with the following:
 
 ```jsx title="index.js"
-      props.handleSearchBarToggle && props.handleSearchBarToggle(!props.isSearchBarExpanded);
+props.handleSearchBarToggle && props.handleSearchBarToggle(!props.isSearchBarExpanded);
 ```
 
-## Workaround `algolia.css URI malformed`
+## `algolia.css URI malformed`
 
-<a href='https://github.com/lelouch77/docusaurus-lunr-search/issues/45' class='external'>github.com: #45</a>
+<a href='https://github.com/lelouch77/docusaurus-lunr-search/issues/45' class='external'>GitHub.com: #45</a>
 
 When I run `npm run build`, I get an error like this:
 
@@ -79,7 +81,7 @@ While it works fine, but I wonder what the cause of the problem? And how to fix 
 
 ## Converting URI to Image and Back to URI
 
-Insert `url`:
+Insert the `url`:
 
 <a href='https://www.site24x7.com/tools/datauri-to-image.html' class='external'>www.site24x7.com: URI to Image</a>
 
@@ -101,6 +103,6 @@ Now replace the initial URI with this one.
 
 ## Another search plugins
 
-<a href='https://github.com/easyops-cn/docusaurus-search-local' class='external'>github.com: Docusaurus Search Local</a>
+<a href='https://github.com/easyops-cn/docusaurus-search-local' class='external'>GitHub.com: Docusaurus Search Local</a>
 
-An offline/local search plugin for Docusaurus v2, which supports multiple languages, especially optimized for language of zh.
+An offline/local search plugin for Docusaurus v2, which supports multiple languages, especially optimized for language of ZH.

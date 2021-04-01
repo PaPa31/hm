@@ -56,3 +56,5 @@ So now we get a truly flexible component here, a truly flexible application taki
       );
     }
 ```
+
+A lot of code but the best way of doing it, the most efficient way without mutating the state.
