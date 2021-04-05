@@ -1,6 +1,6 @@
 ---
 id: 5-12-more-on-css-modules
-title: 5.12 More On Css Modules
+title: 5.12 More On CSS Modules
 date: 2021-04-03 00:24:51
 ---
 

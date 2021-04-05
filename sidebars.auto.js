@@ -182,17 +182,13 @@ module.exports = {
                         "type": "category",
                         "label": "5-styling-react-components-and-elements",
                         "items": [
-                            {
-                                "type": "category",
-                                "label": "Practice",
-                                "items": [
-                                    "courses/react-complete-guide/5-styling-react-components-and-elements/Practice/5-0-practice"
-                                ]
-                            },
                             "courses/react-complete-guide/5-styling-react-components-and-elements/5-0-lesson",
-                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-10-1-css-modules-usage",
-                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-10-2-tag-selector",
-                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-10-working-with-css-modules",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-10-0-working-with-css-modules",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-10-1-0-css-modules-usage",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-10-1-1-css-modules-uder-the-hood",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-10-2-auto-generated-class-names",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-10-3-adding-class-selector",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-11-css-modules-and-media-queries",
                             "courses/react-complete-guide/5-styling-react-components-and-elements/5-12-more-on-css-modules",
                             "courses/react-complete-guide/5-styling-react-components-and-elements/5-13-useful-resources",
                             "courses/react-complete-guide/5-styling-react-components-and-elements/5-3-setting-styles-dynamically",

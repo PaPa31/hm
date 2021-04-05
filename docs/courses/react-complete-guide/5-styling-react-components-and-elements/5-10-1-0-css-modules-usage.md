@@ -1,12 +1,12 @@
 ---
-id: 5-10-1-css-modules-usage
-title: 5.10.1 CSS Modules Usage
+id: 5-10-1-0-css-modules-usage
+title: 5.10.1.0 CSS Modules Usage
 date: 2021-04-04 21:35:40
 ---
 
-So this is how we could implement this with C as this modules we simply add differences as classes.
+After adding the configuration (see the previous page) you'll get an `object` and `properties` to access the CSS rules.
 
-```css title="App.css" {13-33}
+```css title="App.css" {13-25}
 .App {
   text-align: center;
 }
@@ -32,30 +32,14 @@ So this is how we could implement this with C as this modules we simply add diff
   background-color: lightgreen;
   color: #333;
 }
-
-.Button.Red {
-  background-color: red;
-}
-
-.Button.Red:hover {
-  background-color: salmon;
-}
 ```
 
-```jsx title="App.js" {2,8,12,17,20,28}
+```jsx title="App.js" {2,7,9,12,16,19}
 import React, { Component } from "react";
 import classes from "./App.css";
 import Person from "./Person/Person";
 
 ...
-
-    let persons = null;
-    let btnClass = [classes.Button];
-
-...
-
-      btnClass.push(classes.Red);
-    }
 
     const assignedClasses = [];
     if (this.state.persons.length <= 2) {
@@ -69,10 +53,7 @@ import Person from "./Person/Person";
       <div className={classes.App}>
         <h1>Hi, I'm a React app!</h1>
         <p className={assignedClasses.join(" ")}>This is really working!</p>
-        <button
-          className={btnClass.join(" ")}
-          onClick={this.togglePersonsHandler}
-        >
+        <button className={classes.Button} onClick={this.togglePersonsHandler}>
           Toggle Persons
         </button>
         {persons}
