@@ -1,6 +1,6 @@
 ---
 id: 3-20-usestate-hook
-title: 3.20 Usestate Hook
+title: 3.20 useState Hook
 date: 2021-03-13 00:52:57
 ---
 
@@ -12,7 +12,8 @@ It allows to manage the `state` in the `function component`.
 
 The first element (`personsState`) gives you access to the initial object. The second element (`setPersonsState`) allows us to set a new state by defining a new object.
 
-```jsx {4-8,13-17}
+```jsx {1,5-9,14-18}
+import React, { useState } from 'react'
 ...
 const app = () => {
   const [personsState, setPersonsState] = useState({
@@ -32,7 +33,17 @@ const app = () => {
       ],
     })
   }
-...
+
+  return (
+    <div className="App">
+      <h1>Hi, I'm a React app!</h1>
+      <p>This is really working!</p>
+      <button onClick={switchNameHandler}>Switch Name</button>
+      <Person
+        name={personsState.persons[0].name}
+        age={personsState.persons[0].age}
+      />
+  ...
 ```
 
 :::danger
@@ -45,7 +56,8 @@ And this is the main difference from [setState](3-18-manipulating-state#setState
 
 If you have some other state property (not defined in useState), you might lose it:
 
-```jsx {9}
+```jsx {10}
+import React, { useState } from 'react'
 ...
 const app = () => {
   const [personsState, setPersonsState] = useState({
@@ -75,7 +87,8 @@ const app = () => {
 
 ### Manually adding State Property
 
-```jsx {9,21}
+```jsx {10,22}
+import React, { useState } from 'react'
 ...
 const app = () => {
   const [personsState, setPersonsState] = useState({
@@ -105,7 +118,8 @@ const app = () => {
 
 ### With multiple `useState()`
 
-```jsx {3,11}
+```jsx {4,12}
+import React, { useState } from 'react'
 ...
 const app = () => {
   const [personsState, setPersonsState] = useState({

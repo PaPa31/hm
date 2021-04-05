@@ -152,6 +152,7 @@ module.exports = {
                                 "label": "Lessons",
                                 "items": [
                                     "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-0-lesson",
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-12-practice-solution",
                                     "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-13-useful-resources",
                                     "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-2-rendering-content-conditionally",
                                     "courses/react-complete-guide/4-lists-and-conditionals/Lessons/4-3-handling-javascript-way",
@@ -166,7 +167,8 @@ module.exports = {
                                 "type": "category",
                                 "label": "Practice",
                                 "items": [
-                                    "courses/react-complete-guide/4-lists-and-conditionals/Practice/4.0-practice"
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Practice/4-0-practice",
+                                    "courses/react-complete-guide/4-lists-and-conditionals/Practice/4-1-create-input-field"
                                 ]
                             },
                             {
@@ -174,6 +176,32 @@ module.exports = {
                                 "label": "pdf",
                                 "items": []
                             }
+                        ]
+                    },
+                    {
+                        "type": "category",
+                        "label": "5-styling-react-components-and-elements",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "Practice",
+                                "items": [
+                                    "courses/react-complete-guide/5-styling-react-components-and-elements/Practice/5-0-practice"
+                                ]
+                            },
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-0-lesson",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-10-1-css-modules-usage",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-10-2-tag-selector",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-10-working-with-css-modules",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-12-more-on-css-modules",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-13-useful-resources",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-3-setting-styles-dynamically",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-4-setting-class-names-dynamically",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-5-adding-and-using-radium",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-6-using-radium-for-media-queries",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-7-introducing-styled-components",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-8-more-on-styled-components",
+                            "courses/react-complete-guide/5-styling-react-components-and-elements/5-9-styled-components-and-dynamic-styles"
                         ]
                     }
                 ]
@@ -607,7 +635,8 @@ module.exports = {
                 "items": [
                     "vs-code/macros/0-auto-frontmatter",
                     "vs-code/macros/1-auto-frontmatter",
-                    "vs-code/macros/auto-anchor"
+                    "vs-code/macros/auto-anchor",
+                    "vs-code/macros/test-for-auto-anchor"
                 ]
             },
             "vs-code/mdx-equals-md",

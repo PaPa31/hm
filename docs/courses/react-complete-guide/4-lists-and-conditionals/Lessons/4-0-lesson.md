@@ -14,6 +14,6 @@ date: 2021-03-15 01:14:59
 8. [Lists & Keys](4-8-lists-and-keys)
 9. [Flexible Lists](4-9-flexible-lists)
 10. Wrap Up
-11. Practice:
-12. [Practice: Solution](../Practice/4.0-practice)
+11. [Practice](../Practice/4-0-practice)
+12. [Practice: Solution](4-12-practice-solution)
 13. [Useful Resources](4-13-useful-resources)

@@ -3,13 +3,15 @@ id: npm-to-yarn
 title: npm2yarn
 ---
 
+## Example
+
 If you want this `Tabs` behavier:
 
 ```bash npm2yarn
 npm install @docusaurus/remark-plugin-npm2yarn
 ```
 
-without annoying coding, you need to install npm2yarn plugin. It transforms npm bash command code blocks to Docusaurus tabs.
+Without annoying coding, you need to install npm2yarn plugin. It transforms npm bash command code blocks to Docusaurus tabs.
 
 :::note
 It only works when used with Docusaurus themes that have the Tabs and TabItems components.
@@ -26,7 +28,6 @@ npm install @docusaurus/remark-plugin-npm2yarn
 ## Setup
 
 Add the following three lines to `docusaurus.config.js` file:
-
 
 ```js {8,12,16} title="docusaurus.config.js"
 module.exports = {
@@ -62,7 +63,7 @@ Copy this code:
     npm install @docusaurus/remark-plugin-npm2yarn
     ```
 
-and past it in your markdown document to see plugin in action.
+and past it in your Markdown document to see plugin in action.
 
 :::note Cache
 If your code doesn't work, you may need to clear the cache.
@@ -81,5 +82,3 @@ npm run start
 ```
 
 to check if the plugin is working.
-
-

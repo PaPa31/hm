@@ -22,21 +22,21 @@ First, paste the highlighted code below into your `settings.json` :
         {
           "command": "editor.action.insertSnippet",
           "args": {
-            "snippet": "${CLIPBOARD/.*[\\/#]([\\w\\-_]+)\\/?$/$1/}"
+            "snippet": "${CLIPBOARD/.*[\\/#]([\\w\\-_]+)\\/?[$\\.]?.*/$1/}"
           }
         },
         "cursorLineStartSelect",
         {
           "command": "editor.action.insertSnippet",
           "args": {
-            "snippet": "${TM_SELECTED_TEXT/([^-]+)(-*)/${1:/capitalize}${2:+ }/g}"
+            "snippet": "${TM_SELECTED_TEXT/([^-]+)(-*)/${1:/capitalize}${2:+ }/gi}"
           }
         },
         "cursorLineStartSelect",
         {
           "command": "editor.action.insertSnippet",
           "args": {
-            "snippet": "<a href='${CLIPBOARD/(.*)\\s(.*)/$1/}' class='external'>${CLIPBOARD/.*\\/\\/([^\\/]+)\\/.*/$1/}: ${TM_SELECTED_TEXT}</a>"
+             "snippet": "<a href='${CLIPBOARD/(.*)\\s(.*)/$1/}' class='external'>${CLIPBOARD/.*\\/\\/(www\\.)?([^\\/]+)\\/.*/$2/}: ${TM_SELECTED_TEXT}</a>"
           }
         },
       ]
@@ -65,3 +65,9 @@ https://code.visualstudio.com/api/get-started/your-first-extension
 This macro will output the following:
 
 <a href='https://code.visualstudio.com/api/get-started/your-first-extension' class='external'>code.visualstudio.com: Your First Extension</a>
+
+## Test Page
+
+I insert here URLs that failed to convert at first:
+
+[Test for auto anchor](test-for-auto-anchor)

@@ -8,7 +8,7 @@ The flaw of this approach is that in JavaScript, objects and arrays are referenc
 
 ## Good Practice
 
-You should always update state in an immutable fashion, so without mutating the original state first. Create a copy, change that and then update the state with said state.
+You should always update state in an immutable fashion, so without mutating the original state first. Create a copy, change that and then update the state with that state.
 
 ### slice() method
 
@@ -28,7 +28,7 @@ And you can now safely edit this new one and then update to react state with you
 
 ### spread operator `[...]`
 
-An alternative to this approach would be to use it a ES6 feature, the `spread` operator. You can simply set persons equal to a new array and this new array can now use the spread operator. Which are three dots might look strange but this is a JavaScript operator, where are you now reaching out to state persons.
+An alternative to this approach would be to use it a ES6 feature, the `spread` operator. It spreads out the elements in this array into a list of elements which simply then gets added to this array, so that now we have an array, a new array, with the objects from the old array but not the old array itself.
 
 ```jsx title="App.js" {3}
 ...
@@ -39,7 +39,5 @@ An alternative to this approach would be to use it a ES6 feature, the `spread` o
   };
 ...
 ```
-
-What this does are it spreads out the elements in this array into a list of elements which simply then gets added to this array, so that now we have an array, a new array, with the objects from the old array but not the old array itself.
 
 So this is basically an equivalent to the `slice` approach, use whichever one you prefer, this is the more modern one, and you will see this `spread` operator more often throughout the course.
