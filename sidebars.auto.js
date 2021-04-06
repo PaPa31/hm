@@ -199,6 +199,15 @@ module.exports = {
                             "courses/react-complete-guide/5-styling-react-components-and-elements/5-8-more-on-styled-components",
                             "courses/react-complete-guide/5-styling-react-components-and-elements/5-9-styled-components-and-dynamic-styles"
                         ]
+                    },
+                    {
+                        "type": "category",
+                        "label": "6-debugging-react-apps",
+                        "items": [
+                            "courses/react-complete-guide/6-debugging-react-apps/6-0-lesson",
+                            "courses/react-complete-guide/6-debugging-react-apps/6-5-using-error-boundaries",
+                            "courses/react-complete-guide/6-debugging-react-apps/6-7-useful-resources"
+                        ]
                     }
                 ]
             }
