@@ -208,6 +208,27 @@ module.exports = {
                             "courses/react-complete-guide/6-debugging-react-apps/6-5-using-error-boundaries",
                             "courses/react-complete-guide/6-debugging-react-apps/6-7-useful-resources"
                         ]
+                    },
+                    {
+                        "type": "category",
+                        "label": "7-diving-deeper-into-components-and-react-internals",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "pdf",
+                                "items": []
+                            },
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-0-lesson",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-14-1-reference-vs-primitive-types",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-19-rendering-adjacent-jsx-element",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-2-better-project-structure",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-20-windows-users-must-read",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-3-splitting-app-into-components",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-33-useful-resources",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-6-class-component-lifecycle-overview",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-7-component-creation-lifecycle-in-action",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-8-component-update-lifecycle-for-props"
+                        ]
                     }
                 ]
             }
