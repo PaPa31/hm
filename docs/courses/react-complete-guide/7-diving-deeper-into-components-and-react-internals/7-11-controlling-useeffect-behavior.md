@@ -1,6 +1,6 @@
 ---
 id: 7-11-controlling-useeffect-behavior
-title: 7.11 Controlling Useeffect Behavior
+title: 7.11 Controlling useEffect Behavior
 date: 2021-04-07 20:42:56
 ---
 

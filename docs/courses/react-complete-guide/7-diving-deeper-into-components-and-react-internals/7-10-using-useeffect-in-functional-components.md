@@ -1,6 +1,6 @@
 ---
 id: 7-10-using-useeffect-in-functional-components
-title: 7.10 Using Useeffect In Functional Components
+title: 7.10 Using useEffect In Functional Components
 date: 2021-04-07 20:17:47
 ---
 

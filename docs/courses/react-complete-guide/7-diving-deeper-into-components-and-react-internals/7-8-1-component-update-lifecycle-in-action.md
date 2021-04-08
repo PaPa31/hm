@@ -47,7 +47,7 @@ class Persons extends Component {
   //   return state;
   // }
 
-  // componentWillRecieveProps(props) {
+  // componentWillReceiveProps(props) {
   //   console.log("[Persons.js] componentWillReceiveProps", props);
   // }
   

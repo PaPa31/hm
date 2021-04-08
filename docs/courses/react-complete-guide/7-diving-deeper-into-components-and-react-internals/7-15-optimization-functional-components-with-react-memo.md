@@ -1,8 +1,10 @@
 ---
 id: 7-15-optimization-functional-components-with-react-memo
-title: 7.15 Optimization Functional Components With React Memo
+title: 7.15 Optimization Functional Components With React.memo
 date: 2021-04-08 10:57:45
 ---
+
+functional `react.memo` = class-based `shouldComponentUpdate`
 
 ```jsx title="Cockpit.js" {6,9,23}
 ...
