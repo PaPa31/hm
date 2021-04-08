@@ -12,12 +12,13 @@ date: 2021-04-06 16:02:29
 6. [class Component Lifecycle Overview](7-6-class-component-lifecycle-overview)
 7. [Component Creation Lifecycle in Action](7-7-component-creation-lifecycle-in-action)
 8. [Component Update Lifecycle (for props Changes)](7-8-component-update-lifecycle-for-props)
-9. Component Update Lifecycle (for state Changes)
-10. Using useEffect() in Functional Components
-11. Controlling the useEffect() Behavior
-12. Cleaning up with Lifecycle Hooks & useEffect()
-13. Cleanup Work with useEffect() - Example
-14. Using shouldComponentUpdate for Optimization
+   1. [Component Update Lifecycle in Action](7-8-1-component-update-lifecycle-in-action)
+9. [Component Update Lifecycle (for state Changes)](7-9-component-update-lifecycle-state-changes)
+10. [Using useEffect() in Functional Components](7-10-using-useeffect-in-functional-components)
+11. [Controlling the useEffect() Behavior](7-11-cocntrolling-useeffect-behavior)
+12. [Cleaning up with Lifecycle Hooks & useEffect()](7-12-cleaning-up-with-lifecycle-hooks-and-useeffect)
+13. [Cleanup Work with useEffect() - Example](7-13-cleanup-work-with-useeffect-example)
+14. [Using shouldComponentUpdate for Optimization](7-14-using-shouldcomponentupdate-for-optimization)
     1. [Reference vs Primitive Types](7-14-1-reference-vs-primitive-types)
 15. Optimization Functional Components with React.memo()
 16. When should you optimize

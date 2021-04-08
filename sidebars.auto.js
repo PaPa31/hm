@@ -219,15 +219,24 @@ module.exports = {
                                 "items": []
                             },
                             "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-0-lesson",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-10-using-useeffect-in-functional-components",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-11-controlling-useeffect-behavior",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-12-cleaning-up-with-lifecycle-hooks-and-useeffect",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-13-cleanup-work-with-useeffect-example",
                             "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-14-1-reference-vs-primitive-types",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-14-using-shouldcomponentupdate-for-optimization",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-15-optimization-functional-components-with-react-memo",
                             "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-19-rendering-adjacent-jsx-element",
                             "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-2-better-project-structure",
                             "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-20-windows-users-must-read",
                             "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-3-splitting-app-into-components",
                             "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-33-useful-resources",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-5-class-based-vs-functional-components",
                             "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-6-class-component-lifecycle-overview",
                             "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-7-component-creation-lifecycle-in-action",
-                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-8-component-update-lifecycle-for-props"
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-8-0-component-update-lifecycle-for-props",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-8-1-component-update-lifecycle-in-action",
+                            "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-9-component-update-lifecycle-state-changes"
                         ]
                     }
                 ]
