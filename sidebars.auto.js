@@ -253,6 +253,16 @@ module.exports = {
                             "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-8-1-component-update-lifecycle-in-action",
                             "courses/react-complete-guide/7-diving-deeper-into-components-and-react-internals/7-9-component-update-lifecycle-state-changes"
                         ]
+                    },
+                    {
+                        "type": "category",
+                        "label": "8-real-app-burger-builder",
+                        "items": [
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-0-lesson",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-1-about-react-hooks",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-42-useful-resources-and-links",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-6-must-read-enabling-css-module"
+                        ]
                     }
                 ]
             }
