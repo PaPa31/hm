@@ -4,6 +4,8 @@ title: 7.18 How React Update DOM
 date: 2021-04-08 12:12:12
 ---
 
+[How React Update the DOM PDF](pdf/how-react-update-dom.pdf)
+
 1. `render()` is called  
    to functional and class-based comps  
    doesn't immediately update the "real" DOM
