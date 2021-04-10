@@ -6,26 +6,26 @@ date: 2021-04-09 14:51:47
 
 1. [About React Hooks](8-1-about-react-hooks)
 2. Intro
-3. Planning an App in React
-4. Planning our App - Layout and Component Tree
-5. Planning the State
+3. [Planning an App in React](8-3-planning-app-in-react)
+4. [Planning our App - Layout and Component Tree](8-4-planning-app-layout-and-component-tree.md)
+5. [Planning the State](8-5-planing-state)
 6. [MUST READ Enabling CSS Modules](8-6-must-read-enabling-css-module)
-7. Setting Up the Project
-8. Creating a Layout Component
-9. Starting Implementation of The Burger Builder Container
-10. Adding a Dynamic Ingredient Component
+7. [Setting Up the Project](8-7-setting-up-project)
+8.[Creating a Layout Component](8-8-creating-layout-component)
+9. [Starting Implementation of The Burger Builder Container](8-9-starting-implementation-burger-builder-container)
+10. [Adding a Dynamic Ingredient Component](8-10-adding-dynamic-ingredient-component)
     1. BurgerIngredient.css
-11. Adding Prop Type Validation
-12. Starting the Burger Component
-13. Outputting Burger Ingredients Dynamically
-14. Calculating the Ingredient Sum Dynamically
-15. Adding the Build Control Component
+11. [Adding PropTypes Validation](8-11-adding-prop-type-validation)
+12. [Starting the Burger Component](8-12-starting-burger-component)
+13. [Outputting Burger Ingredients Dynamically](8-13-outputting-burger-ingredients-dynamically)
+14. [Calculating the Ingredient Sum Dynamically](8-14-calculating-ingredient-sum-dynamically)
+15. [Adding the Build Control Component](8-15-adding-build-control-component)
     1. 13-build-control-addition.css
-16. Outputting Multiple Build Controls
-17. Connecting State to Build Controls
-18. Removing Ingredients Safely
-19. Displaying and Updating the Burger Price
-20. Adding the Order Button
+16. [Outputting Multiple Build Controls](8-16-outputting-multiple-build-controls)
+17. [Connecting State to Build Controls](8-17-connecting-state-to-build-controls)
+18. [Removing Ingredients Safely](8-18-removing-igredients-safely)
+19. [Displaying and Updating the Burger Price](8-19-displaying-and-updating-burger-price)
+20. [Adding the Order Button](8-20-adding-order-button)
     1. 18-button-code.css
 21. Creating the Order Summary Modal
     1. Modal.css

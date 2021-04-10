@@ -258,10 +258,32 @@ module.exports = {
                         "type": "category",
                         "label": "8-real-app-burger-builder",
                         "items": [
+                            {
+                                "type": "category",
+                                "label": "pdf",
+                                "items": []
+                            },
                             "courses/react-complete-guide/8-real-app-burger-builder/8-0-lesson",
                             "courses/react-complete-guide/8-real-app-burger-builder/8-1-about-react-hooks",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-10-adding-dynamic-ingredient-component",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-11-adding-prop-type-validation",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-12-starting-burger-component",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-13-outputting-burger-ingredients-dynamically",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-14-calculating-ingredient-sum-dynamically",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-15-adding-build-control-component",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-16-outputting-multiple-build-controls",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-17-connecting-state-to-build-controls",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-18-removing-igredients-safely",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-19-displaying-and-updating-burger-price",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-20-adding-order-button",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-3-planning-app-in-react",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-4-planning-app-layout-and-component-tree",
                             "courses/react-complete-guide/8-real-app-burger-builder/8-42-useful-resources-and-links",
-                            "courses/react-complete-guide/8-real-app-burger-builder/8-6-must-read-enabling-css-module"
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-5-planing-state",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-6-must-read-enabling-css-module",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-7-setting-up-project",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-8-creating-layout-component",
+                            "courses/react-complete-guide/8-real-app-burger-builder/8-9-starting-implementation-burger-builder-container"
                         ]
                     }
                 ]

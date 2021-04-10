@@ -1,6 +1,6 @@
 ---
 id: 8-6-must-read-enabling-css-module
-title: 8.6 Must Read Enabling Css Module
+title: 8.6 Must Read Enabling CSS Module
 date: 2021-04-09 15:13:36
 ---
 
@@ -12,17 +12,19 @@ In the next lecture, we'll enable CSS modules and depending on the project setu
 
 At least if you're not using the starting project you also find **attached to the next lecture**. If you DO use that, you should be able to continue without issues (and you can skip the rest of this text lecture here).
 
-\*\*\*
+## Built-in support CSS Modules
 
-**In more recent project versions created by CRA, support for CSS modules is already built-in and you can use that feature without ejecting, please see:**[**https://facebook.github.io/create-react-app/docs/adding-a-css-modules-stylesheet**](https://facebook.github.io/create-react-app/docs/adding-a-css-modules-stylesheet)
+**In more recent project versions created by CRA, support for CSS modules is already built-in and you can use that feature without ejecting, please see:** [**https://facebook.github.io/create-react-app/docs/adding-a-css-modules-stylesheet**](https://facebook.github.io/create-react-app/docs/adding-a-css-modules-stylesheet)
 
 I also showed this built-in support in the "Styling" section earlier in the course.
 
 If you use this approach, you DON'T need to eject. But please **don't skip the next videos though**, I do explain what CSS modules are and why + how we use them there!
 
-\*\*\*
+## Optional
 
-**Optional:**
+:::tip
+Better see [this](../5-styling-react-components-and-elements/5-10-0-working-with-css-modules#configure-webpackconfig-files).
+:::
 
 If you still want to eject and manually adjust the Webpack config (as we do it in the new videos - which you don't need to do if you follow the approach described in the link above), you should take the below comments into account in case your webpack config (after ejecting) doesn't look the same as it does in my videos:
 

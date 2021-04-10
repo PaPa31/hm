@@ -40,6 +40,12 @@ Using legacy `scripts version` can lead to confusing conflicts. If you try run m
 npm uninstall react-scripts --save && npm install react-scripts@3.2.0 --save
 ```
 
+### Update `react-scripts`
+
+```bash npm2yarn
+npm uninstall react-scripts --save && npm install --save react-scripts@latest
+```
+
 ## Node, nvm and npm Installation
 
 There are multiple ways to install `Node.js`. I recommend using a version manager (`nvm`) as `node` versions change very quickly. You will likely need to switch between multiple versions based on the needs of different projects you're working on.

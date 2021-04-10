@@ -28,6 +28,8 @@ npm run eject
 
 > What this will do is it will eject from this under the hood configuration where you don't really have access to the underlying web packed conflict file and so on and give you access to the conflict files so that you can tweak how your code is bundled together and so on and there is something we will need to tweak there.
 
+## Configure `webpack.config` files
+
 After successfully ejected, add two lines in these two files:
 
 ```js title="config/webpack.config.dev.js" {10-11}
