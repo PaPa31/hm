@@ -27,28 +27,29 @@ date: 2021-04-09 14:51:47
 19. [Displaying and Updating the Burger Price](8-19-displaying-and-updating-burger-price)
 20. [Adding the Order Button](8-20-adding-order-button)
     1. 18-button-code.css
-21. Creating the Order Summary Modal
+21. [Creating the Order Summary Modal](8-21-creating-order-summary-modal)
     1. Modal.css
-22. Showing & Hiding the Modal (with Animation)
-23. Implementing the Backdrop Component
-24. Adding a Custom Button Component
+22. [Showing & Hiding the Modal (with Animation)](8-22-showing-and-hiding-modal-with-animation)
+23. [Implementing the Backdrop Component](8-23-implementing-backdrop-component)
+24. [Adding a Custom Button Component](8-24-adding-custom-button-component)
     1. Button.css
-25. Implementing the Button Component
-26. Adding the Price to the Order Summary
-27. Adding a Toolbar
-28. Using a Logo in our Application
+25. [Implementing the Button Component](8-25-implementing-button-component)
+26. [Adding the Price to the Order Summary](8-26-adding-price-to-order-summary)
+27. [Adding a Toolbar](8-27-adding-toolbar)
+28. [Using a Logo in our Application](8-28-using-logo)
     1. Burger Logo
-29. Adding Reusable Navigation Items
-30. Creating a Responsive Sidedrawer
-31. Working on Responsive Adjustments
-32. More about Responsive Adjustments
-33. Reusing the Backdrop
-34. Adding a Sidedrawer Toggle Button
-35. Adding a Hamburger Icon
+29. [Adding Reusable Navigation Items](8-29-adding-reusable-navigation-items)
+30. [Creating a Responsive Sidedrawer](8-30-creating-responsive-sidedrawer)
+31. [Working on Responsive Adjustments (1 way)](8-31-0-working-on-responsive-adjustments)
+    [1. Working on Responsive Adjustments (2 way)](8-31-1-working-on-responsive-adjustments)
+32. [More about Responsive Adjustments](8-32-more-responsive-adjustments)
+33. [Reusing the Backdrop](8-33-reusing-backdrop)
+34. [Adding a Sidedrawer Toggle Button](8-34-adding-sidedrawer-toggle-button)
+35. [Adding a Hamburger Icon](8-35-adding-humburger-icon)
     1. DrawerToggle.css
 36. Improving the App - Intro
 37. Prop Type Validation
-38. Improving Performance
+38. [Improving Performance](8-38-improving-perfomance)
 39. Using Component Lifecycle Methods
 40. Changing the Folder Structure
 41. Wrap Up

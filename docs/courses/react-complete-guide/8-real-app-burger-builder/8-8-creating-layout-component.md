@@ -4,6 +4,26 @@ title: 8.8 Creating Layout Component
 date: 2021-04-09 20:54:22
 ---
 
+```bash
+
+src/
+│
+├── assets/
+│
+├── components/
+│     └── Layout/
+│            └── Layout.js
+│
+├── containers/
+│
+├── App.js
+├── App.css
+├── App.test.js
+├── index.js
+├── index.css
+│
+```
+
 ## index.css
 
 ```css title="index.css" {}
@@ -12,20 +32,6 @@ body {
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
-```
-
-## Layout.js
-
-```jsx title="Layout.js" {}
-import React, { Fragment } from "react";
-
-const layout = (props) => (
-  <Fragment>
-    <div>Toolbar, SideDrawer, Backdrop</div>
-    <main>{props.children}</main>
-  </Fragment>
-);
-export default layout;
 ```
 
 ## App.js
@@ -47,4 +53,18 @@ class App extends Component {
 }
 
 export default App;
+```
+
+## New Layout.js
+
+```jsx title="Layout.js" {}
+import React, { Fragment } from "react";
+
+const layout = (props) => (
+  <Fragment>
+    <div>Toolbar, SideDrawer, Backdrop</div>
+    <main>{props.children}</main>
+  </Fragment>
+);
+export default layout;
 ```

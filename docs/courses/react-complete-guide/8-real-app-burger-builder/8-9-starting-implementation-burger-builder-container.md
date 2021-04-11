@@ -4,6 +4,36 @@ title: 8.9 Starting Implementation Burger Builder Container
 date: 2021-04-09 21:46:17
 ---
 
+## Wrong Folder Structure
+
+:::warning
+I made a mistake! And organized the folders incorrectly.
+The `BurgerBuilder` folder must be in the `containers` folder.
+But despite this, everything works fine! I fixed it in [lesson 8.27](8-27-adding-toolbar).
+:::
+
+```bash
+src/
+│
+├── assets/
+│
+├── BurgerBuilder
+│     └── BurgerBuilder.js
+│
+├── components/
+│     └── Layout/
+│            ├── Layout.js
+│            └── Layout.module.css
+│
+├── containers/
+│
+├── App.js
+├── App.test.js
+├── index.js
+├── index.css
+│
+```
+
 ## New BurgerBuilder.js
 
 ```jsx title="BurgerBuilder.js" {}
