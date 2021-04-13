@@ -302,6 +302,16 @@ module.exports = {
                             "courses/react-complete-guide/8-real-app-burger-builder/8-8-creating-layout-component",
                             "courses/react-complete-guide/8-real-app-burger-builder/8-9-starting-implementation-burger-builder-container"
                         ]
+                    },
+                    {
+                        "type": "category",
+                        "label": "9-reaching-out-web-http-ajax",
+                        "items": [
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-0-lesson",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-14-removing-interceptors",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-18-useful-resources-and-links",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-3-understanding-project-and-intro-axios"
+                        ]
                     }
                 ]
             }
