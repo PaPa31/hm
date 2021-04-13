@@ -308,9 +308,20 @@ module.exports = {
                         "label": "9-reaching-out-web-http-ajax",
                         "items": [
                             "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-0-lesson",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-10-sending-delete-request",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-12-handling-errors-locally",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-13-adding-interceptors-to-execute-code-globally",
                             "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-14-removing-interceptors",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-15-setting-default-global-configuration-for-axios",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-16-creating-and-using-axios-instances",
                             "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-18-useful-resources-and-links",
-                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-3-understanding-project-and-intro-axios"
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-3-understanding-project-and-intro-axios",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-4-creating-http-request-to-get-data",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-5-rendering-fetched-data-to-screen",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-6-transforming-data",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-7-making-post-selectable",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-8-fetching-data-on-update",
+                            "courses/react-complete-guide/9-reaching-out-web-http-ajax/9-9-posting-data-to-server"
                         ]
                     }
                 ]

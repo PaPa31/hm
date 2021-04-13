@@ -4,3 +4,8 @@ title: 9.3 Understanding Project And Intro Axios
 date: 2021-04-12 15:08:21
 ---
 
+## Installing Axios
+
+```bash bash2yarn
+npm install axios --save
+```
