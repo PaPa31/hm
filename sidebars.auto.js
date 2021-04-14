@@ -78,6 +78,28 @@ module.exports = {
                     "courses/react-complete-guide/0-table-of-contents",
                     {
                         "type": "category",
+                        "label": "10-burger-builder-project-accessing-server",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "assets",
+                                "items": []
+                            },
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-10-useful-resources-and-links",
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-2-firebase-and-right-database",
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-3-creating-firebase-project",
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-4-creating-axios-instance",
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-5-sending-post-request",
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-6-displaying-spinner-while-sending-request",
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-7-handling-errors",
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-8-retrieving-data-from-backend",
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-9-0-removing-old-interceptors",
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-9-1-renaming-component-willmount",
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-lesson"
+                        ]
+                    },
+                    {
+                        "type": "category",
                         "label": "2-next-gen-javascript",
                         "items": [
                             "courses/react-complete-guide/2-next-gen-javascript/next-gen-javascript-summary"
