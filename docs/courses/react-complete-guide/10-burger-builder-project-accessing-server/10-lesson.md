@@ -12,6 +12,6 @@ date: 2021-04-13 19:45:10
 6. [Displaying a Spinner while Sending a Request](10-6-displaying-spinner-while-sending-request)
 7. [Handling Errors](10-7-handling-errors)
 8. [Retrieving Data from the Backend](10-8-retrieving-data-from-backend)
-9. [Removing Old Interceptors](10-9-removing-old-interceptors)
+9. [Removing Old Interceptors](10-9-0-removing-old-interceptors)
    1. [Renaming componentWillMount](10-9-1-renaming-component-willmount)
 10. [Useful Resources & Links](10-10-useful-resources-and-links)
