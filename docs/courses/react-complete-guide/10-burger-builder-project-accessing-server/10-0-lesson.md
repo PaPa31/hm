@@ -1,6 +1,6 @@
 ---
-id: 10-lesson
-title: 10 Lesson
+id: 10-0-lesson
+title: 10.0 Lesson
 date: 2021-04-13 19:45:10
 ---
 

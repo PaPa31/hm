@@ -85,6 +85,7 @@ module.exports = {
                                 "label": "assets",
                                 "items": []
                             },
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-0-lesson",
                             "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-10-useful-resources-and-links",
                             "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-2-firebase-and-right-database",
                             "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-3-creating-firebase-project",
@@ -94,8 +95,7 @@ module.exports = {
                             "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-7-handling-errors",
                             "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-8-retrieving-data-from-backend",
                             "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-9-0-removing-old-interceptors",
-                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-9-1-renaming-component-willmount",
-                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-lesson"
+                            "courses/react-complete-guide/10-burger-builder-project-accessing-server/10-9-1-renaming-component-willmount"
                         ]
                     },
                     {
