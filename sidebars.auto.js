@@ -100,6 +100,49 @@ module.exports = {
                     },
                     {
                         "type": "category",
+                        "label": "11-multi-page-feeling-in-single-page-app-routing",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "assets",
+                                "items": []
+                            },
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-0-lesson",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-10-using-links-to-switch-pages",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-11-using-routing-related-props",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-12-withrouter-hoc-and-route-props",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-13-absolute-vs-relative-paths",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-14-absolute-vs-relative-paths-article",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-15-styling-active-route",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-16-passing-route-parameters",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-17-extracting-route-parameters",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-18-parsing-query-parameters-and-fragment",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-19-using-switch-to-load-single-route",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-2-routing-and-spas",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-20-navigation-programmatically",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-22-understanding-nested-routes",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-23-creating-dynamic-nested-routes",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-24-redirecting-requests",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-25-conditional-redirects",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-26-using-history-prop-to-redirect-replace",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-27-working-with-guards",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-28-handling-404-case-unknown-routes",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-29-loading-routes-lazily",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-3-setting-up-links",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-30-lazy-loading-with-react-suspense",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-31-routing-and-server-deployment",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-32-practice",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-34-useful-resources-and-links",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-4-setting-up-router-package",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-5-react-router-vs-react-router-dom",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-6-preparing-project-for-routing",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-7-setting-up-and-rendering-routes",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-8-rendering-components-for-routes",
+                            "courses/react-complete-guide/11-multi-page-feeling-in-single-page-app-routing/11-9-switching-between-pages"
+                        ]
+                    },
+                    {
+                        "type": "category",
                         "label": "2-next-gen-javascript",
                         "items": [
                             "courses/react-complete-guide/2-next-gen-javascript/next-gen-javascript-summary"
