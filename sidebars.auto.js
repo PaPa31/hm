@@ -143,6 +143,24 @@ module.exports = {
                     },
                     {
                         "type": "category",
+                        "label": "12-adding-routing-to-burger-project",
+                        "items": [
+                            "courses/react-complete-guide/12-adding-routing-to-burger-project/12-0-lesson",
+                            "courses/react-complete-guide/12-adding-routing-to-burger-project/12-10-implementing-navigation-links",
+                            "courses/react-complete-guide/12-adding-routing-to-burger-project/12-11-0-fetching-orders",
+                            "courses/react-complete-guide/12-adding-routing-to-burger-project/12-12-outputting-orders",
+                            "courses/react-complete-guide/12-adding-routing-to-burger-project/12-2-building-checkout-container",
+                            "courses/react-complete-guide/12-adding-routing-to-burger-project/12-3-setting-up-routing-and-routes",
+                            "courses/react-complete-guide/12-adding-routing-to-burger-project/12-4-navigation-to-checkout-page",
+                            "courses/react-complete-guide/12-adding-routing-to-burger-project/12-5-navigation-back-and-to-next-page",
+                            "courses/react-complete-guide/12-adding-routing-to-burger-project/12-6-passing-ingredients-via-query-params",
+                            "courses/react-complete-guide/12-adding-routing-to-burger-project/12-7-navigating-to-contact-data-component",
+                            "courses/react-complete-guide/12-adding-routing-to-burger-project/12-8-order-submission-and-passing-data-between-pages",
+                            "courses/react-complete-guide/12-adding-routing-to-burger-project/12-9-adding-orders-page"
+                        ]
+                    },
+                    {
+                        "type": "category",
                         "label": "2-next-gen-javascript",
                         "items": [
                             "courses/react-complete-guide/2-next-gen-javascript/next-gen-javascript-summary"
