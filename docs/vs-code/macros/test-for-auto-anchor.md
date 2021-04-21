@@ -14,4 +14,13 @@ https://papa31.github.io/hm/docs/courses/react-complete-guide/3-base-feature-syn
 
 https://www.npmjs.com/package/radium
 
-From: 
+https://validatejs.org
+
+1. First check:
+
+.*[\\/#]([\\w\\-_]+)\\/?[$\\.]?.*
+
+
+2. Second check:
+
+.*\\/\\/(www\\.)?([^\\/]+)?(\\/.*|)

@@ -36,7 +36,7 @@ First, paste the highlighted code below into your `settings.json` :
         {
           "command": "editor.action.insertSnippet",
           "args": {
-             "snippet": "<a href='${CLIPBOARD/(.*)\\s(.*)/$1/}' class='external'>${CLIPBOARD/.*\\/\\/(www\\.)?([^\\/]+)\\/.*/$2/}: ${TM_SELECTED_TEXT}</a>"
+             "snippet": "<a href='${CLIPBOARD/(.*)\\s(.*)/$1/}' class='external'>${CLIPBOARD/.*\\/\\/(www\\.)?([^\\/]+)?(\\/.*|)/$2/}: ${TM_SELECTED_TEXT}</a>"
           }
         },
       ]
