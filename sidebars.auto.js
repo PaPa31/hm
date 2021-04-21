@@ -161,6 +161,26 @@ module.exports = {
                     },
                     {
                         "type": "category",
+                        "label": "13-forms-and-form-validation",
+                        "items": [
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-0-lesson",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-10-fixing-common-validation-gotcha",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-11-adding-validation-feedback",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-12-improving-visual-feedback",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-13-showing-error-messages",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-14-handling-overall-form-validity",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-17-useful-resources-and-links",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-3-creating-custom-dynamic-input-components",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-4-setting-up-js-config-for-form",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-5-dynamically-reate-inputs-base-on-js-config",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-6-adding-dropdown-component",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-7-handling-user-input",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-8-handling-form-submission",
+                            "courses/react-complete-guide/13-forms-and-form-validation/13-9-adding-custom-form-validation"
+                        ]
+                    },
+                    {
+                        "type": "category",
                         "label": "2-next-gen-javascript",
                         "items": [
                             "courses/react-complete-guide/2-next-gen-javascript/next-gen-javascript-summary"
