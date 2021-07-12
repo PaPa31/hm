@@ -181,6 +181,37 @@ module.exports = {
                     },
                     {
                         "type": "category",
+                        "label": "14-redux",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "assets",
+                                "items": []
+                            },
+                            "courses/react-complete-guide/14-redux/14-0-lesson",
+                            "courses/react-complete-guide/14-redux/14-10-dispatching-actions-from-within-component",
+                            "courses/react-complete-guide/14-redux/14-11-practice",
+                            "courses/react-complete-guide/14-redux/14-13-switching-case-in-reducer",
+                            "courses/react-complete-guide/14-redux/14-14-updating-state-immutably",
+                            "courses/react-complete-guide/14-redux/14-15-updating-arrays-immutably",
+                            "courses/react-complete-guide/14-redux/14-16-immutable-update-patterns",
+                            "courses/react-complete-guide/14-redux/14-17-outsourcing-action-types",
+                            "courses/react-complete-guide/14-redux/14-18-combining-multiple-reducers",
+                            "courses/react-complete-guide/14-redux/14-19-understanding-state-types",
+                            "courses/react-complete-guide/14-redux/14-20-practice",
+                            "courses/react-complete-guide/14-redux/14-21-result-practice",
+                            "courses/react-complete-guide/14-redux/14-22-combining-local-ui-state-and-redux",
+                            "courses/react-complete-guide/14-redux/14-24-useful-resources-and-links",
+                            "courses/react-complete-guide/14-redux/14-4-understanding-redux-flow",
+                            "courses/react-complete-guide/14-redux/14-5-setting-up-reducer-and-store",
+                            "courses/react-complete-guide/14-redux/14-6-dispatching-actions",
+                            "courses/react-complete-guide/14-redux/14-7-adding-subscriptions",
+                            "courses/react-complete-guide/14-redux/14-8-connecting-react-to-redux",
+                            "courses/react-complete-guide/14-redux/14-9-connecting-store-to-react"
+                        ]
+                    },
+                    {
+                        "type": "category",
                         "label": "2-next-gen-javascript",
                         "items": [
                             "courses/react-complete-guide/2-next-gen-javascript/next-gen-javascript-summary"
@@ -224,6 +255,11 @@ module.exports = {
                             },
                             {
                                 "type": "category",
+                                "label": "pdf",
+                                "items": []
+                            },
+                            {
+                                "type": "category",
                                 "label": "Practice",
                                 "items": [
                                     "courses/react-complete-guide/3-base-feature-syntax/Practice/3-0-practice",
@@ -238,11 +274,6 @@ module.exports = {
                                     "courses/react-complete-guide/3-base-feature-syntax/Practice/3-8-making-interactive-component",
                                     "courses/react-complete-guide/3-base-feature-syntax/Practice/3-9-add-two-way-binding"
                                 ]
-                            },
-                            {
-                                "type": "category",
-                                "label": "pdf",
-                                "items": []
                             }
                         ]
                     },
@@ -268,16 +299,16 @@ module.exports = {
                             },
                             {
                                 "type": "category",
+                                "label": "pdf",
+                                "items": []
+                            },
+                            {
+                                "type": "category",
                                 "label": "Practice",
                                 "items": [
                                     "courses/react-complete-guide/4-lists-and-conditionals/Practice/4-0-practice",
                                     "courses/react-complete-guide/4-lists-and-conditionals/Practice/4-1-create-input-field"
                                 ]
-                            },
-                            {
-                                "type": "category",
-                                "label": "pdf",
-                                "items": []
                             }
                         ]
                     },
@@ -568,7 +599,6 @@ module.exports = {
                 "type": "category",
                 "label": "Lvovskaya-2020-2021",
                 "items": [
-                    "location/Lvovskaya-2020-2021/8-marсh-order",
                     {
                         "type": "category",
                         "label": "black-friday-orders",
@@ -576,6 +606,7 @@ module.exports = {
                             "location/Lvovskaya-2020-2021/black-friday-orders/when-starting-black-friday"
                         ]
                     },
+                    "location/Lvovskaya-2020-2021/8-marсh-order",
                     "location/Lvovskaya-2020-2021/rostelekom",
                     "location/Lvovskaya-2020-2021/support-polyglot-by-getting-t-short"
                 ]
