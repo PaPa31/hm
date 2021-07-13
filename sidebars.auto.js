@@ -212,6 +212,20 @@ module.exports = {
                     },
                     {
                         "type": "category",
+                        "label": "15-add-redux-to-our-project",
+                        "items": [
+                            "courses/react-complete-guide/15-add-redux-to-our-project/15-0-lesson",
+                            "courses/react-complete-guide/15-add-redux-to-our-project/15-2-installing-redux-and-react-redux",
+                            "courses/react-complete-guide/15-add-redux-to-our-project/15-3-basic-redux-setup",
+                            "courses/react-complete-guide/15-add-redux-to-our-project/15-4-finishing-reducer-for-ingredients",
+                            "courses/react-complete-guide/15-add-redux-to-our-project/15-5-connecting-burger-builder-container-to-our-store",
+                            "courses/react-complete-guide/15-add-redux-to-our-project/15-6-working-on-the-total-price-calculation",
+                            "courses/react-complete-guide/15-add-redux-to-our-project/15-7-redux-and-ui-state",
+                            "courses/react-complete-guide/15-add-redux-to-our-project/15-8-adjusting-checkout-and-contact-data"
+                        ]
+                    },
+                    {
+                        "type": "category",
                         "label": "2-next-gen-javascript",
                         "items": [
                             "courses/react-complete-guide/2-next-gen-javascript/next-gen-javascript-summary"
