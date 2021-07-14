@@ -27,7 +27,7 @@ cp ~/.config/Code/User/keybindings.json '/mnt/sdc1/Users/parsh/Application Data/
 4 | `Ctrl+e Up` | [Snippet + Shortcut](snippets/snippet-plus-shortcut) | Wrap with `<sup>` tags | 23 -> 2<sup>3</sup>
 5 | `Ctrl+e Down` | see above | Wrap with `<sub>` tags | log2 -> log<sub>2</sub>
 6 | `Ctrl+e t` | see above | Wrap with `<textarea>` and some text | `<textarea>Your answer:</textarea>`
-7 | `Ctrl+g c` |  | add markdown admonition | `::: :::`
+7 | `Ctrl+g c` | NOTE, TIP, IMPORTANT, CAUTION, WARNING  | add markdown admonition | `::: :::`
 8 | `Ctrl+g t` |  | add markdown code block | ``````
 9 | `Alt+g c`  | [Macros: Auto Frontmatter](macros/0-auto-frontmatter) | add markdown frontmatter | `--- ... ---`
 10 | `Ctrl+g a` | make external link with 2 vars | 1st var -> copy some link; 2nd var highlight some text | <a href='https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode' class='external'>Prettier</a>

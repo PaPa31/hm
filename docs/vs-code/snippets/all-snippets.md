@@ -7,20 +7,30 @@ description: My VS Code snippets without keyboard shortcuts
 
 Some snippets (with shortcuts) are located on the [keyboard shortcuts](../user-keyboard-shortcuts) page.
 
+:::caution
 To use a Snippet, you type the first (or any other) letters of the required `snippet prefix`, press `Ctrl + Space`, and select the appropriate command from the pop-up context menu.
+:::
 
 ## Snippets List
 
 |   |Snippet Prefix|Usage|Description|Result|
 | - | ------------ | --- | --------- | ---- |
-| 1 | Anchor-from-Clipboard | Copy link > activate snippet | Anchor to a link from the clipboard | <a href='https://habr.com/ru/post/440946/' class='external'>habr.com</a>|
-| 2 | Anchor-from-Clipboard2 |  | see 1 + add highlighted text between `<a>` tags | <a href='https://habr.com/ru/post/440946/' class='external'>quiz</a> |
-| 3 | Anchor-from-Clipboard3 |  | see 1 -> `<a>`link: highlighted text`</a>`  | <a href='https://habr.com/ru/post/440946/' class='external'>habr.com: quiz</a> |
-| 3 | Anchor-from-Clipboard4 |  | see 1 -> `<a>`highlighted text (link)`</a>`  | <a href='https://habr.com/ru/post/440946/' class='external'>quiz (habr.com)</a> |
-| 4 | Tabs-from-Clipboard | type `JSX React`  > cut this text > activate snippet |  Make JSX `<Tabs/>` and `<TabItem/>` from two words | see [here](../../courses/react-complete-guide/3-base-feature-syntax/Lessons/3-6-0-jsx) or [React Complete Guide: 3.12 Working with Props](../../courses/react-complete-guide/3-base-feature-syntax/Lessons/3-12-working-with-props) |
+| 1 | Anchor-from-Clipboard | arc | Anchor to a link from the clipboard (Copy link > activate snippet) | <a href='https://habr.com/ru/post/440946/' class='external'>habr.com</a>|
+| 2 | Anchor-from-Clipboard2 | arc2 | see 1 + add highlighted text between `<a>` tags | <a href='https://habr.com/ru/post/440946/' class='external'>quiz</a> |
+| 3 | Anchor-from-Clipboard3 | arc3 | see 1 -> `<a>`link: highlighted text`</a>`  | <a href='https://habr.com/ru/post/440946/' class='external'>habr.com: quiz</a> |
+| 3 | Anchor-from-Clipboard4 | arc4 | see 1 -> `<a>`highlighted text (link)`</a>`  | <a href='https://habr.com/ru/post/440946/' class='external'>quiz (habr.com)</a> |
+| 4 | Tabs-from-Clipboard | tabs | type two keywords with one space between them: `JSX React`  > cut this text > activate snippet |  see [here](../../courses/react-complete-guide/3-base-feature-syntax/Lessons/3-6-0-jsx) or [React Complete Guide: 3.12 Working with Props](../../courses/react-complete-guide/3-base-feature-syntax/Lessons/3-12-working-with-props) |
 5 | import React | | Print first import line | `import React from 'react'` |
 6 | full React component | Automatically names a React component with a file name | Print the entire blank of a React component | see [Full React Component](#full-react-component ) below
 7 | Comment block | Insert depending on language comment block | | see [Comment Block](#comment-block) below
+8 | Print to console | console || "console.log('$1');" + next line "$2"|
+9 | Print ReactDOM container | container |||
+10 | Import React | Import React || import React from 'react' |
+11 | functional React component | func React component |||
+11 | functional React component2 | func React component2 |||
+13 | classes css | classes css | | className={classes.$1}$0 |
+14 | axios import | axios import | | import axios from 'axios' |
+15 | classes import | classes import | | import classes from './$1.module.css'$0 |
 
 ## Snippets Results
 
