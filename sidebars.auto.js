@@ -226,6 +226,28 @@ module.exports = {
                     },
                     {
                         "type": "category",
+                        "label": "16-redux-advanced",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "assets",
+                                "items": []
+                            },
+                            "courses/react-complete-guide/16-redux-advanced/16-0-lesson",
+                            "courses/react-complete-guide/16-redux-advanced/16-10-using-action-creators-and-get-state",
+                            "courses/react-complete-guide/16-redux-advanced/16-11-using-utility-functions",
+                            "courses/react-complete-guide/16-redux-advanced/16-16-useful-resources-and-links",
+                            "courses/react-complete-guide/16-redux-advanced/16-2-adding-middleware",
+                            "courses/react-complete-guide/16-redux-advanced/16-3-using-redux-devtools",
+                            "courses/react-complete-guide/16-redux-advanced/16-5-Introducing-action-creators",
+                            "courses/react-complete-guide/16-redux-advanced/16-6-action-creators-and-async-code",
+                            "courses/react-complete-guide/16-redux-advanced/16-7-handling-asynchronous-code",
+                            "courses/react-complete-guide/16-redux-advanced/16-8-restructuring-actions",
+                            "courses/react-complete-guide/16-redux-advanced/16-9-where-to-put-data-transforming-logic"
+                        ]
+                    },
+                    {
+                        "type": "category",
                         "label": "2-next-gen-javascript",
                         "items": [
                             "courses/react-complete-guide/2-next-gen-javascript/next-gen-javascript-summary"
