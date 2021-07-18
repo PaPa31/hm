@@ -236,6 +236,7 @@ module.exports = {
                             "courses/react-complete-guide/16-redux-advanced/16-0-lesson",
                             "courses/react-complete-guide/16-redux-advanced/16-10-using-action-creators-and-get-state",
                             "courses/react-complete-guide/16-redux-advanced/16-11-using-utility-functions",
+                            "courses/react-complete-guide/16-redux-advanced/16-12-linear-switch-case-statement",
                             "courses/react-complete-guide/16-redux-advanced/16-16-useful-resources-and-links",
                             "courses/react-complete-guide/16-redux-advanced/16-2-adding-middleware",
                             "courses/react-complete-guide/16-redux-advanced/16-3-using-redux-devtools",
@@ -244,6 +245,31 @@ module.exports = {
                             "courses/react-complete-guide/16-redux-advanced/16-7-handling-asynchronous-code",
                             "courses/react-complete-guide/16-redux-advanced/16-8-restructuring-actions",
                             "courses/react-complete-guide/16-redux-advanced/16-9-where-to-put-data-transforming-logic"
+                        ]
+                    },
+                    {
+                        "type": "category",
+                        "label": "17-redux-advanced-burger-project",
+                        "items": [
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-0-lesson",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-10-connecting-contact-data-container-and-actions",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-11-order-reducer",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-12-working-on-order-actions",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-13-redirect-to-improve-ux",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-14-combining-reducers",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-15-handling-purchases-and-updating-ui",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-16-resetting-price-after-purchases",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-17-fetching-orders-via-redux",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-19-refactoring-reducers",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-2-installing-redux-devtools",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-20-refactoring-reducers-continued",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-3-preparing-folder-structure",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-4-creating-action-creators",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-5-executing-synchronous-code",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-6-fetching-ingredients-asynchronously",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-7-initializing-ingredients-in-burgerbuilder",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-8-changing-order-for-ingredients-manually",
+                            "courses/react-complete-guide/17-redux-advanced-burger-project/17-9-adding-order-actions"
                         ]
                     },
                     {
