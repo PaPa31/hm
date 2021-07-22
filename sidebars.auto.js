@@ -274,6 +274,36 @@ module.exports = {
                     },
                     {
                         "type": "category",
+                        "label": "18-adding-authentication-to-our-burger-project",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "assets",
+                                "items": []
+                            },
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-0-lesson",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-10-logging-users-out",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-11-accessing-protected-resources",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-12-updating-the-ui-depending-on-auth-state",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-13-adding-a-logout-link",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-14-forwarding-unauthenticated-users",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-15-redirecting-user-to-checkout-page",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-16-persistent-auth-state-with-local-storage",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-17-fixing-connect-plus-routing-errors",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-19-guarding-routes",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-2-understanding-authentication-in-single-page-application",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-20-displaying-user-specific-orders",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-3-required-app-adjustments",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-4-adding-an-auth-form",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-5-adding-actions",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-6-getting-a-token-from-backend",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-7-adding-sign-in",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-8-storing-the-token",
+                            "courses/react-complete-guide/18-adding-authentication-to-our-burger-project/18-9-adding-a-spinner"
+                        ]
+                    },
+                    {
+                        "type": "category",
                         "label": "2-next-gen-javascript",
                         "items": [
                             "courses/react-complete-guide/2-next-gen-javascript/next-gen-javascript-summary"
