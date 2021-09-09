@@ -6,7 +6,7 @@ author_url: https://github.com/papa31
 author_image_url: https://graph.facebook.com/611217057/picture/?height=200&width=200
 tags: [docusaurus, settings]
 description: Setup all 3 ways Docusaurus start
-image: https://i.imgur.com/mErPwqL.png
+image: i.imgur.com/mErPwqL.png
 draft: false
 ---
 

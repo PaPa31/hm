@@ -2,7 +2,7 @@
 id: arrow-functions
 title: Arrow Functions
 date: 2021-03-06 00:53:44
-description: 
+
 ---
 
 With `use strict` code work like `ES5` (`ECMAScript 5` or `ECMAScript 2009`).

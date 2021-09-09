@@ -304,6 +304,14 @@ module.exports = {
                     },
                     {
                         "type": "category",
+                        "label": "19-improving-our-burger-project",
+                        "items": [
+                            "courses/react-complete-guide/19-improving-our-burger-project/19-0-lesson",
+                            "courses/react-complete-guide/19-improving-our-burger-project/19-2-fixing-the-redirect-to-the-frontpage"
+                        ]
+                    },
+                    {
+                        "type": "category",
                         "label": "2-next-gen-javascript",
                         "items": [
                             "courses/react-complete-guide/2-next-gen-javascript/next-gen-javascript-summary"
@@ -347,11 +355,6 @@ module.exports = {
                             },
                             {
                                 "type": "category",
-                                "label": "pdf",
-                                "items": []
-                            },
-                            {
-                                "type": "category",
                                 "label": "Practice",
                                 "items": [
                                     "courses/react-complete-guide/3-base-feature-syntax/Practice/3-0-practice",
@@ -366,6 +369,11 @@ module.exports = {
                                     "courses/react-complete-guide/3-base-feature-syntax/Practice/3-8-making-interactive-component",
                                     "courses/react-complete-guide/3-base-feature-syntax/Practice/3-9-add-two-way-binding"
                                 ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "pdf",
+                                "items": []
                             }
                         ]
                     },
@@ -391,16 +399,16 @@ module.exports = {
                             },
                             {
                                 "type": "category",
-                                "label": "pdf",
-                                "items": []
-                            },
-                            {
-                                "type": "category",
                                 "label": "Practice",
                                 "items": [
                                     "courses/react-complete-guide/4-lists-and-conditionals/Practice/4-0-practice",
                                     "courses/react-complete-guide/4-lists-and-conditionals/Practice/4-1-create-input-field"
                                 ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "pdf",
+                                "items": []
                             }
                         ]
                     },
@@ -666,6 +674,13 @@ module.exports = {
     },
     {
         "type": "category",
+        "label": "grammar",
+        "items": [
+            "grammar/imperfective-sonnenhauser"
+        ]
+    },
+    {
+        "type": "category",
         "label": "javascript",
         "items": [
             "javascript/birth",
@@ -691,6 +706,7 @@ module.exports = {
                 "type": "category",
                 "label": "Lvovskaya-2020-2021",
                 "items": [
+                    "location/Lvovskaya-2020-2021/8-marсh-order",
                     {
                         "type": "category",
                         "label": "black-friday-orders",
@@ -698,7 +714,6 @@ module.exports = {
                             "location/Lvovskaya-2020-2021/black-friday-orders/when-starting-black-friday"
                         ]
                     },
-                    "location/Lvovskaya-2020-2021/8-marсh-order",
                     "location/Lvovskaya-2020-2021/rostelekom",
                     "location/Lvovskaya-2020-2021/support-polyglot-by-getting-t-short"
                 ]
@@ -890,6 +905,7 @@ module.exports = {
             "thoughts/debugging",
             "thoughts/dyadya-vova",
             "thoughts/face-the-truth",
+            "thoughts/fence",
             "thoughts/fucking-american-bastards",
             "thoughts/heart-in-ural",
             "thoughts/heidegger",
@@ -907,6 +923,7 @@ module.exports = {
             "thoughts/new-kind-exercise",
             "thoughts/new-knowledge",
             "thoughts/orenburg-is-the capital-of",
+            "thoughts/orenburgs-main-attraction",
             "thoughts/papa-constant",
             "thoughts/prisoners-prayer",
             "thoughts/prometheus-lenin-torvalds",
@@ -918,6 +935,7 @@ module.exports = {
             "thoughts/u-sytogo-vsegda-golodnyi-vinovat",
             "thoughts/uncle-vova",
             "thoughts/vot-ka4us-ya-v-sankah",
+            "thoughts/when-sun",
             "thoughts/while-asphalt-fresh",
             "thoughts/ya-ocherstvel",
             "thoughts/ya-vinovat",
@@ -975,6 +993,7 @@ module.exports = {
                 ]
             },
             "vs-code/fira-code",
+            "vs-code/ftp-and-ssh-plugins-and-settings",
             {
                 "type": "category",
                 "label": "macros",
@@ -1007,6 +1026,14 @@ module.exports = {
             "vs-code/spell-checking",
             "vs-code/user-keyboard-shortcuts",
             "vs-code/windows-permission-denied"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "windows-and-linux",
+        "items": [
+            "windows-and-linux/grub-correction",
+            "windows-and-linux/update-grub-not-see-windows"
         ]
     },
     {

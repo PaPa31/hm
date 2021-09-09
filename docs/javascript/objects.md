@@ -2,7 +2,7 @@
 id: objects
 title: Objects
 date: 2021-03-06 13:11:10
-description: 
+
 ---
 
 ## Everything is Object

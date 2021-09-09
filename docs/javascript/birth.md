@@ -2,7 +2,7 @@
 id: birth
 title: Birth
 date: 2021-03-06 10:48:45
-description: 
+
 ---
 
 ## Born in 1995

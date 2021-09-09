@@ -2,7 +2,7 @@
 id: dyadya-vova
 title: Дядя Вова
 date: 2021-03-03 13:41:57
-description: 
+
 ---
 
 <div class="right">
