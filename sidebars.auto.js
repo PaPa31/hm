@@ -681,6 +681,13 @@ module.exports = {
     },
     {
         "type": "category",
+        "label": "issues",
+        "items": [
+            "issues/github-docusaurus-update-to-beta-6"
+        ]
+    },
+    {
+        "type": "category",
         "label": "javascript",
         "items": [
             "javascript/birth",
@@ -1017,7 +1024,6 @@ module.exports = {
                 "type": "category",
                 "label": "snippets",
                 "items": [
-                    "vs-code/snippets/all-snippets",
                     "vs-code/snippets/anchor-from-clipboard",
                     "vs-code/snippets/auto-front-matter",
                     "vs-code/snippets/snippet-plus-shortcut"

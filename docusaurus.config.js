@@ -13,8 +13,7 @@ module.exports = {
   themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     hideableSidebar: true,
-    sidebarCollapsible: true,
-    navbar: {
+     navbar: {
       title: 'hm',
       logo: {
         alt: 'Human&Machine',
@@ -113,6 +112,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.auto.js'),
+          sidebarCollapsible: true,
           // Please change this to your repo.
           editUrl:
             'https://github.com/papa31/hm/edit/documentation/',

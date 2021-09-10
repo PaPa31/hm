@@ -117,7 +117,7 @@ module.exports = {
 
 If you get the error:
 
-```
+```sh
 'cross-env' is not recognized
 ```
 
