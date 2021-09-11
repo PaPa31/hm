@@ -60,3 +60,13 @@ a.external:before {
 .right {
   text-align: right;
 }
+
+.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock-styles-module {
+
+  white-space: pre-wrap !important;
+
+}
+
+blockquote {
+    font-style: italic;
+}
