@@ -111,7 +111,6 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.auto.js'),
           sidebarCollapsible: true,
           // Please change this to your repo.
           editUrl:
@@ -135,7 +134,6 @@ module.exports = {
     ],
   ],
   plugins: [
-    'docusaurus-plugin-auto-sidebars',
     [require.resolve('docusaurus-lunr-search'), {
       languages: ['en', 'ru'] // language codes
     }] ],
