@@ -5,7 +5,7 @@ date: 2021-03-09 20:46:08
 ---
 
 1. Intro
-2. [The Build Workflow (PDF)](../pdf/3-2-build-workflow.pdf)
+2. [The Build Workflow (PDF)](../pdf/3-02-build-workflow.pdf)
 3. [Create new react app](3-03-0-create-new-react-app)
    1. [Pure React](3-03-1-0-pure-react)
       1. [React with JSX](3-03-1-1-react-with-jsx)
