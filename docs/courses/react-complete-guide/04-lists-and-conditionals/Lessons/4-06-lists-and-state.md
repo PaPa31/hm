@@ -1,6 +1,6 @@
 ---
-id: 4-6-lists-and-state
-title: 4.6 Lists And State
+id: 4-06-lists-and-state
+title: 4.06 Lists And State
 date: 2021-03-29 22:58:56
 ---
 

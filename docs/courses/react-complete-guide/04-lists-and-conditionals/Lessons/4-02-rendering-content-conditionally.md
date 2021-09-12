@@ -1,10 +1,10 @@
 ---
-id: 4-2-rendering-content-conditionally
-title: 4.2 Rendering Content Conditionally
+id: 4-02-rendering-content-conditionally
+title: 4.02 Rendering Content Conditionally
 date: 2021-03-15 01:31:48
 ---
 
-[JSX Conditionals Learning Card PDF](../pdf/4-2-jsx-conditionals-learning-card.pdf)
+[JSX Conditionals Learning Card PDF](../pdf/4-02-jsx-conditionals-learning-card.pdf)
 
 ## JSX way
 

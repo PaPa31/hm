@@ -1,6 +1,6 @@
 ---
-id: 4-3-handling-javascript-way
-title: 4.3 Handling Javascript Way
+id: 4-03-handling-javascript-way
+title: 4.03 Handling Javascript Way
 date: 2021-03-29 20:05:53
 ---
 

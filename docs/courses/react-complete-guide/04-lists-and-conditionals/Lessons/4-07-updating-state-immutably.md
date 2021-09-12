@@ -1,6 +1,6 @@
 ---
-id: 4-7-updating-state-immutably
-title: 4.7 Updating State Immutably
+id: 4-07-updating-state-immutably
+title: 4.07 Updating State Immutably
 date: 2021-03-29 23:32:07
 ---
 

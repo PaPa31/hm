@@ -1,10 +1,10 @@
 ---
-id: 4-5-outputting-lists
-title: 4.5 Outputting Lists
+id: 4-05-outputting-lists
+title: 4.05 Outputting Lists
 date: 2021-03-15 01:35:53
 ---
 
-[JSX Lists Learning Card PDF](../pdf/4-5-jsx-lists-learning-card.pdf)
+[JSX Lists Learning Card PDF](../pdf/4-05-jsx-lists-learning-card.pdf)
 
 ## map builds a new array
 
