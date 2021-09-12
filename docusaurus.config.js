@@ -112,6 +112,7 @@ module.exports = {
       {
         docs: {
           sidebarCollapsible: true,
+          numberPrefixParser: false,
           // Please change this to your repo.
           editUrl:
             'https://github.com/papa31/hm/edit/documentation/',
