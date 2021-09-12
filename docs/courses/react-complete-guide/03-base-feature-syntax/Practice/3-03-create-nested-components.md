@@ -1,17 +1,21 @@
 ---
-id: 3-2-create-elements
-title: 3.2 Create Elements
-date: 2021-03-19 22:51:16
+id: 3-03-create-nested-components
+title: 3.03 Create Nested Components
+date: 2021-03-19 22:29:03
 ---
 
-```jsx title="App.js"
+```jsx title="App.js" {9-11}
 import React, { Component } from 'react';
 import './App.css';
+import UserOutput from './UserOutput/UserOutput'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <UserOutput />
+        <UserOutput />
+        <UserOutput />
       </div>
     );
   }
@@ -20,7 +24,7 @@ class App extends Component {
 export default App;
 ```
 
-```jsx title="UserInput.js" {4}
+```jsx title="UserInput.js"
 import React from 'react'
 
 const userInput = () => {
@@ -30,17 +34,10 @@ const userInput = () => {
 export default userInput
 ```
 
-```jsx title="UserOutput.js" {6,7}
+```jsx title="UserOutput.js"
 import React from 'react'
 
-const userOutput = () => {
-  return (
-    <div>
-      <p>Viva!</p>
-      <p>Cuba!</p>
-    </div>
-  )
-}
+const userOutput = () => {return ()}
 
 export default userOutput
 ```

@@ -1,16 +1,16 @@
 ---
-id: 3-5-add-state-to-class
-title: 3.5 Add State To Class
-date: 2021-03-19 23:15:08
+id: 3-08-making-interactive-component
+title: 3.08 Making Interactive Component
+date: 2021-03-20 00:01:54
 ---
 
-```jsx title="App.js" {6-12,18-19,24-25,30-31}
+```jsx title="App.js"
 import React, { Component } from 'react';
 import './App.css';
 import UserOutput from './UserOutput/UserOutput'
 
 class App extends Component {
-  state = {
+    state = {
     persons: [
       { name: 'Pasha', age: 47 },
       { name: 'Masha', age: 37 },
@@ -18,9 +18,20 @@ class App extends Component {
     ],
   }
 
+  onChangeHandler = (event) => {
+    this.setState({
+      persons: [
+        { name: event.target.value, age: 47 },
+        { name: 'Masha', age: 37 },
+        { name: 'Chelsea', age: 1 },
+      ],
+    })
+  }
+
   render() {
     return (
       <div className="App">
+        <UserInput changed={this.onChangeHandler} />
         <UserOutput
           name={this.state.persons[0].name}
           age={this.state.persons[0].age}
@@ -47,11 +58,11 @@ class App extends Component {
 export default App;
 ```
 
-```jsx title="UserInput.js"
+```jsx title="UserInput.js" {4}
 import React from 'react'
 
-const userInput = () => {
-  return <input type="text"></input>
+const userInput = (props) => {
+  return <input type="text" onChange={props.changed}></input>
 }
 
 export default userInput

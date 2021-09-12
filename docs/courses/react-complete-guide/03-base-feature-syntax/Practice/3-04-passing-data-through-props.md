@@ -1,6 +1,6 @@
 ---
-id: 3-4-passing-data-through-props
-title: 3.4 Passing Data Through Props
+id: 3-04-passing-data-through-props
+title: 3.04 Passing Data Through Props
 date: 2021-03-19 23:06:00
 ---
 

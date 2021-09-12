@@ -1,16 +1,16 @@
 ---
-id: 3-7-pass-method-reference
-title: 3.7 Pass Method Reference
-date: 2021-03-19 23:46:14
+id: 3-05-add-state-to-class
+title: 3.05 Add State To Class
+date: 2021-03-19 23:15:08
 ---
 
-```jsx title="App.js" {27}
+```jsx title="App.js" {6-12,18-19,24-25,30-31}
 import React, { Component } from 'react';
 import './App.css';
 import UserOutput from './UserOutput/UserOutput'
 
 class App extends Component {
-    state = {
+  state = {
     persons: [
       { name: 'Pasha', age: 47 },
       { name: 'Masha', age: 37 },
@@ -18,20 +18,9 @@ class App extends Component {
     ],
   }
 
-  onChangeHandler = (event) => {
-    this.setState({
-      persons: [
-        { name: event.target.value, age: 47 },
-        { name: 'Masha', age: 37 },
-        { name: 'Chelsea', age: 1 },
-      ],
-    })
-  }
-
   render() {
     return (
       <div className="App">
-        <UserInput changed={this.onChangeHandler} />
         <UserOutput
           name={this.state.persons[0].name}
           age={this.state.persons[0].age}

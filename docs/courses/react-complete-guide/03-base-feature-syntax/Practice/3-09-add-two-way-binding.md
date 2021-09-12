@@ -1,10 +1,10 @@
 ---
-id: 3-6-add-event-handler-method
-title: 3.6 Add Event Handler Method
-date: 2021-03-19 23:30:12
+id: 3-09-add-two-way-binding
+title: 3.09 Add Two Way Binding
+date: 2021-03-20 00:06:55
 ---
 
-```jsx title="App.js" {14-22}
+```jsx title="App.js" {29}
 import React, { Component } from 'react';
 import './App.css';
 import UserOutput from './UserOutput/UserOutput'
@@ -31,6 +31,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <UserInput
+          changed={this.onChangeHandler}
+          name={this.state.persons[0].name}
+        />
         <UserOutput
           name={this.state.persons[0].name}
           age={this.state.persons[0].age}
@@ -57,11 +61,11 @@ class App extends Component {
 export default App;
 ```
 
-```jsx title="UserInput.js"
+```jsx title="UserInput.js" {4}
 import React from 'react'
 
-const userInput = () => {
-  return <input type="text"></input>
+const userInput = (props) => {
+  return <input type="text" onChange={props.changed}></input>
 }
 
 export default userInput

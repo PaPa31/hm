@@ -1,21 +1,19 @@
 ---
-id: 3-3-create-nested-components
-title: 3.3 Create Nested Components
+id: 3-01-create-components
+title: 3.01 Create Components
 date: 2021-03-19 22:29:03
 ---
 
-```jsx title="App.js" {9-11}
+<a href='https://github.com/PaPa31/react-complete-guide/commit/7abc59a56941a30e791e67a1d1bc58f9715f15e0' class='external'>github.com: 7abc59a56941a30e791e67a1d1bc58f9715f15e0</a>
+
+```jsx title="App.js"
 import React, { Component } from 'react';
 import './App.css';
-import UserOutput from './UserOutput/UserOutput'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserOutput />
-        <UserOutput />
-        <UserOutput />
       </div>
     );
   }
@@ -25,11 +23,7 @@ export default App;
 ```
 
 ```jsx title="UserInput.js"
-import React from 'react'
-
-const userInput = () => {
-  return <input type="text"></input>
-}
+const userInput = () => {}
 
 export default userInput
 ```
@@ -37,7 +31,7 @@ export default userInput
 ```jsx title="UserOutput.js"
 import React from 'react'
 
-const userOutput = () => {return ()}
+const userOutput = () => {}
 
 export default userOutput
 ```

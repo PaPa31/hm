@@ -1,10 +1,10 @@
 ---
-id: 3-8-making-interactive-component
-title: 3.8 Making Interactive Component
-date: 2021-03-20 00:01:54
+id: 3-07-pass-method-reference
+title: 3.07 Pass Method Reference
+date: 2021-03-19 23:46:14
 ---
 
-```jsx title="App.js"
+```jsx title="App.js" {27}
 import React, { Component } from 'react';
 import './App.css';
 import UserOutput from './UserOutput/UserOutput'
@@ -58,11 +58,11 @@ class App extends Component {
 export default App;
 ```
 
-```jsx title="UserInput.js" {4}
+```jsx title="UserInput.js"
 import React from 'react'
 
-const userInput = (props) => {
-  return <input type="text" onChange={props.changed}></input>
+const userInput = () => {
+  return <input type="text"></input>
 }
 
 export default userInput
