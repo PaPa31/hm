@@ -12,7 +12,7 @@ First, we need to tweak the configuration if we're using `react scripts`.
 
 ## If `react-script` version = 1
 
-For this course you need an earlier version of [react-scripts](../3-base-feature-syntax/Lessons/3-3-2-0-using-create-react-app#script-versions):
+For this course you need an earlier version of [react-scripts](../03-base-feature-syntax/Lessons/3-03-2-0-using-create-react-app#script-versions):
 
 ```bash npm2yarn
 npm uninstall react-scripts --save && npm install react-scripts@1.0.13 --save
