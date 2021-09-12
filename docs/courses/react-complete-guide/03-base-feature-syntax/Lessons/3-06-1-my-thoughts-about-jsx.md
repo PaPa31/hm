@@ -1,6 +1,6 @@
 ---
-id: 3-6-1-my-thoughts-about-jsx
-title: 3.6.1 My Thoughts About JSX
+id: 3-06-1-my-thoughts-about-jsx
+title: 3.06.1 My Thoughts About Jsx
 date: 2021-03-12 11:49:24
 ---
 

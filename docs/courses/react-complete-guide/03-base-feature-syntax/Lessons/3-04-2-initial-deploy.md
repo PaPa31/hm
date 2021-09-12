@@ -1,6 +1,6 @@
 ---
-id: 3-4-2-initial-deploy
-title: 3.4.2 Initial Deploy
+id: 3-04-2-initial-deploy
+title: 3.04.2 Initial Deploy
 date: 2021-03-11 19:13:14
 description: Initial deployment to GitHub pages
 ---

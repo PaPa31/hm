@@ -1,6 +1,6 @@
 ---
-id: 3-3-1-0-pure-react
-title: 3.3.1.0 Pure React
+id: 3-03-1-0-pure-react
+title: 3.03.1.0 Pure React
 date: 2021-03-21 17:28:24
 ---
 

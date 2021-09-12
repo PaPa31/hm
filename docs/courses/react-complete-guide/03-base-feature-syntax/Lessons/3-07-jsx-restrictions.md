@@ -1,6 +1,6 @@
 ---
-id: 3-7-jsx-restrictions
-title: 3.7 JSX Restrictions
+id: 3-07-jsx-restrictions
+title: 3.07 Jsx Restrictions
 date: 2021-03-12 00:47:38
 ---
 

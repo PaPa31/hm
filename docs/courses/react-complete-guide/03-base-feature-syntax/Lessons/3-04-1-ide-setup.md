@@ -1,6 +1,6 @@
 ---
-id: 3-4-1-ide-setup
-title: 3.4.1 IDE Setup
+id: 3-04-1-ide-setup
+title: 3.04.1 Ide Setup
 date: 2021-03-11 11:21:52
 ---
 

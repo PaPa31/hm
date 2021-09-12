@@ -1,6 +1,6 @@
 ---
-id: 3-9-components-jsx-cheat-sheet
-title: 3.9 Components JSX Cheat Sheet
+id: 3-09-components-jsx-cheat-sheet
+title: 3.09 Components Jsx Cheat Sheet
 date: 2021-03-07 18:04:46
 ---
 
