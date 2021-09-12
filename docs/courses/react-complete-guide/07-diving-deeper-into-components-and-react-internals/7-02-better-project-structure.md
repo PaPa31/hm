@@ -1,6 +1,6 @@
 ---
-id: 7-2-better-project-structure
-title: 7.2 Better Project Structure
+id: 7-02-better-project-structure
+title: 7.02 Better Project Structure
 date: 2021-04-06 22:01:11
 ---
 

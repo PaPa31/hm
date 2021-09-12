@@ -1,6 +1,6 @@
 ---
-id: 7-8-1-component-update-lifecycle-in-action
-title: 7.8.1 Component Update Lifecycle In Action
+id: 7-08-1-component-update-lifecycle-in-action
+title: 7.08.1 Component Update Lifecycle In Action
 date: 2021-04-07 19:26:38
 ---
 

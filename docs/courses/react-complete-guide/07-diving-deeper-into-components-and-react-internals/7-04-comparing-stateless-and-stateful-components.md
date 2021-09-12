@@ -1,6 +1,6 @@
 ---
-id: 7-4-comparing-stateless-and-stateful-components
-title: 7.4 Comparing Stateless And Stateful Components
+id: 7-04-comparing-stateless-and-stateful-components
+title: 7.04 Comparing Stateless And Stateful Components
 date: 2021-04-09 12:03:43
 ---
 

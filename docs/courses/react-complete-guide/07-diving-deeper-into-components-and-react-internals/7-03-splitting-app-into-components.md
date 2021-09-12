@@ -1,6 +1,6 @@
 ---
-id: 7-3-splitting-app-into-components
-title: 7.3 Splitting App Into Components
+id: 7-03-splitting-app-into-components
+title: 7.03 Splitting App Into Components
 date: 2021-04-06 23:48:34
 ---
 

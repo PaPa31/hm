@@ -1,6 +1,6 @@
 ---
-id: 7-5-class-based-vs-functional-components
-title: 7.5 Class Based vs Functional Components
+id: 7-05-class-based-vs-functional-components
+title: 7.05 Class Based Vs Functional Components
 date: 2021-04-07 11:39:41
 ---
 

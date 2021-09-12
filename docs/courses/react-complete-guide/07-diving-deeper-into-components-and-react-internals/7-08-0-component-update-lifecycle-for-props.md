@@ -1,6 +1,6 @@
 ---
-id: 7-8-0-component-update-lifecycle-for-props
-title: 7.8.0 Component Update Lifecycle For Props
+id: 7-08-0-component-update-lifecycle-for-props
+title: 7.08.0 Component Update Lifecycle For Props
 date: 2021-04-06 16:56:03
 ---
 
