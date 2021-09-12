@@ -23,7 +23,7 @@ If you use this approach, you DON'T need to eject. But please **don't skip the n
 ## Optional
 
 :::tip
-Better see [this](../5-styling-react-components-and-elements/5-10-0-working-with-css-modules#configure-webpackconfig-files).
+Better see [this](../05-styling-react-components-and-elements/5-10-0-working-with-css-modules#configure-webpackconfig-files).
 :::
 
 If you still want to eject and manually adjust the Webpack config (as we do it in the new videos - which you don't need to do if you follow the approach described in the link above), you should take the below comments into account in case your webpack config (after ejecting) doesn't look the same as it does in my videos:

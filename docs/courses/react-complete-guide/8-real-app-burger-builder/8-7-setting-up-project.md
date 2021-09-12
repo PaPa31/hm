@@ -37,4 +37,4 @@ npm run eject
 I think now you not need ejected react-script. Reed [this](8-6-must-read-enabling-css-module#).
 :::
 
-Better see [this](../5-styling-react-components-and-elements/5-10-0-working-with-css-modules#configure-webpackconfig-files).
+Better see [this](../05-styling-react-components-and-elements/5-10-0-working-with-css-modules#configure-webpackconfig-files).
