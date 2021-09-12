@@ -18,6 +18,10 @@ The rest of the methods (snippet manipulations) were unsuccessful.
 
 Install <a href='https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command&ssr=false#overview' class='external'>multi-command</a> extension
 
+### Find Command
+
+[Find](find-command) the name of the command you want to execute.
+
 ## Configure `settings.json`
 
 Copy/past at the end of the `settings.json` file:

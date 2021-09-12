@@ -5,8 +5,6 @@ date: 2021-02-22 14:20:04
 description: My VS Code snippets without keyboard shortcuts
 ---
 
-Some snippets (with shortcuts) are located on the [keyboard shortcuts](../user-keyboard-shortcuts) page.
-
 :::caution
 To use a Snippet, you type the first (or any other) letters of the required `snippet prefix`, press `Ctrl + Space`, and select the appropriate command from the pop-up context menu.
 :::
@@ -31,6 +29,10 @@ To use a Snippet, you type the first (or any other) letters of the required `sni
 13 | classes css | classes css | | className={classes.$1}$0 |
 14 | axios import | axios import | | import axios from 'axios' |
 15 | classes import | classes import | | import classes from './$1.module.css'$0 |
+
+## Keyboard Shortcuts
+
+Some snippets (with shortcuts) are located on the [keyboard shortcuts](../user-keyboard-shortcuts) page.
 
 ## Snippets Results
 

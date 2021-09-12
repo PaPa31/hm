@@ -19,6 +19,8 @@ cp ~/.config/Code/User/keybindings.json '/mnt/sdc1/Users/parsh/Application Data/
 
 ## Keyboard Shortcuts List
 
+<small>
+
 | | Keyboard Shortcut | How Did | Description | Result |
 -|-|-|-|-
 1 | `Ctrl+k t` | [copy/past](https://stackoverflow.com/questions/38780057/how-to-insert-current-date-time-in-vscode#57654879) to keybindings.json | Insert readable Date & Time | 2021-02-05 20:22:46
@@ -29,7 +31,7 @@ cp ~/.config/Code/User/keybindings.json '/mnt/sdc1/Users/parsh/Application Data/
 6 | `Ctrl+e t` | see above | Wrap with `<textarea>` and some text | `<textarea>Your answer:</textarea>`
 7 | `Ctrl+g c` | NOTE, TIP, IMPORTANT, CAUTION, WARNING  | add markdown admonition | `::: :::`
 8 | `Ctrl+g t` |  | add markdown code block | ``````
-9 | `Alt+g c`  | [Macros: Auto Frontmatter](macros/0-auto-frontmatter) | add markdown frontmatter | `--- ... ---`
+9 | `Alt+g c`  | [Macro: createAutoFrontmatter](macros/1-auto-frontmatter) | add markdown frontmatter | `--- ... ---`
 10 | `Ctrl+g a` | make external link with 2 vars | 1st var -> copy some link; 2nd var highlight some text | <a href='https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode' class='external'>Prettier</a>
 11 | `Ctrl+g y` | | insert advanced code block | ```jsx title="App.js" {}```
 12 | `Alt+g a` | AutoAnchor: make external link using copied link | Caution: place cursor at start of line | <a href='https://code.visualstudio.com/api/get-started/your-first-extension' class='external'>code.visualstudio.com: Your First Extension</a>
@@ -38,3 +40,8 @@ cp ~/.config/Code/User/keybindings.json '/mnt/sdc1/Users/parsh/Application Data/
 15 | `Ctrl+Alt+1` or `Ctrl+1` | | Open default browser | |
 16 | `Alt+g f` | | Inspect TM scopes | |
 17 | `Ctrl+n` | | open new file | |
+18 | `Ctrl+Alt s` | | save all files | |
+19 | `Ctrl+K Ctrl+w` | | close all tabs | |
+20 | `Alt+G u` | | [Macro: updateAutoFrontmatter](macros/2-auto-frontmatter) | |
+
+</small>
