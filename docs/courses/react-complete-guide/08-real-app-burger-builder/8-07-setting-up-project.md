@@ -1,6 +1,6 @@
 ---
-id: 8-7-setting-up-project
-title: 8.7 Setting Up Project
+id: 8-07-setting-up-project
+title: 8.07 Setting Up Project
 date: 2021-04-09 18:39:25
 ---
 
@@ -34,7 +34,7 @@ npm run eject
 ## Configure `webpack.config` files
 
 :::caution
-I think now you not need ejected react-script. Reed [this](8-6-must-read-enabling-css-module#).
+I think now you not need ejected react-script. Reed [this](8-06-must-read-enabling-css-module#).
 :::
 
 Better see [this](../05-styling-react-components-and-elements/5-10-0-working-with-css-modules#configure-webpackconfig-files).

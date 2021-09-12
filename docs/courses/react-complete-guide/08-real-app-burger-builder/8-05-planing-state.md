@@ -1,6 +1,6 @@
 ---
-id: 8-5-planing-state
-title: 8.5 Planing State
+id: 8-05-planing-state
+title: 8.05 Planing State
 date: 2021-04-09 17:17:42
 ---
 

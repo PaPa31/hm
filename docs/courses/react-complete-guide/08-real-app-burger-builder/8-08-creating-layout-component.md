@@ -1,6 +1,6 @@
 ---
-id: 8-8-creating-layout-component
-title: 8.8 Creating Layout Component
+id: 8-08-creating-layout-component
+title: 8.08 Creating Layout Component
 date: 2021-04-09 20:54:22
 ---
 

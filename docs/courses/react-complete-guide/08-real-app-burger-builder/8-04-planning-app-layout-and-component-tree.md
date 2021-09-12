@@ -1,6 +1,6 @@
 ---
-id: 8-4-planning-app-layout-and-component-tree
-title: 8.4 Planning App Layout And Component Tree
+id: 8-04-planning-app-layout-and-component-tree
+title: 8.04 Planning App Layout And Component Tree
 date: 2021-04-09 17:04:43
 ---
 

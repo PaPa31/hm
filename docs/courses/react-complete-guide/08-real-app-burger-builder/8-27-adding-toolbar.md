@@ -7,7 +7,7 @@ date: 2021-04-11 10:35:29
 ## Corrected Folder Structure
 
 :::caution
-I corrected the mistake (see [lesson 8.9](8-9-starting-implementation-burger-builder-container)). And moved the `BurgerBuilder` folder to the `containers` folder. All works fine yet.
+I corrected the mistake (see [lesson 8.9](8-09-starting-implementation-burger-builder-container)). And moved the `BurgerBuilder` folder to the `containers` folder. All works fine yet.
 :::
 
 ```bash

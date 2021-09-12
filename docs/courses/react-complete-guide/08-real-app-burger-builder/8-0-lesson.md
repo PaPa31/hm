@@ -4,15 +4,15 @@ title: 8.0 Lesson
 date: 2021-04-09 14:51:47
 ---
 
-1. [About React Hooks](8-1-about-react-hooks)
+1. [About React Hooks](8-01-about-react-hooks)
 2. Intro
-3. [Planning an App in React](8-3-planning-app-in-react)
-4. [Planning our App - Layout and Component Tree](8-4-planning-app-layout-and-component-tree.md)
-5. [Planning the State](8-5-planing-state)
-6. [MUST READ Enabling CSS Modules](8-6-must-read-enabling-css-module)
-7. [Setting Up the Project](8-7-setting-up-project)
-8.[Creating a Layout Component](8-8-creating-layout-component)
-9. [Starting Implementation of The Burger Builder Container](8-9-starting-implementation-burger-builder-container)
+3. [Planning an App in React](8-03-planning-app-in-react)
+4. [Planning our App - Layout and Component Tree](8-04-planning-app-layout-and-component-tree)
+5. [Planning the State](8-05-planing-state)
+6. [MUST READ Enabling CSS Modules](8-06-must-read-enabling-css-module)
+7. [Setting Up the Project](8-07-setting-up-project)
+8.[Creating a Layout Component](8-08-creating-layout-component)
+9. [Starting Implementation of The Burger Builder Container](8-09-starting-implementation-burger-builder-container)
 10. [Adding a Dynamic Ingredient Component](8-10-adding-dynamic-ingredient-component)
     1. BurgerIngredient.css
 11. [Adding PropTypes Validation](8-11-adding-prop-type-validation)

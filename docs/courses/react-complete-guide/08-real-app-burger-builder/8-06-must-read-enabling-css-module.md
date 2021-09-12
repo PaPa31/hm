@@ -1,6 +1,6 @@
 ---
-id: 8-6-must-read-enabling-css-module
-title: 8.6 Must Read Enabling CSS Module
+id: 8-06-must-read-enabling-css-module
+title: 8.06 Must Read Enabling Css Module
 date: 2021-04-09 15:13:36
 ---
 
