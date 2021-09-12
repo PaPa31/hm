@@ -1,6 +1,6 @@
 ---
-id: 9-5-rendering-fetched-data-to-screen
-title: 9.5 Rendering Fetched Data To Screen
+id: 9-05-rendering-fetched-data-to-screen
+title: 9.05 Rendering Fetched Data To Screen
 date: 2021-04-13 11:40:25
 ---
 

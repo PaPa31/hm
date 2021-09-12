@@ -1,6 +1,6 @@
 ---
-id: 9-8-fetching-data-on-update
-title: 9.8 Fetching Data On Update (Without Creating Infinity Loops)
+id: 9-08-fetching-data-on-update
+title: 9.08 Fetching Data On Update
 date: 2021-04-13 14:19:55
 ---
 
