@@ -1,6 +1,6 @@
 ---
-id: 18-6-getting-a-token-from-backend
-title: 18.6 Getting a Token from Backend
+id: 18-06-getting-a-token-from-backend
+title: 18.06 Getting A Token From Backend
 date: 2021-07-18 18:20:22
 ---
 

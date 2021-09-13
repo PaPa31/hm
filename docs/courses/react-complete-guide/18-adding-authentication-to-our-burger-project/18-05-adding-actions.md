@@ -1,17 +1,16 @@
 ---
-id: 18-9-adding-a-spinner
-title: 18.9 Adding a Spinner
-date: 2021-07-21 13:49:50
+id: 18-05-adding-actions
+title: 18.05 Adding Actions
+date: 2021-07-18 18:01:14
 ---
 
 ## `Auth.js`
 
-```jsx title="src\containers\Auth\Auth.js" {5,114,127-135,139,152-157,165}
+```jsx title="src\containers\Auth\Auth.js" {2,5,89-95,119,128-133}
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import Button from "../../components/UI/Button/Button";
 import Input from "../../components/UI/Input/Input";
-import Spinner from "../../components/UI/Spinner/Spinner";
 import * as actions from "../../store/actions/index";
 import classes from "./Auth.module.css";
 
@@ -47,7 +46,6 @@ class Auth extends Component {
         touched: false,
       },
     },
-    isSignup: true,
   };
 
   checkValidity(value, rules) {
@@ -101,15 +99,8 @@ class Auth extends Component {
     event.preventDefault();
     this.props.onAuth(
       this.state.controls.email.value,
-      this.state.controls.password.value,
-      this.state.isSignup
+      this.state.controls.password.value
     );
-  };
-
-  switchAuthModeHandler = () => {
-    this.setState((prevState) => {
-      return { isSignup: !prevState.isSignup };
-    });
   };
   render() {
     const formElementsArray = [];
@@ -120,7 +111,7 @@ class Auth extends Component {
       });
     }
 
-    let form = formElementsArray.map((formElement) => (
+    const form = formElementsArray.map((formElement) => (
       <Input
         key={formElement.id}
         elementType={formElement.config.elementType}
@@ -132,52 +123,62 @@ class Auth extends Component {
         changed={(event) => this.inputChangedHandler(event, formElement.id)}
       />
     ));
-
-    if (this.props.loading) {
-      form = <Spinner />;
-    }
-
-    let errorMessage = null;
-
-    if (this.props.error) {
-      errorMessage = <p>{this.props.error.message}</p>;
-    }
-
     return (
       <div className={classes.Auth}>
-        {errorMessage}
         <form onSubmit={this.submitHandler}>
           {form}
           <Button btnType="Success">Submit</Button>
-          <Button clicked={this.switchAuthModeHandler} btnType="Danger">
-            SWITCH TO {this.state.isSignup ? "SIGNIN" : "SIGNUP"}
-          </Button>
         </form>
       </div>
     );
   }
 }
 
-const mapStateToProps = (state) => {
-  return {
-    loading: state.auth.loading,
-    error: state.auth.error,
-  };
-};
-
 const mapDispatchToProps = (dispatch) => {
   return {
-    onAuth: (email, password, isSignup) =>
-      dispatch(actions.auth(email, password, isSignup)),
+    onAuth: (email, password) => dispatch(actions.auth(email, password)),
   };
 };
-export default connect(mapStateToProps, mapDispatchToProps)(Auth);
+export default connect(null, mapDispatchToProps)(Auth);
 ```
 
-## `auth.js`
+## `actionTypes.js`
 
-```jsx title="src\store\actions\auth.js" {46}
-import axios from "axios";
+```jsx title="src\store\actions\actionTypes.js" {15-17}
+export const ADD_INGREDIENT = "ADD_INGREDIENT";
+export const REMOVE_INGREDIENT = "REMOVE_INGREDIENT";
+export const SET_INGREDIENTS = "SET_INGREDIENTS";
+export const FETCH_INGREDIENTS_FAILED = "FETCH_INGREDIENTS_FAILED";
+
+export const PURCHASE_BURGER_START = "PURCHASE_BURGER_START";
+export const PURCHASE_BURGER_SUCCESS = "PURCHASE_BURGER_SUCCESS";
+export const PURCHASE_BURGER_FAIL = "PURCHASE_BURGER_FAIL";
+export const PURCHASE_INIT = "PURCHASE_INIT";
+
+export const FETCH_ORDERS_START = "FETCH_ORDERS_START";
+export const FETCH_ORDERS_SUCCESS = "FETCH_ORDERS_SUCCESS";
+export const FETCH_ORDERS_FAIL = "FETCH_ORDERS_FAIL";
+
+export const AUTH_START = "AUTH_START";
+export const AUTH_SUCCESS = "AUTH_SUCCESS";
+export const AUTH_FAIL = "AUTH_FAIL";
+```
+
+## `actions/index.js`
+
+```jsx title="src\store\actions\index.js" {1}
+export { auth } from "./auth";
+export {
+  addIngredient,
+  initIngredients,
+  removeIngredient,
+} from "./burgerBuilder";
+export { fetchOrders, purchaseBurger, purchaseInit } from "./order";
+```
+
+## New `auth.js`
+
+```jsx title="src\store\actions\auth.js" {}
 import * as actionTypes from "./actionTypes";
 
 export const authStart = () => {
@@ -186,11 +187,10 @@ export const authStart = () => {
   };
 };
 
-export const authSuccess = (token, userId) => {
+export const authSuccess = (authData) => {
   return {
     type: actionTypes.AUTH_SUCCESS,
-    idToken: token,
-    userId: userId,
+    authData: authData,
   };
 };
 
@@ -201,29 +201,9 @@ export const authFail = (error) => {
   };
 };
 
-export const auth = (email, password, isSignup) => {
+export const auth = (email, password) => {
   return (dispatch) => {
     dispatch(authStart());
-    const authData = {
-      email: email,
-      password: password,
-      returnSecureToken: true,
-    };
-    let url =
-      "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDsmwPeH2yE7yqvoeYolCLgB9ju50rYivo";
-    if (!isSignup) {
-      url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDsmwPeH2yE7yqvoeYolCLgB9ju50rYivo";
-    }
-    axios
-      .post(url, authData)
-      .then((response) => {
-        console.log(response);
-        dispatch(authSuccess(response.data.idToken, response.data.localId));
-      })
-      .catch((err) => {
-        dispatch(authFail(err.response.data.error));
-      });
   };
 };
 ```

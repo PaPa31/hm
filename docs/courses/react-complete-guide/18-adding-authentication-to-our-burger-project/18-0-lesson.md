@@ -5,14 +5,14 @@ date: 2021-07-18 10:35:10
 ---
 
 1. Intro
-2. [Understanding Authentication in Single Page Application](18-2-understanding-authentication-in-single-page-application)
-3. [Required App Adjustments](18-3-required-app-adjustments)
-4. [Adding an Auth Form](18-4-adding-an-auth-form)
-5. [Adding Actions](18-5-adding-actions)
-6. [Getting a Token from the Backend](18-6-getting-a-token-from-backend)
-7. [Adding Sign-In](18-7-adding-sign-in)
-8. [Storing the Token](18-8-storing-the-token)
-9. [Adding a Spinner](18-9-adding-a-spinner)
+2. [Understanding Authentication in Single Page Application](18-02-understanding-authentication-in-single-page-application)
+3. [Required App Adjustments](18-03-required-app-adjustments)
+4. [Adding an Auth Form](18-04-adding-an-auth-form)
+5. [Adding Actions](18-05-adding-actions)
+6. [Getting a Token from the Backend](18-06-getting-a-token-from-backend)
+7. [Adding Sign-In](18-07-adding-sign-in)
+8. [Storing the Token](18-08-storing-the-token)
+9. [Adding a Spinner](18-09-adding-a-spinner)
 10. [Logging Users Out](18-10-logging-users-out)
 11. [Accessing Protected Resources](18-11-accessing-protected-resources)
 12. [Updating the UI Depending on Auth State](18-12-updating-the-ui-depending-on-auth-state)
