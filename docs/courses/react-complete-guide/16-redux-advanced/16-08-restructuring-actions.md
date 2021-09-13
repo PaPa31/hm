@@ -1,6 +1,6 @@
 ---
-id: 16-8-restructuring-actions
-title: 16.8 Restructuring Actions
+id: 16-08-restructuring-actions
+title: 16.08 Restructuring Actions
 date: 2021-07-14 14:58:01
 ---
 

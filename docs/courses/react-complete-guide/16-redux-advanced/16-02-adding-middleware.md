@@ -1,10 +1,10 @@
 ---
-id: 16-2-adding-middleware
-title: 16.2 Adding Middleware
+id: 16-02-adding-middleware
+title: 16.02 Adding Middleware
 date: 2021-07-13 19:11:22
 ---
 
-![](assets/adding-middleware.png)
+![](assets/16-02-adding-middleware.png)
 
 ## `index.js`
 

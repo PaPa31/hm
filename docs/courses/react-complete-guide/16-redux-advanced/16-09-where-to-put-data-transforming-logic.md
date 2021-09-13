@@ -1,10 +1,10 @@
 ---
-id: 16-9-where-to-put-data-transforming-logic
-title: 16.9 Where To Put Data Transforming Logic
+id: 16-09-where-to-put-data-transforming-logic
+title: 16.09 Where To Put Data Transforming Logic
 date: 2021-07-14 16:38:14
 ---
 
-![](assets/where-to-put-data-transforming-logic.png)
+![](assets/16-09-where-to-put-data-transforming-logic.png)
 
 ## `result.js` in Action Creators
 

@@ -1,6 +1,6 @@
 ---
-id: 16-3-using-redux-devtools
-title: 16.3 Using Redux Devtools
+id: 16-03-using-redux-devtools
+title: 16.03 Using Redux Devtools
 date: 2021-07-13 20:57:04
 ---
 

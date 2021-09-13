@@ -1,6 +1,6 @@
 ---
-id: 16-6-action-creators-and-async-code
-title: 16.6 Action Creators And Async Code
+id: 16-06-action-creators-and-async-code
+title: 16.06 Action Creators And Async Code
 date: 2021-07-14 12:06:14
 ---
 

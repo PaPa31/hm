@@ -1,6 +1,6 @@
 ---
-id: 16-5-Introducing-action-creators
-title: 16.5 Introducing Action Creators
+id: 16-05-Introducing-action-creators
+title: 16.05 Introducing Action Creators
 date: 2021-07-14 11:05:00
 ---
 
