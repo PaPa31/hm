@@ -1,12 +1,12 @@
 ---
-id: 14-7-adding-subscriptions
-title: 14.7 Adding Subscriptions
-date: 2021-04-21 23:48:59
+id: 14-06-dispatching-actions
+title: 14.06 Dispatching Actions
+date: 2021-04-21 23:20:16
 ---
 
 ## `redux-basics.js`
 
-```jsx title="redux-basics.js" {}
+```jsx title="redux-basics.js" {10-21,30-32}
 const redux = require("redux");
 const createStore = redux.createStore;
 
@@ -35,13 +35,9 @@ const rootReducer = (state = initialState, action) => {
 const store = createStore(rootReducer);
 console.log(store.getState());
 
-// Subscription
-store.subscribe(() => {
-  console.log("[Subscription]", store.getState());
-});
-
 // Dispatching Action
 store.dispatch({ type: "INC_COUNTER" });
 store.dispatch({ type: "ADD_COUNTER", value: 10 });
 console.log(store.getState());
+// Subscription
 ```

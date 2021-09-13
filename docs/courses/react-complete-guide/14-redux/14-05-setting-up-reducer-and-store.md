@@ -1,6 +1,6 @@
 ---
-id: 14-5-setting-up-reducer-and-store
-title: 14.5 Setting Up Reducer And Store
+id: 14-05-setting-up-reducer-and-store
+title: 14.05 Setting Up Reducer And Store
 date: 2021-04-21 20:38:43
 ---
 ## `Installing Redux`

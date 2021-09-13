@@ -1,6 +1,6 @@
 ---
-id: 14-9-connecting-store-to-react
-title: 14.9 Connecting Store To React
+id: 14-09-connecting-store-to-react
+title: 14.09 Connecting Store To React
 date: 2021-04-22 00:18:54
 ---
 

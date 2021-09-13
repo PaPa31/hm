@@ -1,6 +1,6 @@
 ---
-id: 14-8-connecting-react-to-redux
-title: 14.8 Connecting React To Redux
+id: 14-08-connecting-react-to-redux
+title: 14.08 Connecting React To Redux
 date: 2021-04-22 00:03:26
 ---
 

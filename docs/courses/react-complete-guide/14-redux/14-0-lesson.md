@@ -7,12 +7,12 @@ date: 2021-04-21 14:15:43
 1. Intro
 2. Understanding State
 3. The Complexity of Managing State
-4. [Understanding the Redux Flow](14-4-understanding-redux-flow)
-5. [Setting Up Reducer and Store](14-5-setting-up-reducer-and-store)
-6. [Dispatching Actions](14-6-dispatching-actions)
-7. [Adding Subscriptions](14-7-adding-subscriptions)
-8. [Connecting React to Redux](14-8-connecting-react-to-redux)
-9. [Connecting the Store to React](14-9-connecting-store-to-react)
+4. [Understanding the Redux Flow](14-04-understanding-redux-flow)
+5. [Setting Up Reducer and Store](14-05-setting-up-reducer-and-store)
+6. [Dispatching Actions](14-06-dispatching-actions)
+7. [Adding Subscriptions](14-07-adding-subscriptions)
+8. [Connecting React to Redux](14-08-connecting-react-to-redux)
+9. [Connecting the Store to React](14-09-connecting-store-to-react)
 10. [Dispatching Actions from within the Component](14-10-dispatching-actions-from-within-component)
 11. [Practice](14-11-practice)
 12. Passing and Retrieving Data with Action
