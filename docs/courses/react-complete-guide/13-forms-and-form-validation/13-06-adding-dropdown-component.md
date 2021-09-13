@@ -1,6 +1,6 @@
 ---
-id: 13-6-adding-dropdown-component
-title: 13.6 Adding Dropdown Component
+id: 13-06-adding-dropdown-component
+title: 13.06 Adding Dropdown Component
 date: 2021-04-20 21:40:33
 ---
 

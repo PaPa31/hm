@@ -1,6 +1,6 @@
 ---
-id: 13-4-setting-up-js-config-for-form
-title: 13.4 Setting Up Js Config For Form
+id: 13-04-setting-up-js-config-for-form
+title: 13.04 Setting Up Js Config For Form
 date: 2021-04-20 20:37:17
 ---
 

@@ -1,6 +1,6 @@
 ---
-id: 13-3-creating-custom-dynamic-input-components
-title: 13.3 Creating Custom Dynamic Input Components
+id: 13-03-creating-custom-dynamic-input-components
+title: 13.03 Creating Custom Dynamic Input Components
 date: 2021-04-20 18:52:55
 ---
 

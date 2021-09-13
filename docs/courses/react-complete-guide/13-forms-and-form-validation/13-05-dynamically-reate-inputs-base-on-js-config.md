@@ -1,78 +1,12 @@
 ---
-id: 13-7-handling-user-input
-title: 13.7 Handling User Input
-date: 2021-04-20 22:29:05
+id: 13-05-dynamically-reate-inputs-base-on-js-config
+title: 13.05 Dynamically Reate Inputs Base On Js Config
+date: 2021-04-20 21:14:05
 ---
-
-## `Input.js`
-
-```jsx title="Input.js" {14,24,30-34,49}
-import React from "react";
-import classes from "./Input.module.css";
-
-const input = (props) => {
-  let inputElement = null;
-
-  switch (props.elementType) {
-    case "input":
-      inputElement = (
-        <input
-          className={classes.InputElement}
-          {...props.elementConfig}
-          value={props.value}
-          onChange={props.changed}
-        />
-      );
-      break;
-    case "textarea":
-      inputElement = (
-        <textarea
-          className={classes.InputElement}
-          {...props.elementConfig}
-          value={props.value}
-          onChange={props.changed}
-        />
-      );
-      break;
-    case "select":
-      inputElement = (
-        <select
-          className={classes.InputElement}
-          value={props.value}
-          onChange={props.changed}
-        >
-          {props.elementConfig.options.map((option) => (
-            <option key={option.value} value={option.value}>
-              {option.displayValue}
-            </option>
-          ))}
-        </select>
-      );
-      break;
-    default:
-      inputElement = (
-        <input
-          className={classes.InputElement}
-          {...props.elementConfig}
-          value={props.value}
-          onChange={props.changed}
-        />
-      );
-  }
-  return (
-    <div className={classes.Input}>
-      <label className={classes.Label}>{props.label}</label>
-      {inputElement}
-    </div>
-  );
-};
-
-export default input;
-```
 
 ## `ContactData.js`
 
-```jsx title="ContactData.js" {83-93,110}
+```jsx title="ContactData.js" {83-89,92,94-97,99}
 import React, { Component } from "react";
 import axios from "../../../axios-orders";
 import Button from "../../../components/UI/Button/Button";
@@ -154,18 +88,6 @@ class ContactData extends Component {
         this.setState({ loading: false });
       });
   };
-
-  inputChangedHandler = (event, inputIdentifier) => {
-    const updatedOrderForm = {
-      ...this.state.orderForm,
-    };
-    const updatedFormElement = {
-      ...updatedOrderForm[inputIdentifier],
-    };
-    updatedFormElement.value = event.target.value;
-    updatedOrderForm[inputIdentifier] = updatedFormElement;
-    this.setState({ orderForm: updatedOrderForm });
-  };
   render() {
     const formElementsArray = [];
     for (let key in this.state.orderForm) {
@@ -182,7 +104,6 @@ class ContactData extends Component {
             elementType={formElement.config.elementType}
             elementConfig={formElement.config.elementConfig}
             value={formElement.config.value}
-            changed={(event) => this.inputChangedHandler(event, formElement.id)}
           />
         ))}
         <Button btnType="Success" clicked={this.orderHandler}>
