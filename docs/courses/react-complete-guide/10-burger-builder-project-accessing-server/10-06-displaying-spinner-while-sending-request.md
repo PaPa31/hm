@@ -1,6 +1,6 @@
 ---
-id: 10-6-displaying-spinner-while-sending-request
-title: 10.6 Displaying Spinner While Sending Request
+id: 10-06-displaying-spinner-while-sending-request
+title: 10.06 Displaying Spinner While Sending Request
 date: 2021-04-13 22:28:50
 ---
 

@@ -1,6 +1,6 @@
 ---
-id: 10-5-sending-post-request
-title: 10.5 Sending Post Request
+id: 10-05-sending-post-request
+title: 10.05 Sending Post Request
 date: 2021-04-13 21:54:15
 ---
 

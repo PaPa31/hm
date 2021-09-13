@@ -1,6 +1,6 @@
 ---
-id: 10-4-creating-axios-instance
-title: 10.4 Creating Axios Instance
+id: 10-04-creating-axios-instance
+title: 10.04 Creating Axios Instance
 date: 2021-04-13 20:58:08
 ---
 

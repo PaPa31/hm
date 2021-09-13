@@ -1,6 +1,6 @@
 ---
-id: 10-2-firebase-and-right-database
-title: 10.2 Firebase And Right Database
+id: 10-02-firebase-and-right-database
+title: 10.02 Firebase And Right Database
 date: 2021-04-13 19:46:34
 ---
 

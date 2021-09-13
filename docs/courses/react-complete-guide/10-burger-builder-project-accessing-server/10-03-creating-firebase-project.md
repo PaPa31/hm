@@ -1,6 +1,6 @@
 ---
-id: 10-3-creating-firebase-project
-title: 10.3 Creating Firebase Project
+id: 10-03-creating-firebase-project
+title: 10.03 Creating Firebase Project
 date: 2021-04-13 20:36:54
 ---
 
@@ -10,4 +10,4 @@ Google Firebase Console: <a href='https://console.firebase.google.com/u/0/projec
 
 Now for this to be available, there's one thing we need to set up under rules here, on database rules you should set read and write access simply to `true` (and then press `Publish`):
 
-![](assets/10-3-firebase-console-rules-to-true.png)
+![](assets/10-03-firebase-console-rules-to-true.png)

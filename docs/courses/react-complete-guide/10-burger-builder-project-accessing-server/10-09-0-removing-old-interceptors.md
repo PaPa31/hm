@@ -1,6 +1,6 @@
 ---
-id: 10-9-0-removing-old-interceptors
-title: 10.9.0 Removing Old Interceptors
+id: 10-09-0-removing-old-interceptors
+title: 10.09.0 Removing Old Interceptors
 date: 2021-04-14 13:06:09
 ---
 
