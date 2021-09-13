@@ -1,6 +1,6 @@
 ---
-id: 11-5-react-router-vs-react-router-dom
-title: 11.5 react-router vs react-router-dom
+id: 11-05-react-router-vs-react-router-dom
+title: 11.05 React Router Vs React Router Dom
 date: 2021-04-14 18:18:57
 ---
 

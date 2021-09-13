@@ -1,6 +1,6 @@
 ---
-id: 11-8-rendering-components-for-routes
-title: 11.8 Rendering Components For Routes
+id: 11-08-rendering-components-for-routes
+title: 11.08 Rendering Components For Routes
 date: 2021-04-14 22:35:45
 ---
 

@@ -5,14 +5,14 @@ date: 2021-04-14 18:02:05
 ---
 
 1. Intro
-2. [Routing and SPAs](11-2-routing-and-spas)
-3. [Setting Up Links](11-3-setting-up-links)
-4. [Setting Up the Router Package](11-4-setting-up-router-package)
-5. [react-router vs react-router-dom](11-5-react-router-vs-react-router-dom)
-6. [Preparing the Project for Routing](11-6-preparing-project-for-routing)
-7. [Setting Up and Rendering Routes](11-7-setting-up-and-rendering-routes)
-8. [Rendering Components for Routes](11-8-rendering-components-for-routes)
-9. [Switching Between Pages](11-9-switching-between-pages)
+2. [Routing and SPAs](11-02-routing-and-spas)
+3. [Setting Up Links](11-03-setting-up-links)
+4. [Setting Up the Router Package](11-04-setting-up-router-package)
+5. [react-router vs react-router-dom](11-05-react-router-vs-react-router-dom)
+6. [Preparing the Project for Routing](11-06-preparing-project-for-routing)
+7. [Setting Up and Rendering Routes](11-07-setting-up-and-rendering-routes)
+8. [Rendering Components for Routes](11-08-rendering-components-for-routes)
+9. [Switching Between Pages](11-09-switching-between-pages)
 10. [Using Links to Switch Pages](11-10-using-links-to-switch-pages)
 11. [Using Routing-Related Props](11-11-using-routing-related-props)
 12. [The withRouter HOC & Route Props](11-12-withrouter-hoc-and-route-props)

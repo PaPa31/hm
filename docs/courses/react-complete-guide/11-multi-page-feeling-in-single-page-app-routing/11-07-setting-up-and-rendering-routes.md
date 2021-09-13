@@ -1,6 +1,6 @@
 ---
-id: 11-7-setting-up-and-rendering-routes
-title: 11.7 Setting Up And Rendering Routes
+id: 11-07-setting-up-and-rendering-routes
+title: 11.07 Setting Up And Rendering Routes
 date: 2021-04-14 22:22:51
 ---
 
