@@ -1,6 +1,6 @@
 ---
-id: 12-5-navigation-back-and-to-next-page
-title: 12.5 Navigation Back And To Next Page
+id: 12-05-navigation-back-and-to-next-page
+title: 12.05 Navigation Back And To Next Page
 date: 2021-04-19 21:33:01
 ---
 

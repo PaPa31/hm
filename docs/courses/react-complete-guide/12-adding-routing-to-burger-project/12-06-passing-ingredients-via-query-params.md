@@ -1,6 +1,6 @@
 ---
-id: 12-6-passing-ingredients-via-query-params
-title: 12.6 Passing Ingredients via Query Params
+id: 12-06-passing-ingredients-via-query-params
+title: 12.06 Passing Ingredients Via Query Params
 date: 2021-04-19 22:41:16
 ---
 

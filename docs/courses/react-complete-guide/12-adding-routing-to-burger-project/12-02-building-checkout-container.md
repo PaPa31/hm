@@ -1,6 +1,6 @@
 ---
-id: 12-2-building-checkout-container
-title: 12.2 Building Checkout Container
+id: 12-02-building-checkout-container
+title: 12.02 Building Checkout Container
 date: 2021-04-19 19:00:05
 ---
 

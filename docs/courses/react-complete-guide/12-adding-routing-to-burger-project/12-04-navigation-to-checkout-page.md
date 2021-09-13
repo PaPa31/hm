@@ -1,6 +1,6 @@
 ---
-id: 12-4-navigation-to-checkout-page
-title: 12.4 Navigation To Checkout Page
+id: 12-04-navigation-to-checkout-page
+title: 12.04 Navigation To Checkout Page
 date: 2021-04-19 21:14:49
 ---
 

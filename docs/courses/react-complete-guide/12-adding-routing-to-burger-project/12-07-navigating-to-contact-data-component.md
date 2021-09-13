@@ -1,6 +1,6 @@
 ---
-id: 12-7-navigating-to-contact-data-component
-title: 12.7 Navigating To Contact Data Component
+id: 12-07-navigating-to-contact-data-component
+title: 12.07 Navigating To Contact Data Component
 date: 2021-04-19 23:28:01
 ---
 
