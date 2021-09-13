@@ -1,6 +1,6 @@
 ---
-id: 17-8-changing-order-for-ingredients-manually
-title: 17.8 Changing Order for Ingredients Manually
+id: 17-08-changing-order-for-ingredients-manually
+title: 17.08 Changing Order For Ingredients Manually
 date: 2021-07-16 15:18:01
 ---
 

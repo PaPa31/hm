@@ -1,12 +1,12 @@
 ---
-id: 17-7-initializing-ingredients-in-burgerbuilder
-title: 17.7 Initializing Ingredients in BurgerBuilder
-date: 2021-07-16 14:48:14
+id: 17-06-fetching-ingredients-asynchronously
+title: 17.06 Fetching Ingredients Asynchronously
+date: 2021-07-16 13:52:37
 ---
 
-## `BurgerBuilder.js`
+## `BurgerBuider.js`
 
-```jsx title="src\containers\BurgerBuilder\BurgerBuilder.js" {24,59,108,118}
+```jsx title="src\containers\BurgerBuilder\BurgerBuilder.js" {}
 import React, { Component, Fragment } from "react";
 import { connect } from "react-redux";
 import axios from "../../axios-orders";
@@ -30,7 +30,6 @@ class BurgerBuilder extends Component {
 
   componentDidMount() {
     console.log(this.props);
-    this.props.onInitIngredients();
   }
 
   updatePurchaseState(ingredients) {
@@ -65,7 +64,7 @@ class BurgerBuilder extends Component {
     }
     let orderSummary = null;
 
-    let burger = this.props.error ? (
+    let burger = this.state.error ? (
       <p>Ingredients can't be loaded!</p>
     ) : (
       <Spinner />
@@ -114,7 +113,6 @@ const mapStateToProps = (state) => {
   return {
     ings: state.ingredients,
     price: state.totalPrice,
-    error: state.error,
   };
 };
 
@@ -124,7 +122,6 @@ const mapDispatchToProps = (dispatch) => {
       dispatch(burgerBuilderActions.addIngredient(ingName)),
     onIgredientRemoved: (ingName) =>
       dispatch(burgerBuilderActions.removeIngredient(ingName)),
-    onInitIngredients: () => dispatch(burgerBuilderActions.initIngredients()),
   };
 };
 
@@ -134,20 +131,67 @@ export default connect(
 )(withErrorHandler(BurgerBuilder, axios));
 ```
 
-## `actions/index.js`
+## `actionTypes.js`
 
-```jsx title="src\store\actions\index.js" {1-5}
-export {
-  addIngredient,
-  initIngredients,
-  removeIngredient,
-} from "./burgerBuilder";
-export {} from "./order";
+```jsx title="src\store\actions\actionTypes.js" {3-4}
+export const ADD_INGREDIENT = "ADD_INGREDIENT";
+export const REMOVE_INGREDIENT = "REMOVE_INGREDIENT";
+export const SET_INGREDIENTS = "SET_INGREDIENTS";
+export const FETCH_INGREDIENTS_FAILD = "FETCH_INGREDIENTS_FAILD";
+```
+
+## `actions/burgerBulder.js`
+
+```jsx title="src\store\actions\burgerBuilder.js" {18-44}
+import axios from "../../axios-orders";
+import * as actionTypes from "./actionTypes";
+
+export const addIngredient = (name) => {
+  return {
+    type: actionTypes.ADD_INGREDIENT,
+    ingredientName: name,
+  };
+};
+
+export const removeIngredient = (name) => {
+  return {
+    type: actionTypes.REMOVE_INGREDIENT,
+    ingredientName: name,
+  };
+};
+
+export const setIngredients = (ingredients) => {
+  return {
+    type: actionTypes.SET_INGREDIENTS,
+    ingredients: ingredients,
+  };
+};
+
+export const fetchIngredientsFaild = () => {
+  return {
+    type: actionTypes.FETCH_INGREDIENTS_FAILD,
+  };
+};
+
+export const initIngredients = () => {
+  return (dispatch) => {
+    axios
+      .get(
+        "https://react-burger-bf7e8-default-rtdb.europe-west1.firebasedatabase.app/ingregients.json"
+      )
+      .then((response) => {
+        dispatch(setIngredients(response.data));
+      })
+      .catch((error) => {
+        dispatch(fetchIngredientsFaild());
+      });
+  };
+};
 ```
 
 ## `reducers/burgerBuilder.js`
 
-```jsx title="src\store\reducers\burgerBuilder.js" {36-46}
+```jsx title="src\store\reducers\burgerBuilder.js" {4,6}
 import * as actionTypes from "../actions/actionTypes";
 
 const initialState = {
@@ -182,17 +226,6 @@ const reducer = (state = initialState, action) => {
           [action.ingredientName]: state.ingredients[action.ingredientName] - 1,
         },
         totalPrice: state.totalPrice - INGREDIENT_PRICES[action.ingredientName],
-      };
-    case actionTypes.SET_INGREDIENTS:
-      return {
-        ...state,
-        ingredients: action.ingredients,
-        error: false,
-      };
-    case actionTypes.FETCH_INGREDIENTS_FAILD:
-      return {
-        ...state,
-        error: true,
       };
     default:
       return state;

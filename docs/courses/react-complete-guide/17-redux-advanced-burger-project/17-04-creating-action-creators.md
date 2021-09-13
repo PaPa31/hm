@@ -1,6 +1,6 @@
 ---
-id: 17-4-creating-action-creators
-title: 17.4 Creating Action Creators
+id: 17-04-creating-action-creators
+title: 17.04 Creating Action Creators
 date: 2021-07-15 00:21:02
 ---
 

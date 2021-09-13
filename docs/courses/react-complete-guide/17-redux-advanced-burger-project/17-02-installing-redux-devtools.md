@@ -1,6 +1,6 @@
 ---
-id: 17-2-installing-redux-devtools
-title: 17.2 Installing Redux Devtools
+id: 17-02-installing-redux-devtools
+title: 17.02 Installing Redux Devtools
 date: 2021-07-14 23:07:28
 ---
 
