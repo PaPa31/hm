@@ -1,6 +1,6 @@
 ---
-id: 15-4-finishing-reducer-for-ingredients
-title: 15.4 Finishing Reducer For Ingredients
+id: 15-04-finishing-reducer-for-ingredients
+title: 15.04 Finishing Reducer For Ingredients
 date: 2021-07-12 21:33:05
 ---
 

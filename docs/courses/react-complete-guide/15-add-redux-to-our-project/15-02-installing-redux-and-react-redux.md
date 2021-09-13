@@ -1,6 +1,6 @@
 ---
-id: 15-2-installing-redux-and-react-redux
-title: 15.2 Installing Redux And React Redux
+id: 15-02-installing-redux-and-react-redux
+title: 15.02 Installing Redux And React Redux
 date: 2021-07-12 19:19:29
 ---
 

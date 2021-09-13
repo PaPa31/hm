@@ -1,6 +1,6 @@
 ---
-id: 15-5-connecting-burger-builder-container-to-our-store
-title: 15.5 Connecting Burger Builder Container To Our Store
+id: 15-05-connecting-burger-builder-container-to-our-store
+title: 15.05 Connecting Burger Builder Container To Our Store
 date: 2021-07-12 23:23:36
 ---
 

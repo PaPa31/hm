@@ -1,6 +1,6 @@
 ---
-id: 15-6-working-on-the-total-price-calculation
-title: 15.6 Working On The Total Price Calculation
+id: 15-06-working-on-the-total-price-calculation
+title: 15.06 Working On The Total Price Calculation
 date: 2021-07-13 00:20:56
 ---
 

@@ -1,6 +1,6 @@
 ---
-id: 15-3-basic-redux-setup
-title: 15.3 Basic Redux Setup
+id: 15-03-basic-redux-setup
+title: 15.03 Basic Redux Setup
 date: 2021-07-12 21:01:42
 ---
 

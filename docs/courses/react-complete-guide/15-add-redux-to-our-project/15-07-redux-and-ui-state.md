@@ -1,6 +1,6 @@
 ---
-id: 15-7-redux-and-ui-state
-title: 15.7 Redux And Ui State
+id: 15-07-redux-and-ui-state
+title: 15.07 Redux And Ui State
 date: 2021-07-13 15:41:53
 ---
 

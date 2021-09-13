@@ -1,6 +1,6 @@
 ---
-id: 15-8-adjusting-checkout-and-contact-data
-title: 15.8 Adjusting Checkout And Contact Data
+id: 15-08-adjusting-checkout-and-contact-data
+title: 15.08 Adjusting Checkout And Contact Data
 date: 2021-07-13 16:49:21
 ---
 
