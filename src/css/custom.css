@@ -70,3 +70,7 @@ a.external:before {
 blockquote {
     font-style: italic;
 }
+
+.menu {
+  overflow-y: overlay;
+}
