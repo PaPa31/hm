@@ -1,6 +1,6 @@
 ---
-id: 0-table-of-contents
-title: 0 Table Of Contents
+id: 0-all-lessons
+title: 0 All Lessons
 date: 2021-03-03 23:02:29
 description: React - The Complete Guide (incl. Hooks, React Router, Redux)
 ---
