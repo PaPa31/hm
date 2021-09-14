@@ -13,7 +13,8 @@ module.exports = {
   themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     hideableSidebar: true,
-     navbar: {
+    navbar: {
+      hideOnScroll: true,
       title: 'hm',
       logo: {
         alt: 'Human&Machine',
@@ -21,32 +22,16 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs',
-          activeBasePath: 'docs',
+          type: 'doc',
+          docId: 'doc1',
           label: 'Docs',
           position: 'left',
         },
         {
-          label: 'Notes',
-          position: 'left', // or 'right'
-          items: [
-            {
-              label: 'Workplace',
-              to: 'docs/workplace/git/git-workflow'
-            },
-            {
-              label: 'Location',
-              to: 'docs/location/Lvovskaya-2020-2021/black-friday-orders/when-starting-black-friday'
-            },
-            {
-              label: 'Shells',
-              to: 'docs/shells/automatic-directory-tree'
-            },
-            {
-              label: 'Site-Generators',
-              to: 'docs/site-generators/docusaurus/add-apple-style-window'
-            }
-          ],
+          to: '/courses/all-courses',
+          label: 'Courses',
+          position: 'left',
+          activeBaseRegex: `/courses/`,
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
@@ -111,6 +96,8 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          path: 'docs',
+          sidebarPath: 'sidebars.js',
           sidebarCollapsible: true,
           numberPrefixParser: false,
           // Please change this to your repo.
@@ -135,8 +122,27 @@ module.exports = {
     ],
   ],
   plugins: [
-    [require.resolve('docusaurus-lunr-search'), {
-      languages: ['en', 'ru'] // language codes
-    }] ],
+    [
+      require.resolve('docusaurus-lunr-search'),
+      {
+        languages: ['en', 'ru'] // language codes 
+      }
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      ({
+        id: 'courses',
+        path: 'courses',
+        routeBasePath: 'courses',
+        editUrl: 'https://github.com/papa31/hm/edit/documentation/',
+        remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
+        sidebarCollapsible: true,
+        numberPrefixParser: false,
+        sidebarPath: require.resolve('./sidebarsCourses.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      }),
+    ],
+  ],
 
 };
