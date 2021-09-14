@@ -8,6 +8,9 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  customFields: {
+    description: 'papa pandora box',
+  },
   organizationName: 'papa31', // Usually your GitHub org/user name.
   projectName: 'hm', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
