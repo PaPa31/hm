@@ -20,7 +20,7 @@ Install <a href='https://marketplace.visualstudio.com/items?itemName=ryuta46.mul
 
 ### Find Command
 
-[Find](find-command) the name of the command you want to execute.
+[Find](find-command-in-multi-command) the name of the command you want to execute.
 
 ## Configure `settings.json`
 
