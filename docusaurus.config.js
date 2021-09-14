@@ -100,6 +100,8 @@ module.exports = {
           sidebarPath: 'sidebars.js',
           sidebarCollapsible: true,
           numberPrefixParser: false,
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           // Please change this to your repo.
           editUrl:
             'https://github.com/papa31/hm/edit/documentation/',
