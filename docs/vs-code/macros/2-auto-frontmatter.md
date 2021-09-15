@@ -28,11 +28,11 @@ I started from snippet...
   },
 ```
 
-It snippet work like this. Start a new file, press `Ctrl + Space`, type `id` and choose `Docusaurus-id`.
+To run the snippet, start a new file, press `Ctrl + Space`, type `id` and choose `Docusaurus-id`.
 
 ## Macro: createAutoFrontmatter
 
-Then I created the [createAutoFrontmatter](1-auto-frontmatter) macro using a [multi-command extension](../extensions/multi-command-extension). This macro is more convinient.
+Then I created the [createAutoFrontmatter](1-auto-frontmatter) macro using a [multi-command extension](../extensions/multi-command-extension). This macro is more convenient.
 
 To use it, just press `Alt+G c`.
 
@@ -42,7 +42,7 @@ If you've changed the name of markdown file and want to update its `frontmatter`
 
 :::tip
 
-Currently, this macro not only changes the `frontmatter` of the file, but also saves the edited file and returns focus to the sidebar to continue working with the files.
+Currently, this macro not only `changes the frontmatter` of the file, but also `saves the edited file` and `returns focus to the sidebar` to continue working with the files.
 
 :::
 
