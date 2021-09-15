@@ -1,40 +1,36 @@
 ---
 title: 'Docusaurus: Test & Build'
-author: papa31
-author_title: babel miner
-author_url: https://github.com/papa31
-author_image_url: https://graph.facebook.com/611217057/picture/?height=200&width=200
+authors: papa31
 tags: [docusaurus, settings]
 description: Setup all 3 ways Docusaurus start
 image: i.imgur.com/mErPwqL.png
 draft: false
 ---
 
-To test your Docusaurus pages in a browser, you need to do [this setup](#) and run: `npm run start`.
-To see your pages on your website, you need to [configure remote](#) and execute: `git push`.
+To test your Docusaurus pages in a browser, you need to do [this setup](#) and run: `npm run start`. To see your pages on your website, you need to [configure remote](#) and execute: `git push`.
 
 But what if the local test succeeds but the remote build fails. 🤔
+
 <!--truncate-->
 
 ## Initial Setup
 
-Initially I configured Docusaurus-v2 to:  
-    1) start the development server `npm run start` and  
-    2) upload my content to GitHub using `git push`.
+Initially I configured Docusaurus-v2 to:
 
-The symplified test pages were fine. But when rendering a large number of markdown files with links and images, deployment fails.
+1. start the development server `npm run start` and
+2. upload my content to GitHub using `git push`.
+
+The simplified test pages were fine. But when rendering many markdown files with links and images, deployment fails.
 
 ## Broken Links
 
 This is the most common error. Best of all, you won't catch this error when you test pages through the development server with `npm run start`.
 
-:::note Broken Links
-You can only catch `broken links` when you **build**.
-:::
+::: note Broken Links You can only catch `broken links` when you **build**. :::
 
 I immediately got a broken link error when I uploaded quite a few raw pages on GitHub. But finding broken links on a remote server is not easy. Not enough information. You have to make **frequent commits**. And often without success.
 
-To fix the broken links problem `without extra commits`, you need to do a local build.
+To fix the broken links' problem `without extra commits`, you need to do a local build.
 
 ## Local Build
 
@@ -45,7 +41,7 @@ npm run build
 npm run serve
 ```
 
-But there are pitfalls - `unstable BaseUrl`. In local build - ... In remote build - ...
+But there are pitfalls — `unstable BaseUrl`. In local build — ... In remote build — ...
 
 ## Unstable BaseUrl
 
@@ -61,11 +57,11 @@ in other case:
 
 `baseUrl = '/'`
 
-One of the typical ways to resolve the problem is to use environment variables - `env`.
+One of the typical ways to resolve the problem is to use environment variables — `env`.
 
 ## env
 
-The Docusaurus documentation has a section on [Environment settings](https://v2.docusaurus.io/docs/deployment/#environment-settings). But there is not enough information about utilites such as `cross-env`. This is the a utility that Docusaurus itself uses.
+The Docusaurus documentation has a section on [Environment settings](https://v2.docusaurus.io/docs/deployment/#environment-settings). But there is not enough information about utilities such as `cross-env`. This is a utility that Docusaurus itself uses.
 
 ### cross-env
 
@@ -113,6 +109,7 @@ module.exports = {
   ...
 ```
 
+<!-- prettier-ignore-start -->
 :::warning
 
 If you get the error:
@@ -121,7 +118,7 @@ If you get the error:
 'cross-env' is not recognized
 ```
 
-You can run this two commands in your `bash` (Linux) or `Git Bash` (Windows):
+You can run these two commands in your `bash` (Linux) or `Git Bash` (Windows):
 
 ```sh
 rm -rf node_modules package-lock.json
@@ -129,14 +126,15 @@ npm i
 ```
 
 Or you can try [install cross-env globally](https://stackoverflow.com/questions/45034581/laravel-5-4-cross-env-is-not-recognized-as-an-internal-or-external-command)
+
 :::
+<!-- prettier-ignore-end -->
 
 But how do I add an environment variable remotely?
 
 ### Set Remote `env`
 
-You need use workflow file.
-Edit one line:
+You need use workflow file. Edit one line:
 
 ```yml title="/.github/workflows/documentation.yml" {7}
         ...
@@ -165,14 +163,14 @@ Edit one line:
 
 If error:
 
-```bash title="PowerShell"
+```powershell title="PowerShell"
 'cross-env' is not recognized as an internal or external command,
 operable program or batch file.
 ```
 
 Run this:
 
-```bash
+```powershell
 rm -rf node_modules && npm install
 ```
 
