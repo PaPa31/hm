@@ -26,7 +26,7 @@ Visual Studio Code and WebStorm support debugging out of the box with Create Rea
 
 ### Visual Studio Code
 
-You would need to have the latest version of VS Code and VS Code [Chrome Debugger Extension](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) installed.
+You would need to have the latest version of VS Code and VS Code <a href='https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome' class='external'>Chrome Debugger Extension (marketplace.visualstudio.com)</a>.
 
 Then add the block below to your `launch.json` file and put it inside the `.vscode` folder in your app’s root directory.
 
@@ -54,7 +54,7 @@ I took `launch.json` from here: <a href='https://medium.com/@JSantaCL/how-to-deb
 }
 ```
 
-Extension seems to work, but I don't know the best practices. Read more about configure <a href='https://github.com/Microsoft/vscode-chrome-debug/blob/master/README.md#troubleshooting' class='external'>github.com</a>
+Extension seems to work, but I don't know the best practices. Read more about configure <a href='https://github.com/Microsoft/vscode-chrome-debug/blob/master/README.md#troubleshooting' class='external'>Troubleshooting (github.com)</a>.
 
 ## Formatting Code Automatically
 
@@ -98,6 +98,18 @@ Next we add a 'lint-staged' field to the `package.json`, for example:
   "scripts": {
 ```
 
-Now, whenever you make a commit, Prettier will format the changed files automatically. You can also run `./node_modules/.bin/prettier --single-quote --write "src/**/*.{js,jsx,json,css}"` to format your entire project for the first time.
+Now, whenever you make a commit, Prettier will format the changed files automatically.
 
-Read more: <a href='https://github.com/PaPa31/react-complete-guide' class='external'>github.com</a>
+## Formatting at Project Start
+
+You can also run (from your project root):
+
+```bash
+./node_modules/.bin/prettier --single-quote --write "src/**/*.{js,jsx,json,css}"
+```
+
+to format your entire project for the first time.
+
+## Source
+
+Read more: <a href='https://github.com/PaPa31/react-complete-guide' class='external'>github.com: React Complete Guide</a>
