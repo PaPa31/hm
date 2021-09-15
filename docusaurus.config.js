@@ -112,9 +112,16 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
+          postsPerPage: 5,
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} hm`,
+          },
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All posts',
           // Please change this to your repo.
           editUrl:
-            'https://github.com/papa31/hm/edit/main/',
+            'https://github.com/papa31/hm/edit/documentation/',
             remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
         },
         pages: {
