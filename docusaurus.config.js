@@ -16,6 +16,9 @@ module.exports = {
   themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     hideableSidebar: true,
+    prism: {
+      additionalLanguages: ['powershell'],
+    },
     navbar: {
       hideOnScroll: true,
       title: 'hm',
@@ -51,12 +54,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Exercises 1.31-1.60',
+              to: 'docs/digital-design/exercises/exercises-131-160',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'updateAutoFrontmatter',
+              to: 'docs/vs-code/macros/2-auto-frontmatter',
             },
           ],
         },
@@ -106,9 +109,8 @@ module.exports = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/papa31/hm/edit/documentation/',
-            remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
+          editUrl: 'https://github.com/papa31/hm/edit/documentation/',
+          remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
         },
         blog: {
           showReadingTime: true,
@@ -120,9 +122,8 @@ module.exports = {
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'All posts',
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/papa31/hm/edit/documentation/',
-            remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
+          editUrl: 'https://github.com/papa31/hm/edit/documentation/',
+          remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
         },
         pages: {
           remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
@@ -137,12 +138,12 @@ module.exports = {
     [
       require.resolve('docusaurus-lunr-search'),
       {
-        languages: ['en', 'ru'] // language codes 
-      }
+        languages: ['en', 'ru'], // language codes
+      },
     ],
     [
       '@docusaurus/plugin-content-docs',
-      ({
+      {
         id: 'courses',
         path: 'courses',
         routeBasePath: 'courses',
@@ -153,9 +154,9 @@ module.exports = {
         sidebarPath: require.resolve('./sidebarsCourses.js'),
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
-      }),
+      },
     ],
-        [
+    [
       '@docusaurus/plugin-ideal-image',
       {
         quality: 70,
@@ -165,5 +166,4 @@ module.exports = {
       },
     ],
   ],
-
 };
