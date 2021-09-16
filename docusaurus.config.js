@@ -2,7 +2,7 @@ const baseUrl = process.env.BASE_URL || '/';
 
 module.exports = {
   title: 'hm',
-  tagline: 'Human@Machine',
+  tagline: 'Human and Machine',
   url: 'https://papa31.github.io',
   baseUrl,
   onBrokenLinks: 'throw',
@@ -17,7 +17,14 @@ module.exports = {
   themeConfig: {
     hideableSidebar: true,
     prism: {
+      theme: require('prism-react-renderer/themes/github'),
+      darkTheme: require('prism-react-renderer/themes/dracula'),
       additionalLanguages: ['powershell'],
+    },
+    gtag: {
+      trackingID: 'G-M8RTQC8274',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
     },
     navbar: {
       hideOnScroll: true,
@@ -101,6 +108,7 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
+        debug: true,
         docs: {
           path: 'docs',
           sidebarPath: 'sidebars.js',
@@ -130,6 +138,11 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          trailingSlash: false,
         },
       },
     ],
