@@ -1,6 +1,6 @@
 ---
-id: download-one-folder
-title: Download One Folder
+id: download-one-github-folder
+title: Download One Github Folder
 date: 2021-02-27 16:58:54
 description: How to download one folder from GitHub
 ---
@@ -13,13 +13,9 @@ It can make sub-folder/sub-directory of github repository as zip and download it
 
 Go to <a href='http://kinolien.github.io/gitzip/' class='external'>kinolien.github.io</a>
 
-:::tip
-It can download even private repo folders
-:::
+:::tip It can download even private repo folders :::
 
-:::caution
-Need GitHub token for downloading. Here <a href='https://github.com/KinoLien/gitzip/blob/gh-pages/get-token-step.md' class='external'>github.com</a> how to get token.
-:::
+:::caution Need GitHub token for downloading. Here <a href='https://github.com/KinoLien/gitzip/blob/gh-pages/get-token-step.md' class='external'>github.com</a> how to get token. :::
 
 ## git
 
@@ -36,7 +32,7 @@ git sparse-checkout init --cone  # to fetch only root files
 
 from: <a href='https://stackoverflow.com/questions/4114887/is-it-possible-to-do-a-sparse-checkout-without-checking-out-the-whole-repository/60729017#60729017' class='external'>stackoverflow.com</a>
 
-## Don't work
+## Don't work Don't work
 
 Go to the <a href='https://downgit.github.io/' class='external'>downgit.github.io</a>
 
