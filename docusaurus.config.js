@@ -38,7 +38,7 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'doc1',
+          docId: 'vs-code/snippets/all-vscode-snippets',
           label: 'Docs',
           position: 'left',
         },
@@ -63,12 +63,29 @@ module.exports = {
           title: 'Docs',
           items: [
             {
+              label: 'vscode snippets',
+              to: 'docs/vs-code/snippets/all-vscode-snippets',
+            },
+            {
+              label: 'vscode shortcuts',
+              to: 'docs/vs-code/all-vscode-keyboard-shortcuts',
+            },
+            {
               label: 'Exercises 1.31-1.60',
               to: 'docs/digital-design/exercises/exercises-131-160',
             },
             {
               label: 'updateAutoFrontmatter',
               to: 'docs/vs-code/macros/2-auto-frontmatter',
+            },
+          ],
+        },
+        {
+          title: 'Courses',
+          items: [
+            {
+              label: 'React Complete Guide (Hooks, React Router, Redux)',
+              to: 'courses/react-complete-guide/0-all-lessons',
             },
           ],
         },
@@ -103,7 +120,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Human&Machine`,
+      copyright: `Copyright © ${new Date().getFullYear()} Human and Machine`,
     },
   },
   presets: [

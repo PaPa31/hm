@@ -1,17 +1,15 @@
 ---
-id: all-vs-code-snippets
-title: All VS Code Snippets
+id: all-vscode-snippets
+title: All vscode Snippets
 date: 2021-02-22 14:20:04
 description: My VS Code snippets without keyboard shortcuts
 ---
 
-<!-- prettier-ignore-start -->
 :::caution
 
-  To use a Snippet, press `Ctrl + Space`, type the first (or any other) letters of the required `snippet prefix` and select the appropriate command from the pop-up context menu.
+To use a Snippet, press `Ctrl + Space`, type the first (or any other) letters of the required `snippet prefix` and select the appropriate command from the pop-up context menu.
 
 :::
-<!-- prettier-ignore-end -->
 
 ## Snippets List
 
@@ -42,7 +40,7 @@ description: My VS Code snippets without keyboard shortcuts
 
 ## Keyboard Shortcuts
 
-Some snippets (with shortcuts) are located on the [keyboard shortcuts](../user-keyboard-shortcuts) page.
+Some snippets (with shortcuts) are located on the [keyboard shortcuts](../all-vscode-keyboard-shortcuts) page.
 
 ## Snippets Results
 
