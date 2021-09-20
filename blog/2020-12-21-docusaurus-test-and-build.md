@@ -5,6 +5,7 @@ tags: [docusaurus, settings]
 description: Setup all 3 ways Docusaurus start
 image: i.imgur.com/mErPwqL.png
 draft: false
+slug: docusaurus-test-and-build
 ---
 
 To test your Docusaurus pages in a browser, you need to do [this setup](#) and run: `npm run start`. To see your pages on your website, you need to [configure remote](#) and execute: `git push`.
