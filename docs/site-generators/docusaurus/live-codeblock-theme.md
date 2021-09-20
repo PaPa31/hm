@@ -12,6 +12,7 @@ npm install --save @docusaurus/theme-live-codeblock
 ```
 
 :::danger
+
 Code above will cause error when `npm run start`:
 
 ```
@@ -38,7 +39,9 @@ From: [https://github.com/facebook/docusaurus/issues/3466](https://github.com/fa
 :::
 
 :::caution
+
 It didn't work for me! I have [updated Docusaurus](https://v2.docusaurus.io/docs/installation#updating-your-docusaurus-version)! And it helped.
+
 :::
 
 Then, add to `docusaurus.config.js`
@@ -121,7 +124,7 @@ If code above doesn't work, try this:
 npm run swizzle @docusaurus/theme-live-codeblock ReactLiveScope -- --danger
 ```
 
->As a workaround you can just copy the folder `node_modules/@docusaurus/theme-live-codeblock/src/theme/CodeBlock` and put it in `website/src/theme/CodeBlock`, that's basically what the command does. - *Slorber, Main of Docusaurus*
+> As a workaround you can just copy the folder `node_modules/@docusaurus/theme-live-codeblock/src/theme/CodeBlock` and put it in `website/src/theme/CodeBlock`, that's basically what the command does. - _Slorber, Main of Docusaurus_
 
 From: [https://github.com/facebook/docusaurus/issues/3466](https://github.com/facebook/docusaurus/issues/3466)
 

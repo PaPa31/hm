@@ -6,18 +6,17 @@ date: 2021-03-12 10:11:23
 
 Source: <a href='https://github.com/nvm-sh/nvm' class='external'>github.com: Node Version Manager</a>
 
-Manage multiple installations of `node.js` on a Windows computer.
+Manage multiple installations of `node.js` on these platforms: unix, macOS, and windows WSL.
 
 ## Installation
 
 1. Install `cURL` (a tool used for downloading content from the internet in the command-line) with:
 
-    ```bash
-    sudo apt-get install curl
-    ```
+   ```bash
+   sudo apt-get install curl
+   ```
 
-2. Check the most recent release at <a href='https://github.com/nvm-sh/nvm' class='external'>github.com: Node Version Manager</a>.
-Adjust the below command to include the newest version:
+2. Check the most recent release at <a href='https://github.com/nvm-sh/nvm' class='external'>github.com: Node Version Manager</a>. Adjust the below command to include the newest version:
 
    ```bash
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
@@ -25,33 +24,33 @@ Adjust the below command to include the newest version:
 
 3. To verify installation, enter:
 
-    ```bash
-    command -v nvm
-    ```
+   ```bash
+   command -v nvm
+   ```
 
-    this should return `nvm`, if you receive `command not found` or no response at all, close your current terminal, reopen it, and try again. <a href='https://github.com/nvm-sh/nvm' class='external'>Learn more in the nvm github repo</a>.
+   this should return `nvm`, if you receive `command not found` or no response at all, close your current terminal, reopen it, and try again. <a href='https://github.com/nvm-sh/nvm' class='external'>Learn more in the nvm github repo</a>.
 
-2. List which versions of `node` are currently installed (should be none at this point):
+4. List which versions of `node` are currently installed (should be none at this point):
 
-    ```bash
-    nvm ls
-    ```
+   ```bash
+   nvm ls
+   ```
 
-3. Install two version of `node`:
+5. Install two version of `node`:
 
-    1. Current release of node.js (for testing the newest feature improvements, but more likely to have issues):
+   1. Current release of node.js (for testing the newest feature improvements, but more likely to have issues):
 
-        ```bash
-        nvm install node    # "node" is an alias for the latest version
-        ```
+      ```bash
+      nvm install node    # "node" is an alias for the latest version
+      ```
 
-    2. The latest stable LTS release of node.js (recommended):
+   2. The latest stable LTS release of node.js (recommended):
 
-        ```bash
-        nvm install --lts
-        ```
+      ```bash
+      nvm install --lts
+      ```
 
-4. List what versions of `node` are installed:
+6. List what versions of `node` are installed:
 
    ```bash
    nvm ls
@@ -59,26 +58,26 @@ Adjust the below command to include the newest version:
 
    now you should see the two versions that you just installed listed.
 
-5. Verify that `node.js` is installed and the currently default version with:
+7. Verify that `node.js` is installed and the currently default version with:
 
-    ```bash
-    node --version
-    ```
+   ```bash
+   node --version
+   ```
 
-    Then verify that you have npm as well, with:
+   Then verify that you have npm as well, with:
 
-    ```bash
-    npm --version
-    ```
+   ```bash
+   npm --version
+   ```
 
-    (You can also use `which node` or `which npm` to see the path used for the default versions).
+   (You can also use `which node` or `which npm` to see the path used for the default versions).
 
 ## Change Version of Node
 
 To change the version of `node.js` you would like to use for a project, create a new project directory:
 
 ```bash
-mkdir NodeTest  # create the directory 
+mkdir NodeTest  # create the directory
 
 cd NodeTest     # enter the directory
 
@@ -93,14 +92,16 @@ You can also use the specific number for any additional versions you've installe
 nvm use v8.2.1
 ```
 
- To list all of the versions of `node.js` available, use the command:
+To list all of the versions of `node.js` available, use the command:
 
 ```bash
 nvm ls-remote
 ```
 
 :::tip
+
 If you are using `nvm`to install `node.js` and `npm`, you should not need to use the `sudo` command to install new packages.
+
 :::
 
 ## Set the Default Node Version
@@ -126,7 +127,12 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
 ```
 
 :::caution
+
 Remember to check the most recent release at <a href='https://github.com/nvm-sh/nvm' class='external'>github.com: Node Version Manager</a> and adjust the above command to include the newest version.
+
 :::
 
 ## Related
+
+- [nvs for Windows](../../blog/2021-09-19-nvs-windows-one-node-version-per-terminal)
+- [~~nvm-windows~~](nvm-windows)

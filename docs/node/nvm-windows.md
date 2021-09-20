@@ -6,6 +6,12 @@ date: 2021-03-09 00:44:57
 
 Manage multiple installations of `node.js` on a Windows computer.
 
+:::Warning
+
+I found out that [nvs](../../blog/2021-09-19-nvs-windows-one-node-version-per-terminal) is better for using with multiple node versions
+
+:::
+
 Source: <a href='https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows' class='external'>github.com: Node Version Manager (nvm) for Windows</a>
 
 ## nvm-windows Installation
