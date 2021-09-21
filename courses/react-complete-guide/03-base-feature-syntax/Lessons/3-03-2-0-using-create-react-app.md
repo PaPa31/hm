@@ -51,5 +51,6 @@ There are multiple ways to install `Node.js`. I recommend using a version manage
 Install `nvm` to switch Node versions between different projects:
 
 - [nvm (macOS/Linux)](../../../../docs/node/nvm)
-- [nvs](../../../../blog/2021-09-19-nvs-windows-one-node-version-per-terminal)
+- [nvs](https://papa31.github.io/hm/blog/2021/09/19/nvs-one-node-version-per-terminal-in-windows)
 - [~~nvm-windows~~](../../../../docs/node/nvm-windows)
+-

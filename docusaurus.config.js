@@ -140,6 +140,8 @@ module.exports = {
           remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
         },
         blog: {
+          // routeBasePath: '/',
+          path: 'blog',
           showReadingTime: true,
           postsPerPage: 5,
           feedOptions: {
@@ -161,7 +163,6 @@ module.exports = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          trailingSlash: false,
         },
       },
     ],

@@ -1,6 +1,6 @@
 ---
 title: 'Docusaurus: Test & Build'
-authors: papa31
+authors: [papa31]
 tags: [docusaurus, settings]
 description: Setup all 3 ways Docusaurus start
 image: i.imgur.com/mErPwqL.png

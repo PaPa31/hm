@@ -1,17 +1,17 @@
 ---
 title: 'nvs: One Node Version Per Terminal in Windows'
-authors: papa31
+authors: [papa31]
 tags: [nvs, node]
 date: 2021-09-19 13:47:35
 decription: Install and setup nvs to Windows for PowerShell and Git-Bash
 draft: false
-slug: nvs-one-node-version-per-terminal-in-windows
 ---
+
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-I tried to configure [nvm-windows](../docs/node/nvm-windows) to automatically change the `node` version based on the folder with a specific `.nvmrc` file. But unsuccessfully. When I used to run `nvm use` the node version changed globally.
+I tried to configure [nvm-windows](https://github.com/coreybutler/nvm-windows) to automatically change the `node` version based on the folder with a specific `.nvmrc` file. But unsuccessfully. When I used to run `nvm use` the node version changed globally.
 
 I have read about <a href='https://github.com/jasongin/nvs#automatic-switching-per-directory' class='external'>nvs: Automatic Switching Per Directory (github.com)</a> in `nvs readme file` and decided to give it a try.
 

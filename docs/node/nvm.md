@@ -134,5 +134,5 @@ Remember to check the most recent release at <a href='https://github.com/nvm-sh/
 
 ## Related
 
-- [nvs for Windows](../../blog/2021-09-19-nvs-windows-one-node-version-per-terminal)
+- [nvs for Windows](https://papa31.github.io/hm/blog/2021/09/19/nvs-one-node-version-per-terminal-in-windows)
 - [~~nvm-windows~~](nvm-windows)
