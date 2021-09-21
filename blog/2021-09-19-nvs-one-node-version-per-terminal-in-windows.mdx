@@ -60,7 +60,7 @@ if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
 
 Add to `C:\Users\[username]\.bashrc` these lines (if this file is missing, create it in `notepad`):
 
-``` title=".bashrc"
+```bash title=".bashrc"
 function setupNvs {
 	export NVS_HOME="$LOCALAPPDATA\\nvs";
 	[ -s "$NVS_HOME/nvs.sh" ] && source "$NVS_HOME/nvs.sh" >> /dev/null;
