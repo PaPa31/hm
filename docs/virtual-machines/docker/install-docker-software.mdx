@@ -69,6 +69,33 @@ and then:
 & "C:\ProgramData\chocolatey\lib\docker-machine\bin\docker-machine.exe" env default | Invoke-Expression
 ```
 
+To avoid setting environment variables every time, you start a new PowerShell terminal, run this line:
+
+```powershell title="PowerShell"
+docker-machine env default
+```
+
+Copy `env` output:
+
+```powershell
+❯ docker-machine env default
+$Env:DOCKER_TLS_VERIFY = "1"
+$Env:DOCKER_HOST = "tcp://192.168.99.101:2376"
+$Env:DOCKER_CERT_PATH = "C:\Users\parsh\.docker\machine\machines\default"
+$Env:DOCKER_MACHINE_NAME = "default"
+$Env:COMPOSE_CONVERT_WINDOWS_PATHS = "true"
+# Run this command to configure your shell:
+# & "C:\ProgramData\chocolatey\lib\docker-machine\bin\docker-machine.exe" env default | Invoke-Expression
+```
+
+:::important
+
+Take note that there’s a chance the IP address assigned might be different from the one you saved every time you start the default VM.
+
+:::
+
+And insert this block into `Microsoft.PowerShell_profile.ps1` (to open it run: `notepad $profile`)
+
 </TabItem>
 
 <TabItem value="gitbash">

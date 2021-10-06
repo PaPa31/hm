@@ -1,6 +1,6 @@
 ---
-id: linter-in-docker
-title: Linter In Docker
+id: language-tool-linter-in-docker
+title: LanguageTool Linter In Docker
 date: 2021-03-28 22:31:35
 ---
 
@@ -34,12 +34,6 @@ docker run --rm -p 8010:8010 silviof/docker-languagetool
 
 ## Run Container in VS-Code
 
-:::warning Error
-
-VS-Code will only see containers if they were launched in a `Git-Bash` terminal.
-
-:::
-
 <a href='https://gnulinux.ch/languagetool-in-vs-code' class='external'>gnulinux.ch: Languagetool In VS Code</a>
 
 Install the `Docker` extension.
@@ -61,3 +55,25 @@ Open VS-Code settings with `Ctrl+,`. In the `Extensions -> LanguageTool Linter` 
 If Docker container was launched on the local computer, not on a server, you need to use the address `http://localhost:8010` (or `http://127.0.0.1:8010`).
 
 :::
+
+## Auto run
+
+Add this code to the end of the `Microsoft.PowerShell_profile.ps1` file (to open it, run in PowerShell: `notepad $profile`)
+
+```powershell title="PowerShell"
+# Preferable alternative: Start-ThreadJob 1
+$job = Start-Job { docker-machine start default3}
+
+$Env:DOCKER_TLS_VERIFY = "1"
+$Env:DOCKER_HOST = "tcp://192.168.99.101:2376"
+$Env:DOCKER_CERT_PATH = "C:\Users\parsh\.docker\machine\machines\default3"
+$Env:DOCKER_MACHINE_NAME = "default3"
+$Env:COMPOSE_CONVERT_WINDOWS_PATHS = "true"
+# Run this command to configure your shell:
+& "C:\ProgramData\chocolatey\lib\docker-machine\bin\docker-machine.exe" env default3 | Invoke-Expression
+
+# Preferable alternative: Start-ThreadJob 2
+$job = Start-Job { docker run --rm -p 8010:8010 silviof/docker-languagetool }
+```
+
+After that, when you start PowerShell, it first starts the `docker-machine` and then `languagetool linter` container in the background.
