@@ -17,9 +17,13 @@ I copied `keybindings.json` when I being in Linux to Windows disk:
 cp ~/.config/Code/User/keybindings.json '/mnt/sdc1/Users/parsh/Application Data/Code/User/'
 ```
 
-:::caution
+### Auto Sync
 
 Synchronization in `vscode` can be performed automatically after loggin into `vscode` and enabling `Settings Sync` option.
+
+:::important
+
+You need to be logged into the same account on both OS. (e.g. PaPa31 (GitHub) on Linux & PaPa31 (GitHub) on Windows)
 
 :::
 

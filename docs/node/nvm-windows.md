@@ -6,9 +6,9 @@ date: 2021-03-09 00:44:57
 
 Manage multiple installations of `node.js` on a Windows computer.
 
-:::Warning
+:::warning
 
-I found out that <a href='https://github.com/jasongin/nvs#automatic-switching-per-directory' class='external'>nvs</a> is better for using with multiple node versions
+I found out that <a href='https://github.com/jasongin/nvs#automatic-switching-per-directory' class='external'>nvs</a> is better for using with multiple node versions. See my [post](../../blog/2021/09/19/nvs-one-node-version-per-terminal-in-windows).
 
 :::
 

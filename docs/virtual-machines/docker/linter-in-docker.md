@@ -34,12 +34,30 @@ docker run --rm -p 8010:8010 silviof/docker-languagetool
 
 ## Run Container in VS-Code
 
+:::warning Error
+
+VS-Code will only see containers if they were launched in a `Git-Bash` terminal.
+
+:::
+
 <a href='https://gnulinux.ch/languagetool-in-vs-code' class='external'>gnulinux.ch: Languagetool In VS Code</a>
 
 Install the `Docker` extension.
 
-> To install the extension, open the Extensions view, search for ***docker*** to filter results and select Docker extension authored by Microsoft.
+> To install the extension, open the Extensions view, search for **_docker_** to filter results and select Docker extension authored by Microsoft.
 
 > The extension recognizes workspaces that use most popular development languages (C#, Node.js, Python, Ruby, Go, and Java) and customizes generated Docker files accordingly.
 
 Open the Docker view. Click on `languagetool` image. Right-click on `latest`. Select `Run`.
+
+## Docker Extension Settings
+
+Open VS-Code settings with `Ctrl+,`. In the `Extensions -> LanguageTool Linter` submenu find the `External: Url` field and insert the server IP-address and the port of your previously configured Docker container. In my case: `192.168.99.100:8010`.
+
+![LanguageTool Linter Settings](languagetool-linter-settings.png)
+
+:::caution
+
+If Docker container was launched on the local computer, not on a server, you need to use the address `http://localhost:8010` (or `http://127.0.0.1:8010`).
+
+:::
