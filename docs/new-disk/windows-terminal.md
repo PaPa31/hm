@@ -47,13 +47,13 @@ If you don't already have it, [install Git for Windows](https://git-scm.com/down
 
 Using PowerShell, install Posh-Git:
 
-```sh title="PowerShell"
+```powershell title="PowerShell"
 Install-Module posh-git -Scope CurrentUser
 ```
 
 and Oh-My-Posh:
 
-```sh title="PowerShell"
+```powershell title="PowerShell"
 Install-Module oh-my-posh -Scope CurrentUser
 ```
 
@@ -67,7 +67,7 @@ Posh-Git adds Git status information to your prompt as well as tab-completion fo
 
 If you are using PowerShell Core, install PSReadline:
 
-```shell title="PowerShell"
+```powershell title="PowerShell"
 Install-Module -Name PSReadLine -Scope CurrentUser -Force -SkipPublisherCheck
 ```
 
@@ -77,7 +77,7 @@ Open your PowerShell profile with `notepad $PROFILE` or the text editor of your 
 
 In your PowerShell profile, add the following to the end of the file:
 
-```ps title="PowerShell"
+```powershell title="PowerShell"
 Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt -Theme paradox

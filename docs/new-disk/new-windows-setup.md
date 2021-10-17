@@ -143,13 +143,19 @@ If you choose the **_non-portable_** version it will not automatically put a Git
 
 ## Install Fonts
 
-### 7. [Cascadia Code](https://github.com/tonsky/FiraCode/releases 'release page')
+### 7. [Fira Code](https://github.com/tonsky/FiraCode/releases 'release page')
+
+Mainly for VS Code
+
+### 8. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases 'release page')
 
 With Powerline glyphs. Mainly for PowerShell terminal (git).
 
-### 8. [Fira Code](https://github.com/microsoft/cascadia-code/releases 'release page')
+:::caution
 
-Mainly for VS Code
+Some glyphs is non-existence. Take another font `CaskaydiaCove Nerd Font Mono`. Downloads here: <a href='https://www.nerdfonts.com/font-downloads' class='external'>nerdfonts.com: Font Downloads</a>. Add to settings: `"fontFace": "CaskaydiaCove Nerd Font Mono",`
+
+:::
 
 ### Installing Fonts
 
