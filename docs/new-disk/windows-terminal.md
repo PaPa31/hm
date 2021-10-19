@@ -109,10 +109,17 @@ Your Windows PowerShell profile settings.json file should now look like this:
     "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "name": "Windows PowerShell",
     "commandline": "powershell.exe",
-    "fontFace": "Cascadia Code PL",
-    "hidden": false
+    "fontFace": "CaskaydiaCove Nerd Font Mono",//"Cascadia Code PL",
+    "hidden": false,
+    "startingDirectory": "F:/Yandex.Disk-parsh/hm/"
 },
 ```
+
+:::caution
+
+The `fontFace` entry has been changed because some glyphs in the `Cascadia Code PL` are displayed incorrectly.
+
+:::
 
 ## After installing Git & Multipass
 
@@ -126,18 +133,26 @@ Add this in `settings.json`:
     "fontFace" : "Ubuntu Mono",
     "guid" : "{aaaa9e6d-1e09-4be6-b76c-82b4ba1885fb}",
     "historySize" : 50000,
-    "icon" : "C:/Program Files/Multipass/bin/multipass_wt.ico",
+    "icon" : "F:/Program Files/Multipass/bin/multipass_wt.ico",
     "name" : "Multipass"
 },
 {
     "background" : "#1a0a3f",
-    "commandline" : "C:/Program Files/Git/bin/bash.exe",
+    "commandline" : "F:/Program Files/Git/bin/bash.exe",
     "cursorShape" : "filledBox",
     "fontFace" : "Cascadia Code PL",
     "guid" : "{00000000-0000-0000-0000-000000000001}",
     "historySize" : 50000,
     "icon" : "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
-    "name" : "Git-Bash"
+    "name" : "Git-Bash",
+    "startingDirectory": "F:/Yandex.Disk-parsh/hm/"
+},
+// or simply
+{
+    "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+    "name": "Git Bash /english-polyglot",
+    "source": "Git",
+    "startingDirectory": "F:/Yandex.Disk-visi/english-polyglot/english-polyglot.com/"
 },
 ```
 
