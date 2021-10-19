@@ -16,7 +16,7 @@ In case of error, correct it as written in this paragraph: https://papa31.github
 
 After that you need to reboot, enter into the BIOS/UEFI and change the boot order to:
 
-## The Last Way to Repair
+## The Newest Way to Repair
 
 ```bios
  -------- Boot (tab) -------------
@@ -34,7 +34,7 @@ HARD DRIVE BBS PRIORITIES (subsection)
 ...
 ```
 
-## First Way to Repair
+## Old Way to Repair
 
 Set the first UEFI option to:
 
@@ -84,7 +84,7 @@ Found Windows 10 on /dev/nvme0n1p1
 done
 ```
 
-## Final boot setup
+## The Final Boot Configuration
 
 ```bios
  -------- Boot (tab) -------------
