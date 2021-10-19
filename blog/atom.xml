@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://papa31.github.io/hm/blog</id>
+    <title>hm Blog</title>
+    <updated>2021-09-19T13:47:35.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://papa31.github.io/hm/blog"/>
+    <subtitle>hm Blog</subtitle>
+    <icon>https://papa31.github.io/hm/img/favicon.ico</icon>
+    <rights>Copyright © 2021 hm</rights>
+    <entry>
+        <title type="html"><![CDATA[nvs: One Node Version Per Terminal in Windows]]></title>
+        <id>nvs: One Node Version Per Terminal in Windows</id>
+        <link href="https://papa31.github.io/hm/blog/2021/09/19/nvs-one-node-version-per-terminal-in-windows"/>
+        <updated>2021-09-19T13:47:35.000Z</updated>
+        <summary type="html"><![CDATA[I tried to configure nvm-windows to automatically change the node version based on the folder with a specific .nvmrc file. But unsuccessfully. When I used to run nvm use the node version changed globally.]]></summary>
+        <author>
+            <name>papa31</name>
+            <uri>https://github.com/papa31</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docusaurus: Test & Build]]></title>
+        <id>Docusaurus: Test &amp; Build</id>
+        <link href="https://papa31.github.io/hm/blog/2020/12/21/docusaurus-test-and-build"/>
+        <updated>2020-12-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Setup all 3 ways Docusaurus start]]></summary>
+        <author>
+            <name>papa31</name>
+            <uri>https://github.com/papa31</uri>
+        </author>
+    </entry>
+</feed>
