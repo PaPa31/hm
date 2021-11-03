@@ -12,7 +12,7 @@ After a while, press `Cancel` on the `System Preparation Tool 3.14` popup window
 
 Then create a file `relocate.xml` with following:
 
-```xml title="relocate.xml" {4,6}
+```sh title="relocate.xml" {4,6}
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
 <settings pass="oobeSystem">
@@ -27,4 +27,4 @@ Then create a file `relocate.xml` with following:
 
 Pay attention to the property: `processorArchitecture="amd64"` (if you have 32-bit Windows, it should be `"x86"`).
 
-And look at the inner of the <ProfileDirectory> tag: `F:\Users`. This is the new location of the `C:\Users` folder.
+And look at the inner of the `<ProfileDirectory>` tag: `F:\Users`. This is the new location of the `C:\Users` folder.
