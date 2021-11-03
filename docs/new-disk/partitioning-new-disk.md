@@ -1,16 +1,15 @@
 ---
 id: partitioning-new-disk
-title: Partitioning a New Disk 
+title: Partitioning a New Disk
 ---
 
-If you bought new disk you need to partition it and install OS in one of these partitions.
-I have 512Gb NVMe disk.
+If you bought new disk you need to partition it and install OS in one of these partitions. I have 512Gb NVMe disk.
 
-
-## Linux 
+## Linux
 
 ### Bash
-todo 
+
+todo
 
 ### KDE Partition Manager
 
@@ -18,28 +17,43 @@ todo
 2. Make new partition `ntfs` (size: 60Gb)
 3. Make another new partition `ntfs` (size: remainder; with 550Mb free space after)
 4. Make extra partition
-4. Edit mount point:
-    - first: /mnt/sdc1
-    - second: /mnt/sdc2
-5. Apply config
+5. Edit mount point:
+   - first: /mnt/sdc1
+   - second: /mnt/sdc2
+6. Apply config
 
-6. Make two dirs in bash: 
-    - /mnt/sdc1
-    - /mnt/sdc2
-7. Edit mount point again
-8. Mount two new partitions with KDE Partition Manager
+7. Make two dirs in bash:
+   - /mnt/sdc1
+   - /mnt/sdc2
+8. Edit mount point again
+9. Mount two new partitions with KDE Partition Manager
 
-## Windows 
+## Windows
+
 ### Installation Error
+
 If you get some error during the installation:
 
 ```
 couldn't partition ...
 ```
+
+:::caution
+
+Rufus: Add 600 mb
+
+:::
+
+:::caution Change Disk Order in BIOS
+
+Ventoy: If you have multiple SSD, HDD or NVMe disks or mix from them, you, first of all, must set the order to the disk, where you want to install Windows, rigth after the the LIVE CD flash.
+
+:::
+
 Do it right inside Windows installer:
 
 1. Press Shif + F10 (opens command line terminal)
-2. (in the command line terminal) type following commands: 
+2. (in the command line terminal) type following commands:
 
 ```cmd title="cmd"
 diskpart
@@ -53,6 +67,7 @@ active
 list volume
 exit
 ```
+
 and enter to the windows install process again. Your partition be signed as a system type.
 
 ### Edit Partition in cmd
@@ -70,7 +85,6 @@ disk 0 format fs=ntfs quick
 disk 0 assign
 ```
 
-
 ## Delete extra Windows Boot Loader
 
 If you see two versions of Windows when booting you need to delete one of the Windows Boot Loaders:
@@ -78,11 +92,10 @@ If you see two versions of Windows when booting you need to delete one of the Wi
 ```
 bcdedit /delete {7ca97355-3bf6-11eb-95ba-ac7b2907d2c6}
 ```
+
 With `id` another one Windows Boot Loader.
 
-:::info update-grub
-Needs to do if you see two entries of Windows on grub menu when booting
-:::
+:::info update-grub Needs to do if you see two entries of Windows on grub menu when booting :::
 
 ## Helpful Commands
 
@@ -103,7 +116,7 @@ restart
 bcdboot c:\windows /s c: /l en-us
 ```
 
-### Multiple Windows:
+### Multiple Windows
 
 ```
 diskpart
@@ -125,6 +138,3 @@ bcdboot c:\windows \s z: /f all
 ```
 bcdboot c:\windows /s z: /f uefi
 ```
-
-
-

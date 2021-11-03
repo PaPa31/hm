@@ -18,15 +18,21 @@ F:\ # root directory of second partition
 │   └── super           # starter apps
 │
 ├── Yandex.Disk-visi
-│   └── middle          # additional apps
+│   ├── middle             # additional apps
+│   └── english-polyglot
 │
 ├── Yandex.Disk-parsh
-│   └── hm              # doc files
-│
-├── GoogleDrive
-│   └── down            # working files
+│   ├── hm
+│   └── textblock
 │
 ├── ...
+
+
+Google Drive (P:)
+├── MyDrive
+│   ├── down            # working apps
+│   └── work            # working files
+│
 ```
 
 ## Install Clouds
