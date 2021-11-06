@@ -10,7 +10,7 @@ Download the latest version of `Ventoy` from here:
 
 <a href='https://github.com/ventoy/Ventoy/releases' class='external'>github.com: Releases</a>
 
-Launch the Ventoy GUI (Windows: "Ventoy2Disk.exe", Linux: \*.sh) and install `Ventoy` on a USB stick (8Gb or more).
+Launch the Ventoy GUI (Windows: "Ventoy2Disk.exe", Linux: "VentoyGUI.x86_64") and install `Ventoy` on a USB stick (8Gb or more).
 
 After that, you will have A USB stick with two partitions: `Ventoy`(empty) and `VTOYEFI` (with files; this partition may be invisible).
 

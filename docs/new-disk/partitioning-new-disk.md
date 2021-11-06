@@ -5,6 +5,45 @@ title: Partitioning a New Disk
 
 If you bought new disk you need to partition it and install OS in one of these partitions. I have 512Gb NVMe disk.
 
+## Boot Configuration
+
+:::warning BIOS Setup
+
+First of all, you must have a Boot Configuration like this:
+
+```bios
+ -------- Boot (tab) -------------
+
+...
+# 1     [P0: P3-256]
+# 2     [UEFI OS (P0: P3-256)]
+# 3     [UEFI: JetFlashTranscend …]
+...
+```
+
+```bios
+HARD DRIVE BBS PRIORITIES (subsection)
+
+# 1     [P0 P3-256]
+# 2     [NE-512]
+# 3     [JetFlashTranscend ...]
+...
+```
+
+```bios
+CSM PARAMETERS (subsection)
+
+...
+Boot option filter:            [UEFI and Legacy]
+Launch PXE OpROM:              [UEFI only]
+Launch storage OpROM policy:   [UEFI only]
+Launch Video OpROM policy:     [Legacy only]
+Other PCI device ROM priority: [Legacy OpROM]
+...
+```
+
+:::
+
 ## Linux
 
 ### Bash
@@ -40,13 +79,13 @@ couldn't partition ...
 
 :::caution
 
-Rufus: Add 600 mb
+**Rufus:** Add a `600 mb partition` in rufus settings
 
 :::
 
 :::caution Change Disk Order in BIOS
 
-Ventoy: If you have multiple SSD, HDD or NVMe disks or mix from them, you, first of all, must set the order to the disk, where you want to install Windows, rigth after the the LIVE CD flash.
+**Ventoy:** If you have multiple SSD, HDD or NVMe disks or mix from them, you, first of all, must set the order to the disk, where you want to install Windows, right after the the LIVE CD flash.
 
 :::
 
@@ -95,7 +134,11 @@ bcdedit /delete {7ca97355-3bf6-11eb-95ba-ac7b2907d2c6}
 
 With `id` another one Windows Boot Loader.
 
-:::info update-grub Needs to do if you see two entries of Windows on grub menu when booting :::
+:::info update-grub
+
+Needs to do if you see two entries of Windows on grub menu when booting
+
+:::
 
 ## Helpful Commands
 
