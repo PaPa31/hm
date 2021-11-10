@@ -196,7 +196,7 @@ Both above fonts installing similar:
 
 ## Install Nodejs
 
-You can use [nvs](https://papa31.github.io/hm/blog/2021/09/19/nvs-one-node-version-per-terminal-in-windows) on Windows and [nvm](../../node/nvm-per-project-folder) on Linux.
+You can use [nvs](https://papa31.github.io/hm/blog/2021/09/19/nvs-one-node-version-per-terminal-in-windows) on Windows and [nvm](../node/nvm-per-project-folder) on Linux.
 
 ## Optional Configuration
 
