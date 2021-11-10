@@ -155,13 +155,7 @@ To sync VS Code I chose PaPa31(GitHub) account
 
 ### 6. [Git-Bash](https://git-scm.com/download/win 'direct download link')
 
-~~choose `Portable`, to `F:\Portable\Git`~~
-
-:::tip See
-
-[Install Git-Bash, node and ssh setup](git-bash-node-ssh)
-
-:::
+[Install Git-Bash and SSH setup](install-git-bash-and-ssh-setup)
 
 :::note
 
@@ -199,6 +193,10 @@ Both above fonts installing similar:
 ---
 
 [additional apps](#additional-apps) #todo
+
+## Install Nodejs
+
+You can use [nvs](https://papa31.github.io/hm/blog/2021/09/19/nvs-one-node-version-per-terminal-in-windows) on Windows and [nvm](../../node/nvm-per-project-folder) on Linux.
 
 ## Optional Configuration
 
