@@ -39,6 +39,6 @@ Moving into the software realm, the operating system handles lowlevel details su
 
 From book [Digital design](https://papa31.github.io/hm/assets/files/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012-278aad41bbd5750ed2461b2011414915.pdf)
 
-[Digital design(rus)](https://github.com/PaPa31/hm/blob/documentation/docs/pdf/digital-design-and-computer-architecture-russian-translation_July16_2016.pdf)
+[Digital design(rus)](../pdf/digital-design-and-computer-architecture-russian-translation_July16_2016.pdf)
 
 [Abstraction](../pdf/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012.pdf) page #2
