@@ -12,7 +12,7 @@ At first, such a tool was the liximono `SFTP` extension (I even made a small con
 
 ## `git-ftp` shell program
 
-I couple of days ago I stumbled upon (while GitHub searching) the `git-ftp` shell program from SamKirkland. This program checks the difference (git diff) between local and remote content and uploads new files automatically.
+I couple of days ago I stumbled upon (while GitHub searching) the <a href='https://github.com/git-ftp/git-ftp' class='external'>github.com: git-ftp</a> shell program from SamKirkland. This program checks the difference (git diff) between local and remote content and uploads new files automatically.
 
 ## FTP Deploy Action
 
