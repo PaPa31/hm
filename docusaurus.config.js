@@ -23,11 +23,6 @@ module.exports = {
       darkTheme: require('prism-react-renderer/themes/dracula'),
       additionalLanguages: ['powershell'],
     },
-    gtag: {
-      trackingID: 'G-M8RTQC8274',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
     navbar: {
       hideOnScroll: true,
       title: 'hm',
@@ -138,6 +133,11 @@ module.exports = {
           // Please change this to your repo.
           editUrl: 'https://github.com/papa31/hm/edit/documentation/',
           remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
+        },
+        gtag: {
+          trackingID: 'G-M8RTQC8274',
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
         },
         blog: {
           // routeBasePath: '/',
