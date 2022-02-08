@@ -5,9 +5,7 @@ title: Pandoc Install
 
 Source: [chocolatey.org](https://chocolatey.org/packages/pandoc)
 
-:::important
-[Install chocolatey](chocolatey-install) first.
-:::
+:::important [Install chocolatey](./chocolatey-install) first. :::
 
 ```sh title="PowerShell (as admin)"
 choco install pandoc
