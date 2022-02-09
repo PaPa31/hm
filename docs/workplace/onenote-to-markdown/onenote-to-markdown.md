@@ -1,6 +1,7 @@
 ---
 id: onenote-to-markdown
-title: OneNote to Markdown
+title: Onenote To Markdown
+date: 2022-02-08 23:23:20
 ---
 
 Source: [Easy way to convert OneNote Notes to Markdown](https://medium.com/security-privacy-risk-management-blockchain/easy-way-to-convert-onenote-notes-to-markdown-e9558a989397)

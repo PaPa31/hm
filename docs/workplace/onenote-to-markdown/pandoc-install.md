@@ -1,11 +1,16 @@
 ---
 id: pandoc-install
 title: Pandoc Install
+date: 2022-02-08 22:07:44
 ---
 
 Source: [chocolatey.org](https://chocolatey.org/packages/pandoc)
 
-:::important [Install chocolatey](./chocolatey-install) first. :::
+:::important
+
+[Install chocolatey](chocolatey-install) first.
+
+:::
 
 ```sh title="PowerShell (as admin)"
 choco install pandoc
@@ -33,4 +38,4 @@ Chocolatey installed 2/2 packages.
 
 ## Resources
 
-- [Convert OneNote to Markdown](onenote-to-markdown)
+- [Convert OneNote to Markdown](onenote-to-markdown.md)
