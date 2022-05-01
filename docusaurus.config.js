@@ -2,6 +2,11 @@ const path = require('path');
 
 const baseUrl = process.env.BASE_URL || '/';
 
+const isDeployPreview =
+  !!process.env.NETLIFY && process.env.CONTEXT === 'deploy-preview';
+
+const isI18nStaging = process.env.I18N_STAGING === 'true';
+
 module.exports = {
   title: 'hm',
   tagline: 'Human and Machine',
@@ -15,6 +20,18 @@ module.exports = {
   },
   organizationName: 'papa31', // Usually your GitHub org/user name.
   projectName: 'hm', // Usually your repo name.
+  i18n: {
+    defaultLocale: 'en',
+    // eslint-disable-next-line no-nested-ternary
+    locales: isDeployPreview
+      ? // Deploy preview: keep it fast!
+        ['en']
+      : isI18nStaging
+      ? // Staging locales: https://docusaurus-i18n-staging.netlify.app/
+        ['en', 'ru']
+      : // Production locales
+        ['en', 'ru'],
+  },
   themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     hideableSidebar: true,
