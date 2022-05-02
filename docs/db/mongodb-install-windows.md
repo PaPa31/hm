@@ -8,11 +8,13 @@ date: 2022-05-01 17:35:28
 
 1. Download the _.msi_ installer: <a href='https://www.mongodb.com/try/download/community?tck=docs_server' class='external'>mongodb.com: Community Edition</a>
 2. Start the wizard by double-clicking the _.msi_ file
-3. Change location to _F:\Program Files\MongoDB\Server\5.0\bin_
-4. Uncheck the _Install MongoDB as a Service_
-5. Uncheck the _Install MongoDB Compass_
-6. Click Install
-7. Add _C:\Program Files\MongoDB\Server\5.0\bin_ to your [PATH environment variable](../workplace/windows/set-environment-variable-windows)
+3. In wizard:  
+   a. Change location to _F:\Program Files\MongoDB\Server\5.0\bin_  
+   b. Uncheck the _Install MongoDB as a Service_  
+   c. Uncheck the _Install MongoDB Compass_  
+   d. Click Install
+
+4. Add _C:\Program Files\MongoDB\Server\5.0\bin_ to your [PATH environment variable](../workplace/windows/set-environment-variable-windows)
 
 ### Install mongosh
 
@@ -22,30 +24,24 @@ date: 2022-05-01 17:35:28
 
 ### Run MongoDB
 
-1. Run _cmd_ as admin and create the data directory:
+1.  Run _cmd_ as admin and create the data directory:
 
-```sh
-c:
-md "\data\db"
-```
+        c:
+        md "\data\db"
 
-2. Start MongoDB database:
+2.  Start MongoDB database:
 
-```sh
-"F:\Program Files\MongoDB\Server\5.0\bin\mongod.exe" --dbpath="c:\data\db"
+        "F:\Program Files\MongoDB\Server\5.0\bin\mongod.exe" --dbpath="c:\data\db"
 
-# or simply
+        # or simply
 
-mongod --dbpath="c:\data\db"
-```
+        mongod --dbpath="c:\data\db"
 
-3. Connect to MongoDB:
+3.  Connect to MongoDB:
 
-```sh
-mongosh
-```
+        mongosh
 
-After running this command, you should see information about your MongoDB shell, the local server connection, and some additional information printed to the terminal.
+    After running this command, you should see information about your MongoDB shell, the local server connection, and some additional information printed to the terminal.
 
 ### Resources
 
