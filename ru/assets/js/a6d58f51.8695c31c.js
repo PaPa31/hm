@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhuman_and_machine=self.webpackChunkhuman_and_machine||[]).push([[31062],{67714:function(s){s.exports=JSON.parse('{"allTagsPath":"/hm/ru/blog/tags","slug":"/hm/ru/blog/tags/settings","name":"settings","count":1,"permalink":"/hm/ru/blog/tags/settings"}')}}]);
