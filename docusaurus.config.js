@@ -34,7 +34,11 @@ module.exports = {
   },
   themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
-    hideableSidebar: true,
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
