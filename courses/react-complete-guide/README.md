@@ -1,6 +1,6 @@
 ---
-id: 0-all-lessons
-title: 0 All Lessons
+id: README
+title: Lessons' List
 date: 2021-03-03 23:02:29
 description: React - The Complete Guide (incl. Hooks, React Router, Redux)
 ---
