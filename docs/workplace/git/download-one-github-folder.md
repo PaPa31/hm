@@ -23,11 +23,19 @@ Go to <a href='http://kinolien.github.io/gitzip/' class='external'>kinolien.gith
 git clone <URL> --no-checkout <directory> --depth 1
 ```
 
+for example, if I want to download one folder `https://github.com/facebook/docusaurus/tree/main/website/src/plugins/featureRequests` from docusaurus repo, I run this:
+
+```sh
+git clone git@github.com:facebook/docusaurus.git --no-checkout website/src/plugins/featureRequests --depth 1
+```
+
 then
 
 ```shell
-cd <directory>
+cd website/src/plugins/featureRequests
 git sparse-checkout init --cone  # to fetch only root files
+git sparse-checkout set website/src/plugins/featureRequests  #
+git checkout
 ```
 
 from: <a href='https://stackoverflow.com/questions/4114887/is-it-possible-to-do-a-sparse-checkout-without-checking-out-the-whole-repository/60729017#60729017' class='external'>stackoverflow.com</a>

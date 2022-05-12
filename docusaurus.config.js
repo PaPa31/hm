@@ -132,6 +132,7 @@ const config = {
             activeBaseRegex: `/support/`,
           },
           {to: 'blog', label: 'Blog', position: 'left'},
+          {to: 'showcase', label: 'Showcase', position: 'left'},
           {
             href: 'https://github.com/papa31/hm',
             label: 'GitHub',
