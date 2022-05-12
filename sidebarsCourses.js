@@ -14,8 +14,8 @@ module.exports = {
           type: 'category',
           label: 'Cloud Service Engineer',
           link: {
-            type: 'generated-index',
-            slug: '/cloud-service-engineer',
+            type: 'doc',
+            id: 'cloud-service-engineer/README',
           },
           collapsible: true,
           collapsed: true,
