@@ -89,8 +89,7 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
         sitemap: {
-          changefreq: 'weekly',
-          priority: 0.5,
+          ignorePatterns: ['/tests/**'],
         },
       }),
     ],
@@ -135,8 +134,9 @@ const config = {
           {to: 'showcase', label: 'Showcase', position: 'left'},
           {
             href: 'https://github.com/papa31/hm',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },
@@ -169,7 +169,7 @@ const config = {
             items: [
               {
                 label: 'React Complete Guide (Hooks, React Router, Redux)',
-                to: 'courses/react-complete-guide/0-all-lessons',
+                to: 'courses/react-complete-guide',
               },
             ],
           },
@@ -178,7 +178,7 @@ const config = {
             items: [
               {
                 label: 'TEST',
-                to: 'support/support',
+                to: 'support',
               },
             ],
           },
