@@ -8,6 +8,7 @@ const path = require('path');
 
 const npm2yarn = require('@docusaurus/remark-plugin-npm2yarn');
 const baseUrl = process.env.BASE_URL || '/';
+const isDeployPreview = !!process.env.GITHUB_ACTIONS;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,10 +18,12 @@ const config = {
   projectName: 'hm', // Usually your repo name.
   baseUrl,
   url: 'https://papa31.github.io',
+  trailingSlash: !isDeployPreview,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   customFields: {
+    isDeployPreview,
     description: 'papa31 pandora box',
   },
 
@@ -40,11 +43,13 @@ const config = {
           editUrl: 'https://github.com/papa31/hm/edit/documentation/',
           remarkPlugins: [npm2yarn, {sync: true}],
         },
-        gtag: {
-          trackingID: 'G-M8RTQC8274',
-          // Optional fields.
-          anonymizeIP: true, // Should IPs be anonymized?
-        },
+        gtag: !isDeployPreview
+          ? {
+              trackingID: 'G-M8RTQC8274',
+              // Optional fields.
+              anonymizeIP: true, // Should IPs be anonymized?
+            }
+          : undefined,
         blog: {
           // routeBasePath: '/',
           path: 'blog',
@@ -265,7 +270,7 @@ const config = {
     [
       '@docusaurus/plugin-pwa',
       {
-        debug: false,
+        debug: isDeployPreview,
         offlineModeActivationStrategies: [
           'appInstalled',
           'standalone',
