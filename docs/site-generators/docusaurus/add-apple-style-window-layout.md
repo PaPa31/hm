@@ -14,13 +14,15 @@ This is markup!
 <br/>
 
 If you want this on your page, you need to do the following:
+
 ## Download BrowserWindow component
 
-First, you need two extra files: 
+First, you need two extra files:
+
 - [index.js](https://raw.githubusercontent.com/facebook/docusaurus/master/website/src/components/BrowserWindow/index.js)
 - [styles.module.css](https://raw.githubusercontent.com/facebook/docusaurus/master/website/src/components/BrowserWindow/styles.module.css)
 
-from Docusaurus github. 
+from Docusaurus github.
 
 Copy/past these files in the appropriate folder of your repo:
 
@@ -30,13 +32,15 @@ Copy/past these files in the appropriate folder of your repo:
 
 ## Create .mdx file
 
-:::tip MDX
-Docusaurus has built-in support for MDX, which allows you to write JSX within your Markdown files and render them as React components.
+:::tip
+
+MDX Docusaurus has built-in support for MDX, which allows you to write JSX within your Markdown files and render them as React components.
+
 :::
 
 Then you need to create `file.mdx` and put the following in it:
 
-```yml  {1} title="file.mdx"
+```md {1} title="file.mdx"
 import BrowserWindow from '@site/src/components/BrowserWindow';
 
 <BrowserWindow url="http://localhost:3000">
@@ -55,11 +59,7 @@ So that your users will know what this page is all about without scrolling down 
 
 The headers are well-spaced so that the hierarchy is clear.
 
-- lists will help you
-- present the key points
-- that you want your users to remember
-  - and you may nest them
-    - multiple times
+- lists will help you - present the key points - that you want your users to remember - and you may nest them - multiple times
 
 </BrowserWindow>
 ```
@@ -71,7 +71,6 @@ After rerun your development server:
 ```bash npm2yarn
 npm run start
 ```
-
 
 and by pressing F5 key once (clear your browser cache) this will render in the browser as follows:
 
@@ -96,5 +95,21 @@ The headers are well-spaced so that the hierarchy is clear.
 - that you want your users to remember
   - and you may nest them
     - multiple times
+
+</BrowserWindow>
+
+## Improvement
+
+I made a small improvement. And if you run this:
+
+```jsx
+<BrowserWindow style={{backgroundColor: 'brown'}} minHeight="500" url="http://localhost:3000/hm/__docusaurus/debug">
+```
+
+You'll get this:
+
+<BrowserWindow style={{backgroundColor: 'brown'}} minHeight="500" url="http://localhost:3000/hm/\_\_docusaurus/debug">
+
+Nice dynamic props!
 
 </BrowserWindow>
