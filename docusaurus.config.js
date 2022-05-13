@@ -18,7 +18,6 @@ const config = {
   projectName: 'hm', // Usually your repo name.
   baseUrl,
   url: 'https://papa31.github.io',
-  trailingSlash: !!!isDeployPreview,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -265,6 +264,7 @@ const config = {
         max: 1030, // max resized image's size.
         min: 640, // min resized image's size. if original is lower, use that size.
         steps: 2, // the max number of images generated between min and max (inclusive)
+        disableInDev: false,
       },
     ],
     [
