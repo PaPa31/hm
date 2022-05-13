@@ -18,7 +18,7 @@ const config = {
   projectName: 'hm', // Usually your repo name.
   baseUrl,
   url: 'https://papa31.github.io',
-  trailingSlash: !isDeployPreview,
+  trailingSlash: !!!isDeployPreview,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
