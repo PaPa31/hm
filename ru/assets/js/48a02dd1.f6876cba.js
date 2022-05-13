@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhuman_and_machine=self.webpackChunkhuman_and_machine||[]).push([[13428],{54309:function(e){e.exports=JSON.parse('{"permalink":"/hm/ru/blog","page":1,"postsPerPage":5,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
