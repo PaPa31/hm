@@ -1,4 +1,11 @@
+---
+id: README
+title: Components
+date: 2022-05-13 08:42:38
+---
+
 ## Architecture
+
 - [motherboard](motherboard)
 - [cpu](cpu)
 - [cooler](cooler)
@@ -37,6 +44,6 @@
 
 ## Cashback
 
- [YooMoney](https://yoomoney.ru/promo/offer/4164-aliexpress?viewId=35ed027c-5ff6-c4e4-ce58-2dbb000f0000)
+[YooMoney](https://yoomoney.ru/promo/offer/4164-aliexpress?viewId=35ed027c-5ff6-c4e4-ce58-2dbb000f0000)
 
- [GdePosylka](#)
+[GdePosylka](#)

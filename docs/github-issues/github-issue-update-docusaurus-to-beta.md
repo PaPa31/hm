@@ -6,7 +6,7 @@ date: 2021-09-09 23:14:44
 
 :::caution
 
-My error is gone! See: [Update Docusaurus to beta](../site-generators/docusaurus/update-docusaurus-to-beta)
+My error is gone! See: [Update Docusaurus to beta](../site-generators/docusaurus/update-docusaurus)
 
 :::
 

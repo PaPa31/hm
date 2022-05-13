@@ -10,6 +10,7 @@
   --site-color-tooltip: #fff;
   --site-color-tooltip-background: #353738;
   --site-color-svg-icon-favorite: #e9669e;
+  --docusaurus-highlighted-code-line-bg: rgb(0 0 0 / 20%);
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -109,4 +110,17 @@ blockquote {
 
 .footer--dark {
   --ifm-footer-background-color: #2b3137;
+}
+
+[data-theme='light'] img[src$='#gh-dark-mode-only'],
+[data-theme='dark'] img[src$='#gh-light-mode-only'] {
+  display: none;
+}
+
+.code-block-error-line {
+  background-color: #ff000020;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #ff000080;
 }

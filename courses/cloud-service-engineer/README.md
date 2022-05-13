@@ -4,6 +4,8 @@ title: Инженер облачных сервисов
 date: 2022-05-11 16:49:29
 ---
 
+import BrowserWindow from '@site/src/components/BrowserWindow';
+
 Это бесплатная программа обучения от Яндекс Практикума для тех, кто планирует использовать облачные сервисы или системно познакомиться с возможностями и технологиями платформы Yandex.Cloud.
 
 Вы научитесь применять управляемые базы данных и контейнеры, изучите принципы построения отказоустойчивого сервиса, попробуете Serverless разработку. Обещаем, будет много практики в облаке.
@@ -21,6 +23,24 @@ date: 2022-05-11 16:49:29
 ### Чему вы научитесь в Практикуме
 
 Вы узнаете об особенностях облачных платформ и научитесь настраивать основные сервисы Yandex.Cloud.
+
+![Docusaurus themed image](/img/docusaurus_keytar.svg#gh-light-mode-only)
+
+![Docusaurus themed image](/img/docusaurus_speed.svg#gh-dark-mode-only)
+
+```md
+![Docusaurus themed image](/img/docusaurus_keytar.svg#gh-light-mode-only)![Docusaurus themed image](/img/docusaurus_speed.svg#gh-dark-mode-only)
+```
+
+<BrowserWindow>
+
+![Docusaurus themed image](/img/docusaurus_keytar.svg#gh-light-mode-only)
+
+![Docusaurus themed image](/img/docusaurus_speed.svg#gh-dark-mode-only)
+
+</BrowserWindow>
+
+## Список уроков:
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';

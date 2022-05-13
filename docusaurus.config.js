@@ -62,7 +62,7 @@ const config = {
           blogSidebarTitle: 'All posts',
           // Please change this to your repo.
           editUrl: 'https://github.com/papa31/hm/edit/documentation/',
-          remarkPlugins: [npm2yarn],
+          remarkPlugins: [npm2yarn, {sync: true}],
         },
         pages: {
           remarkPlugins: [npm2yarn],
@@ -264,7 +264,7 @@ const config = {
         max: 1030, // max resized image's size.
         min: 640, // min resized image's size. if original is lower, use that size.
         steps: 2, // the max number of images generated between min and max (inclusive)
-        disableInDev: false,
+        disableInDev: false, // By default, the plugin is inactive in development
       },
     ],
     [

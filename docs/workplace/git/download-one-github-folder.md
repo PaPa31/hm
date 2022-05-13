@@ -9,13 +9,21 @@ How to download one GitHub folder?
 
 ## Kinolien
 
+:::caution
+
+Work without tokens for the first two downloads. After that, you will need a GitHub token for download. Here <a href='https://github.com/KinoLien/gitzip/blob/gh-pages/get-token-step.md' class='external'>github.com</a> how to get the token.
+
+:::
+
 It can make sub-folder/sub-directory of github repository as zip and download it.
 
 Go to <a href='http://kinolien.github.io/gitzip/' class='external'>kinolien.github.io</a>
 
-:::tip It can download even private repo folders :::
+:::tip
 
-:::caution Need GitHub token for downloading. Here <a href='https://github.com/KinoLien/gitzip/blob/gh-pages/get-token-step.md' class='external'>github.com</a> how to get token. :::
+It can download even private repo folders
+
+:::
 
 ## git
 
