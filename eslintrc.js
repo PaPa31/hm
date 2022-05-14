@@ -10,12 +10,38 @@ module.exports = {
     jest: true,
     node: true,
   },
-  parser: '@babel/eslint-parser',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     allowImportExportEverywhere: true,
   },
-  extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['react-hooks', 'header'],
+  globals: {
+    JSX: true,
+  },
+  extends: [
+    'eslint:recommended',
+    'plugin:react-hooks/recommended',
+    'airbnb',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:regexp/recommended',
+    'prettier',
+    'plugin:@docusaurus/recommended',
+  ],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
+  reportUnusedDisableDirectives: true,
+  plugins: [
+    'react-hooks',
+    'header',
+    'jest',
+    '@typescript-eslint',
+    'regexp',
+    '@docusaurus',
+  ],
   rules: {
     // Ignore certain webpack alias because it can't be resolved
     'import/no-unresolved': [

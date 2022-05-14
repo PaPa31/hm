@@ -81,10 +81,7 @@ function Home() {
         <div className={clsx(styles.announcement, styles.announcementDark)}>
           <div className={styles.announcementInner}>
             <Link>Soul Core</Link>
-            <p>
-              Do you like to manipulate? Manipulate machines, not human. The
-              core is simpler than the soul. Till.
-            </p>
+            <p>The core is simpler than the soul. Till.</p>
           </div>
         </div>
         {features && features.length > 0 && (

@@ -6,7 +6,7 @@
  */
 
 import React, {useState, useMemo, useEffect} from 'react';
-
+// @ts-ignore
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 
