@@ -1,0 +1,40 @@
+import React from 'react';
+import Layout from '@theme/Layout';
+import BackgroundImage from '@site/src/pages/BackgroundImage';
+import CodeBlock from '@theme/CodeBlock';
+
+const threePhotos = [
+  {
+    url: 'url("https://avatars.mds.yandex.net/get-practicum/5473806/2a0000017c83409147d349a1bb246e3d0ed5/1232x1232")',
+    title: 'Serverless',
+    text: 'Создавать простые навыки Алисы на базе Yandex Cloud Functions',
+  },
+  {
+    url: 'url("https://avatars.mds.yandex.net/get-practicum/5473806/2a0000017c834091e96fc52da39802810172/1232x1232")',
+    title: 'Kubernetes®',
+    text: 'Запускать контейнеры и создавать кластер с помощью Yandex Managed Service for Kubernetes®',
+  },
+  {
+    url: 'url("https://avatars.mds.yandex.net/get-practicum/5473806/2a0000017c834093b1e4d8d8c72ab3de51c4/1232x1232")',
+    title: 'Управляемые базы данных',
+    text: 'Настраивать кластеры управляемых баз данных, хранить и анализировать данные в облаке',
+  },
+];
+
+export default function MyComponents() {
+  return (
+    <Layout>
+      <BackgroundImage props={threePhotos} />
+      <div style={{maxWidth: '700px', margin: 'auto'}}>
+        <CodeBlock
+          language="jsx"
+          title="/src/components/HelloCodeTitle.js"
+          showLineNumbers>
+          {`function HelloCodeTitle(props) {
+          return <h1>Hello, {props.name}</h1>;
+        }`}
+        </CodeBlock>
+      </div>
+    </Layout>
+  );
+}

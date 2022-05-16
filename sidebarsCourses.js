@@ -1,6 +1,16 @@
 module.exports = {
   Courses: [
     {
+      type: 'link',
+      label: 'CardHolder',
+      href: '/cardHolder',
+    },
+    {
+      type: 'link',
+      label: 'myComponents',
+      href: '/myComponents',
+    },
+    {
       type: 'category',
       label: 'Courses',
       link: {
