@@ -12,7 +12,6 @@ You can import any code file as raw text, and then insert it in a code block.
 
 Install `raw-loader`:
 
-
 ```bash npm2yarn
 npm install --save-dev raw-loader
 ```
@@ -72,6 +71,8 @@ export default function MyReactPage() {
 }
 ```
 
+Output:
+
 <BrowserWindow>
   <CodeBlock
     language="jsx"
@@ -85,6 +86,4 @@ export default function MyReactPage() {
 
 You can see the [code block](/myComponents) in action outside of markdown file.
 
-> The props accepted are `language`, `title` and `showLineNumbers`, in the same way as you write Markdown code blocks.
-
-> Although discouraged, you can also pass in a `metastring` prop like `metastring='{1-2} title="/src/components/HelloCodeTitle.js" showLineNumbers'`, which is how Markdown code blocks are handled under the hood. However, we recommend you [use comments for highlighting lines](#highlighting-with-comments).
+> The props accepted are `language`, `title` and `showLineNumbers`, in the same way as you write Markdown code blocks. Although discouraged, you can also pass in a `metastring` prop like `metastring='{1-2} title="/src/components/HelloCodeTitle.js" showLineNumbers'`, which is how Markdown code blocks are handled under the hood. However, we recommend you [use comments for highlighting lines](#highlighting-with-comments).

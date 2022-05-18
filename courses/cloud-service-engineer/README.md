@@ -44,7 +44,7 @@ export const threePhotos = [
   }
   ];
 
-<BackgroundImage props={threePhotos} />
+<BackgroundImage photos={threePhotos} />
 ```
 
 ## Как выглядит процесс обучения
@@ -61,7 +61,7 @@ export const threePhotos = [
 
 ## Пример: Создание кластера
 
-<div><iframe  width="820" height="425" src="https://code.s3.yandex.net/landing/demo-section/landings-cloud-demo-2.mp4" title="Yandex Cloud: Claster Creation" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></div>
+<div><iframe  width="820" height="425" src="https://code.s3.yandex.net/landing/demo-section/landings-cloud-demo-2.mp4" title="Yandex Cloud: Claster Creation" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe></div>
 
 ## Сертификат
 

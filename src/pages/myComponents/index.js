@@ -24,7 +24,7 @@ const threePhotos = [
 export default function MyComponents() {
   return (
     <Layout>
-      <BackgroundImage props={threePhotos} />
+      <BackgroundImage photos={threePhotos} />
       <div style={{maxWidth: '700px', margin: 'auto'}}>
         <CodeBlock
           language="jsx"

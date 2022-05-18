@@ -29,6 +29,8 @@ You need to be logged into the same account on both OS. (e.g. PaPa31 (GitHub) on
 
 ## Keyboard Shortcuts List
 
+[Default hotkeys(shortcuts)](https://nikomedvedev.ru/other/vscodeshortcuts/hotkeys.html)
+
 <small>
 
 |  | Keyboard Shortcut | How Did | Description | Result |

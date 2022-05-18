@@ -8,17 +8,13 @@ You can write `React` code components and inject them to `markdown` pages.
 
 ## Make React component
 
-:::tip About the alias `@site`
-
-In Docusaurus, the `@site` alias always points to the root folder.
-
-:::
+First, create a **BackgroundImage** folder in the `src/page` directory, create a new **index.js** file there, and place this code in it:
 
 ```jsx title="src/page/BackgroundImage/index.js"
 import React from 'react';
-import styles from '@site/src/pages/BackgroundImage/styles.module.css';
+import styles from './styles.module.css';
 
-export default function BackgroundImage({props}) {
+const BackgroundImage = (props) => {
   return (
     <div
       className="showcaseFavorite_src-pages-showcase-styles-module"
@@ -26,35 +22,53 @@ export default function BackgroundImage({props}) {
       <div className="container">
         <section className="margin-top--lg margin-bottom--xl">
           <div className={styles.portfolio_section__projects}>
-            {props.map((item) => (
-              <div
-                key={item.title}
-                className={styles.portfolio_section__project}>
+            // highlight-next-line
+            {props.photos ? (
+              props.photos.map((item) => (
                 <div
-                  className={styles.portfolio_section__project_image}
-                  style={{
-                    backgroundImage: item.url,
-                    transition:
-                      'background-image 0.3s ease-in-out 0s, background-size 0.2s ease 0s',
-                    filter: 'none',
-                  }}></div>
-                <div className={styles.portfolio_section__project_title}>
-                  {item.title}
+                  key={item.title}
+                  className={styles.portfolio_section__project}>
+                  <div
+                    className={styles.portfolio_section__project_image}
+                    style={{
+                      backgroundImage: item.url,
+                      transition:
+                        'background-image 0.3s ease-in-out 0s, background-size 0.2s ease 0s',
+                      filter: 'none',
+                    }}></div>
+                  <div className={styles.portfolio_section__project_title}>
+                    {item.title}
+                  </div>
+                  <div
+                    className={styles.portfolio_section__project_description}>
+                    {item.text}
+                  </div>
                 </div>
-                <div className={styles.portfolio_section__project_description}>
-                  {item.text}
-                </div>
-              </div>
-            ))}
+              ))
+            ) : (
+              // highlight-start
+              <p>Photos is empty</p>
+            )}
+            // highlight-end
           </div>
         </section>
       </div>
     </div>
   );
-}
+};
+
+export default BackgroundImage;
 ```
 
-This is the code block that will insert multiple images (as `css background-image`) into the `markdown` page. You only need to pass the image `url` , `title` and `text` from markdown page to the React component as props.
+:::caution Error
+
+The highlighted lines above are required because of `TypeError: Cannot read property 'map' of undefined` during **server-side rendering** (when you run `npm run build`).
+
+:::
+
+### What this code do?
+
+This component will insert multiple images (as `css background-image`) into the `markdown` page. You only need to pass the image `url` , `title` and `text` from markdown page to the React component as props.
 
 ## Add styles
 
@@ -114,9 +128,9 @@ This is the code block that will insert multiple images (as `css background-imag
 
 These styles will be place the images by 3 per line. Each image will have a card style with title and description text.
 
-## Add mdx code block
+## Add component to markdown page
 
-First, create a `.mdx` file (eg **markdown-with-react.mdx**) in your **doc** folder. And add this code directly into your markdown page (note the **mdx-code-block** title after 3 backticks):
+Add this code directly into your any markdown page:
 
 ````md
 ```mdx-code-block
@@ -140,11 +154,19 @@ export const threePhotos = [
   }
   ];
 
-<BackgroundImage props={threePhotos} />
+<BackgroundImage photos={threePhotos} />
 ```
 ````
 
+:::tip
+
+Note the **mdx-code-block** title after first 3 backticks.
+
+:::
+
 ## Result as an injected block
+
+You should see this:
 
 ```mdx-code-block
 import BackgroundImage from '@site/src/pages/BackgroundImage';
@@ -167,12 +189,18 @@ export const threePhotos = [
   },
   ];
 
-<BackgroundImage props={threePhotos} />
+<BackgroundImage photos={threePhotos} />
 ```
 
 ## Result as a separate page
 
-If you want your component to be rendered on a separate page,  you need to first copy above code to a single page (with little differences):
+If you want your component to be rendered on a separate page, you need to first copy above code to a single page (with little differences):
+
+:::tip About the alias `@site`
+
+In Docusaurus, the `@site` alias always points to the root folder.
+
+:::
 
 ```jsx title="src/pages/myComponents/index.js"
 import React from 'react';
@@ -200,7 +228,7 @@ const threePhotos = [
 export default function MyComponents() {
   return (
     <Layout>
-      <BackgroundImage props={threePhotos} />
+      <BackgroundImage photos={threePhotos} />
     </Layout>
   );
 }
