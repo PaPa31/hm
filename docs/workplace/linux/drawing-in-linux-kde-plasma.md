@@ -5,15 +5,39 @@ date: 2021-02-14
 description: How to draw with mouse on the desktop in Linux KDE Plasma
 ---
 
+Draw in KDE/Plasma without additional installation.
+
+```mdx-code-block
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+```
+
+<Tabs defaultValue="mx-19" values={[ { label: "MX-19", value: "mx-19" }, { label: "MX-21", value: "mx-21" } ]}> <TabItem value="mx-19">
+
+```shell
+System Settings > Desktop Behavior > Desktop Effects > Mouse Mark
+```
+
+</TabItem>
+
+<TabItem value="mx-21">
+
+```shell
+System Settings > Workspace Behavior > Desktop Effects > Mouse Mark
+```
+
+</TabItem>
+</Tabs>
+
 Allow you to draw lines on the desktop. And then you can take screenshots with these simplified drawings.
 
 ## Default Keyboard Shortcuts
 
-|| Action | Keyboard Shortcut |
-|-|-|-|
-1 | Draw | Meta* + Shift + moving the mouse |
-2 | Clear last mouse mark | Meta + Shift +F12 |
-3 | Clear mouse marks | Meta + Shift + F11 |
+|     | Action                | Keyboard Shortcut                 |
+| --- | --------------------- | --------------------------------- |
+| 1   | Draw                  | Meta\* + Shift + moving the mouse |
+| 2   | Clear last mouse mark | Meta + Shift +F12                 |
+| 3   | Clear mouse marks     | Meta + Shift + F11                |
 
 Meta key - is a Windows Key
 
@@ -30,6 +54,7 @@ width: 3px
 
 color: red
 ```
+
 Example of drawing:
 
 [![Drawing in Linux KDE Plasma](drawing-in-linux-kde-plasma.png)](drawing-in-linux-kde-plasma.png)

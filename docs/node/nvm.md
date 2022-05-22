@@ -132,6 +132,10 @@ Remember to check the most recent release at <a href='https://github.com/nvm-sh/
 
 :::
 
+## Auto-switching node version
+
+See [nvm per Folder](nvm-per-project-folder)
+
 ## Related
 
 - [nvs for Windows](https://papa31.github.io/hm/blog/2021/09/19/nvs-one-node-version-per-terminal-in-windows)

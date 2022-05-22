@@ -18,7 +18,7 @@ echo "10" > .nvmrc
 
 ## .bashrc
 
-Find the `.bashrc` file in your home directory (`cd ~`) and add  this code to the end of the `.bashrc`:
+Find the `.bashrc` file in your home directory (`cd ~`) and add this code to the end of the `.bashrc`:
 
 ```bash title=".bashrc"
 cdnvm() {
