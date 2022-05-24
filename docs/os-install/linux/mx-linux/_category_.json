@@ -1,12 +1,13 @@
 {
-  "position": 1.5,
-  "label": "Linux",
+  "position": 2.5,
+  "label": "MX-Linux",
   "collapsible": true,
   "collapsed": false,
   "className": "red",
   "link": {
-    "type": "doc",
-    "id": "README"
+    "type": "generated-index",
+    "title": "MX-Linux",
+    "slug": "/os-install/linux/mx-linux"
   },
   "customProps": {
     "description": "This description can be used in the swizzled DocCard"

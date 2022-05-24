@@ -163,7 +163,9 @@ If you choose the **_non-portable_** version it will not automatically put a Git
 
 :::
 
-## Install Fonts
+## Fonts Installation
+
+(Windows/Linux)
 
 ### 7. [Fira Code](https://github.com/tonsky/FiraCode/releases 'release page')
 
@@ -188,7 +190,7 @@ Both above fonts installing similar:
 3. Open ttf folder
 4. Select all files
 5. Right-click
-6. Select Install
+6. Select Install (MX Linux: Actions > Install... )
 
 ---
 

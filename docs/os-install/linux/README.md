@@ -1,9 +1,14 @@
 ---
 id: README
 title: Linux
-date: 2022-05-22 20:16:44
+date: 2022-05-23 00:44:13
 ---
 
-## 1. Download Distro
+Linux OS is a Prometeus Fire in a world of propritary software.
 
-## 2. Checksum
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>
+```

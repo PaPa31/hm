@@ -38,10 +38,8 @@ import CodeBlock from '@theme/CodeBlock';
 import MyComponentSource from '!!raw-loader!@site/src/pages/BackgroundImage';
 
 <BrowserWindow>
-
   <CodeBlock language="jsx">{MyComponentSource}</CodeBlock>
-
-</BrowserWindow>
+</BrowserWindow>;
 ```
 
 This way, you can reuse content among multiple pages and avoid duplicating materials.
@@ -86,4 +84,40 @@ Output:
 
 You can see the [code block](/myComponents) in action outside of markdown file.
 
-> The props accepted are `language`, `title` and `showLineNumbers`, in the same way as you write Markdown code blocks. Although discouraged, you can also pass in a `metastring` prop like `metastring='{1-2} title="/src/components/HelloCodeTitle.js" showLineNumbers'`, which is how Markdown code blocks are handled under the hood. However, we recommend you [use comments for highlighting lines](#highlighting-with-comments).
+The props accepted are `language`, `title` and `showLineNumbers`, in the same way as you write Markdown code blocks. Although discouraged, you can also pass in a `metastring` prop like `metastring='{1-2} title="/src/components/HelloCodeTitle.js" showLineNumbers'`, which is how Markdown code blocks are handled under the hood. However, we recommend you [use comments for highlighting lines](#highlighting-with-comments).
+
+## Change output code
+
+You can not only show the data directly, but also process it. For example, this code removes lines that start with a comment.
+
+````jsx
+```mdx-code-block
+import CodeBlock from '@theme/CodeBlock';
+
+<CodeBlock className="language-js" title="sidebars.js">
+  {require('!!raw-loader!@site/sidebars.js')
+    .default
+    .split('\n')
+    // remove comments
+    .map((line) => !['//','/*','*'].some(commentPattern => line.trim().startsWith(commentPattern)) && line)
+    .filter(Boolean)
+    .join('\n')}
+</CodeBlock>
+```;
+````
+
+You should see your sidebar.js file:
+
+```mdx-code-block
+ <BrowserWindow>
+<CodeBlock className="language-js" title="sidebars.js">
+  {require('!!raw-loader!@site/sidebars.js')
+    .default
+    .split('\n')
+    // remove comments
+    .map((line) => !['//','/*','*'].some(commentPattern => line.trim().startsWith(commentPattern)) && line)
+    .filter(Boolean)
+    .join('\n')}
+</CodeBlock>
+</BrowserWindow>
+```
