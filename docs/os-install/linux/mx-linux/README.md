@@ -1,8 +1,7 @@
 ---
 id: README
-title: MX-21
+title: MX-Linux
 date: 2022-05-22 20:26:24
-slug: mx-21
 ---
 
 - Download last [MX Linux distro](https://mxlinux.org/mx-linux-blog/)
@@ -14,3 +13,12 @@ It comes in three versions:
 - XFCE (midweight desktop environment)
 - KDE (with advanced desktop “Plasma”)
 - Fluxbox (lightweight and fully functional system)
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
+
+In this section, we will introduce the following concepts:
+
+<DocCardList items={useCurrentSidebarCategory().items}/>
+```
