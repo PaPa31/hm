@@ -10,5 +10,7 @@ Linux OS is a Prometeus Fire in a world of propritary software.
 import DocCardList from '@theme/DocCardList';
 import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
+Рыба
+
 <DocCardList items={useCurrentSidebarCategory().items}/>
 ```

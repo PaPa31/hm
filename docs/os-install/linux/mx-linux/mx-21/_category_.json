@@ -6,7 +6,7 @@
   "className": "red",
   "link": {
     "type": "doc",
-    "id": "os-install/linux/mx-linux/mx-21/README"
+    "id": "README"
   },
   "customProps": {
     "description": "This description can be used in the swizzled DocCard"
