@@ -48,19 +48,27 @@ textarea {
 }
 
 a.external {
-  /* display: inline-block; */
   color: #366fd8;
-  /* line-break: anywhere; */
+}
+
+[data-theme='dark'] a.external {
+  color: #5788e4;
 }
 
 a.external:before {
-  background: transparent url(/static/img/external.e091ac5d.svg) 0 0 no-repeat;
+  background-color: #366fd8;
+  -webkit-mask-image: url(/static/img/external.e091ac5d.svg);
+  mask-image: url(/static/img/external.e091ac5d.svg);
   background-size: 16px;
   content: '';
   display: inline-block;
   height: 16px;
   margin-right: 3px;
   width: 16px;
+}
+
+[data-theme='dark'] a.external:before {
+  background-color: #5788e4;
 }
 
 .right {
@@ -125,4 +133,8 @@ blockquote {
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
   border-left: 3px solid #ff000080;
+}
+
+.green {
+  color: red;
 }

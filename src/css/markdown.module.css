@@ -1,0 +1,7 @@
+.colorRed strong {
+  color: #af6431;
+}
+
+[data-theme='dark'] .coloRed strong {
+  color: #af6431;
+}

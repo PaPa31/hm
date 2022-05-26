@@ -169,9 +169,13 @@ If you choose the **_non-portable_** version it will not automatically put a Git
 
 ### 7. [Fira Code](https://github.com/tonsky/FiraCode/releases 'release page')
 
+- Fira Code Retina
+
 Mainly for VS Code
 
 ### 8. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases 'release page')
+
+- CaskaydiaCove Nerd Font Mono
 
 With Powerline glyphs. Mainly for PowerShell terminal (git).
 
