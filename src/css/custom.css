@@ -47,15 +47,15 @@ textarea {
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
 }
 
-a.external {
+a[href^='http'] {
   color: #366fd8;
 }
 
-[data-theme='dark'] a.external {
+[data-theme='dark'] a[href^='http'] {
   color: #5788e4;
 }
 
-a.external:before {
+.theme-doc-markdown a[href^='http']::before {
   background-color: #366fd8;
   -webkit-mask-image: url(/static/img/external.e091ac5d.svg);
   mask-image: url(/static/img/external.e091ac5d.svg);
@@ -67,7 +67,7 @@ a.external:before {
   width: 16px;
 }
 
-[data-theme='dark'] a.external:before {
+[data-theme='dark'] .theme-doc-markdown a[href^='http']::before {
   background-color: #5788e4;
 }
 

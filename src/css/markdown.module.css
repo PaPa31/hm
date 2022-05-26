@@ -2,6 +2,10 @@
   color: #af6431;
 }
 
-[data-theme='dark'] .coloRed strong {
+[data-theme='dark'] .colorRed strong {
   color: #af6431;
+}
+
+[data-theme='dark'] .colorRed em {
+  color: #e6a377;
 }

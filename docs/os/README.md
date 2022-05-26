@@ -7,18 +7,38 @@ sidebar_label: OS
 sidebar_class_name: green
 ---
 
-## Linux
+All You need is a USB drive and internet. In 5 minutes we will go through the history of Operation Systems, and in addition, the most modern OS in the world will be installed on your computer!
 
-In the 1980s, [GNU](https://distrowatch.com/dwres.php?resource=glossary#gnu) project formed a mostly complete [Unix](https://distrowatch.com/dwres.php?resource=glossary#unix)\-like operating system. Most of the pieces of the operating system were in place and functioning, with the notable exception of a [kernel](https://distrowatch.com/dwres.php?resource=glossary#kernel).
+Proprietary era
 
-In the early 1990s, Linus Torvalds created the [Linux](https://distrowatch.com/dwres.php?resource=glossary#linux) kernel. Developers from around the world began to use the GNU Operating System with the Linux kernel. The combination of the two (GNU and Linux) is called GNU/Linux or a GNU/Linux distribution.
+## Multics
 
-GNU/Linux is:
+import styles from '@site/src/css/markdown.module.css'
 
-- Linux kernel
-- <a href='https://www.pathname.com/fhs' class='external' title='hi'>file system</a> with Linux Filesystem Hierarchy
-- wide range of Unix utilities (many of which have been developed by the GNU project and the Free Software Foundation)
-- other utilities are designed to achieve compliance with the POSIX (IEEE 1003.1) standard
+<div className={styles.colorRed}>
+
+- **Developer:** _MIT_, _General Electric_, _Bell Labs_
+-
+
+- Multics, initially written on Assembler, inspired Unix
+- Unix, implemented in C language, inspired other
+
+</div>
+
+## Unix
+
+Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, whose development started in 1969 at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.
+
+The name Unix refers both to a multi-user, multi-tasking [operating system](https://distrowatch.com/dwres.php?resource=glossary#unix#os) developed by AT&T's Bell Labs _and_ to the family of operating systems which are derived from that original Unix operating system. Over the years, the original Unix inspired the rise of many operating systems which were either based off the code developed by Bell Labs or inspired by the Unix design.
+
+- **Predsessor**: Multics (Assembler -> PL/I)
+- _Single-tasking_ -> _Multi-tasking_
+- **Start develop:** 1969
+- **Language:** _Assembler_ 1969 -> _B_ -> _C_ 1973
+- **Filesystem:** Unix file system (inode based)
+- **Shell:** Unix-shell (shell scripting & command launguage)
+- **"Pipes"** inter-procces communication
+-
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
