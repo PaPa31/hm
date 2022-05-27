@@ -7,24 +7,20 @@ description: How to draw with mouse on the desktop in Linux KDE Plasma
 
 Draw in KDE/Plasma without additional installation.
 
-```mdx-code-block
+![Drawing in Linux KDE Plasma](drawing-in-linux-kde-plasma.png)
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
-```
 
-<Tabs defaultValue="mx-19" values={[ { label: "MX-19", value: "mx-19" }, { label: "MX-21", value: "mx-21" } ]}> <TabItem value="mx-19">
+<Tabs>
+<TabItem value="mx-19" label="MX-19" default>
 
-```shell
-System Settings > Desktop Behavior > Desktop Effects > Mouse Mark
-```
+**System Settings** > **Desktop Behavior** > **Desktop Effects** > **Mouse Mark**
 
 </TabItem>
+<TabItem value="mx-21" label="MX-21">
 
-<TabItem value="mx-21">
-
-```shell
-System Settings > Workspace Behavior > Desktop Effects > Mouse Mark
-```
+**System Settings** > **Workspace Behavior** > **Desktop Effects** > **Mouse Mark**
 
 </TabItem>
 </Tabs>
@@ -35,7 +31,7 @@ Allow you to draw lines on the desktop. And then you can take screenshots with t
 
 |     | Action                | Keyboard Shortcut                 |
 | --- | --------------------- | --------------------------------- |
-| 1   | Draw                  | Meta\* + Shift + moving the mouse |
+| 1   | Draw                  | Meta + Shift + moving the mouse   |
 | 2   | Clear last mouse mark | Meta + Shift +F12                 |
 | 3   | Clear mouse marks     | Meta + Shift + F11                |
 
@@ -55,8 +51,4 @@ width: 3px
 color: red
 ```
 
-Example of drawing:
-
-[![Drawing in Linux KDE Plasma](drawing-in-linux-kde-plasma.png)](drawing-in-linux-kde-plasma.png)
-
-From: https://superuser.com/questions/934146/how-to-draw-an-arrow-with-kde-plasmas-mouse-tracker#:~:text=You%20can%20%22draw%22%20an%20arrow,Meta%2BCtrl%2BShift%20twice
+From: [superuser.com: How To Draw An Arrow With Kde Plasmas Mouse Tracker](https://superuser.com/questions/934146/how-to-draw-an-arrow-with-kde-plasmas-mouse-tracker#:~:text=You%20can%20%22draw%22%20an%20arrow,Meta%2BCtrl%2BShift%20twice)

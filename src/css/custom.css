@@ -57,14 +57,17 @@ a[href^='http'] {
 
 .theme-doc-markdown a[href^='http']::before {
   background-color: #366fd8;
-  -webkit-mask-image: url(/static/img/external.e091ac5d.svg);
   mask-image: url(/static/img/external.e091ac5d.svg);
-  background-size: 16px;
+  -webkit-mask-image: url(/static/img/external.e091ac5d.svg);
   content: '';
   display: inline-block;
-  height: 16px;
-  margin-right: 3px;
+  height: 19px;
+  margin-right: 1px;
   width: 16px;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: -1px 5px;
+  -webkit-mask-position: -1px 5px;
 }
 
 [data-theme='dark'] .theme-doc-markdown a[href^='http']::before {
@@ -73,10 +76,6 @@ a[href^='http'] {
 
 .right {
   text-align: right;
-}
-
-.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock-styles-module {
-  white-space: pre-wrap !important;
 }
 
 blockquote {
@@ -135,6 +134,18 @@ blockquote {
   border-left: 3px solid #ff000080;
 }
 
-.green {
-  color: red;
+/*.green a {
+  color: #af6431;
 }
+
+.green a:hover {
+  color: #af6431;
+}
+
+.red a {
+  color: var(--ifm-menu-color);
+}
+
+.red a:hover {
+  color: var(--ifm-menu-color);
+}*/
