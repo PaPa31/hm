@@ -6,7 +6,9 @@ date: 2022-05-15 18:04:05
 
 You can write `React` code components and inject them to `markdown` pages.
 
-## Make React component
+## Creating
+
+### Make React component
 
 First, create a **BackgroundImage** folder in the `src/page` directory, create a new **index.js** file there, and place this code in it:
 
@@ -66,11 +68,11 @@ The highlighted lines above are required because of `TypeError: Cannot read prop
 
 :::
 
-### What this code do?
+#### What this code do?
 
 This component will insert multiple images (as `css background-image`) into the `markdown` page. You only need to pass the image `url` , `title` and `text` from markdown page to the React component as props.
 
-## Add styles
+### Add styles
 
 ```css title="src/page/BackgroundImage/styles.module.css"
 .portfolio_section__projects {
@@ -128,7 +130,10 @@ This component will insert multiple images (as `css background-image`) into the 
 
 These styles will be place the images by 3 per line. Each image will have a card style with title and description text.
 
-## Add component to markdown page
+
+## Usage
+
+### Import the component
 
 Add this code directly into your any markdown page:
 
@@ -164,7 +169,7 @@ Note the **mdx-code-block** title after first 3 backticks.
 
 :::
 
-## Result as an injected block
+### Result
 
 You should see this:
 
@@ -185,14 +190,18 @@ export const threePhotos = [
    {
     url: 'url("https://avatars.mds.yandex.net/get-practicum/5473806/2a0000017c834093b1e4d8d8c72ab3de51c4/1232x1232")',
     title: 'Управляемые базы данных',
-    text: 'Настраивать кластеры управляемых баз данных, хранить и анализировать данные в облаке'
+    text: (
+      <div>
+        Настраивать <b>кластеры</b> управляемых баз данных, хранить и анализировать данные в облаке
+      </div>
+    ),
   },
   ];
 
 <BackgroundImage photos={threePhotos} />
 ```
 
-## Result as a separate page
+### Separate page
 
 If you want your component to be rendered on a separate page, you need to first copy above code to a single page (with little differences):
 
@@ -234,7 +243,7 @@ export default function MyComponents() {
 }
 ```
 
-### Add link to page
+#### Add link to page
 
 Place a link with href `/myComponents`:
 
@@ -244,7 +253,7 @@ Place a link with href `/myComponents`:
 
 to your markdown file. And you can [click](/myComponents) to see your new page.
 
-### Add link to sidebar
+#### Add link to sidebar
 
 Add these highlighted lines at the top of your `sidebars.js`:
 
