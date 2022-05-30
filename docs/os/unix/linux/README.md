@@ -1,9 +1,17 @@
 ---
 id: README
-title: Linux
+title: Linux "Everything is a file" 💾
 date: 2022-05-23 00:44:13
-Description: Linux kernel - a UNIX clone written from scratch by Linus Torvalds
+Description: Linux kernel - a UNIX clone by Linus Torvalds
 ---
+
+## GNU/Linux distribution
+
+Linus Torvalds used and appreciated Minix, but his design deviated from the Minix architecture in significant ways, most notably by employing a monolithic kernel instead of a microkernel.
+
+When Linus Torvalds first started writing his Linux operating system kernel (1991), he was working on a machine running MINIX, and adopted its file system layout. This soon proved problematic, since MINIX restricted filename lengths to 14 characters (30 in later versions), it limited partitions to 64 megabytes, and the file system was designed for teaching purposes, not performance. The Extended file system (ext; April 1992) was developed to replace MINIX's, but it was only with the second version of this, ext2, that Linux obtained a commercial-grade file system. As of 1994, the MINIX file system was "scarcely in use" among Linux users.
+
+On 17 September 1991, Torvalds prepared version 0.01 of Linux and put on the "ftp.funet.fi" – FTP server of the Finnish University and Research Network (FUNET). It was not even executable since its code still needed Minix for compilation and play.
 
 ## Debian (Stable)
 
