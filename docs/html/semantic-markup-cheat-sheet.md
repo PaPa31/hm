@@ -7,170 +7,124 @@ date: 2022-05-28 11:47:08
 ```mdx-code-block
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import CodeBlock from '@theme/CodeBlock';
-import styles from '@site/src/pages/styles.module.css';
-import clsx from 'clsx';
-import card from '@site/src/css/markdown.module.css';
+import card from '@site/src/css/markdown.module.css'
 ```
 
-## Description list
-
-`<dl>`
-
-- A list of descriptions is a group of terms and definitions.
-- Words and definitions, titles and summaries, data points, etc.
-- Only `<dt>` and `<dd>` elements can be direct children.
-
-`<dt>`
-
-- Description title, item term.
-- Must come before `<dd>`.
-
-`<dd>`
-
-- The description definition, data, or text of the item.
-- There can be multiple `<dd>` tags under one `<dt>`.
+[Semantic diagram](https://html.spec.whatwg.org/#kinds-of-content)
 
 <div className={card.wrap}>
   <div className={card.maxwidth}>
-    <CodeBlock language="html" title="HTML">
-{`<dl>
-  <dt>Length</dt>
-  <dd>2.3 m</dd>
-  <dt>Weight</dt>
-  <dd>4 tonnes</dd>
+    <CodeBlock language="html" title="dl, dt, dd">
+{`<p>Unix:</p>
+<dl>
+  <dt>Category</dt>
+  <dd>OS</dd>
+  <dt>Start Develop</dt>
+  <dd>1969</dd>
 </dl>`}
     </CodeBlock>
   </div>
+  <span class="nonBreak"><a href='https://html.spec.whatwg.org/#the-dl-element' title="spec" class='external'>dl</a></span>
   <div className={card.maxwidth}>
     <BrowserWindow>
+      <p>Unix:</p>
       <dl>
-        <dt>Length</dt>
-        <dd>2.3 m</dd>
-        <dt>Weight</dt>
-        <dd>4 tonnes</dd>
+        <dt>Category</dt>
+        <dd>OS</dd>
+        <dt>Start Develop</dt>
+        <dd>1969</dd>
       </dl>
     </BrowserWindow>
   </div>
 </div>
 
-## Blockqoute
-
-`<blockquote>`
-
-- A large separate quote from another source.
-
 <div className={card.wrap}>
   <div className={card.maxwidth}>
-    <CodeBlock language="html" title="HTML">
+    <CodeBlock language="html" title="blockquote, cite">
 {`<blockquote>
-  <p>Dinosaurs may be extinct from the face of the planet, but they are alive and well in our imaginations.</p>
-  <footer>— <cite>Steve Miller</cite></footer>
+  <p>People are strange</p>
+  <footer>— <cite>Doors</cite></footer>
 </blockquote>`}
     </CodeBlock>
   </div>
+  <span class="nonBreak"><a href='https://html.spec.whatwg.org/#the-blockquote-element' title="spec" class='external'>blockquote</a></span>
   <div className={card.maxwidth}>
     <BrowserWindow>
       <blockquote>
-        <p>Dinosaurs may be extinct from the face of the planet, but they are alive and well in our imaginations.</p>
-        <footer>— <cite>Steve Miller</cite></footer>
+        <p>People are strange</p>
+        <footer>— <cite>Doors</cite></footer>
       </blockquote>
     </BrowserWindow>
   </div>
 </div>
 
-`<q>`
-
-- A small quotation embedded within other content.
-
 <div className={card.wrap}>
   <div className={card.maxwidth}>
-    <CodeBlock language="html" title="HTML">
-{`Other languages <q>tongue</q> as said stranger.`}
+    <CodeBlock language="html" title="q">
+{`<q>Worse is better</q> Unix`}
     </CodeBlock>
   </div>
   <div className={card.maxwidth}>
     <BrowserWindow>
-      Other languages <q>tongue</q> as said stranger.
+      <q>Worse is better</q> Unix
     </BrowserWindow>
   </div>
 </div>
 
-## Address
-
-`<address>`
-
-- Contact information, email, telephone, postal address, etc.
-
 <div className={card.wrap}>
   <div className={card.maxwidth}>
-    <CodeBlock language="html" title="HTML">
+    <CodeBlock language="html" title="address">
 {`<address>
-  Jet Propulsion Laboratory
-  <br/>4800 Oak Grove Drive
-  <br/>Pasadena, California
-  <br/>91109
+  0 Lab
+  <br/>6 Simply street
+  <br/>MyCity
+  <br />OurLand
+  <br/>0000000
 </address>`}
     </CodeBlock>
   </div>
   <div className={card.maxwidth}>
     <BrowserWindow>
       <address>
-        Jet Propulsion Laboratory
-        <br/>4800 Oak Grove Drive
-        <br/>Pasadena, California
-        <br/>91109
+        0 Lab
+        <br/>6 Simply street
+        <br/>MyCity
+        <br />OurLand
+        <br/>0000000
       </address>
     </BrowserWindow>
   </div>
 </div>
 
-## Text edit
-
-`<del datetime="…">`
-
-- Content that was removed after the document was posted. `datetime` specifies when it was deleted.
-
 <div className={card.wrap}>
   <div className={card.maxwidth}>
-    <CodeBlock language="html" title="HTML">
-{`<p>Launchpad 39A owned by <del datetime="2014-04-14">NASA</del> <ins datetime="2014-04-14">SpaceX</ins></p>`}
+    <CodeBlock language="html" title="del, ins">
+{`<p>Everything is a <del datetime="2007-03-08">file</del> <ins datetime="2007-03-08">stream of bytes</ins></p>`}
     </CodeBlock>
   </div>
   <div className={card.maxwidth}>
     <BrowserWindow>
-      <p>Launchpad 39A owned by <del datetime="2014-04-14">NASA</del> <ins datetime="2014-04-14">SpaceX</ins></p>
+      <p>Everything is a <del datetime="2007-03-08">file</del> <ins datetime="2007-03-08">stream of bytes</ins></p>
     </BrowserWindow>
   </div>
 </div>
 
-## Abbreviation
-
-`<abbr title="…">`
-
-- An acronym or abbreviation, such as "HTML", etc. `title` contains an extended version, such as "Hypertext Markup Language" on mouseover.
-
 <div className={card.wrap}>
   <div className={card.maxwidth}>
-    <CodeBlock language="html" title="HTML">
-{`I don't now <abbr title="Star Trek: The Wrath of Khan">ST:TWOK</abbr> ????`}
+    <CodeBlock language="html" title="abbr">
+{`recursive acronym as <abbr title="GNU's Not Unix!">GNU</abbr>`}
     </CodeBlock>
   </div>
   <div className={card.maxwidth}>
     <BrowserWindow>
-      I don't now <abbr title="Star Trek: The Wrath of Khan">ST:TWOK</abbr> ????
+      recursive acronym as <abbr title="GNU's Not Unix!">GNU</abbr>
     </BrowserWindow>
   </div>
 </div>
 
-## Other language
-
-`<i>`
-
-- Defines a technical term, ship name, book title, thought, sarcasm, other language.
-
 <div className={card.wrap}>
   <div className={card.maxwidth}>
-    <CodeBlock language="html" title="HTML">
+    <CodeBlock language="html" title="lang">
 {`<i lang="fr">Bonjour</i>`}
     </CodeBlock>
   </div>
@@ -181,11 +135,9 @@ import card from '@site/src/css/markdown.module.css';
   </div>
 </div>
 
-## Progress
-
 <div className={card.wrap}>
   <div className={card.maxwidth}>
-    <CodeBlock language="html" title="HTML">
+    <CodeBlock language="html" title="progress">
 {`<progress value="3" min="1" max="5" />`}
     </CodeBlock>
   </div>
@@ -198,7 +150,7 @@ import card from '@site/src/css/markdown.module.css';
 
 <div className={card.wrap}>
   <div className={card.maxwidth}>
-    <CodeBlock language="html" title="HTML">
+    <CodeBlock language="html" title="meter">
 {`<meter value="13" min="1" max="20" />`}
     </CodeBlock>
   </div>
@@ -209,25 +161,145 @@ import card from '@site/src/css/markdown.module.css';
   </div>
 </div>
 
- <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+<div className={card.wrap}>
+  <div className={card.maxwidth}>
+    <CodeBlock language="html" title="kbd">
+{` <p>press <kbd>Ctrl + C</kbd></p>`}
+    </CodeBlock>
+  </div>
+  <div className={card.maxwidth}>
+    <BrowserWindow>
+       <p>press <kbd>Ctrl + C</kbd></p>
+    </BrowserWindow>
+  </div>
+</div>
 
-  <p>Message from my computer:</p>
-<p><samp>File not found.<br/>Press F1 to continue</samp></p>
+<div className={card.wrap}>
+  <div className={card.maxwidth}>
+    <CodeBlock language="html" title="meter">
+{`<p>Terminal:</p>
+<p><samp>Permission denied<br/>Press F1 to continue</samp></p>`}
+    </CodeBlock>
+  </div>
+  <div className={card.maxwidth}>
+    <BrowserWindow>
+      <p>Terminal:</p>
+      <p><samp>Permission denied<br/>Press F1 to continue</samp></p>
+    </BrowserWindow>
+  </div>
+</div>
 
- <code>
-x = 5;
-y = 6;
-z = x + y;
-</code>
+<div className={card.wrap}>
+  <div className={card.maxwidth}>
+    <CodeBlock language="html" title="code">
+{`run in bash: <code>id -u</code> for guid`}
+    </CodeBlock>
+  </div>
+  <div className={card.maxwidth}>
+    <BrowserWindow>
+      run in bash: <code>id -u</code> for guid
+    </BrowserWindow>
+  </div>
+</div>
 
- <pre>
-<code>
-x = 5;
-y = 6;
-z = x + y;
-</code>
+<div className={card.wrap}>
+  <div className={card.maxwidth}>
+    <CodeBlock language="html" title="pre, code">
+{`<p>Run in bash:</p>
+<pre>
+  <code>
+    stat -c '%a - %n' *
+  </code>
 </pre>
+<p>for list in 777 style.</p>`}
+    </CodeBlock>
+  </div>
+  <div className={card.maxwidth}>
+    <BrowserWindow>
+      <p>Run in bash:</p>
+      <pre>
+        <code>
+          stat -c '%a - %n' *
+        </code>
+      </pre>
+      <p>for list in 777 style.</p>
+    </BrowserWindow>
+  </div>
+</div>
 
- <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+<div className={card.wrap}>
+  <div className={card.maxwidth}>
+    <CodeBlock language="html" title="var">
+{`<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>`}
+    </CodeBlock>
+  </div>
+  <div className={card.maxwidth}>
+    <BrowserWindow>
+      <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+    </BrowserWindow>
+  </div>
+</div>
 
-Argentinosaurus weighted approximately <data value="90">90 tonnes</data>
+<div className={card.wrap}>
+  <div className={card.maxwidth}>
+    <CodeBlock language="html" title="var, sup, sub">
+{`<p>she wrote <var>E</var> = <var>m</var><var>c</var><sup>2</sup></p>
+<p>decimal to binary 42<sub>10</sub> = 00101010<sub>2</sub></p>`}
+    </CodeBlock>
+  </div>
+  <div className={card.maxwidth}>
+    <BrowserWindow>
+      <p>she wrote <var>E</var> = <var>m</var><var>c</var><sup>2</sup></p>
+      <p>decimal to binary 42<sub>10</sub> = 00101010<sub>2</sub></p>
+    </BrowserWindow>
+  </div>
+</div>
+
+<div className={card.wrap}>
+  <div className={card.maxwidth}>
+    <CodeBlock language="html" title="math">
+{`<figure>
+ <math>
+  <mi>a</mi>
+  <mo>=</mo>
+  <msqrt>
+   <msup><mi>b</mi><mn>2</mn></msup>
+   <mi>+</mi>
+   <msup><mi>c</mi><mn>2</mn></msup>
+  </msqrt>
+ </math>
+ <figcaption>
+  Using Pythagoras' theorem to solve for the hypotenuse <var>a</var> of
+  a triangle with sides <var>b</var> and <var>c</var>
+ </figcaption>
+</figure>
+`}
+    </CodeBlock>
+  </div>
+  <span class="nonBreak"><a href='https://www.w3.org/Math/draft-spec/chapter2.html#interf.toplevel' title='spec' class='external'>math</a></span>
+  <div className={card.maxwidth}>
+    <BrowserWindow>
+      <figure>
+        <math>
+          <mi>a</mi>
+          <mo>=</mo>
+          <msqrt>
+          <msup><mi>b</mi><mn>2</mn></msup>
+          <mi>+</mi>
+          <msup><mi>c</mi><mn>2</mn></msup>
+          </msqrt>
+        </math>
+        <figcaption>
+          Using Pythagoras' theorem to solve for the hypotenuse <var>a</var> of
+          a triangle with sides <var>b</var> and <var>c</var>
+        </figcaption>
+      </figure>
+    </BrowserWindow>
+  </div>
+</div>
+
+:::caution
+
+`math` don't work in Chromium (OS MX Linux MX-21)!
+
+:::
