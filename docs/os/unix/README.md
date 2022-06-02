@@ -27,7 +27,7 @@ After AT&T Bell Labs had dropped out of the Multics project, the Unix operating 
 
 Later they rewrote it in a new programming language, C, to make it portable. The availability and portability of Unix caused it to be widely adopted, copied and modified by academic institutions and businesses.
 
-### Unix philosophy
+Unix philosophy:
 
 - small is better
 - make each program do one thing well
@@ -51,6 +51,8 @@ In 1986, Maurice J. Bach, of AT&T Bell Labs, published The Design of the UNIX Op
 ### Minix
 
 In 1987, MINIX was created by Andrew S. Tanenbaum, a computer science professor, and released in 1987 as a minimal Unix-like operating system targeted at students and others who wanted to learn operating system principles.
+
+## 1990s - Free OS era
 
 ### Linux kernel
 

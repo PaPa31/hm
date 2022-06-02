@@ -5,7 +5,24 @@ date: 2022-05-23 00:44:13
 Description: Linux kernel - a UNIX clone by Linus Torvalds
 ---
 
-## GNU/Linux distribution
+import styles from '@site/src/css/markdown.module.css'
+
+<div className={styles.colorRed}>
+
+<dl>
+  <dt>Start develop</dt>
+  <dd>1991</dd>
+  <dt>Developer</dt>
+  <dd>Linux Torvalds</dd>
+  <dt>Language</dt>
+  <dd>C</dd>
+</dl>
+
+</div>
+
+## 1990s - Free OS era
+
+### GNU/Linux distribution
 
 Linus Torvalds used and appreciated Minix, but his design deviated from the Minix architecture in significant ways, most notably by employing a monolithic kernel instead of a microkernel.
 
@@ -26,8 +43,6 @@ But the most popular Linux distro in the world (see <a href='https://distrowatch
 ## MX Linux
 
 MX Linux, a desktop-oriented Linux distribution based on Debian's "Stable" branch, is a cooperative venture between the antiX and former MEPIS Linux communities.
-
-import styles from '@site/src/css/markdown.module.css'
 
 <div className={styles.colorRed}>
 
