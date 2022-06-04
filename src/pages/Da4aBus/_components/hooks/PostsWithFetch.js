@@ -9,14 +9,34 @@ function PostsWithFetch() {
   useEffect(() => {
     const fetchPosts = async () => {
       const response = await fetch('./_rasp297.html');
-      const postsData = await response.text();
-      setPosts(postsData.match(/<p.*/g));
+      const data = await response.text();
+      //setPosts(postsData.match(/<p.*/g));
+      const parser = new DOMParser();
+      const HTMLDocument = parser.parseFromString(data, 'text/html');
+      //return HTMLDocument;
+      console.log([...HTMLDocument.querySelectorAll('p')]);
+      setPosts([...HTMLDocument.querySelectorAll('p')]);
     };
+
     fetchPosts();
   }, []);
 
+  function displayTitles(html) {
+    const listElem = document.getElementById('results');
+
+    const ps = html.querySelectorAll('p');
+
+    ps.forEach((p) => {
+      const listItem = document.createElement('li');
+      listItem.innerText = p.textContent;
+      listElem.appendChild(listItem);
+    });
+  }
+  //const html = posts;
+  //displayTitles(html);
+
   const usePosts = posts.map((post, id) => {
-    return <tr key={id}>{post.replace(/.*>([^<]+)<\/.*/g, '$1')}</tr>;
+    return <td key={id}>{post.textContent.trim()}</td>;
   });
 
   return (
@@ -27,7 +47,9 @@ function PostsWithFetch() {
         <div className={card.wrap}>
           <div className={card.maxwidth}>
             <table>
-              <tbody>{posts && usePosts}</tbody>
+              <tbody>
+                <tr>{posts && usePosts}</tr>
+              </tbody>
             </table>
           </div>
           <div className={card.maxwidth}>
