@@ -133,13 +133,13 @@ function Da4aBus() {
         </nav>
         <Switch>
           <Route path="/hm/myComponents/fetchapi">
-            <PostsWithFetch />
+            <PostsWithFetch num={297} />
           </Route>
           <Route path="/hm/myComponents/axios">
             <PostsWithAxios />
           </Route>
           <Route path="/hm/myComponents">
-            <PostsWithFetch />
+            <PostsWithFetch num={297} />
           </Route>
         </Switch>
       </div>

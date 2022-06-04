@@ -3,40 +3,39 @@ import card from '@site/src/css/markdown.module.css';
 import CodeBlock from '@theme/CodeBlock';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 
-function PostsWithFetch() {
+function PostsWithFetch({num}) {
   const [posts, setPosts] = useState([]);
 
-  useEffect(() => {
-    const fetchPosts = async () => {
-      const response = await fetch('./_rasp297.html');
+  const fetchPosts = async () => {
+    try {
+      const response = await fetch(`./_rasp${num}.html`);
       const data = await response.text();
       //setPosts(postsData.match(/<p.*/g));
       const parser = new DOMParser();
       const HTMLDocument = parser.parseFromString(data, 'text/html');
       //return HTMLDocument;
-      console.log([...HTMLDocument.querySelectorAll('p')]);
+      //console.log([...HTMLDocument.querySelectorAll('p')]);
       setPosts([...HTMLDocument.querySelectorAll('p')]);
-    };
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
-    fetchPosts();
-  }, []);
-
-  function displayTitles(html) {
-    const listElem = document.getElementById('results');
-
-    const ps = html.querySelectorAll('p');
-
-    ps.forEach((p) => {
-      const listItem = document.createElement('li');
-      listItem.innerText = p.textContent;
-      listElem.appendChild(listItem);
-    });
-  }
-  //const html = posts;
-  //displayTitles(html);
+  useEffect(() => {
+    if (num) fetchPosts();
+  }, [num]);
 
   const usePosts = posts.map((post, id) => {
-    return <td key={id}>{post.textContent.trim()}</td>;
+    const p = post.textContent.trim();
+    if (!p.match(/(Маршрут|Перевозчик)/)) {
+      if (p.match(/^\d/)) {
+        return (
+          <tr key={id}>
+            <td> {post.textContent.trim()}</td>
+          </tr>
+        );
+      }
+    }
   });
 
   return (
@@ -47,9 +46,12 @@ function PostsWithFetch() {
         <div className={card.wrap}>
           <div className={card.maxwidth}>
             <table>
-              <tbody>
-                <tr>{posts && usePosts}</tr>
-              </tbody>
+              <thead>
+                <tr>
+                  <th>{num}</th>
+                </tr>
+              </thead>
+              <tbody>{posts && usePosts}</tbody>
             </table>
           </div>
           <div className={card.maxwidth}>
