@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import BackgroundImage from '@site/src/pages/BackgroundImage';
 import CodeBlock from '@theme/CodeBlock';
+import Da4aBus from '../Da4aBus';
 
 const threePhotos = [
   {
@@ -19,7 +20,8 @@ const threePhotos = [
     title: 'Управляемые базы данных',
     text: (
       <div>
-        Настраивать <b>кластеры</b> управляемых баз данных, хранить и анализировать данные в облаке
+        Настраивать <b>кластеры</b> управляемых баз данных, хранить и
+        анализировать данные в облаке
       </div>
     ),
   },
@@ -38,6 +40,7 @@ export default function MyComponents() {
           return <h1>Hello, {props.name}</h1>;
         }`}
         </CodeBlock>
+        <Da4aBus />
       </div>
     </Layout>
   );

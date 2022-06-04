@@ -10,6 +10,7 @@ import TabItem from '@theme/TabItem'
 
 ||What Did|Find|Replace
 -|-|-|-
+-4|replace [md] links with `<abbr>` | `\[([^+\]]+)\](\([^"]+")([^"]+)"\)` | `<abbr title="$3">$1</abbr>`
 -3|find and fix img tags without `/`> | `(<input[^>]+)>` | `$1 />`
 -2|markdown links -> text |`\[([^\]]+)\]\([^\)]+\)`| `$1`
 -1|Nested tags|`<div class="history">(?:[^<\r]*(?:<(?!/div>)[^<]*)*</div>){15}`|
