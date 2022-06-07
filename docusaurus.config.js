@@ -7,6 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const path = require('path');
 
 const npm2yarn = require('@docusaurus/remark-plugin-npm2yarn');
+const webpackProxy = require('./src/plugins/webpackProxy/index');
 const baseUrl = process.env.BASE_URL || '/';
 const isDeployPreview = !!process.env.GITHUB_ACTIONS;
 
@@ -217,6 +218,7 @@ const config = {
       },
     }),
   plugins: [
+    './src/plugins/webpackProxy',
     [
       require.resolve('docusaurus-lunr-search'),
       {
