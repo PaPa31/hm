@@ -8,7 +8,9 @@ function PostsWithFetch({num}) {
 
   const fetchPosts = async () => {
     try {
-      const response = await fetch(`./_rasp${num}.html`);
+      const response = await fetch(
+        `https://www.orenburg.ru/background/raspisanie_sadovodcheskikh_marshrutov/marshrut_297/`,
+      );
       const data = await response.text();
       //setPosts(postsData.match(/<p.*/g));
       const parser = new DOMParser();
