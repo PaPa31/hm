@@ -6,16 +6,22 @@ module.exports = function (context, options) {
       return {
         mergeStrategy: {'devServer.proxy': 'replace'},
         devServer: {
-          allowedHosts: ['www.orenburg.ru'],
+          allowedHosts: 'all',
           proxy: {
-            '/hm/myComponents': {
-              target: 'http://localhost:3000',
-              router: () => 'http://localhost:4000',
+            '/zhops': {
+              target: 'http://localhost:5500/',
+              //router: () => 'http://localhost:5000',
               secure: false,
               changeOrigin: true,
               logLevel: 'debug',
+              //headers: {
+              //  Connection: 'keep-alive',
+              //},
             },
           },
+          //port: 8080,
+          //host: '0.0.0.0',
+          //hot: true,
         },
       };
     },
