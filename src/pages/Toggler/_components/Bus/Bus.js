@@ -1,6 +1,5 @@
 import React from 'react';
-
-import './Person.css';
+import classes from './bus.module.css';
 
 // class Person extends React.Component {
 //   render() {
@@ -11,11 +10,11 @@ import './Person.css';
 //     )
 //   }
 // }
-const person = (props) => {
+const bus = (props) => {
   return (
-    <div className="Person">
+    <div className={classes.Bus}>
       <p onClick={props.click}>
-        I'm {props.name} and I am {props.age} years old!
+        From {props.name} I go by {props.num} bus!
       </p>
       <p>{props.children}</p>
       <input type="text" onChange={props.changed} value={props.name} />
@@ -23,4 +22,4 @@ const person = (props) => {
   );
 };
 
-export default person;
+export default bus;
