@@ -1,16 +1,8 @@
 // @ts-check
 
 import React, {Component} from 'react';
-import classes from './styles.module.css';
-import Bus from './_components/Bus/Bus';
-import PostsWithFetch from '../Da4aBus/_components/hooks/PostsWithFetch';
-
-//const BUS_PRICES = {
-//  cash: 30,
-//  card: 27,
-//  pension: 30,
-//  free: 0,
-//};
+import classes from './Toggler.module.css';
+import Buses from './Buses/Buses';
 
 const BUSES = {
   buses: [
@@ -21,55 +13,11 @@ const BUSES = {
   ],
 };
 
-class BusRoute extends Component {
+class Toggler extends Component {
   state = {
     buses: [],
     showBuses: false,
     changeCounter: 0,
-  };
-
-  //addBusHandler = (num) => {
-  //  const oldCount = this.state.buses[num];
-  //  const updateCount = oldCount + 1;
-  //  const updatedBuses = {
-  //    ...this.state.buses,
-  //  };
-  //  updatedBuses[num] = updateCount;
-  //  const priceAddition = BUS_PRICES[num];
-  //  const oldPrice = this.state.totalPrice;
-  //  const newPrice = oldPrice + priceAddition;
-  //  this.setState({totalPrice: newPrice, buses: updatedBuses});
-  //};
-
-  //removeBusHandler = (num) => {
-  //  const oldCount = this.state.buses[num];
-  //};
-
-  nameChangedHandler = (event, id) => {
-    const busIndex = this.state.buses.findIndex((p) => {
-      return p.id === id;
-    });
-
-    const bus = {
-      ...this.state.buses[busIndex],
-    };
-
-    // const bus = Object.assign({}, this.state.buses[busIndex]);
-
-    bus.name = event.target.value;
-
-    const buses = [...this.state.buses];
-    buses[busIndex] = bus;
-
-    this.setState({
-      buses: buses,
-    });
-  };
-
-  deleteBusHandler = (busIndex) => {
-    const buses = [...this.state.buses];
-    buses.splice(busIndex, 1);
-    this.setState({buses: buses});
   };
 
   onlyBusesHandler = (id) => {
@@ -96,35 +44,16 @@ class BusRoute extends Component {
     let btnClass = '';
 
     if (this.state.showBuses) {
-      buses = (
-        <div>
-          {this.state.buses.map((bus, index) => {
-            console.log(bus.num);
-
-            return (
-              <div>
-                <PostsWithFetch num={bus.num} name={bus.name} />
-                <Bus
-                  click={() => this.deleteBusHandler(index)}
-                  name={bus.name}
-                  num={bus.num}
-                  key={bus.id}
-                  changed={(event) => this.nameChangedHandler(event, bus.id)}
-                />
-              </div>
-            );
-          })}
-        </div>
-      );
+      buses = <Buses buses={this.state.buses} />;
       btnClass = classes.Red;
     }
 
     const assignedClasses = [];
     if (this.state.buses.length <= 2) {
-      assignedClasses.push(classes.red); // classes = ['red']
+      assignedClasses.push(classes.red);
     }
     if (this.state.buses.length <= 1) {
-      assignedClasses.push(classes.bold); // classes = ['red', 'bold']
+      assignedClasses.push(classes.bold);
     }
 
     return (
@@ -149,4 +78,4 @@ class BusRoute extends Component {
   }
 }
 
-export default BusRoute;
+export default Toggler;
