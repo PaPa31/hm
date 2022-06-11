@@ -108,42 +108,85 @@
 
 //import './Da4aBus.css';
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import Link from '@docusaurus/Link';
+import {Redirect} from '@docusaurus/router';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Interpolate from '@docusaurus/Interpolate';
 import PostsWithFetch from './_components/hooks/PostsWithFetch';
 import PostsWithAxios from './_components/hooks/PostsWithAxios';
 
+function M297() {
+  return <PostsWithFetch num={297} />;
+}
+
+function About() {
+  return <h2>About</h2>;
+}
+
+function Users() {
+  return <h2>Users</h2>;
+}
+
 function Da4aBus() {
   return (
-    <Router>
-      <div className="App">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/hm/myComponents">
-                Home (Default with Fetch Api Example)
-              </Link>
-            </li>
+    <div>
+      <Interpolate
+        values={{
+          firstName: 'Sébastien',
+          website: (
+            <Link to="https://docusaurus.io" className="my-website-class">
+              website
+            </Link>
+          ),
+        }}>
+        {'Hello, {firstName}! How are you? Take a look at my {website}'}
+      </Interpolate>
+      <Router>
+        <div className="App">
+          <nav>
+            <ul>
+              <li>
+                <Link to="/hm/myComponents">
+                  Home (Default with Fetch Api Example)
+                </Link>
+              </li>
+              <li>
+                <Link to="/hm/myComponents/axios">
+                  Click Here - Posts With Axios Example
+                </Link>
+              </li>
+            </ul>
+          </nav>
+          <Switch>
+            {/*<Redirect from="/hm/myComponents" to="/hm/myComponents/297" />*/}
+            <Route path="/hm/myComponents">
+              <M297 />
+            </Route>
+          </Switch>
+          {/*<Route exact path="/hm/MyComponents/">
+            {true ? (
+              <Redirect to="/hm/MyComponents/297">
+                <PostsWithFetch num={297} />
+              </Redirect>
+            ) : (
+              <PostsWithFetch num={297} />
+            )}
+          </Route>*/}
 
-            <li>
-              <Link to="/hm/myComponents/axios">
-                Click Here - Posts With Axios Example
-              </Link>
-            </li>
-          </ul>
-        </nav>
-        <Switch>
-          <Route path="/hm/myComponents/fetchapi">
-            <PostsWithFetch num={297} />
-          </Route>
-          <Route path="/hm/myComponents/axios">
-            <PostsWithAxios />
-          </Route>
-          <Route path="/hm/myComponents">
-            <PostsWithFetch num={297} />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+          {/*<Switch>
+            <Route path="/hm/myComponents/fetchapi">
+              <PostsWithFetch num={297} />
+            </Route>
+            <Route path="/hm/myComponents/axios">
+              <PostsWithAxios />
+            </Route>
+            <Route path="/hm/myComponents">
+              <PostsWithFetch num={297} />
+            </Route>
+          </Switch>*/}
+        </div>
+      </Router>
+    </div>
   );
 }
 export default Da4aBus;

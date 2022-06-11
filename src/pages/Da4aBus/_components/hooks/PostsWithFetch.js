@@ -8,9 +8,7 @@ function PostsWithFetch({num}) {
 
   const fetchPosts = async () => {
     try {
-      const response = await fetch(
-        `https://www.orenburg.ru/background/raspisanie_sadovodcheskikh_marshrutov/marshrut_297/`,
-      );
+      const response = await fetch(`./_rasp${num}.html`);
       const data = await response.text();
       //setPosts(postsData.match(/<p.*/g));
       const parser = new DOMParser();
@@ -113,7 +111,7 @@ function PostsWithFetch({num}) {
   return (
     <div>
       <h1>Fetch API With UseState and UseEffect</h1>
-      <h2>Dummy API - https://jsonplaceholder.typicode.com/posts</h2>
+      {/*<h2>Dummy API - https://jsonplaceholder.typicode.com/posts</h2>*/}
       <div>
         <div className={card.wrap}>
           <UsePosts dir="tuda" />
