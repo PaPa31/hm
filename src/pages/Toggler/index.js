@@ -3,7 +3,6 @@
 import React, {Component, Fragment} from 'react';
 import './styles.module.css';
 import Bus from './_components/Person/Person';
-import Da4aBus from '../Da4aBus';
 import PostsWithFetch from '../Da4aBus/_components/hooks/PostsWithFetch';
 
 const BUS_PRICES = {
