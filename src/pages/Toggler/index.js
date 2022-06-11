@@ -1,97 +1,103 @@
 // @ts-check
 
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import './styles.module.css';
-import Person from './_components/Person/Person';
+import Bus from './_components/Person/Person';
 import Da4aBus from '../Da4aBus';
 import PostsWithFetch from '../Da4aBus/_components/hooks/PostsWithFetch';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    console.log('[App.js] constructor');
-  }
+const BUS_PRICES = {
+  cash: 30,
+  card: 27,
+  pension: 30,
+  free: 0,
+};
+
+class BusRoute extends Component {
   state = {
-    persons: [
-      {id: '20210330005200', name: 'РТИ', age: 297},
-      {id: '20210330005205', name: 'Manu', age: 100},
-      {id: '20210330005209', name: 'Stephanie', age: 110},
+    buses: [
+      {id: '20210330005200', name: 'РТИ', num: 297},
+      {id: '20210330005205', name: 'Клиффорд', num: 100},
+      {id: '20210330005209', name: 'Клиффорд', num: 110},
     ],
-    showPersons: false,
+    showBuses: false,
     changeCounter: 0,
   };
 
-  static getDerivedStateFromProps(props, state) {
-    console.log('[App.js] getDerivedStateFromProps', props);
-    return state;
-  }
+  addBusHandler = (num) => {
+    const oldCount = this.state.buses[num];
+    const updateCount = oldCount + 1;
+    const updatedBuses = {
+      ...this.state.buses,
+    };
+    updatedBuses[num] = updateCount;
+    const priceAddition = BUS_PRICES[num];
+    const oldPrice = this.state.totalPrice;
+    const newPrice = oldPrice + priceAddition;
+    this.setState({totalPrice: newPrice, buses: updatedBuses});
+  };
 
-  //   componentWillMount() {
-  //     console.log("[App.js] componentWillMount");
-  //   }
-  componentDidMount() {
-    console.log('[App.js] componentDidMount');
-    //const initial = [...this.state.persons];
-    return [...this.state.persons];
-  }
+  removeBusHandler = (num) => {
+    const oldCount = this.state.buses[num];
+  };
 
   nameChangedHandler = (event, id) => {
-    const personIndex = this.state.persons.findIndex((p) => {
+    const busIndex = this.state.buses.findIndex((p) => {
       return p.id === id;
     });
 
-    const person = {
-      ...this.state.persons[personIndex],
+    const bus = {
+      ...this.state.buses[busIndex],
     };
 
-    // const person = Object.assign({}, this.state.persons[personIndex]);
+    // const bus = Object.assign({}, this.state.buses[busIndex]);
 
-    person.name = event.target.value;
+    bus.name = event.target.value;
 
-    const persons = [...this.state.persons];
-    persons[personIndex] = person;
+    const buses = [...this.state.buses];
+    buses[busIndex] = bus;
 
     this.setState({
-      persons: persons,
+      buses: buses,
     });
   };
 
-  deletePersonHandler = (personIndex) => {
-    // const persons = this.state.persons.slice();
-    const persons = [...this.state.persons];
-    persons.splice(personIndex, 1);
-    this.setState({persons: persons});
+  deleteBusHandler = (busIndex) => {
+    // const buses = this.state.buses.slice();
+    const buses = [...this.state.buses];
+    buses.splice(busIndex, 1);
+    this.setState({buses: buses});
   };
 
-  togglePersonsHandler = () => {
+  toggleBusesHandler = () => {
     const doesShow = true;
-    this.setState({showPersons: !doesShow});
+    this.setState({showBuses: !doesShow});
   };
 
-  onlyPersonsHandler = (id) => {
+  onlyBusesHandler = (id) => {
     //console.log('Hi');
-    const persons = [...this.state.persons];
-    this.state.persons.map((person, index) => {
+    const buses = [...this.state.buses];
+    this.state.buses.map((bus, index) => {
       //console.log('id = ' + id);
-      //console.log('person.id = ' + person.id);
-      if (id !== person.id) {
+      //console.log('bus.id = ' + bus.id);
+      if (id !== bus.id) {
         //console.log('Ne Sovpalo');
-        persons.splice(index, 2);
-        //console.log(persons);
+        buses.splice(index, 2);
+        //console.log(buses);
       }
     });
 
     this.setState((prevState, props) => {
       return {
-        persons: persons,
+        buses: buses,
         changeCounter: prevState.changeCounter + 1,
       };
     });
 
-    //this.setState({persons: persons});
-    //console.log(this.state.persons);
-    const doesShow = this.state.showPersons;
-    this.setState({showPersons: !doesShow});
+    //this.setState({buses: buses});
+    //console.log(this.state.buses);
+    const doesShow = this.state.showBuses;
+    this.setState({showBuses: !doesShow});
   };
 
   render() {
@@ -103,29 +109,21 @@ class App extends Component {
       cursor: 'pointer',
     };
 
-    //const initial = () => {
-    //  if (!this.state.showPerson) {
-    //    return [...this.state.persons];
-    //  }
-    //};
+    let buses = null;
 
-    const initial = this.componentDidMount;
-
-    let persons = null;
-
-    if (this.state.showPersons) {
-      persons = (
+    if (this.state.showBuses) {
+      buses = (
         <div>
-          {this.state.persons.map((person, index) => {
+          {this.state.buses.map((bus, index) => {
             return (
               <div>
-                <PostsWithFetch num={person.age} />
-                <Person
-                  click={() => this.deletePersonHandler(index)}
-                  name={person.name}
-                  age={person.age}
-                  key={person.id}
-                  changed={(event) => this.nameChangedHandler(event, person.id)}
+                <PostsWithFetch num={bus.num} />
+                <Bus
+                  click={() => this.deleteBusHandler(index)}
+                  name={bus.name}
+                  num={bus.num}
+                  key={bus.id}
+                  changed={(event) => this.nameChangedHandler(event, bus.id)}
                 />
               </div>
             );
@@ -135,25 +133,25 @@ class App extends Component {
     }
 
     return (
-      <div className="App">
+      <Fragment>
         <h1>Hi, I'm a React app!</h1>
         <p>This is really working!</p>
-        {initial.map((person, index) => {
+        {this.state.buses.map((bus, index) => {
           return (
             <button
               key={index}
               style={style}
               onClick={() => {
-                this.onlyPersonsHandler(person.id);
+                this.onlyBusesHandler(bus.id);
               }}>
-              {person.age}
+              {bus.num}
             </button>
           );
         })}
-        {persons}
-      </div>
+        {buses}
+      </Fragment>
     );
   }
 }
 
-export default App;
+export default BusRoute;
