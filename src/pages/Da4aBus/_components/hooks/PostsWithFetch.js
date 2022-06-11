@@ -3,12 +3,13 @@ import card from '@site/src/css/markdown.module.css';
 import CodeBlock from '@theme/CodeBlock';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 
-function PostsWithFetch({num}) {
+function PostsWithFetch({...props}) {
   const [posts, setPosts] = useState([]);
 
   const fetchPosts = async () => {
     try {
-      const response = await fetch(`./_rasp${num}.html`);
+      const response = await fetch(`./_rasp${props.num}.html`);
+      //https://old.orenburg.ru/background/raspisanie_sadovodcheskikh_marshrutov/marshrut_${props.num}/
       const data = await response.text();
       //setPosts(postsData.match(/<p.*/g));
       const parser = new DOMParser();
@@ -28,8 +29,8 @@ function PostsWithFetch({num}) {
   };
 
   useEffect(() => {
-    if (num) fetchPosts();
-  }, [num]);
+    if (props.num) fetchPosts();
+  }, [props.num]);
 
   const length = posts.length;
   let polReisa = 0;
@@ -87,13 +88,13 @@ function PostsWithFetch({num}) {
     //console.log('DIR = ' + dir);
     return (
       <div className={card.maxwidth}>
-        {polReisa > 0 && dir === 'tuda' ? <p>Из города:</p> : <p>В город:</p>}
+        {polReisa > 0 && dir === 'tuda' ? <p>{props.name}:</p> : <p>Сады:</p>}
         <table>
-          <thead>
+          {/*<thead>
             <tr>
-              <th>{num}</th>
+              <th>{props.num}</th>
             </tr>
-          </thead>
+          </thead>*/}
           <tbody>
             {polReisa > 0 && dir === 'tuda'
               ? tudaObratno.map((p, id) =>
@@ -110,7 +111,7 @@ function PostsWithFetch({num}) {
 
   return (
     <div>
-      <h1>Fetch API With UseState and UseEffect</h1>
+      <h1>{props.num}</h1>
       {/*<h2>Dummy API - https://jsonplaceholder.typicode.com/posts</h2>*/}
       <div>
         <div className={card.wrap}>

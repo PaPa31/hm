@@ -13,13 +13,18 @@ const BUS_PRICES = {
   free: 0,
 };
 
+const BUSES = {
+  buses: [
+    {id: '20210330005200', name: 'РТИ', num: 296},
+    {id: '20220611183712', name: 'РТИ', num: 297},
+    {id: '20210330005205', name: 'Клиффорд', num: 100},
+    {id: '20210330005209', name: 'Клиффорд', num: 110},
+  ],
+};
+
 class BusRoute extends Component {
   state = {
-    buses: [
-      {id: '20210330005200', name: 'РТИ', num: 297},
-      {id: '20210330005205', name: 'Клиффорд', num: 100},
-      {id: '20210330005209', name: 'Клиффорд', num: 110},
-    ],
+    buses: [],
     showBuses: false,
     changeCounter: 0,
   };
@@ -69,39 +74,46 @@ class BusRoute extends Component {
     this.setState({buses: buses});
   };
 
-  toggleBusesHandler = () => {
-    const doesShow = true;
-    this.setState({showBuses: !doesShow});
-  };
+  //toggleBusesHandler = () => {
+  //  const doesShow = true;
+  //  this.setState({showBuses: !doesShow});
+  //};
 
   onlyBusesHandler = (id) => {
-    //console.log('Hi');
-    const buses = [...this.state.buses];
-    this.state.buses.map((bus, index) => {
-      //console.log('id = ' + id);
-      //console.log('bus.id = ' + bus.id);
-      if (id !== bus.id) {
-        //console.log('Ne Sovpalo');
-        buses.splice(index, 2);
-        //console.log(buses);
+    //this.setState({buses: []});
+    console.log('Hi');
+    const buses = [];
+    BUSES.buses.map((bus, index) => {
+      console.log('id = ' + id);
+      console.log('bus.id = ' + bus.id);
+      if (id === bus.id) {
+        console.log('Sovpalo');
+        buses[index] = bus;
+        console.log(buses);
       }
+      //if (id !== bus.id) {
+      //  console.log('Ne Sovpalo');
+      //  buses.splice(index, 1);
+      //  console.log(buses);
+      //}
     });
 
-    this.setState((prevState, props) => {
-      return {
-        buses: buses,
-        changeCounter: prevState.changeCounter + 1,
-      };
-    });
+    this.setState({buses: buses});
+
+    //this.setState((prevState, props) => {
+    //  return {
+    //    buses: buses,
+    //    changeCounter: prevState.changeCounter + 1,
+    //  };
+    //});
 
     //this.setState({buses: buses});
     //console.log(this.state.buses);
-    const doesShow = this.state.showBuses;
-    this.setState({showBuses: !doesShow});
+    const doesShow = true;
+    this.setState({showBuses: doesShow});
   };
 
   render() {
-    console.log('[App.js] render');
     const style = {
       font: 'inherit',
       border: '1px solid blue',
@@ -115,9 +127,11 @@ class BusRoute extends Component {
       buses = (
         <div>
           {this.state.buses.map((bus, index) => {
+            console.log(bus.num);
+
             return (
               <div>
-                <PostsWithFetch num={bus.num} />
+                <PostsWithFetch num={bus.num} name={bus.name} />
                 <Bus
                   click={() => this.deleteBusHandler(index)}
                   name={bus.name}
@@ -136,7 +150,7 @@ class BusRoute extends Component {
       <Fragment>
         <h1>Hi, I'm a React app!</h1>
         <p>This is really working!</p>
-        {this.state.buses.map((bus, index) => {
+        {BUSES.buses.map((bus, index) => {
           return (
             <button
               key={index}
