@@ -2,15 +2,18 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import classes from './Bus.module.css';
 import BusRoutes from '../BusRoutes/BusRoutes';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 class Bus extends Component {
   state = {
     buses: [],
     selectedBus: null,
+    normUrl: './_rasp',
   };
 
   componentDidMount() {
     async function fetchAndParse(url) {
+      console.log('url = ' + url);
       let div = document.createElement('div');
       div.innerHTML = await (await fetch(url)).text();
       let p = Array.from(div.querySelectorAll('p')).map((p) => p.innerText);
@@ -29,10 +32,13 @@ class Bus extends Component {
         !this.state.selectedBus ||
         (this.state.selectedBus && this.state.selectedBus.id !== this.props.num)
       ) {
-        fetchAndParse(`./_rasp${this.props.num}.html`).then((p) => {
-          console.log('p = ' + p);
-          return this.setState({selectedBus: p});
-        });
+        console.log('this.state.normUrl = ' + this.state.normUrl);
+        fetchAndParse(this.state.normUrl + `${this.props.num}` + '.html').then(
+          (p) => {
+            console.log('p = ' + p);
+            return this.setState({selectedBus: p});
+          },
+        );
       }
     }
   }
@@ -41,7 +47,12 @@ class Bus extends Component {
     this.setState({selectedBus: id});
   };
 
+  busNormUrl = (url) => {
+    this.setState({normUrl: useBaseUrl(url)});
+  };
+
   render() {
+    () => this.setState({normUrl: useBaseUrl('./_rasp')});
     let post = <p style={{textAlign: 'center'}}>Please select a Post!</p>;
     if (this.props.num) {
       post = <p style={{textAlign: 'center'}}>Loading...!</p>;
