@@ -2,7 +2,7 @@
 
 import React, {Component} from 'react';
 import classes from './Toggler.module.css';
-import Buses from './Buses/Buses';
+import Buses from './_components/Buses/Buses';
 
 const BUSES = {
   buses: [
@@ -14,11 +14,27 @@ const BUSES = {
 };
 
 class Toggler extends Component {
+  constructor(props) {
+    super(props);
+    console.log('[Toggler/index.js] constructor');
+  }
   state = {
     buses: [],
     showBuses: false,
     changeCounter: 0,
   };
+
+  static getDerivedStateFromProps(props, state) {
+    console.log('[Toggler/index.js] getDerivedStateFromProps', props);
+    return state;
+  }
+
+  //   componentWillMount() {
+  //     console.log("[Toggler/index.js] componentWillMount");
+  //   }
+  componentDidMount() {
+    console.log('[Toggler/index.js] componentDidMount');
+  }
 
   onlyBusesHandler = (id) => {
     console.log('Hi');
@@ -40,6 +56,7 @@ class Toggler extends Component {
   };
 
   render() {
+    console.log('[Toggler/index.js] render');
     let buses = null;
     let btnClass = '';
 

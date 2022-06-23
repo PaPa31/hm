@@ -1,44 +1,100 @@
-import React, {useEffect, useState} from 'react';
+import React, {Component} from 'react';
+import axios from 'axios';
 import classes from './Bus.module.css';
 import BusRoutes from '../BusRoutes/BusRoutes';
 
-const bus = (props) => {
-  const [posts, setPosts] = useState([]);
-
-  const fetchPosts = async () => {
-    try {
-      const response = await fetch(`./_rasp${props.num}.html`);
-      //https://old.orenburg.ru/background/raspisanie_sadovodcheskikh_marshrutov/marshrut_${props.num}/
-      const data = await response.text();
-      const parser = new DOMParser();
-      const HTMLDocument = parser.parseFromString(data, 'text/html');
-      const pTag = [...HTMLDocument.querySelectorAll('p')];
-      const pArray = await pTag.map((p) => {
-        const pp = p.textContent.trim();
-        return pp;
-      });
-
-      setPosts(pArray);
-    } catch (error) {
-      console.log(error);
-    }
+class Bus extends Component {
+  state = {
+    buses: [],
+    selectedBus: null,
   };
 
-  useEffect(() => {
-    if (props.num) fetchPosts();
-  }, [props.num]);
+  componentDidMount() {
+    async function fetchAndParse(url) {
+      let div = document.createElement('div');
+      div.innerHTML = await (await fetch(url)).text();
+      let p = Array.from(div.querySelectorAll('p')).map((p) => p.innerText);
+      console.log('p = ' + p);
+      return p;
+    }
 
-  return (
-    <div>
-      <h1>{props.num}</h1>
-      <div>
-        <div className={classes.BusRoutes}>
-          <BusRoutes posts={posts} dir="tuda" name={props.name} />
-          <BusRoutes posts={posts} dir="obratno" name={props.name} />
+    function getNodeText(node) {
+      if (['string', 'number'].includes(typeof node)) return node;
+      if (node instanceof Array) return node.map(getNodeText).join('');
+      if (typeof node === 'object' && node) return getNodeText(node?.innerText);
+    }
+
+    if (this.props.num) {
+      if (
+        !this.state.selectedBus ||
+        (this.state.selectedBus && this.state.selectedBus.id !== this.props.num)
+      ) {
+        fetchAndParse(`./_rasp${this.props.num}.html`).then((p) => {
+          console.log('p = ' + p);
+          return this.setState({selectedBus: p});
+        });
+      }
+    }
+  }
+
+  busSelectedHandler = (id) => {
+    this.setState({selectedBus: id});
+  };
+
+  render() {
+    let post = <p style={{textAlign: 'center'}}>Please select a Post!</p>;
+    if (this.props.num) {
+      post = <p style={{textAlign: 'center'}}>Loading...!</p>;
+    }
+    if (this.state.selectedBus) {
+      const length = this.state.selectedBus.length;
+      console.log('length = ' + length);
+      let polReisa = 0;
+      let tudaObratno = [];
+      for (let i = 0; i < length; i++) {
+        if (/^\d/.test(this.state.selectedBus[i])) {
+          tudaObratno[polReisa] = this.state.selectedBus[i];
+          polReisa++;
+        }
+      }
+
+      console.log('polReisa ' + polReisa);
+      console.log('tudaObratno ' + tudaObratno);
+
+      let count = 0;
+
+      post = (
+        <div>
+          {polReisa > 0 ? (
+            <div>
+              <div>
+                {console.log('[Bus.js] REturning...' + this.state.selectedBus)}
+              </div>
+              <h1>{this.props.num}</h1>
+              <div>
+                <div className={classes.BusRoutes}>
+                  <BusRoutes
+                    polReisa={polReisa}
+                    dir="tuda"
+                    name={this.props.name}
+                    tudaObratno={tudaObratno}
+                  />
+                  <BusRoutes
+                    polReisa={polReisa}
+                    dir="obratno"
+                    name={this.props.name}
+                    tudaObratno={tudaObratno}
+                  />
+                </div>
+              </div>
+            </div>
+          ) : null}
         </div>
-      </div>
-    </div>
-  );
-};
+      );
+    }
 
-export default bus;
+    return post;
+  }
+}
+
+export default Bus;
