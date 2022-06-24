@@ -3,12 +3,13 @@ import axios from 'axios';
 import classes from './Bus.module.css';
 import BusRoutes from '../BusRoutes/BusRoutes';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import busLink from '!file-loader!./_rasp297.html';
 
 class Bus extends Component {
   state = {
     buses: [],
     selectedBus: null,
-    normUrl: './_rasp',
+    normUrl: '../../../../../static/_rasp',
   };
 
   componentDidMount() {
@@ -52,7 +53,11 @@ class Bus extends Component {
   };
 
   render() {
-    () => this.setState({normUrl: useBaseUrl('./_rasp')});
+    //const isDeployPreview = !!process.env.GITHUB_ACTIONS;
+    //console.log('isDeployPreview = ' + isDeployPreview);
+    console.log('busLink = ' + busLink);
+    () => this.setState({normUrl: useBaseUrl('../../../../../static/_rasp')});
+    console.log('this.state.normUrl = ' + this.state.normUrl);
     let post = <p style={{textAlign: 'center'}}>Please select a Post!</p>;
     if (this.props.num) {
       post = <p style={{textAlign: 'center'}}>Loading...!</p>;
