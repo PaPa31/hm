@@ -9,7 +9,8 @@ class Bus extends Component {
   state = {
     buses: [],
     selectedBus: null,
-    normUrl: '../../../../../static/_rasp',
+    normUrl:
+      'https://raw.githubusercontent.com/PaPa31/hm/documentation/static/_rasp',
   };
 
   componentDidMount() {
@@ -56,7 +57,7 @@ class Bus extends Component {
     //const isDeployPreview = !!process.env.GITHUB_ACTIONS;
     //console.log('isDeployPreview = ' + isDeployPreview);
     console.log('busLink = ' + busLink);
-    () => this.setState({normUrl: useBaseUrl('../../../../../static/_rasp')});
+    () => this.setState({normUrl: useBaseUrl('')});
     console.log('this.state.normUrl = ' + this.state.normUrl);
     let post = <p style={{textAlign: 'center'}}>Please select a Post!</p>;
     if (this.props.num) {
