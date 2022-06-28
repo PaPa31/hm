@@ -6,7 +6,7 @@ import Buses from './_components/Buses/Buses';
 
 const BUSES = {
   buses: [
-    {id: '20210330005200', name: 'РТИ', num: 296},
+    {id: '20210330005200', name: 'Клиффорд', num: 296},
     {id: '20220611183712', name: 'РТИ', num: 297},
     {id: '20210330005205', name: 'Клиффорд', num: 100},
     {id: '20210330005209', name: 'Клиффорд', num: 110},
