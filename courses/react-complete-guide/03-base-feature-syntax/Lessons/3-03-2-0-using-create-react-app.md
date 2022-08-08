@@ -28,7 +28,11 @@ If you want a more simplified folder structure, you can install earlier versions
 npx create-react-app my-app --scripts-version 1.1.5
 ```
 
-:::warning Using legacy `scripts version` can lead to confusing conflicts. If you try run multiple servers on the same port (like me with Docusaurus and others Facebook products running on port 3000), it will raise the warning `Something is already running on port 3000` and after you press `yes` to select a different port, you might get an freeze ... Especially on [nvm (Windows)](../../../../docs/node/nvm-windows). If so, you need to install a more recent version of `scripts version`. See separate install below. :::
+:::warning
+
+Using legacy `scripts version` can lead to confusing conflicts. If you try run multiple servers on the same port (like me with Docusaurus and others Facebook products running on port 3000), it will raise the warning `Something is already running on port 3000` and after you press `yes` to select a different port, you might get an freeze ... Especially on [nvm (Windows)](../../../../docs/node/nvm-windows). If so, you need to install a more recent version of `scripts version`. See separate install below.
+
+:::
 
 ### Separate Install `scripts version`
 
