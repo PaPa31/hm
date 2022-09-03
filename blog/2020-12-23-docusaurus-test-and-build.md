@@ -1,15 +1,13 @@
 ---
 title: 'Docusaurus: Test & Build'
 authors: [papa31]
-tags: [docusaurus, settings]
+tags: [docusaurus, settings, broken links, env]
 description: Setup all 3 ways Docusaurus start
 image: i.imgur.com/mErPwqL.png
 draft: false
 ---
 
-To test your Docusaurus pages in a browser, you need to do [this setup](#) and run: `npm run start`. To see your pages on your website, you need to [configure remote](#) and execute: `git push`.
-
-But what if the local test succeeds but the remote build fails. 🤔
+What if the local Docusaurus runs successfully, but the remote build fails.
 
 <!--truncate-->
 

@@ -1,10 +1,14 @@
 ---
-id: how-to-rebuild-vsix-extension
-title: How to Rebuild .vsix Extension
+title: 'VS Code: Fix Bug in Any Extension by Rebuilding It'
+authors: [papa31]
+tags: [vsix, VS Code, extension]
 date: 2021-11-06 20:51:21
+description: How to fix a bug in any VS Code extension (.vsix) by rebuilding that extension
 ---
 
 In this article, I show you how to rebuild a `VS-Code extension` using the `SFTP` extension as an example.
+
+<!--truncate-->
 
 ## `SFTP` extension
 
@@ -36,7 +40,7 @@ Skip this step if you have installed the last stable version of node.
 
 :::
 
-Open the folder where you cloned the `vscode-sftp` extension and, on Windows (make sure you install the [nvs](https://papa31.github.io/hm/blog/2021/09/19/nvs-one-node-version-per-terminal-in-windows) - equivalent to [nvm](../../node/nvm-per-project-folder)), run:
+Open the folder where you cloned the `vscode-sftp` extension and, on Windows (make sure you install the <a href='/blog/2021/09/19/nvs-one-node-version-per-terminal-in-windows'>nvs</a> - equivalent to <a href='/docs/node/nvm-per-project-folder' class='external'>nvm</a>), run:
 
 ```sh
 nvs
@@ -46,7 +50,7 @@ You should see a menu with node versions. Select the node version: 17.0.1 (if yo
 
 :::info
 
-On Linux, you can work with any of a node version older than 10. Just use [nvm](../../node/nvm-per-project-folder).
+On Linux, you can work with any of a node version older than 10. Just use <a href="/docs/node/nvm-per-project-folder">nvm</a>.
 
 :::
 
@@ -78,7 +82,7 @@ Everytime you rerun the `npm i` command, you must delete `node_modules` folder a
 
 :::tip
 
-If you can't rebuild an extension on Windows, try doing the same on Linux (you can rebuild an extension on Linux and use it later on Windows). In my case, it was so. Until I installed the latest stable version of node using [nvs](https://papa31.github.io/hm/blog/2021/09/19/nvs-one-node-version-per-terminal-in-windows) on my Windows machine.
+If you can't rebuild an extension on Windows, try doing the same on Linux (you can rebuild an extension on Linux and use it later on Windows). In my case, it was so. Until I installed the latest stable version of node using <a href="/blog/2021/09/19/nvs-one-node-version-per-terminal-in-windows">nvs</a> on my Windows machine.
 
 :::
 

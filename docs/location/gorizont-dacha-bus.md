@@ -26,7 +26,7 @@ Just for table view.
 
 Remove a redundant new lines after copy/past from Windows Chrome markdown extension (with scissors icon).
 
-|         Find         | Replace |
+| Find                 | Replace |
 | -------------------- | ------- |
 | `\|\n\n([^\n]+)\n\n` | `\|$1`  |
 
@@ -148,7 +148,7 @@ curl -s https://www.orenburg.ru/background/raspisanie_sadovodcheskikh_marshrutov
 
 ### Remove all spaces
 
-see [sed remove all but alnum](../shells/commands/sed/sed-remove-all-but-alnum)
+see [sed remove all but alnum](../utils/unix/sed-remove-all-but-alnum) (../shells/commands/sed/sed-remove-all-but-alnum)
 
 ### Output Table Design
 
@@ -160,17 +160,17 @@ import card from '@site/src/css/markdown.module.css'
 
 <div className={card.maxwidth}>
 
-|100|
-|:-:|
-|-|
-|8.18|
+| 100  |
+| :--: |
+|  -   |
+| 8.18 |
 
 </div>
 <div className={card.maxwidth}>
 
-110 раб|110 вых
-:-:|:-:
-7.45|7.45
+| 110 раб | 110 вых |
+| :-----: | :-----: |
+|  7.45   |  7.45   |
 
 </div>
 </div>
@@ -181,17 +181,17 @@ import card from '@site/src/css/markdown.module.css'
 
 <div className={card.maxwidth}>
 
-|100|
-|:-:|
-|-|
-|8.18|
+| 100  |
+| :--: |
+|  -   |
+| 8.18 |
 
 </div>
 <div className={card.maxwidth}>
 
-110 раб|110 вых
-:-:|:-:
-7.45|7.45
+| 110 раб | 110 вых |
+| :-----: | :-----: |
+|  7.45   |  7.45   |
 
 </div>
 </div>

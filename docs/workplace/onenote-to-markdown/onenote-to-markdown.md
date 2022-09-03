@@ -10,7 +10,7 @@ How convert all OneNote pages to Markdown files.
 
 Needs:
 
-- [MS Word install](../office/office-install)
+- [MS Word install](../windows/office/office-install)
 - [pandoc install](pandoc-install)
 - [ConvertOneNote2Markdown PowerShell script](https://github.com/nixsee/ConvertOneNote2MarkDown)
 

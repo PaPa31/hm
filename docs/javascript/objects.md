@@ -2,7 +2,6 @@
 id: objects
 title: Objects
 date: 2021-03-06 13:11:10
-
 ---
 
 ## Everything is Object
@@ -16,9 +15,9 @@ JavaScript object are collection of name-value pairs `{name: 'Max'}`.
 Two basic ways of object initialization:
 
 ```js
-var obj = new Object()
+var obj = new Object();
 //or
-var obj = {}  // object literal syntax
+var obj = {}; // object literal syntax
 ```
 
 `var obj = {}` is the object literal syntax. It is preferred.
@@ -31,19 +30,17 @@ var obj = {
   _for: 'Max', // 'for' is a reserved word, use '_for' instead.
   details: {
     color: 'orange',
-    size: 12
-  }
+    size: 12,
+  },
 };
 
 obj.details.color; // orange
 obj['details']['size']; // 12
 ```
 
-:::tip
-Starting ES5, you can use reserved words (like `for`, see above) as an object property name. Even without the quotes.
-:::
+:::tip Starting ES5, you can use reserved words (like `for`, see above) as an object property name. Even without the quotes. :::
 
-Since functions are objects too, you can first create a prototype (**Person**) via *function* and define a new instance (**you**):
+Since functions are objects too, you can first create a prototype (**Person**) via _function_ and define a new instance (**you**):
 
 ```js
 function Person(name, age) {
@@ -69,28 +66,24 @@ var name = obj.name;
 obj['name'] = 'Simon';
 var name = obj['name'];
 // can use a variable to define a key
-var user = prompt('what is your key?')
-obj[user] = prompt('what is its value?')
+var user = prompt('what is your key?');
+obj[user] = prompt('what is its value?');
 ```
 
-:::tip
-The second method has the advantage that the name of property is provided as a string, which means it can be calculated at run-time.
-:::
+:::tip The second method has the advantage that the name of property is provided as a string, which means it can be calculated at run-time. :::
 
-:::warning
-But this method prevents some JavaScript engine and minifier optimizations being applied.
-:::
+:::warning But this method prevents some JavaScript engine and minifier optimizations being applied. :::
 
 Starting ES6, you can define the object keys with variables at creation:
 
 ```js
-let param = 'size'
+let param = 'size';
 let config = {
   [param]: 12,
-  ['mobile' + param.charAt(0).toUpperCase() + param.slice(1)]: 4
-}
+  ['mobile' + param.charAt(0).toUpperCase() + param.slice(1)]: 4,
+};
 
-console.log(config) // {size: 12, mobileSize: 4}
+console.log(config); // {size: 12, mobileSize: 4}
 ```
 
 ## Custom Objects

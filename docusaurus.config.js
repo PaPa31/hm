@@ -51,19 +51,43 @@ const config = {
             }
           : undefined,
         blog: {
-          // routeBasePath: '/',
           path: 'blog',
+          // Simple use-case: string editUrl
+          // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          // Advanced use-case: functional editUrl
+          editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
+            `https://github.com/papa31/hm/edit/documentation/${blogDirPath}/${blogPath}`,
+          editLocalizedFiles: false,
+          blogTitle: 'Blog',
+          blogDescription: 'Blog',
+          blogSidebarCount: 5,
+          blogSidebarTitle: 'All our posts',
+          routeBasePath: 'blog',
+          include: ['**/*.{md,mdx}'],
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+          ],
+          postsPerPage: 10,
+          blogListComponent: '@theme/BlogListPage',
+          blogPostComponent: '@theme/BlogPostPage',
+          blogTagsListComponent: '@theme/BlogTagsListPage',
+          blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
+          //remarkPlugins: [require('remark-math')],
+          rehypePlugins: [],
+          beforeDefaultRemarkPlugins: [],
+          beforeDefaultRehypePlugins: [],
+          truncateMarker: /<!--\s*(truncate)\s*-->/,
           showReadingTime: true,
-          postsPerPage: 5,
           feedOptions: {
             type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} hm`,
+            title: 'Feed',
+            description: 'Feed',
+            copyright: '',
+            language: `Copyright © ${new Date().getFullYear()} hm`,
           },
-          blogSidebarCount: 'ALL',
-          blogSidebarTitle: 'All posts',
-          // Please change this to your repo.
-          editUrl: 'https://github.com/papa31/hm/edit/documentation/',
-          remarkPlugins: [npm2yarn, {sync: true}],
         },
         pages: {
           remarkPlugins: [npm2yarn],

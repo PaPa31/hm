@@ -1,8 +1,13 @@
 ---
-id: mongodb-install-windows
-title: MongoDB Install Windows
+title: Install MongoDB on Windows
+authors: [papa31]
+tags: [database, mongodb, mongosh, windows]
 date: 2022-05-01 17:35:28
+description: Installation MongoDB and mongosh on Windows
+draft: false
 ---
+
+<!--truncate-->
 
 ### Install MongoDB
 
@@ -14,35 +19,41 @@ date: 2022-05-01 17:35:28
    c. Uncheck the _Install MongoDB Compass_  
    d. Click Install
 
-4. Add _C:\Program Files\MongoDB\Server\5.0\bin_ to your [PATH environment variable](../workplace/windows/set-environment-variable-windows)
+4. Add _C:\Program Files\MongoDB\Server\5.0\bin_ to your <a href="/docs/workplace/windows/set-environment-variable-windows">PATH environment variable</a>
 
 ### Install mongosh
 
 1. Download and run the MongoDB Shell _.msi_ installer: <a href='https://www.mongodb.com/try/download/shell?jmp=docs' class='external'>mongodb.com: Shell</a>
 2. Accept location: _F:\Users\parsh\AppData\Local\Programs\mongosh_
-3. Add the mongosh binary (F:\Users\parsh\AppData\Local\Programs\mongosh\) to your [PATH environment variable](../workplace/windows/set-environment-variable-windows)
+3. Add the mongosh binary (F:\Users\parsh\AppData\Local\Programs\mongosh\) to your <a href="/docs/workplace/windows/set-environment-variable-windows">PATH environment variable</a>
 
 ### Run MongoDB
 
 1.  Run _cmd_ as admin and create the data directory:
 
-        c:
-        md "\data\db"
+    ```cmd title="cmd"
+    c:
+    md "\data\db"
+    ```
 
 2.  Start MongoDB database:
 
-        "F:\Program Files\MongoDB\Server\5.0\bin\mongod.exe" --dbpath="c:\data\db"
+    ```cmd title="cmd"
+    "F:\Program Files\MongoDB\Server\5.0\bin\mongod.exe" --dbpath="c:\data\db"
 
-        # or simply
+    # or simply
 
-        mongod --dbpath="c:\data\db"
+    mongod --dbpath="c:\data\db"
+    ```
 
 3.  Connect to MongoDB:
 
-        mongosh
+    ```cmd title="cmd"
+    mongosh
+    ```
 
     After running this command, you should see information about your MongoDB shell, the local server connection, and some additional information printed to the terminal.
 
-### Resources
+### Source
 
 - <a href='https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/' class='external'>mongodb.com: Install Mongodb On Windows</a>

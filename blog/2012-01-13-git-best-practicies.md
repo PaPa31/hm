@@ -1,12 +1,16 @@
 ---
-id: git-best-practicies
 title: ' Git Best Practices: Commit Often, Perfect Later, Publish Once'
 sidebar_label: Git Best Practicies
+author: Seth Robertson
+tags: [git, best practicies]
+date: 2012-01-13 14:37:46
 ---
 
-source: <http://sethrobertson.github.io/GitBestPractices/>
-
 Best Practices vary from environment to environment, and there is no One True Answer, but still, this represents a consensus from #git and in some cases helps you frame the discussion for the generation of your very own best practices.
+
+<!--truncate-->
+
+source: <http://sethrobertson.github.io/GitBestPractices/>
 
 ## Do read about git
 
