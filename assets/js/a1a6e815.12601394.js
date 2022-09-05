@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhuman_and_machine=self.webpackChunkhuman_and_machine||[]).push([[44394],{47346:function(a){a.exports=JSON.parse('{"permalink":"/hm/blog/tags/git-hub-action","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
