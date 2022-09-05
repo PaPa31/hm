@@ -282,11 +282,11 @@ And I tried to solve this problem!
 I tried two configuration options, but both didn't work:
 
 ```json title="docusaurus.config.js"
-# This cause a build error:
+// This cause a build error:
 //This will error
 trailingSlash: !isDeployPreview,  // = false
 
-# and this cause a build error:
+// and this cause a build error:
 //This will error
 trailingSlash: isDeployPreview,  //  = true
 ```
@@ -331,7 +331,7 @@ You can view the values of variables in debug mode ([plugin-debug](https://docus
 
 <summary><b>2.0.0-beta.20</b> → <b>2.1.0</b></summary>
 
-## Docusaurus advice
+### Docusaurus advice
 
 I followed Docusaurus suggestion in npm cli:
 
@@ -354,7 +354,7 @@ And the workaround in my case is to remove `node_modules`.
 
 :::
 
-## Manual editing
+### Manual editing
 
 I manually edited `package.json` as mentioned in the [Docusaurus docs](https://docusaurus.io/docs/installation#updating-your-docusaurus-version) and then:
 
@@ -364,7 +364,7 @@ rm -fr node_modules/ package-lock.json
 npm i
 ```
 
-## Node version error
+### Node version error
 
 But a little error:
 
@@ -406,9 +406,22 @@ and
 ```bash
 vim .nvmrc
 
-// and changed the value to 16.15.0
+# and changed the value to 16.15.0
+# because this version already
+# installed in my system (see nvm ls output above)
 ```
 
-and it worked!
+### Production Node version
+
+And don't forget about production!
+Change `node-version` from `14.x` to `16.14.x` in config file. In my case:
+
+```yaml title=".github/workflows/documentation.yml"
+...
+      node-version: '16.14.x'
+...
+      node-version: '16.14.x'
+...
+```
 
 </details>
