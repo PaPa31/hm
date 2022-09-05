@@ -15,7 +15,7 @@ Once upon a time I found this page:
 
 ## Initial file
 
-I downloaded it from the repo's `gh-pages` [branch](https://raw.githubusercontent.com/SethRobertson/GitBestPractices/gh-pages/index.md) and saved as `git-best-initial.md`
+I downloaded it from the repo's `gh-pages` [branch](https://raw.githubusercontent.com/SethRobertson/GitBestPractices/gh-pages/index.md) and saved as `git-best-initial.md`.
 
 After grabbing via Web Clipper (Chrome browser plugin), this file needed to be normalized. The **Table of Content** (TOC) links in this file do not work correctly, and some code blocks look ugly.
 
