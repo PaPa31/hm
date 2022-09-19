@@ -15,7 +15,7 @@ Then I switched from Dreamweaver to `VS-Code` and started looking for a tool to 
 
 ## `SFTP` extension
 
-At first, such a tool was the liximono `SFTP` extension (I even made a small contribution to get around the annoying <a href='/blog/2021/11/06/fix-bug-in-any-vscode-extension'>upload bug</a>. But it works manually, and I kept looking.
+At first, such a tool was the liximono `SFTP` extension (I even made a small contribution to get around the annoying <a href='/blog/2021/11/06/fix-bug-in-vscode-extension'>upload bug</a>. But it works manually, and I kept looking.
 
 ## `git-ftp` shell program
 
