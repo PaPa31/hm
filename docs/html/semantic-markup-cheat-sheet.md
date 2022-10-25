@@ -176,7 +176,7 @@ import card from '@site/src/css/markdown.module.css'
 
 <div className={card.wrap}>
   <div className={card.maxwidth}>
-    <CodeBlock language="html" title="meter">
+    <CodeBlock language="html" title="samp">
 {`<p>Terminal:</p>
 <p><samp>Permission denied<br/>Press F1 to continue</samp></p>`}
     </CodeBlock>
