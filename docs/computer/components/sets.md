@@ -1,14 +1,25 @@
-| # | mother  | cpu | memory | photo | store | 16/01 | 28/01
--|-|-|-|-|-|-|-|-|-
-1 | Huananzhi X99 BD4 | 2678V3 | 2x8Gb DDR4 ECC-REG | [![](HUANANZHI-X99-BD4-DDR4-Motherboard-Set-With-Xeon-E5-2678-V3-LGA2011-3-CPU-2-8GB.webp)](HUANANZHI-X99-BD4-DDR4-Motherboard-Set-With-Xeon-E5-2678-V3-LGA2011-3-CPU-2-8GB.webp) |[1](https://www.aliexpress.com/item/4000542296880.html "AliExpress - CPU Store") | $230 €194 ₽17342 | $237
- - | $96 | | | | [4](https://www.aliexpress.com/item/1005001966780350.html "AliExpress - Computerman's Store") [6](https://aliexpress.ru/item/1005001639191630.html "AliExpress - Motherboard manufacturer Store") | $89 | $87 
- - |  | $93 | | | [3](https://www.aliexpress.com/item/33002946609.html "AliExpress - Yao Yue Store") | $93 | $93
- - | | | $56 | | [3](https://www.aliexpress.com/item/33009776003.html "AliExpress - Yao Yue Store") [5](https://www.aliexpress.com/item/32601791617.html "AliExpress - CPU TOP Store") | $56 | $56
- - | | | | | | $238(₽17505) | $236
- 2 | Huananzhi X99-8M-F D4 | 2620V3 | 1x16Gb DDR4 | [![](Huananzhi-X99-8M-F-D4-E5-2620-V3-LGA2011_Q90.jpg)](Huananzhi-X99-8M-F-D4-E5-2620-V3-LGA2011_Q90.jpg) | [1](https://aliexpress.ru/item/4000931520719.html "AliExpress - CPU Store") | $133 | $136 
- - | $65 | | | | [5](https://aliexpress.ru/item/4000115002701.html "AliExpress - CPU TOP Store") | $65 | $65
- - | | $23 | | | [5](https://aliexpress.ru/item/4000265198909.html "AliExpress - CPU TOP Store") | $23 | $23
- - | | | $53 | | [5](https://aliexpress.ru/item/32601791617.html "AliExpress - CPU TOP Store") | $53 | $54
- - | | | | | | $141 | $142
-3 | Dual-X99 | 2x2678V3 | 4x16Gb DDR4  | [![](DDR4-Dual-X99-2011-3-XEON-E5-2678-V3-2-4_Q90.jpg)](DDR4-Dual-X99-2011-3-XEON-E5-2678-V3-2-4_Q90.jpg) |[1](https://aliexpress.ru/item/4001327167349.html "AliExpress - CPU Store") | $482 €407 ₽36342 | $482
- - | $165 [2](https://aliexpress.ru/item/1005001431965342.html "AliExpress - SZMZ Official Store") | 2x$93 | 4x$58 | | | $261(₽19198) | $567
+### 2021
+
+| # | mother | cpu | memory | photo | store | 16/01 | 28/01 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Huananzhi X99 BD4 | 2678V3 | 2x8Gb DDR4 ECC-REG | [![](HUANANZHI-X99-BD4-DDR4-Motherboard-Set-With-Xeon-E5-2678-V3-LGA2011-3-CPU-2-8GB.webp)](HUANANZHI-X99-BD4-DDR4-Motherboard-Set-With-Xeon-E5-2678-V3-LGA2011-3-CPU-2-8GB.webp) | [1](https://www.aliexpress.com/item/4000542296880.html 'AliExpress - CPU Store') | $230 €194 ₽17342 | $237 |
+| - | $96 |  |  |  | [4](https://www.aliexpress.com/item/1005001966780350.html "AliExpress - Computerman's Store") [6](https://aliexpress.ru/item/1005001639191630.html 'AliExpress - Motherboard manufacturer Store') | $89 | $87 |
+| - |  | $93 |  |  | [3](https://www.aliexpress.com/item/33002946609.html 'AliExpress - Yao Yue Store') | $93 | $93 |
+| - |  |  | $56 |  | [3](https://www.aliexpress.com/item/33009776003.html 'AliExpress - Yao Yue Store') [5](https://www.aliexpress.com/item/32601791617.html 'AliExpress - CPU TOP Store') | $56 | $56 |
+| - |  |  |  |  |  | $238(₽17505) | $236 |
+| 2 | Huananzhi X99-8M-F D4 | 2620V3 | 1x16Gb DDR4 | [![](Huananzhi-X99-8M-F-D4-E5-2620-V3-LGA2011_Q90.jpg)](Huananzhi-X99-8M-F-D4-E5-2620-V3-LGA2011_Q90.jpg) | [1](https://aliexpress.ru/item/4000931520719.html 'AliExpress - CPU Store') | $133 | $136 |
+| - | $65 |  |  |  | [5](https://aliexpress.ru/item/4000115002701.html 'AliExpress - CPU TOP Store') | $65 | $65 |
+| - |  | $23 |  |  | [5](https://aliexpress.ru/item/4000265198909.html 'AliExpress - CPU TOP Store') | $23 | $23 |
+| - |  |  | $53 |  | [5](https://aliexpress.ru/item/32601791617.html 'AliExpress - CPU TOP Store') | $53 | $54 |
+| - |  |  |  |  |  | $141 | $142 |
+| 3 | Dual-X99 | 2x2678V3 | 4x16Gb DDR4 | [![](DDR4-Dual-X99-2011-3-XEON-E5-2678-V3-2-4_Q90.jpg)](DDR4-Dual-X99-2011-3-XEON-E5-2678-V3-2-4_Q90.jpg) | [1](https://aliexpress.ru/item/4001327167349.html 'AliExpress - CPU Store') | $482 €407 ₽36342 | $482 |
+| - | $165 [2](https://aliexpress.ru/item/1005001431965342.html 'AliExpress - SZMZ Official Store') | 2x$93 | 4x$58 |  |  | $261(₽19198) | $567 |
+
+### 2022
+
+| # | name | photo | 01/11 | 10/11 |  |
+| --- | --- | --- | --- | --- | --- |
+| 4 | x99+2670v3+8+8ddr4 [1](https://aliexpress.ru/item/4000483492857.html?af=1954_135875&utm_campaign=1954_135875&aff_platform=api-new-link-generate&utm_medium=cpa&sku_id=12000020807167833&cn=2100rl52rffnw2aqywyctozgw5iu6rbs&dp=2100rl52rffnw2aqywyctozgw5iu6rbs&aff_fcid=6fea429efe4944488c74736375c6f016-1668095547947-08089-_DDUoYsX&gatewayAdapt=glo2rus&cv=2&aff_fsk=_DDUoYsX&sk=_DDUoYsX&aff_trace_key=6fea429efe4944488c74736375c6f016-1668095547947-08089-_DDUoYsX&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=2 'CPU Store') | [![Atermiter-x99-2670v3-8-8ddr4](Atermiter-x99-2670v3-8-8ddr4.webp)](Atermiter-x99-2670v3-8-8ddr4.webp) |  | 6401 |  |
+| 5 | x99 qd4+2640v3+8+8 ddr4 [6](https://aliexpress.ru/item/1005004759137992.html?af=1954_135875&utm_campaign=1954_135875&aff_platform=api-new-link-generate&utm_medium=cpa&sku_id=12000030365989843&cn=22rurl522u3bzjhfest0j0fxjdya5ety&dp=22rurl522u3bzjhfest0j0fxjdya5ety&aff_fcid=b22972b309b84ef797b10f6f04c3fc52-1668094662540-06832-_DB3Tri3&pdp_npi=2%40dis%21RUB%219%C2%A0200%2C23+%D1%80%D1%83%D0%B1.%217%C2%A0268%2C24+%D1%80%D1%83%D0%B1.%217%C2%A0268%2C24+%D1%80%D1%83%D0%B1.%21%21%21%21%4021135c3a16672583133075015e66b2%2112000030365989843%21sh&cv=2&aff_fsk=_DB3Tri3&sk=_DB3Tri3&aff_trace_key=b22972b309b84ef797b10f6f04c3fc52-1668094662540-06832-_DB3Tri3&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=2 'atermiter Store') | [![HUANANZHI-X99-QD4-X99-XEON](HUANANZHI-X99-QD4-X99-XEON.webp)](HUANANZHI-X99-QD4-X99-XEON.webp) |  | 7402 |  |
+| 6 | X99 MR9A + 2666v3 +16 gb [7](https://aliexpress.ru/item/1005004029196934.html?af=1954_135875&utm_campaign=1954_135875&aff_platform=api-new-link-generate&utm_medium=cpa&sku_id=12000027796370648&cn=22rurl52cqesw9z1s3ousz9ajbblsycz&dp=22rurl52cqesw9z1s3ousz9ajbblsycz&aff_fcid=160444f5cfb64f8fbcc7c5d8e0ec669a-1668095019051-00794-_Dm6KmgX&pdp_npi=2%40dis%21RUB%2115%C2%A0035%2C27+%D1%80%D1%83%D0%B1.%219%C2%A0923%2C57+%D1%80%D1%83%D0%B1.%21%21%21%21%21%40211675cc16638838581994926e6c13%2112000027796370648%21sh&cv=2&aff_fsk=_Dm6KmgX&sk=_Dm6KmgX&aff_trace_key=160444f5cfb64f8fbcc7c5d8e0ec669a-1668095019051-00794-_Dm6KmgX&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=2 'MACHINIST official Store') | [![X99-ATX-MR9A-2666v3-16gb](X99-ATX-MR9A-2666v3-16gb.webp)](X99-ATX-MR9A-2666v3-16gb.webp) |  | 9686 |  |
+| 7 | X99 MR9Av2 + 2666v3 +32 gb [7](https://aliexpress.ru/item/1005004599610797.html?af=1954_135875&utm_campaign=1954_135875&aff_platform=api-new-link-generate&utm_medium=cpa&sku_id=12000029809342520&cn=20rurl52kblenh6s2fyvv6xnmglkjrvy&dp=20rurl52kblenh6s2fyvv6xnmglkjrvy&aff_fcid=bc9734cd800f4ac7a5cbfbdc573bf65d-1668095291341-06968-_DlvvESB&pdp_npi=2%40dis%21RUB%2121%C2%A0047%2C06+%D1%80%D1%83%D0%B1.%2114%C2%A0101%2C75+%D1%80%D1%83%D0%B1.%2112%C2%A0207%2C25+%D1%80%D1%83%D0%B1.%21%21%21%21%4021135c3a16672575501021285e66b2%2112000029809342520%21sh&cv=2&aff_fsk=_DlvvESB&sk=_DlvvESB&aff_trace_key=bc9734cd800f4ac7a5cbfbdc573bf65d-1668095291341-06968-_DlvvESB&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=2 'MACHINIST official Store') | [![MACHINIST-MR9Av2-2666v3-32gb](MACHINIST-MR9Av2-2666v3-32gb.webp)](MACHINIST-MR9Av2-2666v3-32gb.webp) |  | 11692 |  |
