@@ -8,8 +8,8 @@
 
 ### 2022
 
-| # | name | photo | 01/11 | 11/11 |  |
+| # | name | photo | 01/11 | 10/11 | 11/11 |
 | --- | --- | --- | --- | --- | --- |
-| 4 | m2 nvme 256Gb [5](https://aliexpress.ru/item/4000956226768.html?item_id=4000956226768&af=3023&utm_campaign=3023&aff_platform=api-new-link-generate&utm_medium=cpa&sku_id=12000029905689815&cn=20rurl54a3bh0mq3cr8lq2bepbo3xlvd&dp=20rurl54a3bh0mq3cr8lq2bepbo3xlvd&scm-url=1007.13339.169870.0&aff_fcid=a0335830e24d4a84906298be9239c123-1668097515532-03177-_Aamr2Z&cv=3822483&aff_fsk=_Aamr2Z&_t=gps-id%3ApcDetailBottomMoreThisSeller%2Cscm-url%3A1007.13339.169870.0%2Cpvid%3A2b71adc9-0ad9-4704-8c65-9e0c96582879%2Ctpp_buckets%3A21387%230%23183380%230&pvid=2b71adc9-0ad9-4704-8c65-9e0c96582879&_ga=2.110139138.667877588.1604939037-5041542.1602591723&sk=_Aamr2Z&aff_trace_key=a0335830e24d4a84906298be9239c123-1668097515532-03177-_Aamr2Z&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=3822483 'Xraydisk Official Store') | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) |  | 1466 |  |
-| 5 | m2 nvme 512Gb |  |  | 2416 |  |
-| 6 | m2 nvme 1Tb |  |  | 4382 |  |
+| 4 | m2 nvme 256Gb [5](https://aliexpress.ru/item/4000956226768.html?item_id=4000956226768&af=3023&utm_campaign=3023&aff_platform=api-new-link-generate&utm_medium=cpa&sku_id=12000029905689815&cn=20rurl54a3bh0mq3cr8lq2bepbo3xlvd&dp=20rurl54a3bh0mq3cr8lq2bepbo3xlvd&scm-url=1007.13339.169870.0&aff_fcid=a0335830e24d4a84906298be9239c123-1668097515532-03177-_Aamr2Z&cv=3822483&aff_fsk=_Aamr2Z&_t=gps-id%3ApcDetailBottomMoreThisSeller%2Cscm-url%3A1007.13339.169870.0%2Cpvid%3A2b71adc9-0ad9-4704-8c65-9e0c96582879%2Ctpp_buckets%3A21387%230%23183380%230&pvid=2b71adc9-0ad9-4704-8c65-9e0c96582879&_ga=2.110139138.667877588.1604939037-5041542.1602591723&sk=_Aamr2Z&aff_trace_key=a0335830e24d4a84906298be9239c123-1668097515532-03177-_Aamr2Z&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=3822483 'Xraydisk Official Store') | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) |  | 1466 | 1419 |
+| 5 | m2 nvme 512Gb | -//- |  | 2416 | 2340 |
+| 6 | m2 nvme 1Tb | -//- |  | 4382 | 4244 |
