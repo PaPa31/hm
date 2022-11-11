@@ -8,7 +8,7 @@ date: 2022-05-13 08:42:38
 
 - [motherboard](motherboard)
 - [cpu](cpu)
-- [cooler](cooler)
+- [coolers](coolers)
 - [memory](memory)
 - [disk](disk)
 
