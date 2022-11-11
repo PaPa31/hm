@@ -8,19 +8,19 @@ date: 2022-05-13 08:42:38
 
 - [motherboard](motherboard)
 - [cpu](cpu)
-- [coolers](coolers)
 - [memory](memory)
 - [disk](disk)
+- [sets](sets)
 
 ## Video Card
 
-- [videocard](videocard)
+- [video card](videocard)
 
 ## Housing
 
 - [cables](cables)
 - [adapters](adapters)
-- [power-supply](power-supply)
+- [power supply](power-supply)
 - [housing](housing)
 - [coolers](coolers)
 
@@ -30,7 +30,7 @@ date: 2022-05-13 08:42:38
 - [mouse](mouse)
 - [wi-fi](wi-fi)
 - [webcam](webcam)
-- [audio-speakers](audio-speakers)
+- [audio speakers](audio-speakers)
 - [headphones](headphones)
 - [microphone](microphone)
 
@@ -40,10 +40,4 @@ date: 2022-05-13 08:42:38
 
 ## Consumables
 
-- [thermal-grease](thermal-grease)
-
-## Cashback
-
-[YooMoney](https://yoomoney.ru/promo/offer/4164-aliexpress?viewId=35ed027c-5ff6-c4e4-ce58-2dbb000f0000)
-
-[GdePosylka](#)
+- [thermal paste](thermal-paste)

@@ -1,15 +1,21 @@
+---
+id: disk
+title: Disk
+date: 2020-12-29 23:39:52
+---
+
 ### 2021
 
 | # | name | Store | 01/01 | 04/01 | 05/01 | 09/01 | 15/01 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SATA3 240Gb | [1](https://aliexpress.ru/item/32958542268.html?spm=a2g0o.detail.0.0.67ba1be49J6xLn&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.197732.0&scm_id=1007.12908.197732.0&scm-url=1007.12908.197732.0&pvid=b9c11ce8-07dc-4aa7-8753-0f8b9a564eb4&_t=gps-id:pcDetailCartBuyAlsoBuy,scm-url:1007.12908.197732.0,pvid:b9c11ce8-07dc-4aa7-8753-0f8b9a564eb4,tpp_buckets:21387%230%23183380%230&sku_id=12000018041474399 'KingSpec Factory Store') [2](https://aliexpress.ru/item/4001289893938.html?spm=a2g0o.detail.0.0.290c4fb5fIW1hw&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.197732.0&scm_id=1007.12908.197732.0&scm-url=1007.12908.197732.0&pvid=edd57ee4-a2f4-4391-b0a0-e71306b2ac76&_t=gps-id:pcDetailCartBuyAlsoBuy,scm-url:1007.12908.197732.0,pvid:edd57ee4-a2f4-4391-b0a0-e71306b2ac76,tpp_buckets:21387%230%23183380%230&sku_id=12000017807827981 'KingSpec SSD store') [3](https://aliexpress.ru/item/32595324956.html?spm=a2g0o.detail.0.0.290c4fb5fIW1hw&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.197732.0&scm_id=1007.12908.197732.0&scm-url=1007.12908.197732.0&pvid=edd57ee4-a2f4-4391-b0a0-e71306b2ac76&_t=gps-id:pcDetailCartBuyAlsoBuy,scm-url:1007.12908.197732.0,pvid:edd57ee4-a2f4-4391-b0a0-e71306b2ac76,tpp_buckets:21387%230%23183380%230&sku_id=12000018040532266 'KingSpec Official Store') [4](https://aliexpress.ru/item/32619568729.html?spm=a2g0o.detail.0.0.290c4fb5fIW1hw&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.197732.0&scm_id=1007.12908.197732.0&scm-url=1007.12908.197732.0&pvid=edd57ee4-a2f4-4391-b0a0-e71306b2ac76&_t=gps-id:pcDetailCartBuyAlsoBuy,scm-url:1007.12908.197732.0,pvid:edd57ee4-a2f4-4391-b0a0-e71306b2ac76,tpp_buckets:21387%230%23183380%230&sku_id=12000016752899904 'Computer&SSD Storage Factory Store') | 1887 |  |  |  | 1943 |
-| 2 | PCIe M.2 240Gb | [1](https://aliexpress.ru/item/32958542268.html?spm=a2g0o.detail.0.0.67ba1be49J6xLn&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.197732.0&scm_id=1007.12908.197732.0&scm-url=1007.12908.197732.0&pvid=b9c11ce8-07dc-4aa7-8753-0f8b9a564eb4&_t=gps-id:pcDetailCartBuyAlsoBuy,scm-url:1007.12908.197732.0,pvid:b9c11ce8-07dc-4aa7-8753-0f8b9a564eb4,tpp_buckets:21387%230%23183380%230&sku_id=12000018041474399 'KingSpec Factory Store') |  |  |  |  | 2574 |
-| 3 | NGFF M.2 240Gb | [3](https://aliexpress.ru/item/32364627961.html?spm=a2g0o.detail.0.0.342930e630Aokx&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.197732.0&scm_id=1007.12908.197732.0&scm-url=1007.12908.197732.0&pvid=1499ed0e-6584-4fa8-86d2-d1ce9b9e275b&_t=gps-id:pcDetailCartBuyAlsoBuy,scm-url:1007.12908.197732.0,pvid:1499ed0e-6584-4fa8-86d2-d1ce9b9e275b,tpp_buckets:21387%230%23183380%230&sku_id=12000016907903793 'KingSpec Official Store') | 2090 |  |  |  | 2190 |
+| 1 | SATA3 240Gb | [1](https://aliexpress.ru/item/32958542268.html 'KingSpec Factory Store') [2](https://aliexpress.ru/item/4001289893938.html 'KingSpec SSD store') [3](https://aliexpress.ru/item/32595324956.html 'KingSpec Official Store') [4](https://aliexpress.ru/item/32619568729.html 'Computer&SSD Storage Factory Store') | 1887 |  |  |  | 1943 |
+| 2 | PCIe M.2 240Gb | [1](https://aliexpress.ru/item/32958542268.html 'KingSpec Factory Store') |  |  |  |  | 2574 |
+| 3 | NGFF M.2 240Gb | [3](https://aliexpress.ru/item/32364627961.html 'KingSpec Official Store') | 2090 |  |  |  | 2190 |
 
 ### 2022
 
 | # | name | photo | 01/11 | 10/11 | 11/11 |
 | --- | --- | --- | --- | --- | --- |
-| 4 | m2 nvme 256Gb [5](https://aliexpress.ru/item/4000956226768.html?item_id=4000956226768&af=3023&utm_campaign=3023&aff_platform=api-new-link-generate&utm_medium=cpa&sku_id=12000029905689815&cn=20rurl54a3bh0mq3cr8lq2bepbo3xlvd&dp=20rurl54a3bh0mq3cr8lq2bepbo3xlvd&scm-url=1007.13339.169870.0&aff_fcid=a0335830e24d4a84906298be9239c123-1668097515532-03177-_Aamr2Z&cv=3822483&aff_fsk=_Aamr2Z&_t=gps-id%3ApcDetailBottomMoreThisSeller%2Cscm-url%3A1007.13339.169870.0%2Cpvid%3A2b71adc9-0ad9-4704-8c65-9e0c96582879%2Ctpp_buckets%3A21387%230%23183380%230&pvid=2b71adc9-0ad9-4704-8c65-9e0c96582879&_ga=2.110139138.667877588.1604939037-5041542.1602591723&sk=_Aamr2Z&aff_trace_key=a0335830e24d4a84906298be9239c123-1668097515532-03177-_Aamr2Z&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=3822483 'Xraydisk Official Store') | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) |  | 1466 | 1419 |
+| 4 | m2 nvme 256Gb [5](https://aliexpress.ru/item/4000956226768.html 'Xraydisk Official Store') | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) |  | 1466 | 1419 |
 | 5 | m2 nvme 512Gb | -//- |  | 2416 | 2340 |
 | 6 | m2 nvme 1Tb | -//- |  | 4382 | 4244 |

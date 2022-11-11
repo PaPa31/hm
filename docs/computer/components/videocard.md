@@ -1,3 +1,9 @@
+---
+id: videocard
+title: Videocard
+date: 2020-12-29 23:40:11
+---
+
 1. Geforce GTX 950 2Gb GDDR5 VGA HDMI DVI (Veineda)
 2. RX 550 4Gb GDDR5 VGA HDMI DVI (Veineda)
 3. RX 470 4Gb 256B GDDR5 VGA HDMI DVI (XFX)
@@ -7,19 +13,19 @@
 
 | # | name | store | 04/01 | 06/01 | 15/01 |
 | --- | --- | --- | :-: | --- | --- |
-| 1 | GTX 950 2Gb | [1](https://aliexpress.ru/item/33020063075.html?spm=a2g0o.productlist.0.0.1048519dRnT6JJ&algo_pvid=ffd3ffa2-1f16-4c60-be14-ae26417e3814&algo_expid=ffd3ffa2-1f16-4c60-be14-ae26417e3814-11&btsid=0b8b15d416097706126412633ef270&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_&sku_id=67132027357 'PC-IT Store') | 6409 | 6858 | 6341 |
-| 2 | RX 550 4Gb | [1](https://aliexpress.ru/item/33045749846.html?spm=a2g0o.productlist.0.0.1048519dRnT6JJ&algo_pvid=ebc94269-287b-40af-9f54-00b6e244af56&algo_expid=ebc94269-287b-40af-9f54-00b6e244af56-8&btsid=0b8b15d416097710389995301ef270&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_&sku_id=67464340165 'PC-IT Store') | 6894 | 7237 | 7163 |
-| 3 | RX 470 4Gb | [2](https://aliexpress.ru/item/10000262111499.html?spm=a2g0o.productlist.0.0.1048519dRnT6JJ&algo_pvid=001223c6-aa96-4ecd-be1d-c6d337456af5&algo_expid=001223c6-aa96-4ecd-be1d-c6d337456af5-41&btsid=0b8b15d416097713082918260ef270&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_&sku_id=20000000156313220 'Morph PC Components Store') | 9942 | 10910 | 11877 |
-| 4 | RX 580 8GB | [2](https://aliexpress.ru/item/10000147822542.html?spm=a2g0o.productlist.0.0.1048519dRnT6JJ&algo_pvid=a9e8fcaa-1c93-4f6e-bdec-f5b843a4fedd&algo_expid=a9e8fcaa-1c93-4f6e-bdec-f5b843a4fedd-20&btsid=0b8b037016097720411736616ecd21&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_&sku_id=20000000134628255 'Morph PC Components Store') | 21075 | 27039 | 27383 |
+| 1 | GTX 950 2Gb | [1](https://aliexpress.ru/item/33020063075.html 'PC-IT Store') | 6409 | 6858 | 6341 |
+| 2 | RX 550 4Gb | [1](https://aliexpress.ru/item/33045749846.html 'PC-IT Store') | 6894 | 7237 | 7163 |
+| 3 | RX 470 4Gb | [2](https://aliexpress.ru/item/10000262111499.html 'Morph PC Components Store') | 9942 | 10910 | 11877 |
+| 4 | RX 580 8GB | [2](https://aliexpress.ru/item/10000147822542.html 'Morph PC Components Store') | 21075 | 27039 | 27383 |
 | 5 | RTX 3070 | [3](https://new.ogo1.ru/market/videokartu/323564/ 'Ogo') [4](https://new.ogo1.ru/market/videokartu/326893/) |  | 71543 66358 | - - |
 
-[Comparison](https://www.chaynikam.info/gpu_comparison.html?GeForce_GTX_1060_3GB&GeForce_GTX_1080_Ti&GeForce_RTX_3070conf=``````````3070)
+[Comparison](https://www.chaynikam.info/gpu_comparison.html
 
 ### 2022
 
 | # | name | photo | 01/11 | 10/11 |  |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 1660 super asus [4](https://aliexpress.ru/item/1005004499685421.html?mp=1&af=1954_135875&utm_campaign=1954_135875&aff_platform=api-new-link-generate&utm_medium=cpa&sku_id=12000029379087016&cn=22rurl535mzkral7jnejek5c31qscfwj&dp=22rurl535mzkral7jnejek5c31qscfwj&aff_fcid=3b53d212c8bd492a8815f74ce828c3e9-1668096059091-08429-_DmtM89z&cv=2&aff_fsk=_DmtM89z&_ga=2.87451352.1924392999.1667251813-772183988.1645731011&sk=_DmtM89z&aff_trace_key=3b53d212c8bd492a8815f74ce828c3e9-1668096059091-08429-_DmtM89z&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=2 'RE Store') | [![ASUS-TUF-GTX-1660-6-GPU.jpg_640x640](ASUS-TUF-GTX-1660-6-GPU.jpg_640x640.webp)](ASUS-TUF-GTX-1660-6-GPU.jpg_640x640.webp) | 10093 | 9698 | 9393 |
-| 2 | rx 6600/6600m [5](https://aliexpress.ru/item/1005004605813445.html?af=1954_135875&utm_campaign=1954_135875&aff_platform=api-new-link-generate&_gac=1.220912263.1661696984.null&utm_medium=cpa&sku_id=12000029805103664&cn=22rurl53bbobx7f8tizvfhs2f04q1062&dp=22rurl53bbobx7f8tizvfhs2f04q1062&aff_fcid=196d6f791b7c4be7af7ac49a68defd3f-1668096263312-06089-_DdHMpuf&cv=2&aff_fsk=_DdHMpuf&_ga=2.162643132.1011831361.1662472826-1673561238.1651750409&sk=_DdHMpuf&aff_trace_key=196d6f791b7c4be7af7ac49a68defd3f-1668096263312-06089-_DdHMpuf&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=2 'SHELI Official Store') | [![SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7](SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7.webp)](SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7.webp) | 13637 | 13104 | 12692 |
-| 3 | rtx 2060 super [4](https://aliexpress.ru/item/1005004764787493.html?af=1954_135875&utm_campaign=1954_135875&aff_platform=api-new-link-generate&utm_medium=cpa&cn=20rurl53o8821gsyoe5enxxihmj2uvit&dp=20rurl53o8821gsyoe5enxxihmj2uvit&aff_fcid=8f22715ebd4d47ba90a8698f5a3a1181-1668096728764-02965-_Dnc770n&cv=2&aff_fsk=_Dnc770n&sk=_Dnc770n&aff_trace_key=8f22715ebd4d47ba90a8698f5a3a1181-1668096728764-02965-_Dnc770n&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=2 'RE Store') | [![ASUS-RTX-2060-super-8-GPU-RTX-2060-S](ASUS-RTX-2060-super-8-GPU-RTX-2060-S.webp)](ASUS-RTX-2060-super-8-GPU-RTX-2060-S.webp) |  | 15087 | 14612 |
-| 4 | rtx 3070 [6](https://aliexpress.ru/item/1005004160055266.html?af=1954_135875&utm_campaign=1954_135875&aff_platform=api-new-link-generate&utm_medium=cpa&sku_id=12000028236760202&cn=2100rl53gqdip3du2b58ljs6aaz95yji&dp=2100rl53gqdip3du2b58ljs6aaz95yji&aff_fcid=8ee23b6f730947d7b5d0cf74a50be9b4-1668096459065-01975-_DciUgkL&cv=2&aff_fsk=_DciUgkL&_ga=2.81733463.1924392999.1667251813-772183988.1645731011&sk=_DciUgkL&aff_trace_key=8ee23b6f730947d7b5d0cf74a50be9b4-1668096459065-01975-_DciUgkL&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=2 'MLLSE Official Store') | [![MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640](MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640.webp)](MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640.webp) | 23522 | 23268 | 23129 |
+| 1 | 1660 super asus [4](https://aliexpress.ru/item/1005004499685421.html 'RE Store') | [![ASUS-TUF-GTX-1660-6-GPU.jpg_640x640](ASUS-TUF-GTX-1660-6-GPU.jpg_640x640.webp)](ASUS-TUF-GTX-1660-6-GPU.jpg_640x640.webp) | 10093 | 9698 | 9393 |
+| 2 | rx 6600/6600m [5](https://aliexpress.ru/item/1005004605813445.html 'SHELI Official Store') | [![SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7](SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7.webp)](SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7.webp) | 13637 | 13104 | 12692 |
+| 3 | rtx 2060 super [4](https://aliexpress.ru/item/1005004764787493.html 'RE Store') | [![ASUS-RTX-2060-super-8-GPU-RTX-2060-S](ASUS-RTX-2060-super-8-GPU-RTX-2060-S.webp)](ASUS-RTX-2060-super-8-GPU-RTX-2060-S.webp) |  | 15087 | 14612 |
+| 4 | rtx 3070 [6](https://aliexpress.ru/item/1005004160055266.html 'MLLSE Official Store') | [![MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640](MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640.webp)](MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640.webp) | 23522 | 23268 | 23129 |

@@ -1,3 +1,9 @@
+---
+id: motherboard
+title: Motherboard
+date: 2020-12-29 23:23:44
+---
+
 ### Form factors
 
 [wikipedia](https://en.m.wikipedia.org/wiki/Motherboard_form_factor#Comparisons)
@@ -7,31 +13,32 @@
 | microATX | 244x244mm (9.6×9.6in) | A smaller variant of the ATX form factor (about 25% shorter). Compatible with most ATX cases, but has fewer slots than ATX, for a smaller power supply unit. Very popular for desktop and small form factor computers as of 2017. |
 | ATX | 305×244mm (12×9.6in) | Created by Intel in 1995. As of 2017, it is the most popular form factor for commodity motherboards. Typical size is 9.6×12in although some companies extend that to 10×12in. |
 
-## Motherboards
-
-### LGA2011-3 (chip slot)
+## LGA2011-3 (chip slot)
 
 | # | motherboard | form-factor | power supply system | for cpu | memory canal | bios | others |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Atermiter X99 D4 | microATX | 6-phase | from e5&nbsp;2620v3, **e5&nbsp;2640v3** - to e5&nbsp;2660v3, **e5&nbsp;2670v3**, ~~e5&nbsp;2666v3~~ | 2 (only 2 memory slots make sense to use) | turbo boost unlock with timings | 2 controlled coolers (for cpu and case) |
-| 2 | HUANANZHI X99 QD4 | microATX (245x190mm) | 6-phase | for any cpu up to **e5&nbsp;2666v3** (e5&nbsp;2666v3 requires additional case coolers in addition to the CPU cooler) | 4 | native bios with timings |  |
+| 1 | Atermiter X99 D4 | microATX | 6-phase | from e5&nbsp;2620v3, **e5&nbsp;2640v3** - to e5&nbsp;2660v3, **e5&nbsp;2670v3**, ~~e5&nbsp;2666v3~~ | 2-channel (only 2 memory slots make sense to use) | turbo boost unlock with timings | 2 controlled coolers (for cpu and case) |
+| 2 | HUANANZHI X99 QD4 | microATX (245x190mm) | 6-phase | for any cpu up to **e5&nbsp;2666v3** (e5&nbsp;2666v3 requires additional case coolers in addition to the CPU cooler) | 4-channel | native bios with timings |  |
 | 3 | MACHINIST X99-RS9 red |  |  | ~~e5&nbsp;2666v3~~ |  |  |  |
 | 4 | Machinist X99 MR9A | ATX (280x215mm) | 6-phase | **e5&nbsp;2666v3** |  | no native bios with timings |  |
 | 5 | Machinist X99 MR9Av2 | ATX (285x215mm) | 8-phase | > **e5&nbsp;2666v3**, e5&nbsp;2696v3 |  |  | post-codes indicator |
 
 ### 2021
 
-| # | name | 01/01 | 04/01 | 06/01 | 09/01 | 12/01 | 15/01 |
+| # | name | photo | 01/01 | 06/01 | 09/01 | 12/01 | 15/01 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | X99-v201 2-channel [1](https://aliexpress.ru/item/4000868280446.html?af=135875_1&utm_campaign=135875_1&aff_platform=portals-tool&utm_medium=cpa&afref=https%3A%2F%2Fwww.youtube.com&cn=46qm3iu58pvt5rvlrn5kklzdvy84fw0y&dp=v5_46qm3iu58pvt5rvlrn5kklzdvy84fw0y&cv=38517779&product_id=4000868280446&sk=_d7Wwn2s&aff_trace_key=600269bad5d945369df957c0b539ad58-1609236509957-09785-_d7Wwn2s&terminal_id=e8b38080e7fc4bdb979c7f012f1f8489&utm_source=epn&utm_content=38517779&sku_id=10000015611113157 'RE Store') | 5149 |  | 5246 | 5313 | 5210 | 5116 |
-| 2 | X99-RS9 red MACHINIST [2](https://aliexpress.ru/item/4000750170401.html?spm=a2g0o.detail.0.0.67ba1be49J6xLn&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.197732.0&scm_id=1007.12908.197732.0&scm-url=1007.12908.197732.0&pvid=b9c11ce8-07dc-4aa7-8753-0f8b9a564eb4&_t=gps-id:pcDetailCartBuyAlsoBuy,scm-url:1007.12908.197732.0,pvid:b9c11ce8-07dc-4aa7-8753-0f8b9a564eb4,tpp_buckets:21387%230%23183380%230&sku_id=12000015918457420 'MACHINIST Store') | 5310 |  | 5332 | 5400 | 5374 | 5277 |
-| 3 | X99-K9 white MACHINIST [2](https://aliexpress.ru/item/4000383007258.html?af=135875_1&utm_campaign=135875_1&aff_platform=api&utm_medium=cpa&afref=https%3A%2F%2Fwww.youtube.com&cn=43qm3ix1emktjlktfb0iqt26d6xo6uhy&dp=v5_43qm3ix1emktjlktfb0iqt26d6xo6uhy&cv=38517779&product_id=4000383007258&sk=_Bf6DEHGL&aff_trace_key=3ea7854380fd41b3b8fdb6ff03595a5f-1609236614039-08224-_Bf6DEHGL&terminal_id=e8b38080e7fc4bdb979c7f012f1f8489&utm_source=epn&utm_content=38517779 'MACHINIST Store') [3](https://aliexpress.ru/item/4000842821384.html?af=135875_1&utm_campaign=135875_1&aff_platform=api&utm_medium=cpa&afref=https%3A%2F%2Fwww.youtube.com&cn=43qm3ix2cjsn1201q71ie4mtrj0amzkp&dp=v5_43qm3ix2cjsn1201q71ie4mtrj0amzkp&cv=38517779&product_id=4000842821384&sk=_dYL7vrV&aff_trace_key=8c247802ecd548d9a21504b981d16773-1609236614678-00535-_dYL7vrV&terminal_id=e8b38080e7fc4bdb979c7f012f1f8489&utm_source=epn&utm_content=38517779&sku_id=10000009106945910 'Good Luck 7 Store') | 6061 |  | 6085 | 6163 | 6133 | 6022 |
+| 1 | X99-v201 2-channel [1](https://aliexpress.ru/item/4000868280446.html 'RE Store') | [![Kllisre-X99-LGA-2011-3-NVME-SATA-M-2](Kllisre-X99-LGA-2011-3-NVME-SATA-M-2.webp)](Kllisre-X99-LGA-2011-3-NVME-SATA-M-2.webp) | 5149 | 5246 | 5313 | 5210 | 5116 |
+| 2 | X99-RS9 red MACHINIST [2](https://aliexpress.ru/item/4000750170401.html 'MACHINIST Store') | [![MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3](MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp)](MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp) | 5310 | 5332 | 5400 | 5374 | 5277 |
+| 3 | X99-K9 white MACHINIST [2](https://aliexpress.ru/item/4000383007258.html 'MACHINIST Store') | [![Machinist-X99-X99-xeon-e5-2620-v3-CPU](Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp)](Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp) | 6061 | 6085 | 6163 | 6133 | 6022 |
 
 ### 2022
 
 | # | name | photo | september | 01/11 | 10/11 | 11/11 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 4 | Atermiter X99 D4 [4](https://aliexpress.ru/item/1005002988276402.html?af=2926_Y6Ljx9&utm_campaign=2926_Y6Ljx9&aff_platform=api-new-link-generate&utm_medium=cpa&cn=2200rl4xqu7k1f7qwxrk7a455n9f0r4r&dp=2200rl4xqu7k1f7qwxrk7a455n9f0r4r&aff_fcid=0af0d94eb6074364b06e316f4541f00d-1668089046477-01457-_Dk4Idt1&cv=2&aff_fsk=_Dk4Idt1&click_id=9mTZ1XnFeLZrk9I&sk=_Dk4Idt1&aff_trace_key=0af0d94eb6074364b06e316f4541f00d-1668089046477-01457-_Dk4Idt1&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=2 'atermiter Store') | [![Atermiter-X99-D4-3-0-NVME-M-2-SSD](Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp)](Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp) |  | 3459 | 3324 | 3220 |
-| 5 | HUANANZHI X99 QD4 [5](https://aliexpress.ru/item/1005004533446321.html?mp=1&af=1954_135875&utm_campaign=1954_135875&aff_platform=api-new-link-generate&utm_medium=cpa&sku_id=12000029502168168&cn=2200rl4ze6hq7llipp7oqmzjn2diicfg&dp=2200rl4ze6hq7llipp7oqmzjn2diicfg&aff_fcid=aec6b9eb8fc6459aa300e510a934ef48-1668091182864-08941-_DmROiWB&cv=2&aff_fsk=_DmROiWB&_ga=2.83119062.1924392999.1667251813-772183988.1645731011&sk=_DmROiWB&aff_trace_key=aec6b9eb8fc6459aa300e510a934ef48-1668091182864-08941-_DmROiWB&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=2 'iworld Store') | [![HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3](HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp)](HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp) | 3700 | 4699 | 4515 | 4373 |
-| 6 | Machinist X99 MR9A [6](https://aliexpress.ru/item/1005003197164283.html?mp=1&af=1954_135875&utm_campaign=1954_135875&aff_platform=api-new-link-generate&utm_medium=cpa&sku_id=12000024614183804&cn=2100rl4zse78wkdsptx9rw4tkd5texmk&dp=2100rl4zse78wkdsptx9rw4tkd5texmk&aff_fcid=a798670a1787482a843c01f8ec05706b-1668091694527-00121-_DDUpvhl&cv=2&aff_fsk=_DDUpvhl&_ga=2.120391752.1924392999.1667251813-772183988.1645731011&sk=_DDUpvhl&aff_trace_key=a798670a1787482a843c01f8ec05706b-1668091694527-00121-_DDUpvhl&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=2 'MACHINIST official Store') | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp)](Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp) |  | 4641 | 4664 | 4518 |
-| 7 | Machinist X99 MR9Av2 [6](https://aliexpress.ru/item/1005004005435696.html?_evo_buckets=165609%2C165598%2C188871%2C194275%2C299287%2C224373&af=1954_135875&utm_campaign=1954_135875&aff_platform=api-new-link-generate&utm_medium=cpa&cn=2200rl50b9pn1cqe9ustyhd9lhve9f0b&dp=2200rl50b9pn1cqe9ustyhd9lhve9f0b&scm-url=1007.34525.301437.0&aff_fcid=0587529afd064a0d8f8bc93c7aee0601-1668092373666-07379-_DBy4WIJ&cv=2&aff_fsk=_DBy4WIJ&pvid=eef5e0b4-26ae-4e2d-8db9-704ca6badbe8&_t=gps-id%3AaerPdpSubstituteRcmd%2Cscm-url%3A1007.34525.301437.0%2Cpvid%3Aeef5e0b4-26ae-4e2d-8db9-704ca6badbe8%2Ctpp_buckets%3A24525%230%23301437%237_21387%230%23233228%238_21387%239507%23434564%239&scenario=aerPdpSubstituteRcmd&tpp_rcmd_bucket_id=301437&sk=_DBy4WIJ&aff_trace_key=0587529afd064a0d8f8bc93c7aee0601-1668092373666-07379-_DBy4WIJ&gps-id=aerPdpSubstituteRcmd&scm=1007.34525.301437.0&scm_id=1007.34525.301437.0&terminal_id=73a0bf6c07d04febac9c1608e82e7bc7&utm_source=aerkol&utm_content=2 'MACHINIST official Store') | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp)](Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp) |  | 5389 | 4786 | sold out |
+| 1 | X99-v201 2-channel |  |  | 6429 sold out |
+| 2 | X99-RS9 red MACHINIST |  |  |  |  | 3837 |
+| 3 | X99-K9 white MACHINIST |  |  |  |  | 4779 |
+| 4 | Atermiter X99 D4 [4](https://aliexpress.ru/item/1005002988276402.html 'atermiter Store') | [![Atermiter-X99-D4-3-0-NVME-M-2-SSD](Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp)](Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp) |  | 3459 | 3324 | 3220 |
+| 5 | HUANANZHI X99 QD4 [5](https://aliexpress.ru/item/1005004533446321.html 'iworld Store') | [![HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3](HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp)](HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp) | 3700 | 4699 | 4515 | 4373 |
+| 6 | Machinist X99 MR9A [6](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp)](Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp) |  | 4641 | 4664 | 4518 |
+| 7 | Machinist X99 MR9Av2 [6](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp)](Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp) |  | 5389 | 4786 | sold out |
