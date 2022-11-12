@@ -35,6 +35,7 @@ const config = {
         debug: true,
         docs: {
           path: 'docs',
+          //routeBasePath: '/',
           sidebarPath: 'sidebars.js',
           numberPrefixParser: false,
           showLastUpdateAuthor: true,
