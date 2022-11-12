@@ -16,6 +16,6 @@ date: 2020-12-29 23:39:52
 
 | # | name | photo | 01/11 | 10/11 | 11/11 |
 | --- | --- | --- | --- | --- | --- |
-| 4 | m2 nvme 256Gb [5](https://aliexpress.ru/item/4000956226768.html 'Xraydisk Official Store') | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) |  | 1466 | 1419 |
+| 4 | m2 nvme 256Gb [5](https://aliexpress.ru/item/4000956226768.html 'Xraydisk Official Store') | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) |  | 1466 | 1419 |
 | 5 | m2 nvme 512Gb | -//- |  | 2416 | 2340 |
 | 6 | m2 nvme 1Tb | -//- |  | 4382 | 4244 |

@@ -20,9 +20,9 @@ date: 2020-12-29 23:37:50
 
 | # | name | Store | 01/01 | 18/01 | 22/01 |
 | --- | --- | --- | --- | --- | --- |
-| 0 | 8Gb 1866GHz DDR3 ECC-REG | [1](https://aliexpress.ru/item/32858884585.html 'AliExpress - Yao Yue Store') [5](https://www.aliexpress.com/item/32831327978.html 'AliExpress - adkg816 Store') | - | $25 | $24 |
-| 1 | 8Gb 2666GHz DDR4 ECC-REG | [1](https://aliexpress.ru/item/33009776003.html 'AliExpress - Yao Yue Store') [6](https://www.aliexpress.com/item/4000595417045.html 'AliExpress - CPU Store') | - | $31 | $29 |
-| 2 | 8Gb 2666GHz DDR4 Desktop | [2](https://www.aliexpress.com/item/1005001627188360.html 'AliExpress - RASALAS - RA Store') [3](https://www.aliexpress.com/item/32963414963.html 'AliExpress - TANBASSH - TANBASSH Official Store') [4](https://aliexpress.ru/item/4000796954250.html 'AliExpress - Kingston - YONGXINSHENG YongXinSheng Store') [7](https://aliexpress.ru/item/4001056861459.html 'AliExpress - ANKOWALL - YksMemory Store') | - | $30 | $29 |
+| 0 | 8Gb 1866GHz DDR3 ECC-REG | [1](https://aliexpress.ru/item/32858884585.html 'Yao Yue Store') [5](https://www.aliexpress.com/item/32831327978.html 'adkg816 Store') | - | $25 | $24 |
+| 1 | 8Gb 2666GHz DDR4 ECC-REG | [1](https://aliexpress.ru/item/33009776003.html 'Yao Yue Store') [6](https://www.aliexpress.com/item/4000595417045.html 'CPU Store') | - | $31 | $29 |
+| 2 | 8Gb 2666GHz DDR4 Desktop | [2](https://www.aliexpress.com/item/1005001627188360.html 'RASALAS - RA Store') [3](https://www.aliexpress.com/item/32963414963.html 'TANBASSH - TANBASSH Official Store') [4](https://aliexpress.ru/item/4000796954250.html 'Kingston - YONGXINSHENG YongXinSheng Store') [7](https://aliexpress.ru/item/4001056861459.html 'ANKOWALL - YksMemory Store') | - | $30 | $29 |
 
 ### 2022
 

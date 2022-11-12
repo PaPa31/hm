@@ -27,9 +27,9 @@ date: 2020-12-29 23:23:44
 
 | # | name | photo | 01/01 | 06/01 | 09/01 | 12/01 | 15/01 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | X99-v201 2-channel [1](https://aliexpress.ru/item/4000868280446.html 'RE Store') | [![Kllisre-X99-LGA-2011-3-NVME-SATA-M-2](Kllisre-X99-LGA-2011-3-NVME-SATA-M-2.webp)](Kllisre-X99-LGA-2011-3-NVME-SATA-M-2.webp) | 5149 | 5246 | 5313 | 5210 | 5116 |
-| 2 | X99-RS9 red MACHINIST [2](https://aliexpress.ru/item/4000750170401.html 'MACHINIST Store') | [![MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3](MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp)](MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp) | 5310 | 5332 | 5400 | 5374 | 5277 |
-| 3 | X99-K9 white MACHINIST [2](https://aliexpress.ru/item/4000383007258.html 'MACHINIST Store') | [![Machinist-X99-X99-xeon-e5-2620-v3-CPU](Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp)](Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp) | 6061 | 6085 | 6163 | 6133 | 6022 |
+| 1 | X99-v201 2-channel [1](https://aliexpress.ru/item/4000868280446.html 'RE Store') | [![Kllisre-X99-LGA-2011-3-NVME-SATA-M-2](img/Kllisre-X99-LGA-2011-3-NVME-SATA-M-2.webp)](img/Kllisre-X99-LGA-2011-3-NVME-SATA-M-2.webp) | 5149 | 5246 | 5313 | 5210 | 5116 |
+| 2 | X99-RS9 red MACHINIST [2](https://aliexpress.ru/item/4000750170401.html 'MACHINIST Store') | [![MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp)](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp) | 5310 | 5332 | 5400 | 5374 | 5277 |
+| 3 | X99-K9 white MACHINIST [2](https://aliexpress.ru/item/4000383007258.html 'MACHINIST Store') | [![Machinist-X99-X99-xeon-e5-2620-v3-CPU](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp)](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp) | 6061 | 6085 | 6163 | 6133 | 6022 |
 
 ### 2022
 
@@ -38,7 +38,7 @@ date: 2020-12-29 23:23:44
 | 1 | X99-v201 2-channel |  |  | 6429 sold out |
 | 2 | X99-RS9 red MACHINIST |  |  |  |  | 3837 |
 | 3 | X99-K9 white MACHINIST |  |  |  |  | 4779 |
-| 4 | Atermiter X99 D4 [4](https://aliexpress.ru/item/1005002988276402.html 'atermiter Store') | [![Atermiter-X99-D4-3-0-NVME-M-2-SSD](Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp)](Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp) |  | 3459 | 3324 | 3220 |
-| 5 | HUANANZHI X99 QD4 [5](https://aliexpress.ru/item/1005004533446321.html 'iworld Store') | [![HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3](HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp)](HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp) | 3700 | 4699 | 4515 | 4373 |
-| 6 | Machinist X99 MR9A [6](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp)](Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp) |  | 4641 | 4664 | 4518 |
-| 7 | Machinist X99 MR9Av2 [6](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp)](Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp) |  | 5389 | 4786 | sold out |
+| 4 | Atermiter X99 D4 [4](https://aliexpress.ru/item/1005002988276402.html 'atermiter Store') | [![Atermiter-X99-D4-3-0-NVME-M-2-SSD](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp)](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp) |  | 3459 | 3324 | 3220 |
+| 5 | HUANANZHI X99 QD4 [5](https://aliexpress.ru/item/1005004533446321.html 'iworld Store') | [![HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp)](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp) | 3700 | 4699 | 4515 | 4373 |
+| 6 | Machinist X99 MR9A [6](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp) |  | 4641 | 4664 | 4518 |
+| 7 | Machinist X99 MR9Av2 [6](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp) |  | 5389 | 4786 | sold out |
