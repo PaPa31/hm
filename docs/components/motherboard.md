@@ -17,10 +17,16 @@ date: 2020-12-29 23:23:44
 
 <small>
 
-| motherboard | Atermiter X99 D4 [4](https://aliexpress.ru/item/1005002988276402.html 'atermiter Store') | HUANANZHI X99 QD4 [5](https://aliexpress.ru/item/1005004533446321.html 'iworld Store') | MACHINIST X99 RS9 red [2](https://aliexpress.ru/item/4000750170401.html 'MACHINIST Store') | Machinist X99 MR9A [6](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | Machinist X99 MR9Av2 [6](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') |
+| Motherboard | Atermiter X99 D4 [4](https://aliexpress.ru/item/1005002988276402.html 'atermiter Store') | HUANANZHI X99 QD4 [5](https://aliexpress.ru/item/1005004533446321.html 'iworld Store') | MACHINIST X99 RS9 red [2](https://aliexpress.ru/item/4000750170401.html 'MACHINIST Store') | Machinist X99 MR9A [6](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | Machinist X99 MR9Av2 [6](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') |
 | --- | :-: | :-: | :-: | :-: | :-: |
-| photo | [![Atermiter-X99-D4-3-0-NVME-M-2-SSD](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp)](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp) | [![HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp)](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp) | [![MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp)](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp) | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp) | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp) |
-| memory canal | 2-channel | 4-channel |  |  |  |
+| Photo | [![Atermiter-X99-D4-3-0-NVME-M-2-SSD](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp)](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp) | [![HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp)](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp) | [![MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp)](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp) | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp) | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp) |
+| Memory channel | 2-channel | 4-channel | 4-channel | 4-channel | 4-channel |
+| Memory | DDR4, max:64Gb | max:128Gb | DDR4, DDR4 ECC, max:64Gb | DDR4, max:128Gb | DDR4, max:128Gb |
+| Disk | 1xM.2 | 2xM.2 | 2xM.2 | 2xM.2 | 2xM.2 |
+| Form factor | microATX | microATX 245x190mm | microATX 235x185mm | ATX 283x216mm | ATX 283x216mm |
+| CPU | Xeon E5 v3, v4 |  | Intel Core i7, Xeon e5 v3,v4 | LGA2011-3 (tdp<=105w) |  |
+| Videocard, slots |  |  | PCI-E X16, PCI-E X1 |  |  |
+| LAN, max | 100Mbit/s |
 
 </small>
 
