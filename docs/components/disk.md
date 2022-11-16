@@ -4,18 +4,79 @@ title: Disk
 date: 2020-12-29 23:39:52
 ---
 
+## Price Dynamics
+
 ### 2021
 
-| # | name | Store | 01/01 | 04/01 | 05/01 | 09/01 | 15/01 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SATA3 240Gb | [1](https://aliexpress.ru/item/32958542268.html 'KingSpec Factory Store') [2](https://aliexpress.ru/item/4001289893938.html 'KingSpec SSD store') [3](https://aliexpress.ru/item/32595324956.html 'KingSpec Official Store') [4](https://aliexpress.ru/item/32619568729.html 'Computer&SSD Storage Factory Store') | 1887 |  |  |  | 1943 |
-| 2 | PCIe M.2 240Gb | [1](https://aliexpress.ru/item/32958542268.html 'KingSpec Factory Store') |  |  |  |  | 2574 |
-| 3 | NGFF M.2 240Gb | [3](https://aliexpress.ru/item/32364627961.html 'KingSpec Official Store') | 2090 |  |  |  | 2190 |
+<small>
+
+| # | name | photo | Store | 2021/01 |
+| --- | --- | --- | --- | --- |
+| 1 | SATA3 240Gb | [![KingSpec-2-5-SATA3-128-256-512-SSD-HDD-SATA-III-120-240-480](img/KingSpec-2-5-SATA3-128-256-512-SSD-HDD-SATA-III-120-240-480.webp)](img/KingSpec-2-5-SATA3-128-256-512-SSD-HDD-SATA-III-120-240-480.webp) | [1](https://aliexpress.ru/item/32958542268.html 'KingSpec Factory Store') [2](https://aliexpress.ru/item/4001289893938.html 'KingSpec SSD store') [3](https://aliexpress.ru/item/32595324956.html 'KingSpec Official Store') [4](https://aliexpress.ru/item/32619568729.html 'Computer&SSD Storage Factory Store') | 01:1887 15:1943 |
+| 2 | M.2(NGFF) SATA 240Gb | [![KingSpec-M2-2280-SSD-M-2-SATA-128-256-512-1-HDD-120-240-NGFF-SSD](img/KingSpec-M2-2280-SSD-M-2-SATA-128-256-512-1-HDD-120-240-NGFF-SSD.webp)](img/KingSpec-M2-2280-SSD-M-2-SATA-128-256-512-1-HDD-120-240-NGFF-SSD.webp) | [3](https://aliexpress.ru/item/32364627961.html 'KingSpec Official Store') | 01:2090 15:2190 |
+| 3 | M.2(NGFF) NVMe (PCIe-GEN3-X4) 240Gb | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) | [1](https://aliexpress.ru/item/32958542268.html 'KingSpec Factory Store') | 15:2574 |
+
+</small>
 
 ### 2022
 
-| # | name | photo | 01/11 | 10/11 | 11/11 |
-| --- | --- | --- | --- | --- | --- |
-| 4 | m2 nvme 256Gb [5](https://aliexpress.ru/item/4000956226768.html 'Xraydisk Official Store') | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) |  | 1466 | 1419 |
-| 5 | m2 nvme 512Gb | -//- |  | 2416 | 2340 |
-| 6 | m2 nvme 1Tb | -//- |  | 4382 | 4244 |
+<small>
+
+| # | name | photo | store | 2022/11 |
+| --- | --- | --- | --- | --- |
+| 4 | m2 nvme (PCIe3.0x4) 2280 240Gb ~~256Gb~~ | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) | [5](https://aliexpress.ru/item/4000956226768.html 'Xraydisk Official Store') | 10:1466 11:1419 13:1522 14:1519 15:1461 16:1456 |
+| 5 | -//- 480Gb ~~512Gb~~ | -//- | -//- | 10:2416 11:2340 13:2509 14:2503 15:2284 16:2276 |
+| 6 | -//- 960Gb ~~1Tb~~ | -//- | -//- | 10:4382 11:4244 13:4550 14:4539 15:4045 16:4031 |
+
+</small>
+
+## How to recognize the M.2 type
+
+<details>
+
+<summary>M.2 module keying</summary>
+
+### M.2 keying notches
+
+| [![M2_Edge_Connector_Keying](img/M2_Edge_Connector_Keying.svg.png)](img/M2_Edge_Connector_Keying.svg.png) |
+| --- |
+| M.2 keying notches in B and M positions; the offsetting of the pins on different sides of an M.2 module is also visible |
+
+source: https://en.wikipedia.org/wiki/M.2#Form_factors_and_keying
+
+### M.2 module keying and provided interfaces
+
+| Key ID | Notched pins | Provided interfaces |
+| --- | --- | --- |
+| A | 8–15 | 2 of [PCIe](/wiki/PCIe 'PCIe') ×1, USB 2.0, [I2C](/wiki/I2C 'I2C') and [DP](/wiki/DisplayPort 'DisplayPort') ×4 |
+| B | 12–19 | PCIe ×2, [SATA](/wiki/SATA 'SATA'), USB 2.0 and 3.0, audio, [UIM](/wiki/User_identity_module 'User identity module'), [HSIC](/wiki/HSIC 'HSIC'), [SSIC](/wiki/SSIC 'SSIC'), I2C and [SMBus](/wiki/SMBus 'SMBus') |
+| C | 16–23 | Reserved for future use |
+| D | 20–27 | -//- |
+| E | 24–31 | 2 of PCIe ×1, USB 2.0, [I2C](/wiki/I2C 'I2C'), [SDIO](/wiki/Secure_Digital_Input_Output 'Secure Digital Input Output'), [UART](/wiki/UART 'UART'), [PCM](/wiki/PCM 'PCM') and [CNVi](/wiki/CNVi 'CNVi') |
+| F | 28–35 | Future Memory Interface (FMI) |
+| G | 39–46 | Reserved for custom use (unused in the M.2 specification) |
+| H | 43–50 | Reserved for future use |
+| J | 47–54 | -//- |
+| K | 51–58 | -//- |
+| L | 55–62 | -//- |
+| M | 59–66 | PCIe ×4, SATA and SMBus |
+
+</details>
+
+<details>
+
+  <summary>M.2 NGFF vs NVMe - compatibility</summary>
+
+source (in English): https://superuser.com/a/1646824
+
+Не существует такого понятия, как «контроллер M.2». Слот M.2 обеспечивает прямые интерфейсы PCI-Express и SATA AHCI — диски NVMe являются полноценными устройствами PCI-Express, а контроллер NVMe находится на самом диске. Есть слоты M.2, которые обеспечивают только SATA, но не PCI-Express, или наоборот, и хотя (насколько мне известно) это редкость на реальных материнских платах ПК, это, кажется, очень распространено для адаптеров M.2-to-USB — многие из которые поддерживают только SATA, потому что добавление поддержки PCIe было бы намного дороже. (А те, которые поддерживают PCIe, часто опускают SATA...) Поэтому, если в спецификациях USB-устройства явно не указано, что оно поддерживает NVMe, велика вероятность, что это не так.
+
+Существуют также материнские платы, которые предоставляют PCIe и SATA для слота M.2, но если вы используете определенный слот для карты расширения, он отключает возможность PCIe, поскольку слот M.2 и слот для карты расширения используют одни и те же линии PCIe.
+
+Это на самом деле очень распространено. Большинство материнских плат с более чем одним слотом M.2 имеют только один выделенный слот PCIe x4 NVMe M.2, а любые дополнительные слоты M.2 предназначены либо только для SATA, либо только для PCIe x2. Эти линии PCIe также обычно используются совместно со слотом PCIe, если на плате имеется много слотов PCIe. (И иногда линии SATA будут использоваться совместно с физическим портом SATA на плате, поэтому вы можете использовать кабель M.2 или SATA.)
+
+Конечно, есть корпуса USB M.2, которые поддерживают как SATA, так и NVMe SSD, и они работают, если вы подключаете любой тип.
+
+Теоретически любой хост, совместимый с M.2 (то, к чему вы подключаете карту M.2), будет работать с любым устройством, совместимым с M.2 (самой картой), при условии, что ключи модулей совпадают. Ключ модуля (точное физическое расположение и размеры выреза в краевом разъеме карты) должен указывать точные интерфейсы, доступные через разъем, и интерфейсы, которые устройство предполагает наличие. Например, карта с М-ключом (норма для большинства твердотельных накопителей M.2) может использовать некоторую комбинацию до 4 линий PCIe, одного интерфейса SATA и одного интерфейса SMBus, в то время как хост с М-ключом ожидается, что он предоставит именно этот набор интерфейсов. Аналогично для карт с ключом B (норма почти для всех других карт M.2) и хостов (хотя список предоставляемых интерфейсов намного длиннее и имеет меньше линий PCIe). Однако на практике довольно редко можно увидеть, как мост USB-to-M.2 с M-ключом, который фактически предоставляет линии PCIe, продается как «адаптер USB-M.2». Их намного дешевле производить без поддержки PCIe, потому что соединение USB с PCIe далеко не тривиально, поэтому многие производители делают дешевые модели, которые этого не делают. Термин, который вы хотите использовать при поиске, — «адаптер USB-NVMe». Они будут немного дороже и почти всегда являются устройствами USB-C, но почти всегда будут работать с любой картой NVMe, которую вы получите, и если вы найдете хорошую карту, она также будет отлично работать с устаревшими картами SATA и поддерживать Thunderbolt 3 восходящего соединения в дополнение к обычному USB.
+
+</details>

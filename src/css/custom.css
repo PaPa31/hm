@@ -60,14 +60,14 @@ a[href^='http'] {
   mask-image: url(/static/img/external.e091ac5d.svg);
   -webkit-mask-image: url(/static/img/external.e091ac5d.svg);
   content: '';
-  display: inline-block;
+  display: inline list-item;
   height: 19px;
-  margin-right: 1px;
+  margin-right: -1px;
   width: 16px;
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
   mask-position: -1px 5px;
-  -webkit-mask-position: -1px 5px;
+  -webkit-mask-position: -1px 4px;
 }
 
 [data-theme='dark'] .theme-doc-markdown a[href^='http']::before {
@@ -137,6 +137,48 @@ blockquote {
 .nonBreak {
   white-space: nowrap;
 }
+
+#price-dynamics ~ table td:nth-child(n + 4),
+#price-dynamics ~ small table td:nth-child(n + 4) {
+  width: min-content;
+}
+
+table td img,
+small table td img {
+  width: 200px;
+}
+
+.comparison table tbody > tr > td {
+  width: 100px;
+}
+
+.comparison table img,
+.comparison table tbody > tr td + td {
+  width: 100px;
+}
+
+.sets table tbody > tr td + td {
+  /*width: auto;
+  max-width: 100px;*/
+}
+
+.comparison table img,
+.sets table img {
+  max-width: none;
+}
+
+.sets table tbody tr:nth-child(2n) td {
+  color: red;
+  width: 0;
+  overflow: visible;
+  /*word-spacing: 99px;*/
+}
+
+/*small.sets:nth-child(6) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(2) > td:nth-child(1)*/
+
+/*.sets table td:nth-child(5) {
+  width: 200px;
+}*/
 
 /*.green a {
   color: #af6431;

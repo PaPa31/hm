@@ -4,7 +4,11 @@ title: Sets
 date: 2020-12-29 23:39:02
 ---
 
+## Price Dynamics
+
 ### 2021
+
+<small class="sets">
 
 | # | mother | cpu | memory | photo | store | 16/01 | 28/01 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21,31 +25,27 @@ date: 2020-12-29 23:39:02
 | 3 | Dual-X99 | 2x2678V3 | 4x16Gb DDR4 | [![DDR4-Dual-X99-2011-3-XEON-E5-2678-V3-2-4_Q90](img/DDR4-Dual-X99-2011-3-XEON-E5-2678-V3-2-4_Q90.jpg)](img/DDR4-Dual-X99-2011-3-XEON-E5-2678-V3-2-4_Q90.jpg) | [1](https://aliexpress.ru/item/4001327167349.html 'CPU Store') | $482 €407 ₽36342 | $482 |
 | - | $165 [2](https://aliexpress.ru/item/1005001431965342.html 'SZMZ Official Store') | 2x$93 | 4x$58 |  |  | $261(₽19198) | $567 |
 
-[3](https://aliexpress.ru/item/4000842821384.html 'Good Luck 7 Store')
-
-[3](https://aliexpress.ru/item/4000842821384.html 'Good Luck 7 Store')
+</small>
 
 ### 2022
 
-| # | mother | cpu | memory | store | photo | 01/11 | 10/11 | 11/11 |
-| --- | :-: | :-: | :-: | :-: | --- | --- | --- | --- |
-| 4 | Atermiter x99 D4 | 2670v3 | 8+8 DDR4 | [1](https://aliexpress.ru/item/4000483492857.html 'CPU Store') | [![Atermiter-x99-2670v3-8-8ddr4](img/Atermiter-x99-2670v3-8-8ddr4.webp)](img/Atermiter-x99-2670v3-8-8ddr4.webp) |  | 6401 | 6199 |
-|  | 1 |  |  |  |  |  |  | 3215 |
-|  |  | 2 |  |  |  |  |  | 924 |
-|  |  |  | 3 |  |  |  |  | 2x1043 |
-|  |  |  |  | all |  |  |  | 6225 |
-| 5 | HUANANZHI X99 QD4 | 2640v3 | 8+8 DDR4 | [6](https://aliexpress.ru/item/1005004759137992.html 'atermiter Store') | [![HUANANZHI-X99-QD4-X99-XEON](img/HUANANZHI-X99-QD4-X99-XEON.webp)](img/HUANANZHI-X99-QD4-X99-XEON.webp) |  | 7402 | 7169 |
-|  | 1 |  |  |  |  |  |  | 4373 |
-|  |  | 2 |  |  |  |  |  | 1066 |
-|  |  |  | 3 |  |  |  |  | 2x1241 |
-|  |  |  |  | all |  |  |  | 7921 |
-| 6 | MACHINIST X99 MR9A | 2666v3 | 8+8 DDR4 | [7](https://aliexpress.ru/item/1005004029196934.html 'MACHINIST official Store') | [![X99-ATX-MR9A-2666v3-16gb](img/X99-ATX-MR9A-2666v3-16gb.webp)](img/X99-ATX-MR9A-2666v3-16gb.webp) |  | 9686 | 9381 |
-|  | 1 |  |  |  |  |  |  | 4518 |
-|  |  | 2 |  |  |  |  |  | 1739 |
-|  |  |  | 3 |  |  |  |  | 2x1241 |
-|  |  |  |  | all |  |  |  | 8739 |
-| 7 | MACHINIST X99 MR9Av2 | 2666v3 | 8x4 DDR4 | [7](https://aliexpress.ru/item/1005004695673494.html 'MACHINIST official Store') | [![MACHINIST-X99-Xeon-E5-2666-V3](img/MACHINIST-X99-Xeon-E5-2666-V3.webp)](img/MACHINIST-X99-Xeon-E5-2666-V3.webp) |  |  | 12143 |
-|  | 1 |  |  |  |  |  |  | 4636 |
-|  |  | 2 |  |  |  |  |  | 1739 |
-|  |  |  | 3 |  |  |  |  | 4x1241 |
-|  |  |  |  | all |  |  |  | 11342 |
+<small class="sets">
+
+| # | mother | cpu | memory | store | photo | 2022/11 |
+| --- | :-: | :-: | :-: | :-: | --- | --- |
+| 1 | Huananzhi X99 BD4 | 2678V3 | 2x8Gb DDR4 3200MHz ECC-REG | [![HUANANZHI-X99-BD4-DDR4-Motherboard-Set-With-Xeon-E5-2678-V3-LGA2011-3-CPU-2-8GB](img/HUANANZHI-X99-BD4-DDR4-Motherboard-Set-With-Xeon-E5-2678-V3-LGA2011-3-CPU-2-8GB.webp)](img/HUANANZHI-X99-BD4-DDR4-Motherboard-Set-With-Xeon-E5-2678-V3-LGA2011-3-CPU-2-8GB.webp) | [1](https://www.aliexpress.com/item/4000542296880.html 'CPU Store') | 13:9789 14:9766 15:9699 16:9666 |
+|  |  |  |  |  |  |  |
+| 2 | Huananzhi X99-8M-F D4 | 2620V3 | 1x16Gb DDR4 2666MHz REG-ECC | [![Huananzhi-X99-8M-F-D4-E5-2620-V3-LGA2011_Q90](img/Huananzhi-X99-8M-F-D4-E5-2620-V3-LGA2011_Q90.jpg)](img/Huananzhi-X99-8M-F-D4-E5-2620-V3-LGA2011_Q90.jpg) | [1](https://aliexpress.ru/item/4000931520719.html 'CPU Store') | 13:8509 14:8589 15:8530 16:8501 |
+|  |  |  |  |  |  |  |
+| 3 | MACHINIST X99 K9 white | 2620V3 | 1x16Gb DDR4 2400MHz REG-ECC | [![MACHINIST-X99-K9-X99-LGA-2011-3](img/MACHINIST-X99-K9-X99-LGA-2011-3.webp)](img/MACHINIST-X99-K9-X99-LGA-2011-3.webp) | [8](https://aliexpress.ru/item/4000842821384.html 'Good Luck 7 Store') | 13:8189 14:8169 15:8113 16:8086 |
+|  |  |  |  |  |  |  |
+| 4 | Atermiter x99 D4 | 2670v3 | 2x8Gb DDR4 2666MHz Desktop | [![Atermiter-x99-2670v3-8-8ddr4](img/Atermiter-x99-2670v3-8-8ddr4.webp)](img/Atermiter-x99-2670v3-8-8ddr4.webp) | [1](https://aliexpress.ru/item/4000483492857.html 'CPU Store') | 10:6401 11:6199 13:6803 14:6786 15:6740 16:6717 |
+|  | 11:3215 13:3400 | 11:924 13:976 | 11:2x1043 13:2x1102 |  |  | 11:6225 13:6580 |
+| 5 | HUANANZHI X99 QD4 | 2640v3 | 2x8Gb DDR4 2666MHz Desktop | [![HUANANZHI-X99-QD4-X99-XEON](img/HUANANZHI-X99-QD4-X99-XEON.webp)](img/HUANANZHI-X99-QD4-X99-XEON.webp) | [6](https://aliexpress.ru/item/1005004759137992.html 'atermiter Store') | 10:7402 11:7169 13:8023 14:8004 15:7680 16:7655 |
+|  | 11:4373 13:4619 | 11:1066 13:1126 | 11:2x1241 13:2x1311 |  |  | 11:7921 13:8367 |
+| 6 | MACHINIST X99 MR9A [7](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | 2666v3 [9](https://aliexpress.ru/item/1005003644967394.html 'BY168 Store') | 2x8Gb DDR4 [11](https://aliexpress.ru/item/33002249520.html 'RE Store') | [![X99-ATX-MR9A-2666v3-16gb](img/X99-ATX-MR9A-2666v3-16gb.webp)](img/X99-ATX-MR9A-2666v3-16gb.webp) | [7](https://aliexpress.ru/item/1005004029196934.html 'MACHINIST official Store') | 10:9686 11:9381 13:9908 14:9885 15:9817 16:9784 |
+|  | 11:4518 13:5163 16:5098 | 11:1739 13:1837 16:1814 | 11:2x1241 13:2x1311 |  |  | 11:8739 13:9622 |
+| 7 | MACHINIST X99 MR9Av2 [7](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') | 2666v3 [9](https://aliexpress.ru/item/1005003644967394.html 'BY168 Store') | 4x8Gb DDR4 Desktop 2666MHz [10](https://aliexpress.ru/item/1005004564683502.html 'BillionR Store') | [![MACHINIST-X99-Xeon-E5-2666-V3](img/MACHINIST-X99-Xeon-E5-2666-V3.webp)](img/MACHINIST-X99-Xeon-E5-2666-V3.webp) | [7](https://aliexpress.ru/item/1005004695673494.html 'MACHINIST official Store') | 11:12143 13:13843 14:13810 15:13715 16:13669 |
+|  | 11:~~4636~~ 13:~~5298~~ | 11:1739 13:1837 16:1814 | 11:4x1241 13:4x1311 16:4x1212 |  |  | 11:11342 13:12379 |
+
+</small>

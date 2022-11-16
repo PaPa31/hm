@@ -4,8 +4,6 @@ title: Memory
 date: 2020-12-29 23:37:50
 ---
 
-### 2021
-
 1. [ShenZhen CPU Store](https://aliexpress.ru/item/4000770450335.html 4.9 (1400)
 2. [CPU Store](https://www.aliexpress.com/item/4000542795972.html 4.9 (939)
 3. [CPU Store](https://aliexpress.ru/item/4000595417045.html 4.9 (2780) Server Memory
@@ -16,17 +14,30 @@ date: 2020-12-29 23:37:50
 | 2 | 1356 | 1432 | 3793 | 2115 | 2267 | 4324 | 3489 | 4096 | 4931 | 7275 | 7578 | 9559 |
 | 3 | 1280 | 1356 | 1432 | 2039 | 2115 | 2191 | 3481 | 3557 | 3663 | 7047 | 7275 | 7578 | 2267 | 3784 |
 
+## Price Dynamics
+
 ### 2021
 
-| # | name | Store | 01/01 | 18/01 | 22/01 |
-| --- | --- | --- | --- | --- | --- |
-| 0 | 8Gb 1866GHz DDR3 ECC-REG | [1](https://aliexpress.ru/item/32858884585.html 'Yao Yue Store') [5](https://www.aliexpress.com/item/32831327978.html 'adkg816 Store') | - | $25 | $24 |
-| 1 | 8Gb 2666GHz DDR4 ECC-REG | [1](https://aliexpress.ru/item/33009776003.html 'Yao Yue Store') [6](https://www.aliexpress.com/item/4000595417045.html 'CPU Store') | - | $31 | $29 |
-| 2 | 8Gb 2666GHz DDR4 Desktop | [2](https://www.aliexpress.com/item/1005001627188360.html 'RASALAS - RA Store') [3](https://www.aliexpress.com/item/32963414963.html 'TANBASSH - TANBASSH Official Store') [4](https://aliexpress.ru/item/4000796954250.html 'Kingston - YONGXINSHENG YongXinSheng Store') [7](https://aliexpress.ru/item/4001056861459.html 'ANKOWALL - YksMemory Store') | - | $30 | $29 |
+<small>
+
+| # | name | Store | 2022/01 |
+| --- | --- | --- | --- |
+| 0 | 8Gb 1866GHz DDR3 ECC-REG | [1](https://aliexpress.ru/item/32858884585.html 'Yao Yue Store') [5](https://www.aliexpress.com/item/32831327978.html 'adkg816 Store') | 18:$25 22:$24 |
+| 1 | 8Gb 2666GHz DDR4 ECC-REG | [1](https://aliexpress.ru/item/33009776003.html 'Yao Yue Store') [6](https://www.aliexpress.com/item/4000595417045.html 'CPU Store') | 18:$31 22:$29 |
+| 2 | 8Gb 2666GHz DDR4 Desktop | [2](https://www.aliexpress.com/item/1005001627188360.html 'RASALAS - RA Store') [3](https://www.aliexpress.com/item/32963414963.html 'TANBASSH - TANBASSH Official Store') [4](https://aliexpress.ru/item/4000796954250.html 'Kingston - YONGXINSHENG YongXinSheng Store') [7](https://aliexpress.ru/item/4001056861459.html 'ANKOWALL - YksMemory Store') | 18:$30 22:$29 |
+
+</small>
 
 ### 2022
 
-| # | name | 01/10 | 10/10 |  |
+<small>
+
+| # | name | store | < | 2022/11 |
 | --- | --- | --- | --- | --- |
-| 4 | 8G 2133 DDR4 ecc reg [8](https://aliexpress.ru/item/33002249520.html 'RE Store') |  | 1077 | 1043 |
-| 5 | 8G 3200 DDR4 Desktop (not x99) [9](https://aliexpress.ru/item/1005004564683502.html 'BillionR Store') | 1300 | 1281 | 1241 |
+| 0 |  |  |  | 13:1071 14:1069 |
+| 1 |  |  |  | 13:1394 14:1390 |
+| 2 |  |  |  | 13:1510 14:1506 |
+| 4 | 8G 2133 DDR4 ecc reg | [8](https://aliexpress.ru/item/33002249520.html 'RE Store') |  | 01:1077 10:1043 13:1102 14:1099 15:1092 16:1088 |
+| 5 | 8G 3200 DDR4 Desktop (not x99) | [9](https://aliexpress.ru/item/1005004564683502.html 'BillionR Store') | 1300 | 01:1281 10:1241 13:1311 14:1403 15:1394 16:1389 |
+
+</small>
