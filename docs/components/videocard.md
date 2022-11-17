@@ -4,18 +4,24 @@ title: Videocard
 date: 2020-12-29 23:40:11
 ---
 
-1. Geforce GTX 950 2Gb GDDR5 VGA HDMI DVI (Veineda)
-2. RX 550 4Gb GDDR5 VGA HDMI DVI (Veineda)
-3. RX 470 4Gb 256B GDDR5 VGA HDMI DVI (XFX)
-4. RX 580 8GB 2304 580B GDDR5 (XFX)
-
-[Comparison](https://www.chaynikam.info/gpu_comparison.html)
-
 ## Price Dynamics
+
+### 2022
+
+<small class="one-word-width">
+
+| # | name | photo | store | 2022/11 |
+| --- | --- | --- | --- | --- |
+| 1 | 1660 super asus | [![ASUS-TUF-GTX-1660-6-GPU.jpg_640x640](img/ASUS-TUF-GTX-1660-6-GPU.jpg_640x640.webp)](img/ASUS-TUF-GTX-1660-6-GPU.jpg_640x640.webp) | [4](https://aliexpress.ru/item/1005004499685421.html 'RE Store') | 01:10093 10:9698 11:9393 13:9172 14:9150 15:9087 16:9057 17:9020 |
+| 2 | rx 6600/6600m | [![SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7](img/SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7.webp)](img/SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7.webp) | [5](https://aliexpress.ru/item/1005004605813445.html 'SHELI Official Store') | 01:13637 10:13104 11:12692 13:13405 14:13372 15:13281 16:13236 17:13182 |
+| 3 | rtx 2060 super | [![ASUS-RTX-2060-super-8-GPU-RTX-2060-S](img/ASUS-RTX-2060-super-8-GPU-RTX-2060-S.webp)](img/ASUS-RTX-2060-super-8-GPU-RTX-2060-S.webp) | [4](https://aliexpress.ru/item/1005004764787493.html 'RE Store') | 10:15087 11:~~14612~~ |
+| 4 | rtx 3070 | [![MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640](img/MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640.webp)](img/MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640.webp) | [6](https://aliexpress.ru/item/1005004160055266.html 'MLLSE Official Store') | 01:23522 10:23268 11:23129 13:25583 14:25781 15:25605 16:25519 17:26029 |
+
+</small>
 
 ### 2021
 
-<small>
+<small class="one-word-width">
 
 | # | name | photo | store | 2021/01 |
 | --- | --- | --- | --- | --- |
@@ -28,15 +34,4 @@ date: 2020-12-29 23:40:11
 
 </small>
 
-### 2022
-
-<small>
-
-| # | name | photo | store | 2022/11 |
-| --- | --- | --- | --- | --- |
-| 1 | 1660 super asus | [![ASUS-TUF-GTX-1660-6-GPU.jpg_640x640](img/ASUS-TUF-GTX-1660-6-GPU.jpg_640x640.webp)](img/ASUS-TUF-GTX-1660-6-GPU.jpg_640x640.webp) | [4](https://aliexpress.ru/item/1005004499685421.html 'RE Store') | 01:10093 10:9698 11:9393 13:9172 14:9150 15:9087 16:9057 |
-| 2 | rx 6600/6600m | [![SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7](img/SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7.webp)](img/SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7.webp) | [5](https://aliexpress.ru/item/1005004605813445.html 'SHELI Official Store') | 01:13637 10:13104 11:12692 13:13405 14:13372 15:13281 16:13236 |
-| 3 | rtx 2060 super | [![ASUS-RTX-2060-super-8-GPU-RTX-2060-S](img/ASUS-RTX-2060-super-8-GPU-RTX-2060-S.webp)](img/ASUS-RTX-2060-super-8-GPU-RTX-2060-S.webp) | [4](https://aliexpress.ru/item/1005004764787493.html 'RE Store') | 10:15087 11:~~14612~~ |
-| 4 | rtx 3070 | [![MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640](img/MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640.webp)](img/MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640.webp) | [6](https://aliexpress.ru/item/1005004160055266.html 'MLLSE Official Store') | 01:23522 10:23268 11:23129 13:25583 14:25781 15:25605 16:25519 |
-
-</small>
+[Comparison](https://www.chaynikam.info/gpu_comparison.html)

@@ -6,9 +6,21 @@ date: 2020-12-29 23:39:52
 
 ## Price Dynamics
 
+### 2022
+
+<small class="one-word-width">
+
+| # | name | photo | store | 2022/11 |
+| --- | --- | --- | --- | --- |
+| 4 | m2 nvme (PCIe3.0x4) 2280 240Gb ~~256Gb~~ | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) | [5](https://aliexpress.ru/item/4000956226768.html 'Xraydisk Official Store') | 10:1466 11:1419 13:1522 14:1519 15:1461 16:1456 17:1450 |
+| 5 | -//- 480Gb ~~512Gb~~ | -//- | -//- | 10:2416 11:2340 13:2509 14:2503 15:2284 16:2276 17:2267 |
+| 6 | -//- 960Gb ~~1Tb~~ | -//- | -//- | 10:4382 11:4244 13:4550 14:4539 15:4045 16:4031 17:4014 |
+
+</small>
+
 ### 2021
 
-<small>
+<small class="sets">
 
 | # | name | photo | Store | 2021/01 |
 | --- | --- | --- | --- | --- |
@@ -18,33 +30,24 @@ date: 2020-12-29 23:39:52
 
 </small>
 
-### 2022
-
-<small>
-
-| # | name | photo | store | 2022/11 |
-| --- | --- | --- | --- | --- |
-| 4 | m2 nvme (PCIe3.0x4) 2280 240Gb ~~256Gb~~ | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) | [5](https://aliexpress.ru/item/4000956226768.html 'Xraydisk Official Store') | 10:1466 11:1419 13:1522 14:1519 15:1461 16:1456 |
-| 5 | -//- 480Gb ~~512Gb~~ | -//- | -//- | 10:2416 11:2340 13:2509 14:2503 15:2284 16:2276 |
-| 6 | -//- 960Gb ~~1Tb~~ | -//- | -//- | 10:4382 11:4244 13:4550 14:4539 15:4045 16:4031 |
-
-</small>
-
 ## How to recognize the M.2 type
-
-<details>
-
-<summary>M.2 module keying</summary>
 
 ### M.2 keying notches
 
+<div style={{maxWidth: '500px'}} class="invert">
+
 | [![M2_Edge_Connector_Keying](img/M2_Edge_Connector_Keying.svg.png)](img/M2_Edge_Connector_Keying.svg.png) |
 | --- |
-| M.2 keying notches in B and M positions; the offsetting of the pins on different sides of an M.2 module is also visible |
+
+</div>
+
+M.2 keying notches in B and M positions; the offsetting of the pins on different sides of an M.2 module is also visible
 
 source: https://en.wikipedia.org/wiki/M.2#Form_factors_and_keying
 
 ### M.2 module keying and provided interfaces
+
+<small>
 
 | Key ID | Notched pins | Provided interfaces |
 | --- | --- | --- |
@@ -61,11 +64,9 @@ source: https://en.wikipedia.org/wiki/M.2#Form_factors_and_keying
 | L | 55–62 | -//- |
 | M | 59–66 | PCIe ×4, SATA and SMBus |
 
-</details>
+</small>
 
-<details>
-
-  <summary>M.2 NGFF vs NVMe - compatibility</summary>
+### Ответ на superuser.com
 
 source (in English): https://superuser.com/a/1646824
 
@@ -78,5 +79,3 @@ source (in English): https://superuser.com/a/1646824
 Конечно, есть корпуса USB M.2, которые поддерживают как SATA, так и NVMe SSD, и они работают, если вы подключаете любой тип.
 
 Теоретически любой хост, совместимый с M.2 (то, к чему вы подключаете карту M.2), будет работать с любым устройством, совместимым с M.2 (самой картой), при условии, что ключи модулей совпадают. Ключ модуля (точное физическое расположение и размеры выреза в краевом разъеме карты) должен указывать точные интерфейсы, доступные через разъем, и интерфейсы, которые устройство предполагает наличие. Например, карта с М-ключом (норма для большинства твердотельных накопителей M.2) может использовать некоторую комбинацию до 4 линий PCIe, одного интерфейса SATA и одного интерфейса SMBus, в то время как хост с М-ключом ожидается, что он предоставит именно этот набор интерфейсов. Аналогично для карт с ключом B (норма почти для всех других карт M.2) и хостов (хотя список предоставляемых интерфейсов намного длиннее и имеет меньше линий PCIe). Однако на практике довольно редко можно увидеть, как мост USB-to-M.2 с M-ключом, который фактически предоставляет линии PCIe, продается как «адаптер USB-M.2». Их намного дешевле производить без поддержки PCIe, потому что соединение USB с PCIe далеко не тривиально, поэтому многие производители делают дешевые модели, которые этого не делают. Термин, который вы хотите использовать при поиске, — «адаптер USB-NVMe». Они будут немного дороже и почти всегда являются устройствами USB-C, но почти всегда будут работать с любой картой NVMe, которую вы получите, и если вы найдете хорошую карту, она также будет отлично работать с устаревшими картами SATA и поддерживать Thunderbolt 3 восходящего соединения в дополнение к обычному USB.
-
-</details>

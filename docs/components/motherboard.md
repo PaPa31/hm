@@ -4,7 +4,54 @@ title: Motherboard
 date: 2020-12-29 23:23:44
 ---
 
-## LGA2011-3 (socket)
+## Price Dynamics
+
+### 2022
+
+<small class="one-word-width">
+
+| # | name | photo | store | 2022/11 |
+| --- | --- | --- | --- | --- |
+| 2 | MACHINIST X99 RS9 red | [![MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp)](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp) | [2](https://aliexpress.ru/item/4000750170401.html 'MACHINIST Store') | 11:3837 12:3835 13:4536 14:4525 15:4494 16:4479 17:4461 |
+| 3 | MACHINIST X99 K9 white | [![Machinist-X99-X99-xeon-e5-2620-v3-CPU](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp)](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp) | [2](https://aliexpress.ru/item/4000383007258.html 'MACHINIST Store') | 11:4779 12:4777 13:5047 14:5035 15:5001 16:4984 17:4963 |
+| 4 | Atermiter X99 D4 | [![Atermiter-X99-D4-3-0-NVME-M-2-SSD](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp)](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp) | [4](https://aliexpress.ru/item/1005002988276402.html 'atermiter Store') | 01:3459 10:3324 11:3220 12:3218 13:3400 14:3392 15:3369 16:3358 17:3344 |
+| 5 | HUANANZHI X99 QD4 | [![HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp)](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp) | [5](https://aliexpress.ru/item/1005004533446321.html 'iworld Store') | 2<:3700 01:4699 10:4515 11:4373 12:4372 13:4619 14:4608 15:4576 16:4561 17:4542 |
+| 6 | Machinist X99 MR9A | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp) | [6](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | 01:4641 10:4664 11:4518 12:4516 13:5163 14:5150 15:5115 16:5098 17:5077 |
+| 7 | Machinist X99 MR9Av2 <br/>(E5-MR9A-PRO) | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp) | [6](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') | 01:5389 10:~~4786~~ 13:~~5298~~ |
+
+~~999~~ - sold out  
+`n<` - n months ago
+
+</small>
+
+### 2021
+
+<small class="one-word-width">
+
+| # | name | photo | store | 2021/01 |
+| --- | --- | --- | --- | --- |
+| 1 | X99 v201 2-channel | [![Kllisre-X99-LGA-2011-3-NVME-SATA-M-2](img/Kllisre-X99-LGA-2011-3-NVME-SATA-M-2.webp)](img/Kllisre-X99-LGA-2011-3-NVME-SATA-M-2.webp) | [1](https://aliexpress.ru/item/4000868280446.html 'RE Store') | 01:5149 06:5246 09:5313 12:5210 15:5116 |
+| 2 | X99 RS9 red MACHINIST | [![MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp)](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp) | [2](https://aliexpress.ru/item/4000750170401.html 'MACHINIST Store') | 01:5310 06:5332 09:5400 12:5374 15:5277 |
+| 3 | X99 K9 white MACHINIST | [![Machinist-X99-X99-xeon-e5-2620-v3-CPU](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp)](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp) | [2](https://aliexpress.ru/item/4000383007258.html 'MACHINIST Store') | 01:6061 06:6085 09:6163 12:6133 15:6022 |
+
+</small>
+
+## Motherboard form factors
+
+<small>
+
+| Form factors | Max. size <br/> width x depth | notes |
+| :-: | --- | --- |
+| microATX | 244x244mm (9.6×9.6in) | A smaller variant of the ATX form factor (about 25% shorter). Compatible with most ATX cases, but has fewer slots than ATX, for a smaller power supply unit. Very popular for desktop and small form factor computers as of 2017. |
+| ATX | 305×244mm (12×9.6in) | Created by Intel in 1995. As of 2017, it is the most popular form factor for commodity motherboards. Typical size is 9.6×12in although some companies extend that to 10×12in. |
+
+source: [wikipedia](https://en.m.wikipedia.org/wiki/Motherboard_form_factor#Comparisons)
+
+</small>
+
+## Comparison
+
+### LGA2011-3 (socket)
 
 <small class="comparison">
 
@@ -27,59 +74,3 @@ date: 2020-12-29 23:23:44
 | Wi-Fi M.2, support wireless network card |  |  | 2.5MHz |  | + |
 
 </small>
-
-| # | motherboard | form-factor | power supply system | for cpu | memory canal | bios | others |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Atermiter X99 D4 | microATX | 6-phase | from e5&nbsp;2620v3, **e5&nbsp;2640v3** - to e5&nbsp;2660v3, **e5&nbsp;2670v3**, ~~e5&nbsp;2666v3~~ | 2-channel (only 2 memory slots make sense to use) | turbo boost unlock with timings | 2 controlled coolers (for cpu and case) |
-| 2 | HUANANZHI X99 QD4 | microATX (245x190mm) | 6-phase | for any cpu up to **e5&nbsp;2666v3** (e5&nbsp;2666v3 requires additional case coolers in addition to the CPU cooler) | 4-channel | native bios with timings |  |
-| 3 | MACHINIST X99 RS9 red |  |  | ~~e5&nbsp;2666v3~~ |  |  |  |
-| 4 | Machinist X99 MR9A | ATX (280x215mm) | 6-phase | **e5&nbsp;2666v3** |  | no native bios with timings |  |
-| 5 | Machinist X99 MR9Av2 | ATX (285x215mm) | 8-phase | > **e5&nbsp;2666v3**, e5&nbsp;2696v3 |  |  | post-codes indicator |
-
-## Price Dynamics
-
-### 2021
-
-<small>
-
-| # | name | photo | store | 2021/01 |
-| --- | --- | --- | --- | --- |
-| 1 | X99 v201 2-channel | [![Kllisre-X99-LGA-2011-3-NVME-SATA-M-2](img/Kllisre-X99-LGA-2011-3-NVME-SATA-M-2.webp)](img/Kllisre-X99-LGA-2011-3-NVME-SATA-M-2.webp) | [1](https://aliexpress.ru/item/4000868280446.html 'RE Store') | 01:5149 06:5246 09:5313 12:5210 15:5116 |
-| 2 | X99 RS9 red MACHINIST | [![MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp)](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp) | [2](https://aliexpress.ru/item/4000750170401.html 'MACHINIST Store') | 01:5310 06:5332 09:5400 12:5374 15:5277 |
-| 3 | X99 K9 white MACHINIST | [![Machinist-X99-X99-xeon-e5-2620-v3-CPU](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp)](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp) | [2](https://aliexpress.ru/item/4000383007258.html 'MACHINIST Store') | 01:6061 06:6085 09:6163 12:6133 15:6022 |
-
-</small>
-
-### 2022
-
-<small>
-
-| # | name | photo | store | 2022/11 |
-| --- | --- | --- | --- | --- |
-| 2 | MACHINIST X99 RS9 red | [![MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp)](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp) | [2](https://aliexpress.ru/item/4000750170401.html 'MACHINIST Store') | 11:3837 12:3835 13:4536 14:4525 15:4494 16:4479 |
-| 3 | MACHINIST X99 K9 white | [![Machinist-X99-X99-xeon-e5-2620-v3-CPU](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp)](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp) | [2](https://aliexpress.ru/item/4000383007258.html 'MACHINIST Store') | 11:4779 12:4777 13:5047 14:5035 15:5001 16:4984 |
-| 4 | Atermiter X99 D4 | [![Atermiter-X99-D4-3-0-NVME-M-2-SSD](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp)](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp) | [4](https://aliexpress.ru/item/1005002988276402.html 'atermiter Store') | 01:3459 10:3324 11:3220 12:3218 13:3400 14:3392 15:3369 16:3358 |
-| 5 | HUANANZHI X99 QD4 | [![HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp)](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp) | [5](https://aliexpress.ru/item/1005004533446321.html 'iworld Store') | 2<:3700 01:4699 10:4515 11:4373 12:4372 13:4619 14:4608 15:4576 16:4561 |
-| 6 | Machinist X99 MR9A | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp) | [6](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | 01:4641 10:4664 11:4518 12:4516 13:5163 14:5150 15:5115 16:5098 |
-| 7 | Machinist X99 MR9Av2 <br/>(E5-MR9A-PRO) | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp) | [6](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') | 01:5389 10:~~4786~~ 13:~~5298~~ |
-
-~~999~~ - sold out  
-`n<` - n months ago
-
-</small>
-
-<details>
-<summary>Motherboard form factors</summary>
-
-<small>
-
-| Form factors | Max. size <br/> width x depth | notes |
-| :-: | --- | --- |
-| microATX | 244x244mm (9.6×9.6in) | A smaller variant of the ATX form factor (about 25% shorter). Compatible with most ATX cases, but has fewer slots than ATX, for a smaller power supply unit. Very popular for desktop and small form factor computers as of 2017. |
-| ATX | 305×244mm (12×9.6in) | Created by Intel in 1995. As of 2017, it is the most popular form factor for commodity motherboards. Typical size is 9.6×12in although some companies extend that to 10×12in. |
-
-source: [wikipedia](https://en.m.wikipedia.org/wiki/Motherboard_form_factor#Comparisons)
-
-</small>
-
-</details>
