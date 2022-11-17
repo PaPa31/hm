@@ -51,11 +51,11 @@ source: https://en.wikipedia.org/wiki/M.2#Form_factors_and_keying
 
 | Key ID | Notched pins | Provided interfaces |
 | --- | --- | --- |
-| A | 8–15 | 2 of [PCIe](/wiki/PCIe 'PCIe') ×1, USB 2.0, [I2C](/wiki/I2C 'I2C') and [DP](/wiki/DisplayPort 'DisplayPort') ×4 |
-| B | 12–19 | PCIe ×2, [SATA](/wiki/SATA 'SATA'), USB 2.0 and 3.0, audio, [UIM](/wiki/User_identity_module 'User identity module'), [HSIC](/wiki/HSIC 'HSIC'), [SSIC](/wiki/SSIC 'SSIC'), I2C and [SMBus](/wiki/SMBus 'SMBus') |
+| A | 8–15 | 2 of PCIe ×1, USB 2.0, I2C and DP ×4 |
+| B | 12–19 | PCIe ×2, SATA, USB 2.0 and 3.0, audio, UIM, HSIC, SSIC, I2C and SMBus |
 | C | 16–23 | Reserved for future use |
 | D | 20–27 | -//- |
-| E | 24–31 | 2 of PCIe ×1, USB 2.0, [I2C](/wiki/I2C 'I2C'), [SDIO](/wiki/Secure_Digital_Input_Output 'Secure Digital Input Output'), [UART](/wiki/UART 'UART'), [PCM](/wiki/PCM 'PCM') and [CNVi](/wiki/CNVi 'CNVi') |
+| E | 24–31 | 2 of PCIe ×1, USB 2.0, I2C, SDIO, UART, PCM and CNVi |
 | F | 28–35 | Future Memory Interface (FMI) |
 | G | 39–46 | Reserved for custom use (unused in the M.2 specification) |
 | H | 43–50 | Reserved for future use |
