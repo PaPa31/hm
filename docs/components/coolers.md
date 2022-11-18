@@ -8,17 +8,17 @@ date: 2020-12-29 23:39:21
 
 ### 2022
 
-<small class="one-word-width">
+<small class="tab-img-w-200 col-w-0">
 
 | # | name | photo | store | 2022/11 |
 | --- | --- | --- | --- | --- |
-| 2 | кулер на lga1700 под i5 и 2640-2666v3 | [![2011-X79-X99-2-4-6.jpg_640x640](img/2011-X79-X99-2-4-6.jpg_640x640.webp)](img/2011-X79-X99-2-4-6.jpg_640x640.webp) | [2](https://aliexpress.ru/item/1005002366025350.html 'coolangel cooler Store') | 10:1250 11:1211 14:1356 15:1347 16:1343 17:1337 |
+| 2 | кулер на lga1700 под i5 и 2640-2666v3 | [![2011-X79-X99-2-4-6.jpg_640x640](img/2011-X79-X99-2-4-6.jpg_640x640.webp)](img/2011-X79-X99-2-4-6.jpg_640x640.webp) | [2](https://aliexpress.ru/item/1005002366025350.html 'coolangel cooler Store') | 10:1250 11:1211 14:1356 15:1347 16:1343 17:1337 18:1347 |
 
 </small>
 
 ### 2021
 
-<small>
+<small class="tab-img-w-100 col-w-0">
 
 | # | name | photo | store | 2021/01 |
 | --- | --- | --- | --- | --- |

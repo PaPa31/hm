@@ -144,60 +144,87 @@ blockquote {
   width: min-content;
 }*/
 
-#price-dynamics ~ table td,
+/*#price-dynamics ~ table td,
 #price-dynamics ~ small table td {
   width: 0;
-}
+}*/
 
-table td img,
-small table td img {
-  width: 200px;
-}
-
-.comparison table tbody > tr > td {
-  width: 100px;
-}
-
-.comparison table img,
-.comparison table tbody > tr td + td {
-  width: 100px;
-}
-
-.sets table tbody > tr td + td {
-  /*width: auto;
-  max-width: 100px;*/
-}
-
-.comparison table img,
-.sets table img,
-.one-word-width table img {
+/*all images-in-table's width=50px*/
+.tab-img-w-50 table img {
+  width: 50px;
   max-width: none;
 }
 
-.sets table tbody tr:nth-child(2n) td {
+/*all images-in-table's width=100px*/
+.tab-img-w-100 table img {
+  width: 100px;
+  max-width: none;
+}
+
+/*all images-in-table's width=200px*/
+.tab-img-w-200 table img {
+  width: 200px;
+  max-width: none;
+}
+
+/*all images-in-table's width=300px*/
+.tab-img-w-300 table img {
+  width: 300px;
+  max-width: none;
+}
+
+/*all images-in-table's max-width=none*/
+/*.tab-img-maxw-none table img {
+  max-width: none;
+}*/
+
+/*all even(every-second)-rows' width=0px*/
+.tr-2n-w-0 table tbody tr:nth-child(2n) {
   /*color: red;*/
-  width: 0;
+  width: 0px;
   overflow: visible;
   /*word-spacing: 99px;*/
 }
 
-.one-world-width table tbody tr td {
-  width: 0;
+/*all-columns' width=0px*/
+.col-w-0 table tbody tr td {
+  width: 0px;
   overflow: visible;
 }
 
-.one-word-width table tbody tr td:nth-child(3) {
+/*only-column#3's width=200px*/
+.col-3-w-200 table tbody tr td:nth-child(3) {
   width: 200px;
 }
 
-.one-word-width table tbody tr td:nth-child(2) {
-  width: min-content;
+/*only-column#2's width=auto*/
+.col-2-w-auto table tbody tr td:nth-child(2) {
+  width: auto;
 }
 
+/*only-first-column's width=100px*/
+.col-1-w-100 table tbody > tr > td {
+  width: 100px;
+}
+
+/* all-columns-but-not-first's width=100px*/
+.col-1b-w-100 table tbody > tr td + td {
+  width: 100px;
+}
+
+/*all-columns-but-not-first's max-width=100px*/
+.col-1b-maxw-100 table tbody > tr td + td {
+  max-width: 100px;
+}
+
+/*add to em red-color*/
+.em-green em,
+#price-dynamics ~ table em,
 #price-dynamics ~ small em {
-  color: red;
+  color: green;
   text-decoration: none;
 }
+
 /*small.one-word-width:nth-child(4) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(5) > em:nth-child(1)*/
 /*.sets table td:nth-child(5) {
   width: 200px;

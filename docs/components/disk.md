@@ -8,19 +8,19 @@ date: 2020-12-29 23:39:52
 
 ### 2022
 
-<small class="one-word-width">
+<small class="tab-img-w-200 col-w-0">
 
 | # | name | photo | store | 2022/11 |
 | --- | --- | --- | --- | --- |
-| 4 | m2 nvme (PCIe3.0x4) 2280 240Gb ~~256Gb~~ | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) | [5](https://aliexpress.ru/item/4000956226768.html 'Xraydisk Official Store') | 10:1466 11:1419 13:1522 14:1519 15:1461 16:1456 17:1450 |
-| 5 | -//- 480Gb ~~512Gb~~ | -//- | -//- | 10:2416 11:2340 13:2509 14:2503 15:2284 16:2276 17:2267 |
-| 6 | -//- 960Gb ~~1Tb~~ | -//- | -//- | 10:4382 11:4244 13:4550 14:4539 15:4045 16:4031 17:4014 |
+| 4 | m2 nvme (PCIe3.0x4) 2280 240Gb ~~256Gb~~ | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) | [5](https://aliexpress.ru/item/4000956226768.html 'Xraydisk Official Store') | 10:1466 11:1419 13:1522 14:1519 15:1461 16:1456 17:1450 18:1461 |
+| 5 | -//- 480Gb ~~512Gb~~ | -//- | -//- | 10:2416 11:2340 13:2509 14:2503 15:2284 16:2276 17:2267 18:2284 |
+| 6 | -//- 960Gb ~~1Tb~~ | -//- | -//- | 10:4382 11:4244 13:4550 14:4539 15:4045 16:4031 17:4014 18:4045 |
 
 </small>
 
 ### 2021
 
-<small class="sets">
+<small class="tab-img-w-100 col-w-0">
 
 | # | name | photo | Store | 2021/01 |
 | --- | --- | --- | --- | --- |

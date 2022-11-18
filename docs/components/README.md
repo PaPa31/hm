@@ -41,6 +41,10 @@ Build a computer!
 
 - [display](display)
 
+## Network
+
+- [network](network)
+
 ## Consumables
 
 - [thermal paste](thermal-paste)
