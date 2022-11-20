@@ -230,6 +230,101 @@ blockquote {
   width: 200px;
 }*/
 
+table.month {
+  border-collapse: separate;
+  font-size: 9px;
+  border-spacing: 5px;
+}
+
+table.month thead tr > th {
+  border: none;
+  font-weight: normal;
+}
+
+table.month thead > tr {
+  border: none;
+}
+
+table.month thead,
+table.month tbody tr {
+  background-color: var(--ifm-table-background);
+}
+
+table.month tbody {
+  /*border-left: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+  border-left: 1px solid red;*/
+}
+
+table.month td {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+}
+
+table.month th {
+  padding: 0px;
+}
+
+table.month tbody td {
+  position: relative;
+}
+table.month tbody td span:first-of-type {
+  position: absolute;
+  left: 1px;
+  top: -1px;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*table.month tbody td > span:nth-child(2) {
+  position: relative;
+}*/
+
+/*table.month:nth-child(7) > tbody:nth-child(2) > td:nth-child(7) > span:nth-child(1)*/
+/*table.month:nth-child(7) > tbody:nth-child(2) > td:nth-child(7) > span:nth-child(2)*/
+/*:root {
+  --ifm-global-spacing: 3px;
+  --ifm-spacing-vertical: var(--ifm-global-spacing);
+  --ifm-spacing-horizontal: var(--ifm-global-spacing);
+}
+
+.col,
+.container {
+  padding: 0 var(--ifm-spacing-horizontal);
+  width: 100%;
+}
+
+.grid-demo [class^='col'] .col-demo {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.grid-demo .row:last-child {
+  margin-bottom: 0;
+}
+
+.grid-demo .row {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.col {
+  --ifm-col-width: 100%;
+  flex: 1 0;
+  margin-left: 0;
+  max-width: var(--ifm-col-width);
+}
+
+.col--1 {
+  --ifm-col-width: 50px;
+}
+
+.col[class*='col--'] {
+  flex: 0 0 var(--ifm-col-width);
+}*/
+
 /*.green a {
   color: #af6431;
 }
