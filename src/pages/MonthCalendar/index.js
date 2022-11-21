@@ -1,5 +1,5 @@
 import React from 'react';
-//import LastFridayOfMonth from '../lastFriday';
+import lastFridayOfMonth from '../lastFriday';
 
 const month = {
   November: [
@@ -29,44 +29,31 @@ const month = {
     ,
     ,
     ,
-    'Black Friday',
     ,
-    'Begin Advent',
-    'Cyber Monday',
+    ,
+    ,
+    ,
   ],
 };
 
-function lastFridayOfMonth(year, month) {
-  let lastDay = new Date(year, month, 0);
-  if (lastDay.getDay() < 5) {
-    lastDay.setDate(lastDay.getDate() - 7);
-  }
-  lastDay.setDate(lastDay.getDate() - (lastDay.getDay() - 5));
-  const day = lastDay;
-  const dm7 = new Date(+day);
-  return day.getDay() + ' | ' + day + ' | ' + dm7;
-}
-
 const MonthCalendar = (props) => {
-  //const _year = new Date().getFullYear();
-  //const _month = new Date().getMonth() + 1;
   const correctedMonth = props._month - 1;
   const NameOfMonthUS = new Intl.DateTimeFormat('en-US', {
     month: 'long',
   }).format(new Date(props._year + '-' + props._month));
-  //var dayInt = new Date(myDate).getDay();
   const daysInMonth = new Date(props._year, props._month, 0).getDate();
   let weekDay = new Date(props._year, correctedMonth, 1).getDay();
   if (weekDay === 0) weekDay = 7;
   let m = 0;
+
   const lf = lastFridayOfMonth(props._year, props._month);
-  //console.log(weekDay);
+  const deepCloneMonth = JSON.parse(JSON.stringify(month));
+  deepCloneMonth.November[lf - 1] = 'Black Friday';
+
   return (
-    <>
+    <div>
       <h3>{props._year}</h3>
       <h4>{NameOfMonthUS}</h4>
-      <h5>{lf}</h5>
-      {/*<LastFridayOfMonth year={props._year} month={props._month} />*/}
       <table class="month">
         <thead>
           <tr>
@@ -89,7 +76,8 @@ const MonthCalendar = (props) => {
                     <td>
                       <span>{(m = m + 1)}</span>
                       <span>
-                        {month[NameOfMonthUS] && month[NameOfMonthUS][m - 1]}
+                        {deepCloneMonth[NameOfMonthUS] &&
+                          deepCloneMonth[NameOfMonthUS][m - 1]}
                       </span>
                     </td>
                   ) : (
@@ -101,7 +89,7 @@ const MonthCalendar = (props) => {
           )}
         </tbody>
       </table>
-    </>
+    </div>
   );
 };
 
