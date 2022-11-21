@@ -12,9 +12,9 @@ date: 2020-12-29 23:37:17
 
 | # | name | photo | store | 2022/11 |
 | --- | --- | --- | --- | --- |
-| 4 | E5-2640V3 | [![Intel-Xeon-E5-2640-V3-SR205-2-6-8-90](img/Intel-Xeon-E5-2640-V3-SR205-2-6-8-90.webp)](img/Intel-Xeon-E5-2640-V3-SR205-2-6-8-90.webp) | [5](https://aliexpress.ru/item/1005004534402848.html 'YZSH Store') | 01:1079 10:1100 11:1066 13:1126 14:1123 16:1201 17:1196 18:1205 19:1341 20:1341 |
-| 5 | E5-2670V3 | [![Intel-Xeon-E5-2670V3](img/Intel-Xeon-E5-2670V3.webp)](img/Intel-Xeon-E5-2670V3.webp) | [6](https://aliexpress.ru/item/1005004535907493.html 'SZNU Store') | 01:907 10:954 11:924 13:976 14:974 16:1182 17:1177 18:1186 19:1170 20:1170 |
-| 6 | E5-2666V3 | [![Intel-Xeon-E5-2666V3](img/Intel-Xeon-E5-2666V3.jpg)](img/Intel-Xeon-E5-2666V3.jpg) | [7](https://aliexpress.ru/item/1005003644967394.html 'BY168 Store') | 01:2137 10:1796 11:1739 13:1837 14:1832 16:1814 17:1806 18:1820 19:1821 20:1821 |
+| 4 | E5-2640V3 | [![Intel-Xeon-E5-2640-V3-SR205-2-6-8-90](img/Intel-Xeon-E5-2640-V3-SR205-2-6-8-90.webp)](img/Intel-Xeon-E5-2640-V3-SR205-2-6-8-90.webp) | [5](https://aliexpress.ru/item/1005004534402848.html 'YZSH Store') | 01:1079 10:1100 11:1066 13:1126 14:1123 16:1201 17:1196 18:1205 19:1341 20:1341 21:1343 |
+| 5 | E5-2670V3 | [![Intel-Xeon-E5-2670V3](img/Intel-Xeon-E5-2670V3.webp)](img/Intel-Xeon-E5-2670V3.webp) | [6](https://aliexpress.ru/item/1005004535907493.html 'SZNU Store') | 01:907 10:954 11:924 13:976 14:974 16:1182 17:1177 18:1186 19:1170 20:1170 21:1172 |
+| 6 | E5-2666V3 | [![Intel-Xeon-E5-2666V3](img/Intel-Xeon-E5-2666V3.jpg)](img/Intel-Xeon-E5-2666V3.jpg) | [7](https://aliexpress.ru/item/1005003644967394.html 'BY168 Store') | 01:2137 10:1796 11:1739 13:1837 14:1832 16:1814 17:1806 18:1820 19:1821 20:1821 21:1825 |
 
 </small>
 
