@@ -5,7 +5,7 @@ date: 2022-11-11 23:50:33
 sidebar_position: 4
 ---
 
-Build a computer!
+![seasonality](img/Curve.max-1000x1000.png) Build your PC with the right components at the rigth time!
 
 ## Architecture
 

@@ -6,14 +6,25 @@ description: 'Photos and links of 3 things I bought on November 26, 2020 on Blac
 
 [cashback Umoney](https://yoomoney.ru/promo/offer/4164-aliexpress?viewId=35ed027c-5ff6-c4e4-ce58-2dbb000f0000)
 
+Guideline for planning according to seasonality.
+
+![seasonality](seasonality-en.svg)
+
 I found a holiday calendar with impact of the holidays on buyers.
 
 ![seasonality-google-adsense](seasonality-google-adsense.jpg)
 
-```mdx-code-block
-import MonthCalendar from '@site/src/pages/MonthCalendar'
+Then I create react component
 
-<MonthCalendar _year={new Date().getFullYear()} _month={11} />
+```mdx-code-block
+import MonthCalendar from '@site/src/pages/MonthCalendar';
+
+export const year = 2016;
+
+<h3>{year}</h3>
+
+<MonthCalendar _year={year} _month={11} />
+<MonthCalendar _year={year} _month={12} />
 ```
 
 <table class="month">

@@ -230,6 +230,11 @@ blockquote {
   width: 200px;
 }*/
 
+.month_card {
+  width: 399px;
+  display: inline-table;
+}
+
 table.month {
   border-collapse: separate;
   font-size: 9px;
