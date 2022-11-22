@@ -19,7 +19,7 @@ Then I create react component
 ```mdx-code-block
 import MonthCalendar from '@site/src/pages/MonthCalendar';
 
-export const year = 2016;
+export const year = new Date().getFullYear();
 
 <h3>{year}</h3>
 
