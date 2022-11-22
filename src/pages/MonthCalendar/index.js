@@ -33,38 +33,31 @@ const MonthCalendar = React.memo(
       deepCloneMonth[blackFriday - 1] = MonthDay.November['Black Friday'];
 
       //etc...
-      const smallBusinessSaturday = blackFriday + 1;
       const cyberMonday = blackFriday + 3;
 
-      if (smallBusinessSaturday <= 30) {
-        deepCloneMonth[smallBusinessSaturday - 1] = 'Small Business Saturday';
-        if (cyberMonday <= 30) {
-          deepCloneMonth[cyberMonday - 1] = 'Cyber Monday';
-        }
+      if (cyberMonday <= 30) {
+        deepCloneMonth[cyberMonday - 1] = MonthDay.November['Cyber Monday'];
       }
     }
     if (NameOfMonth === 'December') {
       const thanksGivingDay = AnyDay(props._year, props._month - 2, 4, 4);
       const blackFriday = thanksGivingDay + 1;
-      const smallBusinessSaturday = blackFriday + 1;
+
       const cyberMonday = blackFriday + 3;
-      if (smallBusinessSaturday > 30) {
-        deepCloneMonth[smallBusinessSaturday - 31] = 'Small Business Saturday';
-      }
       if (cyberMonday > 30) {
-        deepCloneMonth[cyberMonday - 31] = 'Cyber Monday';
+        deepCloneMonth[cyberMonday - 31] = MonthDay.December['Cyber Monday'];
       }
-      const _secondMonday = AnyDay(props._year, props._month - 1, 2, 1);
-      deepCloneMonth[_secondMonday - 1] = 'Green Monday';
+      const greenMonday = AnyDay(props._year, props._month - 1, 2, 1);
+      deepCloneMonth[greenMonday - 1] = MonthDay.December['Green Monday'];
 
       // last saturday before 25 December
-      const _superSaturday = lastFridayOfMonth(
+      const superSaturday = lastFridayOfMonth(
         props._year,
         props._month - 1,
         6,
         24,
       );
-      deepCloneMonth[_superSaturday - 1] = 'Super Saturday';
+      deepCloneMonth[superSaturday - 1] = MonthDay.December['Super Saturday'];
     }
 
     return (
