@@ -3,11 +3,6 @@ import AnyDay from './components/anyDay';
 import lastFridayOfMonth from './components/lastFriday';
 import MonthDay from './components/monthDay';
 
-//const month = {
-//  November: [],
-//  December: [],
-//};
-
 const month = [];
 
 const MonthCalendar = React.memo(
@@ -22,20 +17,25 @@ const MonthCalendar = React.memo(
     let m = 0;
     //alert(NameOfMonth);
 
+    //deep clone array (or object if any)
     const deepCloneMonth = JSON.parse(JSON.stringify(month));
     if (NameOfMonth === 'November') {
-      //import shopping holidays
+      //import shopping holidays description database
       deepCloneMonth[10] = MonthDay.November[10];
-      //console.log('MonthDay = ' + JSON.stringify(MonthDay.November));
+      //to see parsed string
+      //console.log('MonthDay = ' + JSON.stringify(MonthDay.November['Black Friday']));
 
-      // black friday - next day after thanksgiving day (forth thursday of november)
-      //const blackFriday = lastFridayOfMonth(props._year, props._month, 5);
-      const thanksgivingDay = AnyDay(props._year, props._month - 1, 4, 4);
-      const blackFriday = thanksgivingDay + 1;
+      //calculate shopping-holidays' numbers
 
+      //1. black friday - next day after thanksgiving day(forth thursday of november)
+      const thanksGivingDay = AnyDay(props._year, props._month - 1, 4, 4);
+      const blackFriday = thanksGivingDay + 1;
+      deepCloneMonth[blackFriday - 1] = MonthDay.November['Black Friday'];
+
+      //etc...
       const smallBusinessSaturday = blackFriday + 1;
       const cyberMonday = blackFriday + 3;
-      deepCloneMonth[blackFriday - 1] = 'Black Friday';
+
       if (smallBusinessSaturday <= 30) {
         deepCloneMonth[smallBusinessSaturday - 1] = 'Small Business Saturday';
         if (cyberMonday <= 30) {
@@ -44,9 +44,8 @@ const MonthCalendar = React.memo(
       }
     }
     if (NameOfMonth === 'December') {
-      //const blackFriday = lastFridayOfMonth(props._year, props._month - 1, 5);
-      const thanksgivingDay = AnyDay(props._year, props._month - 2, 4, 4);
-      const blackFriday = thanksgivingDay + 1;
+      const thanksGivingDay = AnyDay(props._year, props._month - 2, 4, 4);
+      const blackFriday = thanksGivingDay + 1;
       const smallBusinessSaturday = blackFriday + 1;
       const cyberMonday = blackFriday + 3;
       if (smallBusinessSaturday > 30) {

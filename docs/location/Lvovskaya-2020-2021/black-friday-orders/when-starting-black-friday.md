@@ -10,12 +10,6 @@ Guideline for planning according to seasonality.
 
 ![seasonality](seasonality-en.svg)
 
-I found a holiday calendar with impact of the holidays on buyers.
-
-![seasonality-google-adsense](seasonality-google-adsense.jpg)
-
-Then I create react component
-
 ```mdx-code-block
 import MonthCalendar from '@site/src/pages/MonthCalendar';
 
@@ -26,67 +20,6 @@ export const year = new Date().getFullYear();
 <MonthCalendar _year={year} _month={11} />
 <MonthCalendar _year={year} _month={12} />
 ```
-
-<table class="month">
-<thead>
-  <tr>
-    <th>Monday</th>
-    <th>Tuesday</th>
-    <th>Wednesday</th>
-    <th>Thursday</th>
-    <th>Friday</th>
-    <th>Saturday</th>
-    <th>Sunday</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td><span>All Saint's Day<span>1</span></span></td>
-  </tr>
-  <tr>
-    <td><span>All Souls Day<span>2</span></span></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</tbody>
-</table>
 
 ## November 26, 2020 (Thursday)
 
