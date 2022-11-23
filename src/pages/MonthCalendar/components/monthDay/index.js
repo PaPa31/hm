@@ -6,9 +6,9 @@ let monthDay = {
 };
 
 const nov11 = {
-  holiday: 'Singles Day',
+  holiday: "Singles' Day",
   description:
-    'Established in 1993 by Chinese students. \nIn 2009, "Alibaba" began promoting it as a shopping holiday.',
+    '"Bare sticks (11/11) holiday". Established in 1993 by Chinese students. \nIn 2009, Alibaba began promoting it as a shopping holiday.',
 };
 
 //Handle html tags without external parsing.
@@ -19,8 +19,7 @@ monthDay.November[11 - 1] = (
 
 const blackFriday = {
   holiday: 'Black Friday',
-  description:
-    'Since 1932, USA. Origin: either black marks on the roads from excessive traffic;\n or black ink for profit marks on documents (red ink for losses).',
+  description: 'USA. "Shopping Disaster Day". \nFriday after Thanksgiving.',
 };
 
 monthDay.November['Black Friday'] = (
@@ -30,7 +29,7 @@ monthDay.November['Black Friday'] = (
 const cyberMonday = {
   holiday: 'Cyber Monday',
   description:
-    '2005. International. Cyber Monday - marketing catchphrase to persuade people to shop online.',
+    'USA, 2005. A marketing slogan designed to persuade people to shop online. \nMonday after Thanksgiving.',
 };
 
 monthDay.November['Cyber Monday'] = (
@@ -39,7 +38,8 @@ monthDay.November['Cyber Monday'] = (
 
 const greenMonday = {
   holiday: 'Green Monday',
-  description: 'Green Monday aims to promote green lifestyle.',
+  description:
+    'USA, 2007. "At least 10 days prior to Christmas". \nCoined by eBay as the last day for a timely purchase. \nUsually the second Monday of December.',
 };
 
 monthDay.December['Green Monday'] = (
@@ -48,7 +48,8 @@ monthDay.December['Green Monday'] = (
 
 const superSaturday = {
   holiday: 'Super Saturday',
-  description: 'Super Saturday marks the end of the holiday shopping season.',
+  description:
+    "USA. Or Panic Saturday. The end of the sales season. \nIt's targets last-minute buyers. Last Saturday before Christmas.",
 };
 
 monthDay.December['Super Saturday'] = (
