@@ -3,6 +3,7 @@ import Layout from '@theme/Layout';
 import BackgroundImage from '@site/src/pages/BackgroundImage';
 import CodeBlock from '@theme/CodeBlock';
 import Toggler from '@site/src/pages/Toggler';
+import MonthCalendar from '@site/src/pages/MonthCalendar';
 
 const threePhotos = [
   {
@@ -40,7 +41,11 @@ export default function MyComponents() {
           return <h1>Hello, {props.name}</h1>;
         }`}
         </CodeBlock>
-        <Toggler />
+        <div style={{display: 'inline-block'}}>
+          <Toggler />
+        </div>
+        <h3>{new Date().getFullYear()}</h3>
+        <MonthCalendar _year={new Date().getFullYear()} _month={11} />
       </div>
     </Layout>
   );
