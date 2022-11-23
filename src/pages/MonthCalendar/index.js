@@ -1,16 +1,18 @@
 import React from 'react';
-import AnyDay from './components/anyDay';
-import lastFridayOfMonth from './components/lastFriday';
-import MonthDay from './components/monthDay';
+import AnyDay from './_components/anyDay';
+import lastFridayOfMonth from './_components/lastFriday';
+import MonthDay from './_components/monthDay';
 
 const month = [];
 
 const MonthCalendar = React.memo(
   (props) => {
     const correctedMonth = props._month - 1;
-    const NameOfMonth = new Intl.DateTimeFormat('en-US', {
-      month: 'long',
-    }).format(new Date(props._year + '-' + props._month));
+    const date = new Date(props._year, props._month - 1, 10);
+    const NameOfMonth = date.toLocaleString('default', {month: 'long'});
+    //const NameOfMonth = new Intl.DateTimeFormat('en-US', {
+    //  month: 'long',
+    //}).format(new Date(props._year + '-' + props._month));
     const daysInMonth = new Date(props._year, props._month, 0).getDate();
     let weekDay = new Date(props._year, correctedMonth, 1).getDay();
     if (weekDay === 0) weekDay = 7;
