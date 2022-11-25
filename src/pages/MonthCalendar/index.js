@@ -1,66 +1,19 @@
 import React from 'react';
-import AnyDay from './_components/anyDay';
-import lastFridayOfMonth from './_components/lastFriday';
-import MonthDay from './_components/monthDay';
-
-const month = [];
+import requestedMonth from './_components/requestedMonth';
 
 const MonthCalendar = React.memo(
   (props) => {
-    const correctedMonth = props._month - 1;
-    const date = new Date(props._year, props._month - 1, 10);
-    const NameOfMonth = date.toLocaleString('default', {month: 'long'});
-    //const NameOfMonth = new Intl.DateTimeFormat('en-US', {
-    //  month: 'long',
-    //}).format(new Date(props._year + '-' + props._month));
     const daysInMonth = new Date(props._year, props._month, 0).getDate();
+
+    const correctedMonth = props._month - 1;
+    const date = new Date(props._year, correctedMonth, 10);
+    const NameOfMonth = date.toLocaleString('default', {month: 'long'});
     let weekDay = new Date(props._year, correctedMonth, 1).getDay();
     if (weekDay === 0) weekDay = 7;
     let m = 0;
     //alert(NameOfMonth);
 
-    //deep clone array (or object if any)
-    const deepCloneMonth = JSON.parse(JSON.stringify(month));
-    if (NameOfMonth === 'November') {
-      //import shopping holidays description database
-      deepCloneMonth[10] = MonthDay.November[10];
-      //to see parsed string
-      //console.log('MonthDay = ' + JSON.stringify(MonthDay.November['Black Friday']));
-
-      //calculate shopping-holidays' numbers
-
-      //1. black friday - next day after thanksgiving day(forth thursday of november)
-      const thanksGivingDay = AnyDay(props._year, props._month - 1, 4, 4);
-      const blackFriday = thanksGivingDay + 1;
-      deepCloneMonth[blackFriday - 1] = MonthDay.November['Black Friday'];
-
-      //etc...
-      const cyberMonday = blackFriday + 3;
-
-      if (cyberMonday <= 30) {
-        deepCloneMonth[cyberMonday - 1] = MonthDay.November['Cyber Monday'];
-      }
-    }
-    if (NameOfMonth === 'December') {
-      const thanksGivingDay = AnyDay(props._year, props._month - 2, 4, 4);
-      const blackFriday = thanksGivingDay + 1;
-
-      const cyberMonday = blackFriday + 3;
-      if (cyberMonday > 30) {
-        deepCloneMonth[cyberMonday - 31] = MonthDay.December['Cyber Monday'];
-      }
-      const greenMonday = AnyDay(props._year, props._month - 1, 2, 1);
-      deepCloneMonth[greenMonday - 1] = MonthDay.December['Green Monday'];
-
-      // last saturday before 25 December
-      const superSaturday = lastFridayOfMonth(
-        props._year,
-        props._month - 1,
-        6,
-        24,
-      );
-      deepCloneMonth[superSaturday - 1] = MonthDay.December['Super Saturday'];
-    }
+    const month = requestedMonth(props._year, correctedMonth);
 
     return (
       <div className="month_card">
@@ -80,14 +33,15 @@ const MonthCalendar = React.memo(
           <tbody>
             {Array.from({length: 6}).map((key, j) =>
               m < daysInMonth ? (
-                <tr>
+                <tr key={j}>
                   {Array.from({length: 7}).map((key, index) =>
                     (j > 0 && m < daysInMonth) ||
                     (j == 0 && index >= weekDay - 1) ? (
                       <td
+                        key={index}
                         className="mc"
                         style={
-                          deepCloneMonth[m]
+                          month[m]
                             ? {
                                 backgroundColor:
                                   'var(--month-calendar-holiday-bg)',
@@ -95,10 +49,10 @@ const MonthCalendar = React.memo(
                             : undefined
                         }>
                         <span>{(m = m + 1)}</span>
-                        {deepCloneMonth[m - 1]}
+                        {month[m - 1]}
                       </td>
                     ) : (
-                      <td></td>
+                      <td key={index}></td>
                     ),
                   )}
                 </tr>
