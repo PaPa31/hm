@@ -4,6 +4,75 @@ title: Motherboard
 date: 2020-12-29 23:23:44
 ---
 
+## Ali Scrape
+
+<small class="tab-img-w-200 col-w-0">
+
+<table class="nested">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>name</th>
+      <th>photo</th>
+      <th>store</th>
+      <th>2022/11</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>MACHINIST X99 RS9 red</td>
+      <td><img src="/hm/assets/images/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3-da5c85517df52730826b4376598b3b00.webp" alt="MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3"/></td>
+      <td><a href="https://aliexpress.ru/item/4000750170401.html" title="MACHINIST Store">2</a></td>
+      <td>
+        <j>
+          <z>11</z><z>3837</z>
+        </j>
+        <j>
+          <z>12</z><z>3835</z>
+        </j>
+        <j>
+          <z>13</z><z>4536</z>
+        </j>
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>MACHINIST X99 K9 white</td>
+      <td><img src="/hm/assets/images/Machinist-X99-X99-xeon-e5-2620-v3-CPU-c4dde54d5faa614fc4095d7384a88525.webp" alt="Machinist-X99-X99-xeon-e5-2620-v3-CPU"/></td>
+      <td><a href="https://aliexpress.ru/item/4000383007258.html" title="MACHINIST Store">2</a></td>
+      <td><j><z>11</z><z>4779</z></j><j><z>12</z><z>4777</z></j></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Atermiter X99 D4 2-channel</td>
+      <td><img alt="Atermiter-X99-D4-3-0-NVME-M-2-SSD" src="/hm/assets/images/Atermiter-X99-D4-3-0-NVME-M-2-SSD-46fc73674eea3b6eb8764f66dc83bf22.webp"/></td>
+      <td><a href="https://aliexpress.ru/item/1005002988276402.html" title="atermiter Store">4</a></td>
+      <td>
+        <j>
+          <z>01</z><z>3459</z>
+        </j>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+</small>
+
 ## Price Dynamics
 
 ### 2022

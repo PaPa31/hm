@@ -221,6 +221,50 @@ blockquote {
   max-width: 100px;
 }
 
+/*.nested td span {
+  padding: 0 var(--ifm-table-cell-padding) 0 var(--ifm-table-cell-padding);
+  border-bottom: var(--ifm-table-border-width) solid
+    var(--ifm-table-border-color);
+}*/
+
+.nested td:nth-child(n + 5) {
+  padding: 0px;
+}
+
+.nested td j {
+  border-bottom: var(--ifm-table-border-width) solid
+    var(--ifm-table-border-color);
+  display: table-row;
+}
+
+.nested td j:last-child {
+  border-bottom: none;
+}
+
+.nested td j z:first-of-type {
+  border-right: var(--ifm-table-border-width) solid
+    var(--ifm-table-border-color);
+}
+
+.nested td j z {
+  padding: 2px var(--ifm-table-cell-padding);
+  display: table-cell;
+}
+
+.nested td {
+  text-align: center;
+  padding: 2px 5px;
+}
+
+.nested th {
+  padding: 2px 5px;
+  border-top: none;
+}
+
+/*.nested thead tr {
+  border: none;
+}*/
+
 /*add to em red-color*/
 .em-green em,
 #price-dynamics ~ table em,
