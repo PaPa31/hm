@@ -11,4 +11,3 @@ export default function lastDayOfWeekInMonth(
   lastDay.setDate(lastDay.getDate() - ((lastDay.getDay() + 7 - dayOfWeek) % 7));
   return lastDay.getDate();
 }
-lastDayOfWeekInMonth(year, month, 6, 24);
