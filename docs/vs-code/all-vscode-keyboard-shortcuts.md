@@ -55,5 +55,6 @@ You need to be logged into the same account on both OS. (e.g. PaPa31 (GitHub) on
 | 18 | `Ctrl+Alt s` |  | save all files |  |
 | 19 | `Ctrl+K Ctrl+w` |  | close all tabs |  |
 | 20 | `Alt+G u` |  | [Macro: updateAutoFrontmatter](macros/2-auto-frontmatter) |  |
+| 21 | `Ctrl+g i` |  | make md clickable image below selected Header | `[![](.png)](.png)` |
 
 </small>

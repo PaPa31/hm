@@ -4,7 +4,6 @@ title: Tabs Snippet
 date: 2022-05-27 16:41:06
 ---
 
-
 ## Usage
 
 - type two keywords with one space between them: `JSX React`
@@ -15,7 +14,7 @@ date: 2022-05-27 16:41:06
 You should see a ready form:
 
 ````jsx
-import Tabs from '@theme/Tabs'
+import Tabs from '@theme/Tabs'  
 import TabItem from '@theme/TabItem'
 
 <Tabs>
@@ -38,39 +37,39 @@ import TabItem from '@theme/TabItem'
 
 ## View
 
-import BrowserWindow from '@site/src/components/BrowserWindow';
-import Tabs from '@theme/Tabs'
+import BrowserWindow from '@site/src/components/BrowserWindow'  
+import Tabs from '@theme/Tabs'  
 import TabItem from '@theme/TabItem'
 
 <BrowserWindow>
 
-  
-  <Tabs>
-    <TabItem value="jsx" label="JSX" default>
-  
-  ```
-  
-  ```
-  
-    </TabItem>
-    <TabItem value="react" label="React">
-  
-  ```
-  
-  ```
-  
-    </TabItem>
-  </Tabs>
+<Tabs>
+  <TabItem value="jsx" label="JSX" default>
+
+```
+
+```
+
+  </TabItem>
+  <TabItem value="react" label="React">
+
+```
+
+```
+
+  </TabItem>
+</Tabs>
+
 </BrowserWindow>
 
 ## Snippet Code
 
-```json title="global.code-snippets"
+````json title="global.code-snippets"
 "Tabs": {
 		"scope": "javascript,typescript,html,markdown",
 		"prefix": "Tabs-from-Clipboard",
 		"body": [
-			"import Tabs from '@theme/Tabs'",
+			"import Tabs from '@theme/Tabs'  ",
 			"import TabItem from '@theme/TabItem'",
 			"",
 			"<Tabs>",
@@ -92,4 +91,4 @@ import TabItem from '@theme/TabItem'
 		],
 		"description": "Make anchor from clipboard"
 	},
-```
+````
