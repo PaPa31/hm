@@ -37,6 +37,7 @@ To use a Snippet, press `Ctrl + Space`, type the first (or any other) letters of
 | 17 | prettier_ignore comment | prc |  | `<!-- prettier-ignore-start -->` $SELECTED_TEXT `<!-- prettier-ignore-end -->` |
 | 18 | [Auto Frontmatter](auto-frontmatter.md) | Docusaurus-id |  |  |
 | 19 | Clickable image | Select Header (words only), press `Ctrl + Space`, select 'Clickable image' in the menu without entering any text | -> clickable md image will be below | with `[![](.png)](.png)` pattern |
+| 20 | Insert Code Block | code_shell | Add md code block with shell type | ` ```shell ``` ` |
 
 </small>
 

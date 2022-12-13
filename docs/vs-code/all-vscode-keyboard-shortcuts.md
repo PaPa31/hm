@@ -42,7 +42,8 @@ You need to be logged into the same account on both OS. (e.g. PaPa31 (GitHub) on
 | 5 | `Ctrl+e Down` | see above | Wrap with `<sub>` tags | log2 -> log<sub>2</sub> |
 | 6 | `Ctrl+e t` | see above | Wrap with `<textarea>` and some text | `<textarea>Your answer:</textarea>` |
 | 7 | `Ctrl+g c` | NOTE, TIP, IMPORTANT, CAUTION, WARNING | add markdown admonition | `::: :::` |
-| 8 | `Ctrl+g t` |  | add markdown code block | `````` |
+| 8 | `Ctrl+g t` |  | add markdown code block | ` ``` ``` ` |
+|  | `Ctrl+g s` |  | add md code block with shell type | ` ```shell ``` ` |
 | 9 | `Alt+g c` | [Macro: createAutoFrontmatter](macros/1-auto-frontmatter) | add markdown frontmatter | `--- ... ---` |
 | 10 | `Ctrl+g a` | make external link with 2 vars | 1st var -> copy some link; 2nd var highlight some text | <a href='https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode' class='external'>Prettier</a> |
 | 11 | `Ctrl+g y` |  | insert advanced code block | `jsx title="App.js" {}` |
