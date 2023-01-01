@@ -75,9 +75,28 @@ date: 2020-12-29 23:23:44
 
 ## Price Dynamics
 
-### 2022
+### 2023
 
 <small class="tab-img-w-200 col-w-0">
+
+| # | name | photo | store | 2023/01 |
+| --- | --- | --- | --- | --- |
+| 2 | MACHINIST X99 RS9 red | [![MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp)](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp) | [2](https://aliexpress.ru/item/4000750170401.html 'MACHINIST Store') | 01:4904 |
+| 3 | MACHINIST X99 K9 white | [![Machinist-X99-X99-xeon-e5-2620-v3-CPU](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp)](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp) | [2](https://aliexpress.ru/item/4000383007258.html 'MACHINIST Store') | 01:5530 |
+| 4 | Atermiter X99 D4 2-channel | [![Atermiter-X99-D4-3-0-NVME-M-2-SSD](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp)](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp) | [4](https://aliexpress.ru/item/1005002988276402.html 'atermiter Store') | 01:3829 |
+| 5 | HUANANZHI X99 QD4 | [![HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp)](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp) | [5](https://aliexpress.ru/item/1005004533446321.html 'iworld Store') | 01:5201 |
+| 6 | Machinist X99 MR9A | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp) | [6](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | 01:5813 |
+| 7 | Machinist X99 MR9Av2 <br/>(E5-MR9A-PRO) | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp) | [6](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') | 01:6290 |
+
+~~999~~ - sold out  
+`n<` - n months ago  
+**6158** - website page buttons are not active
+
+</small>
+
+### 2022
+
+<small class="tab-img-w-100 col-w-0">
 
 | # | name | photo | store | 2022/11 | 2022/12 |
 | --- | --- | --- | --- | --- | --- |
@@ -87,10 +106,6 @@ date: 2020-12-29 23:23:44
 | 5 | HUANANZHI X99 QD4 | [![HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp)](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp) | [5](https://aliexpress.ru/item/1005004533446321.html 'iworld Store') | 2<:3700 01:4699 10:4515 11:4373 12:4372 13:4619 14:4608 15:4576 16:4561 17:4542 18:4576 19:4581 20:4581 21:4589 22:4620 23:4581 24:4406 25:4406 26:4406 27:4406 28:4414 29:4484 30:4470 | 01:4667 02:4696 03:4710 04:4710 05:4773 06:4772 07:4789 08:4764 09:4750 10:4743 11:4743 12:4743 13:4784 14:4800 15:4870 16:4900 17:4905 18:4905 19:4951 20:5091 21:5091 22:5345 23:5147 25:5095 26:5257 27:5170 28:5338 29:5522 30:5439 31:5335 |
 | 6 | Machinist X99 MR9A | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp) | [6](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | 01:4641 10:4664 11:4518 12:4516 13:5163 14:5150 15:5115 16:5098 17:5077 18:5115 19:5120 20:5120 21:5129 22:5164 23:5120 24:4551 25:4551 26:4551 27:4551 28:4560 29:4632 30:4921 | 01:5216 02:5249 03:5265 04:5265 05:5253 06:5253 07:5272 08:5244 09:5228 10:5301 11:5301 12:5302 13:5266 14:5283 15:5361 16:5477 17:5483 18:5483 19:5534 20:5691 21:5691 22:5974 23:5753 25:5695 26:5787 27:5690 28:5875 29:6172 30:6079 31:5963 |
 | 7 | Machinist X99 MR9Av2 <br/>(E5-MR9A-PRO) | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp) | [6](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') | 01:5389 10:~~4786~~ 13:~~5298~~ 18:~~5249~~ 21:5964 22:6005 23:5954 24:5727 25:~~5727~~ 26:~~5727~~ 27:~~5727~~ 28:~~5738~~ 29:~~5828~~ 30:~~5722~~ | 01:6066 02:6104 03:5697 04:5697 05:5772 06:5772 07:5792 08:5762 09:5745 10:5737 11:5737 12:5737 13:5786 14:5805 15:5890 16:5927 17:5933 18:5933 19:5989 20:**6158** 21:6158 22:6465 23:6226 25:6162 26:6359 27:6252 28:6456 29:6679 30:6578 31:6452 |
-
-~~999~~ - sold out  
-`n<` - n months ago  
-**6158** - website page buttons are not active
 
 </small>
 

@@ -6,9 +6,22 @@ date: 2020-12-29 23:40:11
 
 ## Price Dynamics
 
-### 2022
+### 2023
 
 <small class="col-2-w-auto tab-img-w-200 col-w-0">
+
+| # | name | photo | store | 2023/01 |
+| --- | --- | --- | --- | --- |
+| 1 | 1660 super asus | [![ASUS-TUF-GTX-1660-6-GPU.jpg_640x640](img/ASUS-TUF-GTX-1660-6-GPU.jpg_640x640.webp)](img/ASUS-TUF-GTX-1660-6-GPU.jpg_640x640.webp) | [4](https://aliexpress.ru/item/1005004499685421.html 'RE Store') | 01:11027 |
+| 2 | rx 6600/6600m | [![SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7](img/SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7.webp)](img/SHELI-51RISC-RX6600-8-GPU-GDDR6-128-14-7.webp) | [5](https://aliexpress.ru/item/1005004605813445.html 'SHELI Official Store') | 01:16778 |
+| 3 | rtx 2060 super | [![ASUS-RTX-2060-super-8-GPU-RTX-2060-S](img/ASUS-RTX-2060-super-8-GPU-RTX-2060-S.webp)](img/ASUS-RTX-2060-super-8-GPU-RTX-2060-S.webp) | [4](https://aliexpress.ru/item/1005004764787493.html 'RE Store') | 01:~~16150~~ |
+| 4 | rtx 3070 | [![MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640](img/MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640.webp)](img/MLLSE-RTX-3070-8-X-Game-NVIDIA-GPU-GDDR6-256bit-HDMI-1-DP.jpg_640x640.webp) | [6](https://aliexpress.ru/item/1005004160055266.html 'MLLSE Official Store') | 01:31335 |
+
+</small>
+
+### 2022
+
+<small class="col-2-w-auto tab-img-w-100 col-w-0">
 
 | # | name | photo | store | 2022/11 | 2022/12 |
 | --- | --- | --- | --- | --- | --- |

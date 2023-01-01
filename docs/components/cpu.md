@@ -6,9 +6,21 @@ date: 2020-12-29 23:37:17
 
 ## Price Dynamics
 
-### 2022
+### 2023
 
 <small class="tab-img-w-200 col-w-0">
+
+| # | name | photo | store | 2023/01 |
+| --- | --- | --- | --- | --- |
+| 4 | E5-2640V3 | [![Intel-Xeon-E5-2640-V3-SR205-2-6-8-90](img/Intel-Xeon-E5-2640-V3-SR205-2-6-8-90.webp)](img/Intel-Xeon-E5-2640-V3-SR205-2-6-8-90.webp) | [5](https://aliexpress.ru/item/1005004534402848.html 'YZSH Store') | 01:1294 |
+| 5 | E5-2670V3 | [![Intel-Xeon-E5-2670V3](img/Intel-Xeon-E5-2670V3.webp)](img/Intel-Xeon-E5-2670V3.webp) | [6](https://aliexpress.ru/item/1005004535907493.html 'SZNU Store') | 01:1331 |
+| 6 | E5-2666V3 | [![Intel-Xeon-E5-2666V3](img/Intel-Xeon-E5-2666V3.jpg)](img/Intel-Xeon-E5-2666V3.jpg) | [7](https://aliexpress.ru/item/1005003644967394.html 'BY168 Store') | 01:2298 |
+
+</small>
+
+### 2022
+
+<small class="tab-img-w-100 col-w-0">
 
 | # | name | photo | store | 2022/11 | 2022/12 |
 | --- | --- | --- | --- | --- | --- |

@@ -6,9 +6,32 @@ date: 2020-12-29 23:39:02
 
 ## Price Dynamics
 
-### 2022
+### 2023
 
 <small class="tab-img-w-200 col-w-0">
+
+| # | mother | cpu | memory | photo | store | 2023/01 |
+| --- | :-: | :-: | :-: | :-: | --- | --- |
+| 1 | Huananzhi X99 BD4 | 2678V3 | 2x8Gb DDR4 3200MHz ECC-REG | [![HUANANZHI-X99-BD4-DDR4-Motherboard-Set-With-Xeon-E5-2678-V3-LGA2011-3-CPU-2-8GB](img/HUANANZHI-X99-BD4-DDR4-Motherboard-Set-With-Xeon-E5-2678-V3-LGA2011-3-CPU-2-8GB.webp)](img/HUANANZHI-X99-BD4-DDR4-Motherboard-Set-With-Xeon-E5-2678-V3-LGA2011-3-CPU-2-8GB.webp) | [1](https://www.aliexpress.com/item/4000542296880.html 'CPU Store') | 01:11298 |
+|  |  |  |  |  |  |  |
+| 2 | Huananzhi X99-8M-F D4 | 2620V3 | 1x16Gb DDR4 2666MHz ECC-REG | [![Huananzhi-X99-8M-F-D4-E5-2620-V3-LGA2011_Q90](img/Huananzhi-X99-8M-F-D4-E5-2620-V3-LGA2011_Q90.jpg)](img/Huananzhi-X99-8M-F-D4-E5-2620-V3-LGA2011_Q90.jpg) | [1](https://aliexpress.ru/item/4000931520719.html 'CPU Store') | 01:9576 |
+|  |  |  |  |  |  |  |
+| 3 | MACHINIST X99 K9 white | 2620V3 | 1x16Gb DDR4 2400MHz REG-ECC | [![MACHINIST-X99-K9-X99-LGA-2011-3](img/MACHINIST-X99-K9-X99-LGA-2011-3.webp)](img/MACHINIST-X99-K9-X99-LGA-2011-3.webp) | [8](https://aliexpress.ru/item/4000842821384.html 'Good Luck 7 Store') | 01:~~13970~~ |
+|  |  |  |  |  |  |  |
+| 4 | Atermiter x99 D4 | 2670v3 | 2x8Gb DDR4 2666MHz Desktop | [![Atermiter-x99-2670v3-8-8ddr4](img/Atermiter-x99-2670v3-8-8ddr4.webp)](img/Atermiter-x99-2670v3-8-8ddr4.webp) | [1](https://aliexpress.ru/item/4000483492857.html 'CPU Store') | 01:7947 |
+|  |  |  |  |  |  |  |
+| 5 | HUANANZHI X99 QD4 | 2640v3 | 2x8Gb DDR4 2666MHz Desktop | [![HUANANZHI-X99-QD4-X99-XEON](img/HUANANZHI-X99-QD4-X99-XEON.webp)](img/HUANANZHI-X99-QD4-X99-XEON.webp) | [6](https://aliexpress.ru/item/1005004759137992.html 'atermiter Store') | 01:8525 |
+|  |  |  |  |  |  |  |
+| 6 | MACHINIST X99 MR9A [7](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | 2666v3 [9](https://aliexpress.ru/item/1005003644967394.html 'BY168 Store') | 2x8Gb DDR4 2133MHz ?ECC-REG [11](https://aliexpress.ru/item/33002249520.html 'RE Store') | [![X99-ATX-MR9A-2666v3-16gb](img/X99-ATX-MR9A-2666v3-16gb.webp)](img/X99-ATX-MR9A-2666v3-16gb.webp) | [7](https://aliexpress.ru/item/1005004029196934.html 'MACHINIST official Store') | 01:10985 |
+|  |  |  |  |  |  |  |
+| 7 | MACHINIST X99 MR9Av2 [7](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') | 2666v3 [9](https://aliexpress.ru/item/1005003644967394.html 'BY168 Store') | 4x8Gb DDR4 2666MHz Desktop [10](https://aliexpress.ru/item/1005004564683502.html 'BillionR Store') | [![MACHINIST-X99-Xeon-E5-2666-V3](img/MACHINIST-X99-Xeon-E5-2666-V3.webp)](img/MACHINIST-X99-Xeon-E5-2666-V3.webp) | [7](https://aliexpress.ru/item/1005004695673494.html 'MACHINIST official Store') | 01:14991 |
+|  |  |  |  |  |  |  |
+
+</small>
+
+### 2022
+
+<small class="tab-img-w-100 col-w-0">
 
 | # | mother | cpu | memory | photo | store | 2022/11 | 2022/12 |
 | --- | :-: | :-: | :-: | :-: | --- | --- | --- |

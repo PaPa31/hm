@@ -6,9 +6,21 @@ date: 2020-12-29 23:39:52
 
 ## Price Dynamics
 
-### 2022
+### 2023
 
 <small class="tab-img-w-200 col-w-0">
+
+| # | name | photo | store | 2023/01 |
+| --- | --- | --- | --- | --- |
+| 4 | m2 nvme (PCIe3.0x4) 2280 240Gb ~~256Gb~~ | [![XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp)](img/XrayDisk-M-2-SSD-M2-256-PCIe-NVME-128-512.webp) | [5](https://aliexpress.ru/item/4000956226768.html 'Xraydisk Official Store') | 01:1432 |
+| 5 | -//- 480Gb ~~512Gb~~ | -//- | -//- | 01:~~sold~~ |
+| 6 | -//- 960Gb ~~1Tb~~ | -//- | -//- | 01:3829 |
+
+</small>
+
+### 2022
+
+<small class="tab-img-w-100 col-w-0">
 
 | # | name | photo | store | 2022/11 | 2022/12 |
 | --- | --- | --- | --- | --- | --- |

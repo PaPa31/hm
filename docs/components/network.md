@@ -6,9 +6,27 @@ date: 2022-11-12 20:51:36
 
 ## Price Dynamics
 
-### 2022
+### 2023
 
 <small class="tab-img-w-200 col-w-0">
+
+| # | name | photo | store | 2023/01 |
+| --- | --- | --- | --- | --- |
+| 1 | TP-Link TL-SG105 | [![TP-Link TL-SG105](img/tp-link-tl-sg105.webp)](img/tp-link-tl-sg105.webp) | [1](https://www.ozon.ru/product/kommutator-tp-link-tl-sg105-5g-neupravlyaemyy-147432262 'Ozon') [g](https://www.google.com/shopping/product/9216675578055970771 'Google Shopping') | 01:889 |
+| 2 | UGREEN Ethernet/USB+3USB | [![UGREEN-USB-Ethernet-USB3-0-Lan-1000-Ethernet-USB-RJ45](img/UGREEN-USB-Ethernet-USB3-0-Lan-1000-Ethernet-USB-RJ45.jpg_640x640.webp)](img/UGREEN-USB-Ethernet-USB3-0-Lan-1000-Ethernet-USB-RJ45.jpg_640x640.webp) | [2](https://aliexpress.ru/item/32401431234.html 'Ugreen Official Store') | 01:1454 |
+| 3 | UGREEN Ethernet/USB | [![UGREEN-USB-Ethernet-USB3-0-1000-USB-RJ45.jpg_640x640](img/UGREEN-USB-Ethernet-USB3-0-1000-USB-RJ45.jpg_640x640.webp)](img/UGREEN-USB-Ethernet-USB3-0-1000-USB-RJ45.jpg_640x640.webp) | [2](https://aliexpress.ru/item/4000627945248.html 'Ugreen Official Store') | 01:1033 |
+| 4 | UGREEN Ethernet patch cord, cat6, 1m | [![ethernet-cable-rj45-cat6](img/ethernet-cable-rj45-cat6.jpg)](img/ethernet-cable-rj45-cat6.jpg) | [2](https://aliexpress.ru/item/32694241950.html 'Ugreen Ethernet cable, cat6') | 01:193 |
+| 5 | UGREEN Ethernet patch cord, cat8, 5m | [![ethernet-cable-rj45-cat8](img/ethernet-cable-rj45-cat8.jpg)](img/ethernet-cable-rj45-cat8.jpg) | [2](https://aliexpress.ru/item/4001219267343.html 'Ugreen Ethernet cable, cat8') | 01:1071 |
+| 6 | Grwibeou DP to VGA Adapter | [![Grwibeou-DP-VGA](img/Grwibeou-DP-VGA.jpg_640x640.webp)](img/Grwibeou-DP-VGA.jpg_640x640.webp) | [3](https://aliexpress.ru/item/1005002431490768.html 'Grwibeou Store') | 01:232 |
+
+`+` - seller coupon applied  
+_999_ - I have bought
+
+</small>
+
+### 2022
+
+<small class="tab-img-w-100 col-w-0">
 
 | # | name | photo | store | 2022/11 | 2022/12 |
 | --- | --- | --- | --- | --- | --- |
@@ -18,9 +36,6 @@ date: 2022-11-12 20:51:36
 | 4 | UGREEN Ethernet patch cord, cat6, 1m | [![ethernet-cable-rj45-cat6](img/ethernet-cable-rj45-cat6.jpg)](img/ethernet-cable-rj45-cat6.jpg) | [2](https://aliexpress.ru/item/32694241950.html 'Ugreen Ethernet cable, cat6') | 16:169 17:169 18:170 19:170 20:170 21:171 22:183 23:181 24:143 25:143 26:143 27:143 28:143 29:158 30:166 | 01:173 02:175 03:175 04:175 05:174 06:174 07:174 08:174 09:173 10:187 11:187 12:187 13:189 14:190 15:192 16:194 17:194 18:194 19:196 20:201 21:201 22:211 23:203 25:201 26:208 27:204 28:211 29:218 30:202 31:198 |
 | 5 | UGREEN Ethernet patch cord, cat8, 5m | [![ethernet-cable-rj45-cat8](img/ethernet-cable-rj45-cat8.jpg)](img/ethernet-cable-rj45-cat8.jpg) | [2](https://aliexpress.ru/item/4001219267343.html 'Ugreen Ethernet cable, cat8') | 24:686 25:739 26:739 27:739 28:740 29:752 30:855 | 01:893 02:898 03:901 04:901 05:899 06:899 07:902 08:897 09:894 10:977 11:977 12:977 13:985 14:904 15:917 16:923 17:_924_ 18:924 19:932 20:959 21:1049 22:1101 23:1060 25:1050 26:1068 27:1065 28:1100 29:1138 30:1120 31:1099 |
 | 6 | Grwibeou DP to VGA Adapter | [![Grwibeou-DP-VGA](img/Grwibeou-DP-VGA.jpg_640x640.webp)](img/Grwibeou-DP-VGA.jpg_640x640.webp) | [3](https://aliexpress.ru/item/1005002431490768.html 'Grwibeou Store') |  | 06:184 07:184 08:_183_ 09:183 10:186 11:186 12:186 13:188 14:188 15:191 16:192 17:219 18:219 19:221 20:228 21:228 22:239 23:230 25:228 26:200 27:199 28:206 29:247 30:243 31:238 |
-
-`+` - seller coupon applied  
-_999_ - I have bought
 
 </small>
 

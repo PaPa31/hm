@@ -6,9 +6,20 @@ date: 2020-12-29 23:37:50
 
 ## Price Dynamics
 
-### 2022
+### 2023
 
 <small class="tab-img-w-200 col-w-0">
+
+| # | name | photo | store | 2022/11 |
+| --- | :-: | --- | --- | --- |
+| 4 | DDR4 8Gb 2133MHg ECC-REG | [![DDR4-8-16-4-32-64-2400-2133-ECC-REG](img/DDR4-8-16-4-32-64-2400-2133-ECC-REG.webp)](img/DDR4-8-16-4-32-64-2400-2133-ECC-REG.webp) | [8](https://aliexpress.ru/item/33002249520.html 'RE Store') | 01:1370 |
+| 5 | DDR4 8Gb 3200MHz Desktop (not x99) | [![BR-DDR4-3200-16-32-2666](img/BR-DDR4-3200-16-32-2666.webp)](img/BR-DDR4-3200-16-32-2666.webp) | [9](https://aliexpress.ru/item/1005004564683502.html 'BillionR Store') | 01:1548 |
+
+</small>
+
+### 2022
+
+<small class="tab-img-w-100 col-w-0">
 
 | # | name | photo | store | 2022/11 | 2022/12 |
 | --- | :-: | --- | --- | --- | --- |
