@@ -81,12 +81,12 @@ date: 2020-12-29 23:23:44
 
 | # | name | photo | store | 2023/01 |
 | --- | --- | --- | --- | --- |
-| 2 | MACHINIST X99 RS9 red | [![MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp)](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp) | [2](https://aliexpress.ru/item/4000750170401.html 'MACHINIST Store') | 01:4904 |
-| 3 | MACHINIST X99 K9 white | [![Machinist-X99-X99-xeon-e5-2620-v3-CPU](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp)](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp) | [2](https://aliexpress.ru/item/4000383007258.html 'MACHINIST Store') | 01:5530 |
-| 4 | Atermiter X99 D4 2-channel | [![Atermiter-X99-D4-3-0-NVME-M-2-SSD](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp)](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp) | [4](https://aliexpress.ru/item/1005002988276402.html 'atermiter Store') | 01:3829 |
-| 5 | HUANANZHI X99 QD4 | [![HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp)](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp) | [5](https://aliexpress.ru/item/1005004533446321.html 'iworld Store') | 01:5201 |
-| 6 | Machinist X99 MR9A | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp) | [6](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | 01:5813 |
-| 7 | Machinist X99 MR9Av2 <br/>(E5-MR9A-PRO) | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp) | [6](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') | 01:6290 |
+| 2 | MACHINIST X99 RS9 red | [![MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp)](img/MACHINIST-X99-LGA-2011-3-Xeon-E5-2640-2666-v3.webp) | [2](https://aliexpress.ru/item/4000750170401.html 'MACHINIST Store') | 01:4904 02:4904 |
+| 3 | MACHINIST X99 K9 white | [![Machinist-X99-X99-xeon-e5-2620-v3-CPU](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp)](img/Machinist-X99-X99-xeon-e5-2620-v3-CPU.webp) | [2](https://aliexpress.ru/item/4000383007258.html 'MACHINIST Store') | 01:5530 02:5530 |
+| 4 | Atermiter X99 D4 2-channel | [![Atermiter-X99-D4-3-0-NVME-M-2-SSD](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp)](img/Atermiter-X99-D4-3-0-NVME-M-2-SSD.webp) | [4](https://aliexpress.ru/item/1005002988276402.html 'atermiter Store') | 01:3829 02:3829 |
+| 5 | HUANANZHI X99 QD4 | [![HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp)](img/HUANANZHI-X99-QD4-Intel-XEON-E5-X99-LGA2011-3.webp) | [5](https://aliexpress.ru/item/1005004533446321.html 'iworld Store') | 01:5201 02:5201 |
+| 6 | Machinist X99 MR9A | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4.webp) | [6](https://aliexpress.ru/item/1005003197164283.html 'MACHINIST official Store') | 01:5813 02:5813 |
+| 7 | Machinist X99 MR9Av2 <br/>(E5-MR9A-PRO) | [![Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp)](img/Machinist-X99-LGA-2011-3-Xeon-E5-V3-V4-2.webp) | [6](https://aliexpress.ru/item/1005004005435696.html 'MACHINIST official Store') | 01:6290 02:6290 |
 
 ~~999~~ - sold out  
 `n<` - n months ago  
