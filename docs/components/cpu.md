@@ -19,6 +19,7 @@ date: 2020-12-29 23:37:17
 | 8 | E5-2643V3 | [![Intel-Xeon-E5-2643V3](img/Intel-Xeon-E5-2643V3.jpg)](img/Intel-Xeon-E5-2643V3.jpg) | [9](https://aliexpress.ru/item/1005003311518110.html 'RE Store') |  |  |  |  |  |  |  |  |  | 26:1661 |
 | 9 | E5-2643V4 | [![Intel-Xeon-E5-2643V4](img/Intel-Xeon-E5-2643V4.png)](img/Intel-Xeon-E5-2643V4.png) | [10](https://aliexpress.ru/item/1005005006140702.html 'BIT Gold Store') |  |  |  |  |  |  |  |  |  | 26:2403 |
 | 10 | E5-2667V4 | [![Intel-Xeon-E5-2667V4](img/Intel-Xeon-E5-2667V4.jpg)](img/Intel-Xeon-E5-2667V4.jpg) | [10](https://aliexpress.ru/item/1005004914309828.html 'BIT Gold Store') |  |  |  |  |  |  |  |  |  | 26:4599 |
+| 11 | L5420 | [![Intel-Xeon-L5420](img/Intel-Xeon-L5420.jpg)](img/Intel-Xeon-L5420.jpg) | [10](https://aliexpress.ru/item/32595245277.html 'CPU TOP Store') |  |  |  |  |  |  |  |  |  | 26:688 |
 
 </small>
 
