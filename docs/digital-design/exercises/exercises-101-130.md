@@ -7,7 +7,7 @@ description: Harrises Exercises 1.1-1.30 and Solutions
 
 [All Exercises](all-exercises)
 
-View all answers: [Harris Solutions](../../pdf/harris-solutions.pdf)
+View all answers: [Harris Solutions](../../books/harrises-solutions.pdf)
 
 <!-- And my Solutions below. Solutions marked with ![alt text][logo] symbol I must explore! -->
 

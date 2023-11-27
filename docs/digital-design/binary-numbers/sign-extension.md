@@ -13,7 +13,7 @@ When you do *sign extension*, you take the higher bit (sign digit) from small-bi
 0101 -> 00000101
 ```
 
-[Harris D. M., Harris S. L. - Digital Design and Computer Architecture, 2nd Edition - 2012](../../pdf/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012.pdf)  
+[Harris D. M., Harris S. L. - Digital Design and Computer Architecture, 2nd Edition - 2012](../../books/Digital-design-and-computer-architecture--MIPS-Edition--2012.pdf)  
 1.4.6 Signed Binary Numbers - 18 page
 
 ## Resources

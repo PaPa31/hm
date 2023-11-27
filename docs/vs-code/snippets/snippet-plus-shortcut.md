@@ -5,7 +5,7 @@ date: 2021-02-14
 description: How to create a shortcut to add tags around selected text in VS Code
 ---
 
-I started reading [Digital Design and Computer Architecture](../../pdf/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012.pdf) and in order to finish all exercises in the book, especially in Chapter 1, with a lot of numbers in different number systems and powers (for example 657<sub>10</sub> or 2<sup>0</sup>) I needed to create a simple and fast way to enter the <sup>superscript</sup> and <sub>subscript</sub> of text and above all numbers.
+I started reading [Digital Design and Computer Architecture](../../books/Digital-design-and-computer-architecture--MIPS-Edition--2012.pdf) and in order to finish all exercises in the book, especially in Chapter 1, with a lot of numbers in different number systems and powers (for example 657<sub>10</sub> or 2<sup>0</sup>) I needed to create a simple and fast way to enter the <sup>superscript</sup> and <sub>subscript</sub> of text and above all numbers.
 
 How to create a shortcut to add tags around selected text in VS Code? This is achieved by creating a snippet that is triggered by a keyboard shortcut.
 

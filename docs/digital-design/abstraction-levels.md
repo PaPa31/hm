@@ -11,7 +11,7 @@ One of the characteristics that separates an engineer or computer scientist from
 
 ![Computer Abstraction Levels](computer-abstraction-levels.png)
 
-This concept I found in Harrises book about [Digital Design](../pdf/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012.pdf). This concept simple:
+This concept I found in Harrises book about [Digital design, PDF](../books/Digital-design-and-computer-architecture--MIPS-Edition--2012.pdf). This concept simple:
 
 - Application Software (Programs)
 - Operating Systems (Device Drivers)
@@ -35,8 +35,12 @@ Figure 1.1 illustrates levels of abstraction for an electronic computer system a
 
 Moving into the software realm, the operating system handles lowlevel details such as accessing a hard drive or managing memory. Finally, the application software uses these facilities provided by the operating system to solve a problem for the user. Thanks to the power of abstraction, your grandmother can surf the Web without any regard for the quantum vibrations of electrons or the organization of the memory in her computer.
 
-From book [Digital design](https://papa31.github.io/hm/assets/files/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012-278aad41bbd5750ed2461b2011414915.pdf)
+## Source
 
-[Digital design(rus)](../pdf/digital-design-and-computer-architecture-russian-translation_July16_2016.pdf)
+1. Digital design and computer architecture, Harrises (in English):
+   - [MIPS, 2012, PDF](../books/Digital-design-and-computer-architecture--MIPS-Edition--2012.pdf)
+   - [ARM, 2015, PDF](../books/Digital-design-and-computer-architecture--ARM-Edition--2015.pdf) or [ARM, 2015, epub](../books/Digital-design-and-computer-architecture--ARM-Edition--2015.epub)
+   - [RISC-V, 2021, PDF](../books/Digital-design-and-computer-architecture--RISC-V-Edition--2021.pdf)
 
-[Abstraction](../pdf/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012.pdf) page #2
+1. Digital design and computer architecture, Harrises (in Russian):
+   - [Цифровая схемотехника и архитектура компьютера, Хэррисы, Июль 2016 -- MIPS, 2012, PDF](../books/Digital-design-and-computer-architecture--ru--2016.pdf)

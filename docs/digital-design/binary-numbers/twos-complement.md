@@ -53,7 +53,7 @@ Adding numbers (both negatives) or (both positives) may cause [overflow](twos-co
 
 ---
 
-From: [Harris D. M., Harris S. L. - Digital Design and Computer Architecture, 2nd Edition - 2012](../../pdf/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012.pdf)  
+From: [Harris D. M., Harris S. L. - Digital Design and Computer Architecture, 2nd Edition - 2012](../../books/Digital-design-and-computer-architecture--MIPS-Edition--2012.pdf)  
 1.4.6 Signed Binary Numbers - 17 page
 ## Subtraction
 

@@ -1,0 +1,8 @@
+1. [Assembly Language Step-by-Step - Programming with Linux, 3rd Edition](../../src/pages/Assembly-Language-Step-by-Step-Programming-with-Linux-3rd-Edition.pdf)
+2. [Harrises Solutions.pdf](harrises-solutions.pdf)
+3. Digital design and computer architecture, Harrises (in English)
+   - [MIPS, 2012](Digital-design-and-computer-architecture--MIPS-Edition--2012.pdf)
+   - [ARM, 2015](Digital-design-and-computer-architecture--ARM-Edition--2015.pdf)
+   - [RISC-V, 2021](Digital-design-and-computer-architecture--RISC-V-Edition--2021.pdf)
+4. [Цифровая схемотехника и архитектура компьютера, Хэррисы, Июль 2016 -- MIPS, 2012](Digital-design-and-computer-architecture--ru--2016.pdf)
+5. [Веб-разработка с применением Node и Express, 2-ое издание, 2021](ethan-brown-web-development-with-node-and-express_second-edition_2019-ru.pdf)

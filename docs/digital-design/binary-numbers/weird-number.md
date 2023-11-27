@@ -17,7 +17,7 @@ The binary number 100..000<sub>2</sub> is called a _weird number_ because after 
 
 This number (100..00<sub>2</sub> = -2<sup>N-1</sup>) is the _most negative_ of two's complement numbers. And it has no positive counterpart.
 
-[Harris D. M., Harris S. L. - Digital Design and Computer Architecture, 2nd Edition - 2012](../../pdf/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012.pdf)  
+[Harris D. M., Harris S. L. - Digital Design and Computer Architecture, 2nd Edition - 2012](../../books/Digital-design-and-computer-architecture--MIPS-Edition--2012.pdf)  
 1.4.6 Signed Binary Numbers - 15 page
 
 ## Resources

@@ -14,7 +14,7 @@ Unsigned|[0,2<sup>N</sup>-1]|[0,255]
 Sign/Magnitude and ones' complement have two zeros.
 There is a [weird number](weird-number) (100..000<sub>2</sub>) in two's complement.
 
-[Harris D. M., Harris S. L. - Digital Design and Computer Architecture, 2nd Edition - 2012](../../pdf/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012.pdf)  
+[Harris D. M., Harris S. L. - Digital Design and Computer Architecture, 2nd Edition - 2012](../../books/Digital-design-and-computer-architecture--MIPS-Edition--2012.pdf)  
 1.4.6 Signed Binary Numbers - 19 page
 
 ## Resources
